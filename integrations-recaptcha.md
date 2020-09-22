@@ -16,6 +16,6 @@ In order to use reCaptcha you must create an individual or a corporate account.
 Once you have signed to the dashboard you must create a new site. Use the following settings
 
 - reCaptcha type: v2 Checkbox
-- Domain, enter you domain name.
+- Domain, enter the top level domain name you are using. The default is sampleninja.io.
 - Check "Verify the origin of reCAPTCHA solutions"
 - Check "Send alerts to owners"
