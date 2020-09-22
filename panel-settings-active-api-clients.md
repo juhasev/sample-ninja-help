@@ -1,1 +1,2 @@
-## Panel Settings Active Api Clients
+## Api Clients
+This is a list of active API clients.
