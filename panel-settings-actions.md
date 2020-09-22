@@ -1,4 +1,4 @@
 ### Action thresholds
-These are a variety of different Action Thresholds that can be set at System level for the panel system. The system will automatically trigger email notifications to any user linked to any particular Project once a threshold is passed.
+These are a variety of different Action Thresholds that can be set at System level for the panel system. The system will automatically trigger notifications to any user linked to any particular Project once a threshold is passed. If the user is currently logged in the user will see instant notification in the notification center top right of the window. If user is offline an email will be sent instead. Please note that the project **email notification** -setting must be turned on.
 
 For example:- _**Send notifications when response rate percentage falls under particular % the system**_.  The SampleNinja system will automatically send an email informing the Owners/Admin of that particular Project that the **Response Rate** is fallen below the panel wise acceptable percentage.
