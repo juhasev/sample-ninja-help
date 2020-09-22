@@ -19,6 +19,3 @@ Once you have signed to the dashboard you must create a new site. Use the follow
 - Domain, enter you domain name.
 - Check "Verify the origin of reCAPTCHA solutions"
 - Check "Send alerts to owners"
-
-> Dashboard provides nice overall statistics for the requests passed and failed.
-
