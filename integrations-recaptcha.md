@@ -5,6 +5,6 @@ be able to login, make purchases, view pages, or create accounts and fake users 
 
 [Read more about reCaptcha](https://www.google.com/recaptcha/about)
 
-> Sample Ninja recommends that you always use reCaptcha validation. When enabled it will be used will all password reset requests and during the registration survey.
+> Sample Ninja recommends that you always use reCaptcha validation. When enabled it will be used during the built-in registration survey as well as with all password reset requests.
 
 
