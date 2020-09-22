@@ -1,12 +1,8 @@
 # Projects
 
-This is the the key screen for all project within the SampleNinja platform.  This is where one can create, manage and track progress of all Projects within the system regardless of whether the project status is defined as
-- **Online**
-- **Closed**
-- **Archived**
-- **Offline**
+This is the the key screen for all project within the SampleNinja platform.  This is where one can create, manage and track progress of all Projects within the system regardless of whether the project status is defined as Online, Close, Offline or Archived.
 
-**NINJA NUGGET**  The SampleNinja platform keeps the screen uncluttered as a default, so when a user logs in they **Only see** the Projects that they are Responsible for and which are ACTIVE as a default.
+The SampleNinja platform keeps the screen uncluttered as a default, so when a user logs in they **Only see** the Projects that they are Responsible for and which are ACTIVE as a default.
 
 It is possible to filter the main Project screen by
 
@@ -49,7 +45,7 @@ There are four statuses for Projects:
 - **Online** - This is when the project is live and sending email invites and collecting outcomes.
 - **Closed** - Projects automatically close when they have reached their target completes OR the user can shut the project manually
 - **Archived** - Generally for Closed projects to declutter the screen. Archived projects do not accept any terminates or completes. It is recommended to close the project first so that panelists can finish projects that are currently in progress.
-- **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. *Accepts terminates and completes from outstanding invites.*
+- **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. In this status project still *Accepts terminates and completes from outstanding invites.*
 
 #### Dashboard
 
@@ -74,12 +70,10 @@ The Average rating is displayed in traffic light colours (Survey rating traffic 
 
 ### Calendar
 
-This gives an instant overview of when a Project is due to finish the planned fieldwork dates.
-
-**NINJA NUGGET** To get a Calendar view of ALL the projects by click on the Calander Icon in the top right of the screen.
+This gives an instant overview of when a Project is due to finish the planned fieldwork dates. 
+To get a Calendar view of ALL the projects by click on the Calander Icon in the top right of the screen.
 
 This view gives the user the ability to see within a Monthly Calendar view all the their projects and the associated fieldwork dates.
-
 
 ## Project/Dashboard Screen
 
