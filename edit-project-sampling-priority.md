@@ -1,10 +1,3 @@
 ### Sampling Priority
 
-The default sampling priority for ALL projects is 5, which means that Sample will be drawn from the SampleNinja panel
-environment for this project the same as any other project which has a Sampling priority of 5.
-
-As a super user, It is possible override the Sampling priority rate to any number between 1 and 10 to override
-project sampling priorities.
-
-The number 1 signifies that this project is non-urgent and takes less priority than other projects and 10 signifies
-that the project is very urgent and Sampling for this particular project should override all other live projects.
+The default sampling priority for ALL projects is 5, which means that Sample will be drawn from the SampleNinja panel environment for this project the same as any other project which has a Sampling priority of 5. Projects search for required sample in the priority order in every 15 minutes. This means if you have two competing projects let's say you have Project A with priority 7 and Project B with priority 10. When sampling is performed the project B will receive sample first where as Project A may run out of sample. Regardless of the priority Sample Ninja attempts to finish each project by the end date. 
