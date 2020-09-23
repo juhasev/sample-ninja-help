@@ -14,4 +14,4 @@ This outlines the basic settings for the Sub-Panel, defining all Settings, Sub P
 
 #### Manager
 
-This is the person who is responsible for the Sub-panel.
+This is the person who is responsible for the Sub Panel.
