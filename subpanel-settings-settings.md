@@ -1,17 +1,13 @@
-## Edit Settings
-
-Allows the user to quickly Configure settings for the Basic Settings for the Panel, Security settings and Generate Community API keys for the Panel.  
-
-### BASIC SETTINGS
+## SETTINGS
 
 This outlines the basic settings for the Sub-Panel, defining all Settings, Sub Panel Manager, Dynamic profile settings and Locales.
 
-#### Settings  
+### Settings  
 - Sub Panel name
-- Sub Panel discription
+- Sub Panel description
 - Community URL
 - Support email address
 
-#### Manager
+> Community URL needs to be a valid community URL. Various landing pages display **VISIT COMMUNITY** button which will forward panelist to this address. If you are not using a community you can disable the button from the **Landing Page** settings.
 
-This is the person who is responsible for the Sub Panel.
+> Support Email needs to be a valid support email. Various landing pages display **CONTACT SUPPORT** button which will launch an email client. If you are not providing email support at all you can disable this button from the **Landing Page** settings.
