@@ -2,37 +2,21 @@
 
 This is the the key screen for all project within the SampleNinja platform.  This is where one can create, manage and track progress of all Projects within the system regardless of whether the project status is defined as Online, Close, Offline or Archived.
 
-The SampleNinja platform keeps the screen uncluttered as a default, so when a user logs in they **Only see** the Projects that they are Responsible for and which are ACTIVE as a default.
+> Sample Ninja will automatically archive any projects that are **CLOSED** and older than 30 days. There after they appear under the **ARCHIVED** tab.
 
-It is possible to filter the main Project screen by
+The SampleNinja platform keeps the screen uncluttered as a default by applying **Responsible for** filter. You can change the filtering by adding or removing additional filters.
 
-- Responsible for
-- Managed by me
-- Managed by others
-- Online
-- Offline
-- Closed
+### Column explanations
 
-To view all ARCHIVED Projects simply click on the ARCHIVED Tab.
-
-When viewing the Project screen it is possible to sort the displays by  
-
-- **Project Name**
-- **Priority**
-- **Progress**
-- **Response rate**
-- **Rating**
-- **Calendar**
-
-In the context of the Project screen, these headings are best described as follows:
+Some columns are sortable and you click on the table headers to change the sort order.
 
 #### Project Name
-The name given to the Project being undertaken, for example:  Porsche Q2 2020, GE2019poll2
+This is internal project name. This name is never disclosed to the panelists.
 
 #### Priority
-When building a Project, it is possible to set a sampling priority between 1 and 10.  **(if user permissions allow)**
+When building a Project, you can set a sampling priority between 1 and 10
 
-If a Project was an urgent Political project which needed executing ahead of another non-time critical Projects, it would be possible to set the Priority as 6,7,8,9 or 10 on the scale and the SampleNinja platform would use advanced algorithms to re-prioritise the bulk email invites in line with the appropriate priorities.
+If a Project was an urgent Political project which needed executing ahead of another non-time critical Projects, it would be possible to set the Priority as 6,7,8,9 or 10 on the scale and the SampleNinja platform would use advanced algorithms to re-prioritise the email invites in line with the appropriate priorities.
 
 #### Progress
 
@@ -56,19 +40,19 @@ There are TWO dashboards available for each project.
 
 Clicking on either of these two Icons takes the user to two different reporting screens **Project Dashboard** and **Map of Respondents**
 
-### Response rate
+#### Response rate
 
 This is a rounded percentage calculation of the total number of **starts for the project (regardless of outcome of the start)** divided by the total number of **invitations sent out** for a particular project.  
 
 SampleNinja also presents a Traffic light bar **_(Green, Amber and Red)_** next to the percentage which is triggered by the ***“Send notification when response rate % falls under“*** as defined in the SETTING Section.
 
-### Rating
+#### Rating
 
 This is a Survey rating score ***(on a scale of 1-10 for the Survey experience)*** that Panellists can give on the Survey exit page of a panel invited survey.
 
 The Average rating is displayed in traffic light colours (Survey rating traffic light image) ***(Green, Amber and Red)*** which is triggered by the ***“Send notification when survey rating falls under“***  as defined in the SETTING Section.  
 
-### Calendar
+#### Calendar
 
 This gives an instant overview of when a Project is due to finish the planned fieldwork dates. 
 To get a Calendar view of ALL the projects by click on the Calander Icon in the top right of the screen.
@@ -128,7 +112,7 @@ SampleNinja offers the following Image options (show Image options) and the foll
 - Quota terminations - Total number of surveys terminated because of Quotas reached for that criteria
 - Profile terminations - Total number of surveys terminated because of Profile not being suitable for a particular project
 
-#### Redemption Points allocations for Panellists
+### Redemption Points allocations for Panellists
 - Total Revenue - Total redemption points allocated thus far for this project in the platform
 - Rewards Issued Total - Total redemption points allocated thus far for this project issued to Panellists
 - Gross Revenue - Is the calculation of Total Revenue MINUS Rewards issued
