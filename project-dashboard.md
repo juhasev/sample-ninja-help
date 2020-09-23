@@ -34,9 +34,9 @@ SampleNinja offers the following Image options (show Image options) and the foll
 ### Statistics under chart  
 
 - Number of initiations sent - Shows the total number of email invites
-- Delivered - shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”
-- Opened - Shows the number fo opened invitations
-- Bounced - shows the total number of bounced emails from the emails sent in that project. This is colour code for instant recognition
+- Delivered shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”
+- Opened Shows the number fo opened invitations
+- Bounced shows the total number of bounced emails from the emails sent in that project. This is colour code for instant recognition
   - Over 3.001%= Red
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
