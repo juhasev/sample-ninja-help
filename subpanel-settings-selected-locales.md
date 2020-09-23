@@ -1,4 +1,4 @@
 #### Selected Locales
-This is where the Sub-panel owner can add or take away locales for that particular Sub-panel.  Locale are selected by clicking on the appropriate flag and ensuring that it is market with a GREEN triangle on the top Right Corner of the flag.  
+This is where you select locales that allowed to join and participate in this Sub Panel. If you have just one locale that is fine. For example a panel operating in United States can contain multiple locales like ENG-US, SPA-US. Sub Panel can be also be configured multinational if desired. The choice is yours.
 
-If there is no GREEN flag, than these locales will not be made available to the Sub-panellists.
+> By default Sample Ninja will block participation outside the country defined in the locale. You can change this behaviour under the **SECURITY** tab.
