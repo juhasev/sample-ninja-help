@@ -2,7 +2,7 @@
 
 Landing Pages are touch points for the Panelist as they interact with Sample Ninja. In total there are **18 different pages** that need to be configured from the outset to ensure all automated communications are successful. The vast majority of these are static and just require clear instructions. 
 
-### Page and locale selecton
+### Page and locale selection
 This pulldown allows you to select the Landing Page and locale you want to view.
 
 ### Settings & colors
