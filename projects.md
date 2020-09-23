@@ -6,7 +6,7 @@ This is the the key screen for all project within the SampleNinja platform.  Thi
 
 The SampleNinja platform keeps the screen uncluttered as a default by applying **Responsible for** filter. You can change the filtering by adding or removing additional filters.
 
-### Column explanations
+### Table columns
 
 Some columns are sortable and you click on the table headers to change the sort order.
 
