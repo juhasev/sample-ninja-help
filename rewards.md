@@ -21,7 +21,7 @@ The TangoCard integration enables you to distribute electronic gift cards to you
 
 This link to TangoCard shows you which rewards are available in which countries.
 
-> https://www.rewardsgenius.com/reward-catalog/
+> Tango Rewards catalog (https://www.rewardsgenius.com/reward-catalog/)
 
 ### Configure
  
