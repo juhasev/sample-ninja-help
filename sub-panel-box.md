@@ -1,7 +1,7 @@
-# Sub-panels  
+# Sub panel  
 
-This is where the Panel owner can create or divide any panel into multiple independent communities each with their own independent look and feel for all their communications. The first Sub Panel listed is the default panel within the system.  
+Each sub panel is its own independent community each with their own independent look and feel for all their communications. 
 
-Each panel has three tabs that allows the user to configure Email templates, configure all landing pages and edit settings specific to that sub-panel.  These are in the top right of the individual sub-panel environment.  
+Click on the top buttons to configure **Email templates**, **Landing Pages** and **Settings**. Sub Panel logo can be changed simply by clicking on the logo or the upload button (if logo has not yet been uploaded).
 
-**Sub-panel Logo** This can be uploaded by clicking on the Upload logo that appears on the Bottom right of the logo when moused over
+> Sub Panel logos should be uploaded in PNG format and they should be supplied 900px x 300px size. Depending on your landing page / email template design you might want to upload logo with transparent background.
