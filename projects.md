@@ -1,4 +1,4 @@
-# Projects
+## Projects
 
 This is the the key screen for all project within the SampleNinja platform.  This is where one can create, manage and track progress of all Projects within the system regardless of whether the project status is defined as Online, Close, Offline or Archived.
 
