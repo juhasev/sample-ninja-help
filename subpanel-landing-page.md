@@ -17,4 +17,4 @@ Background gradient can be easily created by selecting **GRADIENT START** and **
 
 ### Edit page contents
 
-Simply click on the item you would like to edit and enter a new text. Remember to save your text by clicking **SAVE TRANSLATIONS** button.
+Simply click on the item you would like to edit and enter a new text. Remember to save your text by clicking **SAVE TRANSLATIONS** -button.
