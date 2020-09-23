@@ -13,6 +13,8 @@ Colors can be selected by simply clicking on the color and selecting a new color
 
 > If you need to come with the theme from scratch consider getting **Color picker** browser add on. This allows you to select colors from existing web pages, logos etc.. and may make your job a bit easier.
 
+Background gradient can be easily created by selecting **GRADIENT START** and **GRADIENT END** colors. Gradient angle can be adjusted with the slider selection as well. If you want to use solid color for the background simply set **GRADIENT START** and **GRADIENT END** colors to be the same.
+
 ### Edit page contents
 
 Simply click on the item you would like to edit and enter a new text. Remember to save your text by clicking **SAVE TRANSLATIONS** button.
