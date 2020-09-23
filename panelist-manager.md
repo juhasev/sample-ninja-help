@@ -10,7 +10,8 @@ The search displays ALL matches of the search sting. If you search for a common 
 
 If there are more than 100 matches using a name, the platform will only display the first 100 names.
 
-**NINJA NUGGET** It is possible to find panellist from any Segments or Query filters.
+## Selecting fields
+At the top right corner you have a button to change the fields the are visible. You can select any number of data variables.
 
 ## Add Filter
 
