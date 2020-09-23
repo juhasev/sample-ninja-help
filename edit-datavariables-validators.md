@@ -1,4 +1,4 @@
-#### Validators
+## Validators
 
 Validators are used when localized question is presented to the user for example in **Dynamic Profiling** or in the build in **Registration Survey**.
 
@@ -47,5 +47,8 @@ The **Regluar Expression Validation** allows the user to build complex expressio
 The **Regluar Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
 
 > https://regexr.com/
+
+### Preview question
+Click on the **PREVIEW QUESTION** button to preview the question. In the preview dialog you can select Sub Panel and Locale to preview question with.
 
 
