@@ -16,7 +16,7 @@ Sample Ninja includes multiple validators that can be used validating user provi
 
 Click **EDIT** button and switch to **VALIDATORS** tab enable validators.
 
-> All questions in the registration survey are automatically required, therefore there is no need to setup **REQUIRED** validator. Similarly if you asking for **EMAIL** Sample Ninja will validate that automatically.
+> All questions in the registration survey are automatically required, therefore there is no need to setup **REQUIRED** validator. Similary any email and date -type data variables are automatically validated.
 
 ### Password and locale
 Sample Ninja will always ask user to create a secure password at the end of the registration survey. Similarly **LOCALE** data variable is automatically detected and populated.
