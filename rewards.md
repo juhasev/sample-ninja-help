@@ -19,9 +19,7 @@ The user can chose to **Select** the chosen currency nominations (1, 5, 10, 20, 
 
 The TangoCard integration enables you to distribute electronic gift cards to your panelists in very a convenient way. In order to use Tango Card you SampleNinja need to create an account for the user.
 
-This link to TangoCard shows you which rewards are available in which countries.
-
-> Tango Rewards catalog (https://www.rewardsgenius.com/reward-catalog/)
+> Click on the **Tango Rewards catalog** to view full internal catalog of gift cards available.
 
 ### Configure
  
@@ -29,4 +27,4 @@ Generates an account name and key that is used in communication with TangoCard a
 
 ### Manage Rewards
 
-Allows the user to select which Virtual ˜Rewards (and appropriate denominations) are made available to the Panelists when they choose to redeem their points.
+Allows the user to select which reward cards (and appropriate denominations) are made available to the Panelists when they choose to redeem their points.
