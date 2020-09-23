@@ -10,7 +10,7 @@ Once the account API keys have been obtained, it is possible to configure the ac
 
 First by selecting the appropriate Environment and then entering the ClientID and AP Key required.
 
-### MANAGE REWARDS
+### Manage Rewards
 
 The user can chose to **Select** the chosen currency nominations (1, 5, 10, 20, 50,100, 200, 500 and 1000), currently only available in Canadian Dollars, Euros, Great British Pounds and US Dollars.
 
