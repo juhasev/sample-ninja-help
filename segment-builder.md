@@ -23,9 +23,11 @@ Depending on the data type chosen there are different operators offered.
 
 6) Add or Group allows the user to create a group of logical variable combinations that are calculated independently and ahead of any other logic variables when defining a new segment.
 
-## Segment builder 
+### Sub-Panel Filters
 
-The SampleNinja options allow the user to filter the created segments by **Activity Filters** or **Category Filters**
+SampleNinja allows users the full flexibility to select Sample exclusively from the **Total overall panel** or **any number of selected Sub-panels.**
+
+Overall, it is possible to create any Segment from not only from using the full compliment of Data Variables, it is also possible to apply any combination of Activity Filters, Category Filters and Sub-Panel filters.
 
 ### Activity Filters  
 
@@ -58,9 +60,3 @@ Once the Enable switch is active, is it possible to **Include** or **Exclude** a
 For example one might select *Football, European and Travel* as chosen Categories.  This would mean that if a panellist was invited to a previous study that was tagged with either *Football, European and Travel* in the past 31 days, then they would be EXCLUDED.
 
 It is possible to use a combination of ANY or ALL of the Category Filter operators to create the chosen Category filter for that particular Segment definition.
-
-## Sub-Panel Filters
-
-SampleNinja allows users the full flexibility to select Sample exclusively from the **Total overall panel** or **any number of selected Sub-panels.**
-
-Overall, it is possible to create any Segment from not only from using the full compliment of Data Variables, it is also possible to apply any combination of Activity Filters, Category Filters and Sub-Panel filters.
