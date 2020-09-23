@@ -1,8 +1,8 @@
-### Dynamic Profiling
+## Dynamic Profiling
 
 This is a unique feature within the SampleNinja Platform to allow post survey respondents to fill in missing key data points in the form of a basic survey.
 
-#### Dynamically Profile
+### Dynamically Profile
 
 It possible to apply two different criteria for Dynamic profiling to be automatically launched
 
