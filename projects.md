@@ -10,19 +10,19 @@ The SampleNinja platform keeps the screen uncluttered as a default by applying *
 
 Some columns are sortable and you click on the table headers to change the sort order.
 
-#### Project Name
+#### PROJECT NAME
 This is internal project name. This name is never disclosed to the panelists.
 
-#### Priority
+#### PRIORITY
 When building a Project, you can set a sampling priority between 1 and 10
 
 If a Project was an urgent Political project which needed executing ahead of another non-time critical Projects, it would be possible to set the Priority as 6,7,8,9 or 10 on the scale and the SampleNinja platform would use advanced algorithms to re-prioritise the email invites in line with the appropriate priorities.
 
-#### Progress
+#### PROGRESS
 
 This monitors and inform the user in percentage terms the number of Completed Surveys as a proportion fo the Target Completes within that particular Project definition.
 
-#### Status
+#### STATUS
 
 There are four statuses for Projects:
 
@@ -31,7 +31,7 @@ There are four statuses for Projects:
 - **Archived** - Generally for Closed projects to declutter the screen. Archived projects do not accept any terminates or completes. It is recommended to close the project first so that panelists can finish projects that are currently in progress.
 - **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. In this status project still *Accepts terminates and completes from outstanding invites.*
 
-#### Dashboard
+#### DASHBOARD
 
 There are TWO dashboards available for each project.
 
@@ -40,19 +40,19 @@ There are TWO dashboards available for each project.
 
 Clicking on either of these two Icons takes the user to two different reporting screens **Project Dashboard** and **Map of Respondents**
 
-#### Response rate
+#### RESPONSE RATE
 
 This is a rounded percentage calculation of the total number of **starts for the project (regardless of outcome of the start)** divided by the total number of **invitations sent out** for a particular project.  
 
 SampleNinja also presents a Traffic light bar **_(Green, Amber and Red)_** next to the percentage which is triggered by the ***“Send notification when response rate % falls under“*** as defined in the SETTING Section.
 
-#### Rating
+#### RATING
 
 This is a Survey rating score ***(on a scale of 1-10 for the Survey experience)*** that Panellists can give on the Survey exit page of a panel invited survey.
 
 The Average rating is displayed in traffic light colours (Survey rating traffic light image) ***(Green, Amber and Red)*** which is triggered by the ***“Send notification when survey rating falls under“***  as defined in the SETTING Section.  
 
-#### Calendar
+#### CALENDAR
 
 This gives an instant overview of when a Project is due to finish the planned fieldwork dates. 
 To get a Calendar view of ALL the projects by click on the Calander Icon in the top right of the screen.
