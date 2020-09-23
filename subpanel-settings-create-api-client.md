@@ -1,4 +1,5 @@
-### API KEYS
+## API KEYS
 
-This is were you can create API keys for any external community you may have.
+To create a new API key for this Sub Panel enter a descriptive name for the client that will consuming the API. For example: "Tech Community". Then simply click on **CREATE NEW CLIENT** button.
 
+> Detailed API documentation for developers is available by clicking on **API DOCUMENTATION** button.
