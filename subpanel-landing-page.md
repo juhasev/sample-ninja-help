@@ -1,58 +1,18 @@
-## Configure landing pages
+## Landing page editor
 
-This screen allows the user to configure the variety of landing pages and exit pages for the Panelist when they are re-directed back from the Survey.  In total there are **18 different pages** that need to be configured from the outset to ensure all automated communications are successful. The vast majority of these are static and just require clear instructions. (If you wish to change the pre-filled text).  
+Landing Pages are touch points for the Panelist as they interact with Sample Ninja. In total there are **18 different pages** that need to be configured from the outset to ensure all automated communications are successful. The vast majority of these are static and just require clear instructions. 
 
-There are a few pages that offer some more options, these are **highlighted** below with deeper explanations
+### Page and locale selecton
+This pulldown allows you to select the Landing Page and locale you want to view.
 
-- **Project exit (completed)**
-- **Project exit (profile terminated)**
-- **Project exit (quota terminated)**
-- Failed entry qualification
-- Failed proxy check
-- Failed security check
-- Failed country check
-- Fielding complete
-- Under maintenance
-- Email confirmed
-- **Unsubscribe**
-- Unsubscribe confirmed
-- Error
-- **Password reset**
-- Password reset confirmed
-- Cookie policy
-- Privacy policy
-- Terms of use
+### Settings & colors
 
+Here you can configure basic settings like which buttons to show to panelist, along with logo size and alignment. These settings are live which means any changes are immediately reflected to the screen. Play around and have fun.
 
-### Project exit (completed), (profile terminated), (quota terminated), Unsubscribe and Password Reset pages
+Colors can be selected by simply clicking on the color and selecting a new color. If you have strict style guide for your panel you may instead use the color picker to enter or paste colors in in HTML HEX color notation like #FF00EE. Also HSL or HEX color code references are supported.
 
-These pages tend to be the most used and have a multitude of options to simplify the look and feel.
+> If you need to come with the theme from scratch consider getting **Color picker** browser add on. This allows you to select colors from existing web pages, logos etc.. and may make your job a bit easier.
 
-Firstly select the locale you require (if there are multiple locales)
+### Edit page contents
 
-#### Settings
-
-The following options available to toggle **on** and **off** where applicable:  
-
-- Show large logo
-- Show rating
-- Show profile button
-- Show community button
-- Show support button
-- Show context box
-- Logo Style - It is possible to select either  **Inside the context box, Outside the context box** or **Hidden**
-
-#### Colors  
-
-**It possible to define Colors for the screen by simply using a Palette click or standard RGB, HSL or HEX color code references**  
-
-These colors can individually defined for each of the following areas:
-
-- BACKGROUND
-- CONTENT BOX
-- ACTION BUTTON
-- COMMUNITY BUTTON
-- PROFILE BUTTON
-- REWARDS BOX COLOR
-- COOKIE NOTICE COLOR
-- SURVEY BOX COLOR
+Simply click on the item you would like to edit and enter a new text. Remember to save your text by clicking **SAVE TRANSLATIONS** button.
