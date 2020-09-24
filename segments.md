@@ -1,4 +1,4 @@
-# SEGMENTS
+## SEGMENTS
 
 SampleNinja segments define the target sample query of the panel population that will be used on a regular basis.  
 
