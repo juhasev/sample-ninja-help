@@ -1,5 +1,3 @@
-# Panel Health
-
 ## HEALTH SCORE
 
 Panel health score is active and calculated in real time to give the Panel manager the opportunity to better understand the activity of the Panel.
