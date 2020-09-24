@@ -12,7 +12,7 @@ The data variable dashboard can be broken down into the total number of records 
 
 Mouse over a particular element in a chart to intuitively get the Percentage (to 2 decimal places) and the Total number of panelists that fall into that choice option.
 
-**_Ninja Nugget_**  - The important point here if the Panel stages are showing a large number of missing records for that particular data variable you might wish to consider adding it as a **Dynamic Profiling** variable whereby the question gets asked on the Exit pages of other surveys, so there is no need to send out unnecessary update questionnaires regularly. SampleNinja allows you to auto-populate the Panel database overtime offering the unparalleled integrity panel database that is required.
+> The important point here if the Panel stages are showing a large number of missing records for that particular data variable you might wish to consider adding it as a **Dynamic Profiling** variable whereby the question gets asked on the Exit pages of other surveys, so there is no need to send out unnecessary update questionnaires regularly. SampleNinja allows you to auto-populate the Panel database overtime offering the unparalleled integrity panel database that is required.
 
 
 ## Filter by Group
