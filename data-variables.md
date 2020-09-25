@@ -49,7 +49,8 @@ Then select all the variable that you wish to assign to that group and click on 
 
 This is where it is possible to create an entirely new data available in you panel database. When creating a new data variable it is possible to create variables using following data types:
 
-- **Text based variables**
+- **Text based variables** Any part of the text can be matches (up to 2000 characters)
+- **Keyboard based variables** Exact match
 - **Email based variables**
 - **Single coded variable**
 - **Multi coded variable**
