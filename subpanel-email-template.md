@@ -4,37 +4,24 @@ This screen allows you to customise the email to Panelists in line with the part
 
 ### Template
 
-The user can select the following email templates to configure
-- **Project invitation**
-- **Project reminder**  
-- **Email verification**
-- **Password reset**
-
-The user can also select the appropriate Locale (if multiple locales are available)
+Select which email you would like to edit. Select locale of the invitation to edit multilingual emails.
 
 ### Settings
 
-This allows changes to the look and feel of the **Templates**
-Choose the Action button colour.
+Choose the Action button colour you like.
 
-Also, allows the template to automatically switch the following on and off.
+### Elements
 
-- Show signature
-- Show header
-- Show project info
-- Show disclaimer
-- Show footer
+Allow you to turn off / on elements used in the invitation.
 
 ### Preview
 
 This shows a visual representation of the Template **Project invitation, Email verification, Project reminder and Password reset** that will be emailed out to any panelist.
 
-It is possible to change the *Subject text* and the *Sender name*.
+Enter desired **Subject text** and **Sender name**.
 
-Within the body of the text, if you have enabled Project Information, it is possible to change the each line of **Project information**
+Within the body of the email you can edit text for any element simply by clickin them.
 
-For the main text of the Template, if the user double clicks on the text and can edit the text within a **Markdown screen**.
-
-The Markdown language allows the user to apply all types of formatting on the fly.
+Some fields use Markdown language which allows the user to apply formatting like header, bolding, bulleted lists etc..
 
 > (https://www.markdownguide.org/basic-syntax/#overview)
