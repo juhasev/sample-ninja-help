@@ -16,7 +16,7 @@ Completion rate % is defined as proportion of the total number of Survey Complet
 
 This chart plots the Daily and Hourly project progress. The chart is automatically scaled to fit the running project duration.
 
-The chart can be broken down per hour of the project in terms of the following survey intervactions:
+The chart is be broken down per hour of the project in terms of the following survey intervactions:
 
 - Completed
 - Profile terminated
