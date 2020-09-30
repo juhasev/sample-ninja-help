@@ -25,7 +25,7 @@ The chart is be broken down per hour of the project in terms of the following su
 - Opened
 - Started Surveys
 
-> **NINJA NUGGET**  It is possible to click and highlight a series of days or hour slots which will be expanded to fill the screen for closer granular analysis.
+> You can click and highlight a series of days or hour slots which will zoomed in for more granular analysis.
 
 It is possible to share these charts and the associated data by clicking on the (three dot icon - top right of the chart) by generating Image files, Data files or Printing them directly.
 
