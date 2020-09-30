@@ -1,6 +1,6 @@
 ## SEGMENTS
 
-SampleNinja segments define sample populations with some established qualification i.e. Woman - Divorsed - 30 to 40. By default the sample segments use the panel business rules defined in the panel settings, however if you turn the segment as filter business rules are no longer applied.
+SampleNinja segments define sample populations with some established qualification i.e. Woman - Divorsed - 30 to 40. By default sample segments use the panel business rules defined in the panel settings, however if you turn the segment as filter business rules are no longer applied.
 
 You can additionally view your team's shared segment by clicking on the **SHARED** -tab. This tab shows Segments created by co-workers have built and that have been shared the entire team. In addition to this there is a Show mine **On/Off** switch which filters out your own definitions when turned on.
 
