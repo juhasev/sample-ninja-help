@@ -6,7 +6,7 @@ Panel health is calculated from the selected interval results.
 
 ## ACTIVE VS. ENGAGED
 
-This displays the percentage breakdown of the total the number of Panellists who are defined as ACTIVE or ENGAGED within the **Settings Menu item**.  By mousing over the chart, it automatically opens up the chosen segment and displays the percentage that fulfil that criteria (and displays the actual number of panellists in that segment in brackets)
+This displays the percentage breakdown of the total the number of Panellists who are defined as ACTIVE or ENGAGED. By mousing over the chart you will see the actual counts and percentages.
 
 ## BY STATUS
 
