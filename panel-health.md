@@ -1,8 +1,6 @@
 ## HEALTH SCORE
 
-Panel health is calculated from the selected interval results.
-
-> Health score is simply calculated using formula PANEL UTILIZATION % - PANEL TERMINATED %. Maximum score is 100%. We are open for suggestion how to add more sophisticaed algorithm behind this score. 
+Health score is simply calculated using formula PANEL UTILIZATION % - PANEL TERMINATED %. Maximum score is 100%. We are open for suggestion how to add more sophisticaed algorithm behind this score. 
 
 ### Active vs. Engaged
 
