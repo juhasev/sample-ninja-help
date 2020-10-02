@@ -8,8 +8,4 @@ You can additionally view your team's shared segment by clicking on the **SHARED
 
 Use the search box to quickly filter out segments created by your or your entire team.
 
-If you like you can sort the segment by last modified simply clicking on the colum header.
-
-> If you want this segment to be also published as filter turn the filter option on. 
-
-> When used in the filter context the business rules are no longer automatically applied!
+> You can sort table items by clicking on the column headers
