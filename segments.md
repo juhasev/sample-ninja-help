@@ -10,4 +10,6 @@ Use the search box to quickly filter out segments created by your or your entire
 
 If you like you can sort the segment by last modified simply clicking on the colum header.
 
-> Only if you enable filter option will the segment be available in filters througout the application. Please also note that when segment is used in the filter context no business rules are applied.
+> If you want this segment to be also published as filter turn the filter option on. 
+
+> When used in the filter context the business rules are no longer automatically applied!
