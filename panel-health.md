@@ -1,6 +1,8 @@
 ## HEALTH SCORE
 
-Panel health score is active and calculated in real time to give the Panel manager the opportunity to better understand the activity of the Panel.
+Panel health is calculated from the selected interval results.
+
+> Health score is simply calculated using formula PANEL UTILIZATION % - PANEL TERMINATED %. Maximum score is 100%. We are open for suggestion how to add more sophisticaed algorithm behind this score. 
 
 ## ACTIVE VS. ENGAGED
 
