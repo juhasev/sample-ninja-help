@@ -1,7 +1,7 @@
 ## Data variable label
 Each variable has it's own unique label. The labels are used to identify the data variable. Sample Ninja data variables can also presented as questions for various locales (ENG-US, SPA-US) and used in both Dynamic Profiling and as survey question (Registration Survey). You must manually supply question text and options text under **LOCALIZATIONS** tab.
 
-## Multi choice questions (radio and checkbox) only
+## Option labels (radio and checkbox only)
 
 ### Editing option labels
 Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized questions instead. You can see the question setup under the **LOCALIZATIONS** tab. 
