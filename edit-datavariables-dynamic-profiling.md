@@ -10,4 +10,4 @@ Dynamic profiling question can be triggered:
 
 - **Based on the answers age** This re-asks the Dynamic Profiling question, if the age of an existing Data Variable entry is OLDER than a given number of days **(This can be set between 1 and 365 days)**
 
-> It is possible to set a **Priority** of the Dynamically profiled variable against the other Dynamically profiled variables on a scale of 1 to 10.  This prioritises the order in which multiple Dynamically Profiled Questions are asked if there is more than one Data Variable with Dynamic Profiling switched on.
+> You can set desired **Priority** for each dynamic profiling question. Higher priority questions are asked first.
