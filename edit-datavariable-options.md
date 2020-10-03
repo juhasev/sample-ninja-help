@@ -1,9 +1,12 @@
 ## Data variable options
 
-### Editing options
-Here you can create / delete options. The option text is what you want to call the option internally, this text will never be displayed to the panelists. What panelist see are found under the **LOCALIZATIONS** tab. Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing pre-define questions.
+### Editing option labels
+Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized question instead. You can see the question setup under the **LOCALIZATIONS** tab. 
+
+### Re-ordering option labels
+You can re-order data variables by dragging and dropping from the drag handle.
+
+> Sample Ninja stores response options with unique ID, which means you can freely change the order without affecting the collected data.
 
 ### Deleting / adding options after data has already been collected
-Sample Ninja codes response options with unique ID in the backend. Therefore deleting or adding options can be done without upsetting the stored data structure.
-
-> Currently reordering options is not supported but planned in the future
+Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing pre-define questions.
