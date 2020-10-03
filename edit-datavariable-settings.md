@@ -1,8 +1,13 @@
 ### Data variable label
 Each variable has it's own unique label. The labels are used to identify the data variable. Sample Ninja data variables can also presented as questions for various locales (ENG-US, SPA-US) and used in both Dynamic Profiling and as survey question (Registration Survey). You must manually supply question text and options text under **LOCALIZATIONS** tab.
 
-### Personally Identifiable (PI)
-You designate question as Personally Identifiable and it will not be displayed in all contexts. A user who have **VIEW PI** permission can see collected data to this datavariable normally.
+### Editing option labels
+Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized questions instead. You can see the question setup under the **LOCALIZATIONS** tab. 
 
-### Community API writable
-Turn on if this question needs to be Community API writable. This allows you to control which questions can be updated using the community API.
+### Re-ordering option labels
+You can re-order data variables by dragging and dropping from the drag handle.
+
+> Sample Ninja stores response options with unique ID, which means you can freely change the order without affecting the collected data.
+
+### Deleting / adding option labels
+Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing pre-define questions.
