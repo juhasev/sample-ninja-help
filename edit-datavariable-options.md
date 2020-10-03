@@ -1,5 +1,5 @@
 ### Editing option labels
-Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized question instead. You can see the question setup under the **LOCALIZATIONS** tab. 
+Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized questions instead. You can see the question setup under the **LOCALIZATIONS** tab. 
 
 ### Re-ordering option labels
 You can re-order data variables by dragging and dropping from the drag handle.
