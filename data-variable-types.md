@@ -14,10 +14,10 @@ Keyword data variable can be any text. Keyword is always matched with exact matc
 Number data variable type stores integers or decimal numbers. Numeric values can queried using range, greater than, lesser than logic.
 
 ### Radio
-Radio questions store a single value from a known set of values or options.
+Radio data variables store a single categorial value.
 
 ### Checkbox
-Checkbox question store multiple values from a known set of value or options.
+Checkbox data variables store multiple categorial values.
 
 ### Email
 Email question can only store a valid email address.
