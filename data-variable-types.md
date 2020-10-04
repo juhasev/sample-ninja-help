@@ -1,4 +1,4 @@
-### Data variable types
+## Data variable types
 
 Sample Ninja offers multiple flexible data variable types that can be used to collect and store profiling data. It is important to understand the difference and use the correct type.
 
