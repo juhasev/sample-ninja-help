@@ -6,7 +6,7 @@ Each variable has it's own unique label. The labels are used to identify the dat
 Option labels are shown for radio and checkbox questions only.
 
 ### Editing option labels
-Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized questions instead. You can see the question setup under the **LOCALIZATIONS** tab. 
+Here you can create / delete option labels. The option label is what you want to call the option internally, this text will never be displayed to the panelists. Panelists will see localized questions instead. You can supply question text and option labels under the **QUESTION** tab. 
 
 ### Deleting / adding option labels
 Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing pre-define questions.
