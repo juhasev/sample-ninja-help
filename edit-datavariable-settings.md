@@ -11,6 +11,7 @@ The option label is what you want to call the option internally. Your panelists 
 Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing pre-define questions.
 
 ### Re-ordering option labels
-You can re-order data variables by dragging and dropping from the drag handle.
+You can re-order data variables
+ options by clicking and holding the drag handle. Simply drag the the items in the order you prefer.
 
 > Sample Ninja stores response options with unique ID, which means you can freely change the order without affecting the collected data.
