@@ -1,12 +1,12 @@
 ## Projects
 
-This is the the key screen for all project within the SampleNinja platform.  This is where one can create, manage and track progress of all Projects within the system regardless of whether the project status is defined as Online, Close, Offline or Archived.
+Create, manage and track progress of all projects within the system. To create a new project click **PLUS** -icon at the top right corner. To view all projects in the calender click on the **CALENDAR** -icon.
 
 > Sample Ninja will automatically archive any projects that are **CLOSED** and older than 30 days. There after they appear under the **ARCHIVED** tab.
 
-The SampleNinja platform keeps the screen uncluttered as a default by applying **Responsible for** filter. You can change the filtering by adding or removing additional filters.
+The screen is kept uncluttered by default by applying **Responsible for** filter. You can change the filtering by adding or removing additional filters.
 
-### Table columns
+### Projects table
 
 Some columns are sortable and you click on the table headers to change the sort order.
 
@@ -16,20 +16,20 @@ This is internal project name. This name is never disclosed to the panelists.
 #### PRIORITY
 When building a Project, you can set a sampling priority between 1 and 10
 
-If a Project was an urgent Political project which needed executing ahead of another non-time critical Projects, it would be possible to set the Priority as 6,7,8,9 or 10 on the scale and the SampleNinja platform would use advanced algorithms to re-prioritise the email invites in line with the appropriate priorities.
+If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5).
 
 #### PROGRESS
 
-This monitors and inform the user in percentage terms the number of Completed Surveys as a proportion fo the Target Completes within that particular Project definition.
+Overall progress of the project. Progress is calculated by **completed interviews** / **target completes** * 100%.
 
 #### STATUS
 
 There are four statuses for Projects:
 
-- **Online** - This is when the project is live and sending email invites and collecting outcomes.
-- **Closed** - Projects automatically close when they have reached their target completes OR the user can shut the project manually
-- **Archived** - Generally for Closed projects to declutter the screen. Archived projects do not accept any terminates or completes. It is recommended to close the project first so that panelists can finish projects that are currently in progress.
-- **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. In this status project still *Accepts terminates and completes from outstanding invites.*
+- **Online** - This is when the project is live and sending email invites and collecting responses.
+- **Closed** - Projects automatically close when they have reached their target completes OR the user can shut the project manually. Closed project do not accept any new starts but currently started surveys can be completed.
+- **Archived** - Generally for Closed projects to declutter the screen. Archived projects do not accept any starts or completes. It is recommended to close the project first so that panelists can finish projects that are currently in progress.
+- **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. In this status project still accepts terminates and completes from outstanding invites.
 
 #### DASHBOARD
 
@@ -54,8 +54,4 @@ The Average rating is displayed in traffic light colours (Survey rating traffic 
 
 #### CALENDAR
 
-This gives an instant overview of when a Project is due to finish the planned fieldwork dates. 
-To get a Calendar view of ALL the projects by click on the Calander Icon in the top right of the screen.
-
-This view gives the user the ability to see within a Monthly Calendar view all the their projects and the associated fieldwork dates.
-
+Indicated when a project will start or is due fielding.
