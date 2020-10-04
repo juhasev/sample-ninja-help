@@ -20,7 +20,9 @@ If you have an urgent project where you anticipate running out of sample the pri
 
 #### PROGRESS
 
-Overall progress of the project. Progress is calculated by **completed interviews** / **target completes** * 100%.
+Overall progress of the project. 
+
+> Progress is calculated by **completed interviews** / **target completes** * 100%.
 
 #### STATUS
 
@@ -42,16 +44,18 @@ Clicking on either of these two Icons takes the user to two different reporting 
 
 #### RESPONSE RATE
 
-This is a rounded percentage calculation of the total number of **starts for the project (regardless of outcome of the start)** divided by the total number of **invitations sent out** for a particular project.  
+Project response rate percentage.
 
-SampleNinja also presents a Traffic light bar **_(Green, Amber and Red)_** next to the percentage which is triggered by the ***“Send notification when response rate % falls under“*** as defined in the SETTING Section.
+Response rate has a color indicator that can be either **Green, Amber and Red**. The red color indicator is triggered when **Send notification when response rate % falls under** -setting limit has been met in the **PANEL SETTINGS**.
+
+> Response rate is calculate as percentage of the total number of **starts for the project (regardless of outcome of the start)** divided by the total number of **invitations sent out** for a particular project.  
 
 #### RATING
 
-This is a Survey rating score ***(on a scale of 1-10 for the Survey experience)*** that Panellists can give on the Survey exit page of a panel invited survey.
+This is an average survey rating score on a scale of 1 - 10. Survey ratings are collected at the end of each interview and is voluntary to panelists. The rating functionality is on by default but can be turned off in the **PANEL SETTINGS** if desired.
 
-The Average rating is displayed in traffic light colours (Survey rating traffic light image) ***(Green, Amber and Red)*** which is triggered by the ***“Send notification when survey rating falls under“***  as defined in the SETTING Section.  
+The rating is color coded and can either be **Green, Amber and Red**. The red color indicator is triggered when **Send notification when survey rating falls under** -setting limit has been met in the **PANEL SETTINGS**.
 
 #### CALENDAR
 
-Indicated when a project will start or is due fielding.
+Indicates when a project will start or is due fielding.
