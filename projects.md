@@ -11,7 +11,12 @@ The screen is kept uncluttered by default by applying **Responsible for** filter
 Some columns are sortable and you click on the table headers to change the sort order.
 
 #### PROJECT NAME
-This is internal project name. This name is never disclosed to the panelists.
+This is internal project name. This name is never disclosed to the panelists
+
+#### PROJECT ERROR INDICATOR
+If you see an error indicator on your project something may have gone wrong. Click on the error indicator to see the details. 
+
+> If you clear all the errors the error indicator will disappear but will come back if any consequent sampling errors occur.
 
 #### PRIORITY
 When building a Project, you can set a sampling priority between 1 and 10
