@@ -1,6 +1,6 @@
-## Question
+## Question setup
 
-Questios turn data variables into multilingual questions to be used either with the registration survey or the dynamic profiling.
+Deside how you want this data variable to be presented to the panelists. The question text and option texts are automatically applied to any registration survey or dynamic profiling questions.
 
 ### Selecting different locale
 To select an another language use the selector on the left to switch between different locales.
