@@ -3,7 +3,7 @@
 Deside how you want this data variable to be presented to the panelists. Any question text and option texts you define here are automatically applied to any registration survey or dynamic profiling questions.
 
 ### Selecting different locale
-To select an another language use the selector on the left to switch between different locales.
+To switch between different locales, use the selector on the left.
 
 ### Adding locales
 Click on the **MODIFY LOCALES** button to add more locales to this data variable. Simply select **Locales** from the main menu to add them. 
