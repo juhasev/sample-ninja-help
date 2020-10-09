@@ -1,6 +1,6 @@
 ## Question setup
 
-Controls how this variable is presented to panelists. Any question text and option texts you define here are automatically applied to any registration survey or dynamic profiling questions. Any question can be translated for multiple locales if desired.
+Here you control how this variable is going to be presented as a question to panelists. Any question text and option texts you define here are automatically applied to any registration survey or dynamic profiling questions. All questions can be translated for multiple locales (languages) if desired.
 
 ### Selecting different locale
 To switch between different locales, use the selector on the left.
