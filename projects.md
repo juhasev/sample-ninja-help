@@ -23,7 +23,7 @@ When building a Project, you can set a sampling priority between 1 and 10
 
 If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5). 
 
-> The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. New panelists include any new panelists and also panelists that are no longer filtered out by the business rules.
+> The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. All new registerered, uploaded panelists and all panelists that are continuously freed as the business rules exclusions expire are added to the available sample pool.
 
 #### PROGRESS
 
