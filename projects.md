@@ -19,7 +19,6 @@ If you see an error indicator on your project something may have gone wrong. Cli
 > If you clear all the errors the error indicator will disappear but will come back if any consequent sampling errors occur.
 
 #### PRIORITY
-When building a Project, you can set a sampling priority between 1 and 10
 
 If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5). 
 
