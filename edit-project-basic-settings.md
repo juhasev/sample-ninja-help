@@ -1,10 +1,20 @@
-### Basic Settings
-
-#### Project name
+### Project name
 This can be any name (any Alpha Numeric or Special characters between 5 and 150 characters long). This is internal name and never disclosed to the participants.
 
-#### Project status
-This controls project fielding status. Select **online** to start fielding the project. The project will start fielding automatically at the configured **start date and time**. Use the **offline** status to take the project temporarily offline. When in **offline** no new respondents can start the survey, however any interviews in progress are allowed to finish normally. Use the **closed** mode to permanently close the study. In **closed** mode anybody currently taking in progress are able to finish normally. When project is **archived** no more respondents are allowed to either start or complete.
+### Project status
+This controls project fielding status. 
+
+#### Online
+Select **online** to start fielding the project. The project will start fielding automatically at the configured **start date and time**. 
+
+#### Offline
+Use the **offline** status to take the project temporarily offline. When in **offline** no new respondents can start the survey, however any interviews in progress are allowed to finish normally. 
+
+#### Closed
+Use the **closed** mode to permanently close the study. In **closed** mode anybody currently taking in progress are able to finish normally. 
+
+#### Archived
+When project is **archived** no more respondents are allowed to either start or complete.
 
 > **IMPORTANT** You should never archive a project right after closing it as there might be interviews still in progress!
 
