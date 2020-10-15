@@ -8,7 +8,7 @@ The screen is kept uncluttered by default by applying **Responsible for** filter
 
 ### Projects table
 
-Some columns are sortable and you click on the table headers to change the sort order.
+Some columns are sortable simply click on the table headers to change the sort order.
 
 #### PROJECT NAME
 This is internal project name. This name is never disclosed to the panelists
