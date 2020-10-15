@@ -32,12 +32,23 @@ Overall progress of the project.
 
 #### STATUS
 
-There are four statuses for Projects:
+Status can be changed simply by clickin on the **STATUS** indicator on each row.
 
-- **Online** - This is when the project is live and sending email invites and collecting responses.
-- **Closed** - Projects automatically close when they have reached their target completes OR the user can shut the project manually. Closed project do not accept any new starts but currently started surveys can be completed.
-- **Archived** - Generally for Closed projects to declutter the screen. Archived projects do not accept any starts or completes. It is recommended to close the project first so that panelists can finish projects that are currently in progress.
-- **Offline** - Takes a project offline for whatever reason, which automatically stops fresh invites from being sent out. In this status project still accepts terminates and completes from outstanding invites.
+#### Online
+Select **online** to start fielding the project. The project will start fielding automatically at the configured **start date and time**. 
+
+#### Offline
+Use the **offline** status to take the project temporarily offline. When in **offline** no new respondents can start the survey, however any interviews in progress are allowed to finish normally. 
+
+#### Closed
+Use the **closed** mode to permanently close the study. In **closed** mode anybody currently taking in progress are able to finish normally. 
+
+#### Archived
+When project is **archived** no more respondents are allowed to either start or complete.
+
+> **IMPORTANT** You should never archive a project right after closing it as there might be interviews still in progress!
+
+> Sample Ninja will automatically archive any **closed** projects after 1 month. 
 
 #### DASHBOARD
 
