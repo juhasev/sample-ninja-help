@@ -1,3 +1,3 @@
 ### Start date and time
 
-This is where the START date and time for the project fieldwork is defined.
+This field defaults to the current time. If you set this to be a future date / time the project will be scheduled start at the given date and time as long as the project status is set to **online**.
