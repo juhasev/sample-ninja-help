@@ -67,4 +67,6 @@ The rating is color coded and can either be **Green, Amber and Red**. The red co
 
 Indicates when the projects are running. 
 
-> Using calender helps you to spread your panel usage evenly so you don't have periods where you may fall short of sample. Ramming all the projects on the same day can quickly lead into a sample short fall after business rules are applied.
+> The calender feature is there to help you to spread your panel usage evenly so you don't have periods where you may fall short of sample. Ramming all the projects on the same day can quickly lead into a sample short fall after business rules are applied.
+
+> IMPORTANT: Calendar by default displays projects you are responsible for. Remove the **responsible** filter if you want to display all the projects panel wide in the calendar.
