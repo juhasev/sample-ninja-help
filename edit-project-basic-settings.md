@@ -16,4 +16,4 @@ The total number of survey completes that the project needs to achieve.
 > If you need to do a soft launch set the **target number of completes** to the number of soft launch completes you desire along with **end date time** you would like to complete the soft launch by. If you satisfied with the soft launch results simply set a new **target number of completes** and a new **end date and time** to continue sampling with the full audience.
 
 #### Length of interview
-Estimated length of interview in minutes. The length of interview will be displayed to the participants if you choose to display the **Project Info Box** in the invitations.
+Estimated length of interview in minutes. The length of interview will be displayed to the participants if you have configured your email invitation template to display the **Project Info Box**. The default project email templates are configurable for each sub panel under **sub panels**.
