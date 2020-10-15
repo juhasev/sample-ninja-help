@@ -21,7 +21,9 @@ If you see an error indicator on your project something may have gone wrong. Cli
 #### PRIORITY
 When building a Project, you can set a sampling priority between 1 and 10
 
-If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5).
+If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5). 
+
+> The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. New panelists include any new panelists and also panelists that are no longer filtered out by the business rules.
 
 #### PROGRESS
 
@@ -45,7 +47,7 @@ There are TWO dashboards available for each project.
 - **Project Dashboard** - Allows the user to explore granular statistics on the activity around that particular project  
 - **Map of Respondents** - Allow the user to see geographic representation of Survey Starts.  
 
-Clicking on either of these two Icons takes the user to two different reporting screens **Project Dashboard** and **Map of Respondents**
+Click on the blue icons on each row to access these features.
 
 #### RESPONSE RATE
 
@@ -63,4 +65,6 @@ The rating is color coded and can either be **Green, Amber and Red**. The red co
 
 #### CALENDAR
 
-Indicates when a project will start or is due fielding.
+Indicates when the projects are running. 
+
+> Using calender helps you to spread your panel usage evenly so you don't have periods where you may fall short of sample. Ramming all the projects on the same day can quickly lead into a sample short fall after business rules are applied.
