@@ -1,4 +1,4 @@
-# DATA VARIABLES
+## DATA VARIABLES
 
 You can create, manage and analyse all the data variables. It is possible to filter for any data available by name by particular Group (if you've chosen to Group them) by Class (the variables have different classifications for the types of data variable.)
 
@@ -6,24 +6,23 @@ It is possible to sort the screen view by data **Types**, data **Group** and whe
 
 If you click on the Statistics Icon for a particular data variable it takes you into a dashboard screen for that particular variable.
 
-## Filter by Group
+### Filter by Group
 
 Simply choose filter from the top menu.
 
 For example it is possible to create a data variable group such as Demographics, Healthcare, Household etc which allows the ability to filter all the data variables that fit into these particular category.
 
-
-## Filter by Class
+### Filter by Class
 
 Allow you to filter by the system class. For example one could find all variables that are flagged **Personally Identifiable (PI)** or variables that community users can write **Community writable**.
 
 > It is possible to filter by using a combination of both **Group** and **Class** at the same time.
 
-## Reload the screen
+### Reload the screen
 
 Hit the **CIRCLE ARROW** -button at top right corner of the screen to reload all data variables.
 
-## Create new data variable group
+### Create new data variable group
 
 The sample ninja platform allows you to create variable groups four example you might want to create the group of all the demographic variables or all the healthcare related variables so that it is easier to select these later on.
 
@@ -31,7 +30,7 @@ Firstly, click on the (4 Dot Icon) on the Top Right of the screen, then click on
 
 Then select all the variable that you wish to assign to that group and click on the **ASSIGN TO GROUP** button on the bottom left.
 
-## Create a new data variable
+### Create a new data variable
 
 Hit the **PLUS** button to create a new data available in you panel database.
 
