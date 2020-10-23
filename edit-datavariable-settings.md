@@ -8,7 +8,7 @@ Option labels are shown for radio and checkbox questions only.
 The option label is what you want to call the option internally. Your panelists will see localized questions instead. You can supply question text and option labels under the **QUESTION** tab. 
 
 ### Adding and deleting option labels
-Use the **PLUS** button to add more options or the trashcan -icon to delete them. If these options are not available you most likely editing a question that is either required by the system or belongs to the Standard Questions -library.
+Use the **PLUS** button to add more options or the trashcan icon to delete them. If these options are not available you most likely editing a question that is either required by the system or belongs to the Standard Questions library.
 
 ### Re-ordering option labels
 You can re-order data variables options by clicking and holding the drag handle. Simply drag the the items in the order you prefer.
