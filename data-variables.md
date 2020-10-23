@@ -20,7 +20,7 @@ Allow you to filter by the system class. For example one could find all variable
 
 ### Reload the screen
 
-Hit the **CIRCLE ARROW** -button at top right corner of the screen to reload all data variables.
+Hit the **CIRCLE ARROW** - button at top right corner of the screen to reload all data variables.
 
 ### Create new data variable group
 
