@@ -80,3 +80,9 @@ Indicates when the projects are running.
 > The calender feature is there to help you to spread your panel usage evenly so you don't have periods where you may fall short of sample. Ramming all the projects on the same day can quickly lead into a sample short fall after business rules are applied.
 
 > **IMPORTANT**: Calendar by default displays projects you are responsible for. Remove the **responsible** filter if you want to display all the projects panel wide in the calendar.
+
+#### View participants, clone or delete
+
+Click on the triple dot at the end of each row button to see available project actions.
+
+> You can only delete projects without participants. Consider archiving the project to make it "disappear" from your view.
