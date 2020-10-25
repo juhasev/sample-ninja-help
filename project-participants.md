@@ -10,6 +10,10 @@ Displays time in minutes it took from the project start to exit.
 
 Displays country and city based on participant's approximate geo location.
 
+#### FLAGS
+
+Can be anything for speeding to failing security checks.
+
 #### Edit panelist
 
 Click on the edit panelist button on each row to edit any panelist.
