@@ -14,7 +14,7 @@ The pop out screen requests a **Name** and a **Cost per conversion (in points)**
 
 Once this is created, the new recruitment source will be given a Unique Recruitment ID, which the SampleNinja Platform uses to track the unique Panelist journey within the panel that feeds into all of the various reports.
 
-## Tracking recruitment source
+## Tracking recruitment sources in real life
 
 If you are using the built-in registration survey you need to append &source = [ID] to the URL to capture the recruitment source. Recruitment source ID is listed on each row. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
 
