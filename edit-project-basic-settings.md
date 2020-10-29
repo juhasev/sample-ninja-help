@@ -4,7 +4,7 @@ This can be any name (any Alpha Numeric or Special characters between 5 and 150 
 ### Project mode
 Normal projects use **Auto sampling mode** however if you need to do a recontact i.e. there was a survey skip logic error use the **re-contact** mode. In the re-contact mode you can paste in a list of panelist identifiers up to 1000 identifiers.
 
-> In the re-contact mode the panel business rules are bypassed and the invitations are send out immediately.
+> In the **Recontact** mode the panel business rules are bypassed and the invitations are send out immediately in batches up to 1000 emails per hour.
 
 ### Project status
 This controls project fielding status. 
