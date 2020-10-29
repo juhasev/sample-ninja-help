@@ -1,4 +1,4 @@
-# Sub panel  
+# Sub Panels  
 
 Each sub panel is its own independent community each with their own independent look and feel for all their communications. 
 
