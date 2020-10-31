@@ -1,4 +1,4 @@
-## REMINDER
+### Reminder email
 
 Select a date and time to set up an automated follow up invitation between the start and end date time of the project. The system will automatically remind anybody who has yet not completed the project.
 
