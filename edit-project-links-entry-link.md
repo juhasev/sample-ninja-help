@@ -8,6 +8,8 @@ For example you may define template for the survey engine you use all the time. 
 
 https://surveyengine.com?project=[ID]
 
+> The default link points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes.
+
 ### Piping data variables to surveys
 You can easily pipe data variables to survey simply my selecting the data variables you would like to pipe.
 
