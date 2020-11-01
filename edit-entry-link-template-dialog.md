@@ -6,16 +6,15 @@ For example you may define template for the survey engine you use all the time. 
 
 >`https://surveyengine.com?project=[ID]`
 
-## Piping data variables to surveys
+## Data pipes
 
-You can easily pipe data variables to survey simply my selecting the data variables you would like to pipe.
+You can pipe variable data to survey simply my selecting the data variables you would like to pipe.
 
 You can fully customized the parameter names to match what you use in the survey. The default parameter name is the data variable name. For example if you selected GENDER the resulting URL might look like this
 
 >`https://surveyengine.com?project_id=343&gender=1`
 
 If you customize parameter name to just letter "g" the URL would look like this
-
 
 >`https://surveyengine.com?project_id=343&g=1`
 
