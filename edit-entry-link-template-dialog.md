@@ -20,7 +20,7 @@ You can fully customized the parameter names to match what you use in the survey
 
 >`https://surveyengine.com?project_id=343&gender=1`
 
-If you customize parameter name to just letter "g" the URL would look like this
+If you change the parameter name to just letter "g" the URL would look like this
 
 >`https://surveyengine.com?project_id=343&g=1`
 
