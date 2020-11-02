@@ -6,7 +6,7 @@ Normal projects use **Auto sampling mode** however if you need to do a recontact
 
 > In the **Recontact** mode the panel business rules are bypassed and the invitations are send out immediately in batches up to 1000 emails per hour.
 
-> Please note that once project is selected it cannot be changed anymore.
+> Please note that once the project's **mode** is saved it cannot be changed anymore.
 
 ### Project status
 This controls project fielding status. 
