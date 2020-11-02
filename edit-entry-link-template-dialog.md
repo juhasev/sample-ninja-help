@@ -1,9 +1,9 @@
 ## Entry links
 
 ### Editing templates (only)
-Templates allow you to define entry link for your target interview platform
+Use templates to create pre-configured entry links one for the survey platforms you use. 
 
-For example you may define template for the survey engine you use all the time. When you define template URLs you can use place holders that need to be manually replaced for each project you run. 
+> We recommend that use special place holders tags like ```[SURVEY_ID]``` to be manually replaced in the project links setup page. 
 
 ### Base URL
 For example you base URL could look like this:
