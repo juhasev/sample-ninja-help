@@ -1,5 +1,7 @@
 ## Entry links
 
+Entry link is basically your survey URL. You can control what parameters are passed in, pipe data variable data into the links and enable link hashing that prevents tempering with the URLs.
+
 ### Editing templates (only)
 Use templates to create pre-configured entry links one for the survey platforms you use. 
 
