@@ -1,8 +1,6 @@
-## DATA VARIABLES
+## Data variables
 
-You can create, manage and analyse all the data variables. It is possible to filter for any data available by name by particular Group (if you've chosen to Group them) by Class (the variables have different classifications for the types of data variable.)
-
-It is possible to sort the screen view by data **Types**, data **Group** and when the data variables were added into the **System**.
+Data Variables are the basic storage unit for the panelist information you collect. Use the top row boxes to filter data variables by name, group or system designation. See below for more details.
 
 If you click on the Statistics Icon for a particular data variable it takes you into a dashboard screen for that particular variable.
 
@@ -22,7 +20,7 @@ Allow you to filter by the system class. For example one could find all variable
 
 Hit the **CIRCLE ARROW** - button at top right corner of the screen to reload all data variables.
 
-### Create new data variable group
+### Create a new data variable group
 
 The sample ninja platform allows you to create variable groups four example you might want to create the group of all the demographic variables or all the healthcare related variables so that it is easier to select these later on.
 
