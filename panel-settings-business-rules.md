@@ -1,5 +1,7 @@
 ## Business Rules
-Business Rules are applied automatically to all sample pulls. You should always make sure that you have system variables such as STATUS, EMAIL_VALID and EMAIL_CONFIRMED included in the business rules. You may additionally apply various activity filters. By default Sample Ninja includes a filter that excludes anybody who has been invited in the past week (7 days). This prevents you from over utilizing your panel which tends to lead into higher unsubscrition rates. However, the business rules are ignored in the second change routing and within the available surveys in the Community Portal. You are free to include your own custom data variables that fit your business needs as well.
+Business Rules are applied automatically to all the projects you or anyone creates in Sample Ninja. You should always make sure that you have system variables such as STATUS, EMAIL_VALID and EMAIL_CONFIRMED included in the business rules. You may additionally apply various activity filters. By default Sample Ninja includes a filter that excludes anybody who has been invited in the past week (7 days). This prevents you from over utilizing your panel which tends to lead into higher unsubscription rates. You are free to include your own custom data variables that fit your business needs as well i.e PERSON_VERIFIED = "yes".
+
+> Business rules do not apply to recontacts or reminders. 
 
 ### STATUS
 This variable indicates panelist's subscription status which can be either **Subscribed, Unsubscribed or Blacklisted**.
