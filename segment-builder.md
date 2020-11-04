@@ -1,62 +1,24 @@
-## Segment builder
+## Query builder
 
-When creating a new segment one is presented with a screen which is based based around logical definitions either definitions around the data variables or definitions around the filtering options.
+### Basic use
+Build and query your panel. First select the match operation which defaults to **Match all of the following** which is basically ```AND``` group. If you need ```OR``` group select **Match at least one of the folllowing**.
 
-When creating a new Segment one must use the **Logic** section in the centre of the screen and the steps are as follows:
+Next select the variable you would like to query. **Match** operation is automatically selected but depending on the data variable type other options may be available as well. Use the **exists** to find out if the data variable has data.
 
-1) The three logic matches are as follows:  **Must contain matches,  Must NOT contain matches and “Matches should contain**
-2) Click on the **Select data variable** box (inset image) to access all the DataVariables available in the Panel environment. If Groups are set up, it will show the groups and then the variables within the particular groups
-3) **Operation** is the next logical step to creating a New Segment.  
+> To reduce clutter on the screen use the **Compact** toggle to get rid of the ```AND``` and ```OR``` -labels.
 
-Depending on the data type chosen there are different operators offered.
+### OR groups
+If you need to add ```OR``` condition click on the **Add sub group** button. Select some variables and if any one them matches the entire group is considered **TRUE**
 
-- Text based variables offer Match or Exist as operators
-- Email based variables offer Match or Exist as operators
-- Single coded variable offer Match or Exist as operators
-- Multicoated variable offer Match or Exist as operators
-- Date variable offer Match, Range, greater than equal, lesser than equal, exists as operators
-- Numeric variable offer Match, Range, greater than equal, lesser than equal, exists as operators
+### Segment settings
+These settings only show if you are editing actual segment.
 
-4) Then choose the **Selected options** for that Variable that is required for the Segment that you are looking to build (this is dependant upon the question type selected). The options could be either selecting one or multiple choices from from categoric variable and number or date ranges from numeric variables.
+#### Designated filter
+If you enable this it simply means this segment is intended to be as a filter in other application features like **Panelist manager**. It also means that business rules should not be applied automatically (in most cases) however if desired business rules can toggled back on. When a segment is designated as filter, it becomes available throughout the application features that use filtering. 
 
-5) Depending on the complexity if the Segment required, it is possible to add as many segments as possible, by repeating steps 2,3 and 4 above.
+> Please note that segments with **designated filter** toggled off will note show in the filter selection.
 
-6) Add or Group allows the user to create a group of logical variable combinations that are calculated independently and ahead of any other logic variables when defining a new segment.
+#### Share with the team
+This setting makes your segment / designated filter available for the other team members to run and copy. The other team members cannot make changes to your segment.
 
-### Sub-Panel Filters
-
-SampleNinja allows users the full flexibility to select Sample exclusively from the **Total overall panel** or **any number of selected Sub-panels.**
-
-Overall, it is possible to create any Segment from not only from using the full compliment of Data Variables, it is also possible to apply any combination of Activity Filters, Category Filters and Sub-Panel filters.
-
-### Activity Filters  
-
-Once the Enable switch is active, is it possible to **Include** or **Exclude**  any panelist on the basis  
-
-- **Been Invited**
-- **Opened**
-- **Started**
-- **Profile Terminated**
-- **Quota Terminated**
-- **Completed**
-
-**_In the Past X days_**  (This can be adjusted between 1 and 365 days depending on the users requirement for that Segment)
-
-It is possible to use a combination of ANY or ALL of the Activity Filter operators to create the chosen Activity filter for that particular Segment definition.
-
-### Category Filters  
-
-Once the Enable switch is active, is it possible to **Include** or **Exclude** any panelist on the basis  
-
-- **Been Invited**
-- **Opened**
-- **Started**
-- **Profile Terminated**
-- **Quota Terminated**
-- **Completed**  
-
-**_In the Past X days_**  (This can be adjusted between 1 and 365 days depending on the users requirement for that Segment)
-
-For example one might select *Football, European and Travel* as chosen Categories.  This would mean that if a panellist was invited to a previous study that was tagged with either *Football, European and Travel* in the past 31 days, then they would be EXCLUDED.
-
-It is possible to use a combination of ANY or ALL of the Category Filter operators to create the chosen Category filter for that particular Segment definition.
+> **IMPORTANT**: The system makes a copy of the segment when used in a project. Therefore any modifications to the original segment has no impact on your project.
