@@ -4,4 +4,6 @@ Paste a list of panelist identifiers and select the "Disqualify" action you woul
 
 The identifier list should only contain panelist identifiers in format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Optionally the identifiers can be separated by comma and/or be enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
+Once submitted the server will verify that each maps to an existing panelist and verifies that matching panelist have ```completed``` status in the project. Any invalid identifiers are returned back.
+
 > If your survey platform is capable of identifying duplicates and participants with quality issues like straight lining you can use the appropiate exit links to terminate them immediately. See **Project configuration** -> **Exit links** for more details.
