@@ -81,8 +81,13 @@ Indicates when the projects are running.
 
 > **IMPORTANT**: Calendar by default displays projects you are responsible for. Remove the **responsible** filter if you want to display all the projects panel wide in the calendar.
 
-#### ACTIONS: View participants, clone or delete
+#### ACTIONS 
 
 Click on the triple dot at the end of each row button to see available project actions.
+
+**View participants** View participants
+**Disqualify** Batch disqualify participants by providing a list panelist IDs.
+**Clone** Clone project
+**Delete** Delete project
 
 > You can only delete projects without participants. Consider archiving the project to make it "disappear" from your view.
