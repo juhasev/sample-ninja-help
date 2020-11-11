@@ -14,8 +14,13 @@ Displays country and city based on participant's approximate geo location.
 
 Can be anything for speeding to failing security checks.
 
-#### Menu actions - edit panelists
+#### Menu actions
 
 Click on the **triple dot** button on each row to reveal menu for available operations such as edit panelist.
+
+**Disqualify (quality)** Will disqualify panelist by changing ```completed``` status to ```qualify```.
+**Disqualify (duplicate)** Will disqualify panelist by changing ```completed``` status to ```duplicate```.
+
+Both options will rollback any issued rewards.
 
 > By default we display completes ordered by the started date
