@@ -16,8 +16,9 @@ Can be anything for speeding to failing security checks.
 
 #### Menu actions
 
-Click on the **triple dot** button on each row to reveal menu for available operations such as edit panelist.
+Click on the **triple dot** button on each row to reveal menu for available operations.
 
+**Edit panelist** Will take you to panelist edit screen.
 **Disqualify (quality)** Will disqualify panelist by changing ```completed``` status to ```qualify```.
 **Disqualify (duplicate)** Will disqualify panelist by changing ```completed``` status to ```duplicate```.
 
