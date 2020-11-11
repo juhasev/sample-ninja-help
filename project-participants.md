@@ -21,6 +21,6 @@ Click on the **triple dot** button on each row to reveal menu for available oper
 **Disqualify (quality)** Will disqualify panelist by changing ```completed``` status to ```qualify```.
 **Disqualify (duplicate)** Will disqualify panelist by changing ```completed``` status to ```duplicate```.
 
-Both options will rollback any issued rewards.
+Both options will rollback any issued reward points and project revenue.
 
 > By default we display completes ordered by the started date
