@@ -1,7 +1,7 @@
 
 ### Projects
 
-This gives the total number of Project interactions
+Total number of panelist project interactions.
 
 #### # of invitations ####
 Number of project invitations sent to this panelist
