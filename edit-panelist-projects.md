@@ -16,8 +16,8 @@ Number of profile (screener) terminations this panelist has seen
 #### # of quality issues #### 
 Number of quality issues with this panelist
 #### # of duplicate participant ####
-Number of times this participant has been detected as duplicate. 
-#### of completed #### 
-Total number of completed projecs
+Number of times this panelist has been detected as duplicate. HIgh number here may indicative of "professionals".
+#### # of completed #### 
+Total number of completed projecs.
 
-> All Values are life time values and there is no way to reset them
+> All counts are life time values and there is no way to reset them.
