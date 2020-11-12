@@ -24,4 +24,4 @@ Click on the **triple dot** button on each row to reveal menu for available oper
 
 Both options will rollback any issued reward points and project revenue.
 
-> By default we display completes ordered by the started date
+> By default we display completes ordered by the project start time
