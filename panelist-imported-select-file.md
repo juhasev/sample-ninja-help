@@ -14,7 +14,7 @@ It’s further recommended that the name of data variable name in the Data Varia
 ## An overview of the process is shown below:
 
 1. Select file to import 
-2. Errors & inspection 
+2. Inspection 
 3. Mapping
 4. Upload
 5. Results
@@ -23,7 +23,7 @@ It’s further recommended that the name of data variable name in the Data Varia
 
 Click on the designated area and browse your device for the file you want to import or simply locate the file on your device and drag & drop it into designated area
 
-## 2.	Errors & inspection
+## 2.	Inspection
 
 Here you’ll be able to visually inspect the first 100 records of your CSV file for any obvious errors. At the bottom of this screen you can also change the number records or rows per page shown. 
 
