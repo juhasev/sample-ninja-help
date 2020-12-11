@@ -6,7 +6,7 @@ There are total of 5 different survey outcomes:
 - Complete (Panelist has completed the survey)
 - Profile (Panelist was terminated in screening questions)
 - Quota (Panelist was terminated because a quota bucket was full)
-- Quality (Survey has detected poor quality such as straightlining)
-- Duplicate (Survey software has detected this panelist as duplicate participant)
+- Quality (Survey software has detected straightlining or other quality issues)
+- Duplicate (Survey software has detected this panelist as a duplicate participant)
 
-> PLEASE NOTE THAT: No points will be issued to **Quality** and **Duplicate terminates**!
+> **PLEASE NOTE THAT:** No points will be issued to **Quality** and **Duplicate terminates**!
