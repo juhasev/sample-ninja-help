@@ -1,2 +1,12 @@
 ## Project Exit Links
-These are different exit links where you should pass all the panelist back to depending on their project status. If you survey solution supports link hashing you should use it otherwise the panelist can change their status just by modifying the URL. However, after the initial status for project and panelist has been recorded they cannot change that status anymore.
+These are the exit links where you should pass panelist after they exit a survey. If you survey solution supports redirect link hashing you should always use it to prevent tampering with the links.
+
+There are total of 5 different survey outcomes:
+
+- Complete (Panelist has completed the survey)
+- Profile (Panelist was terminated in screening questions)
+- Quota (Panelist was terminated because a quota bucket was full)
+- Quality (Survey has detected poor quality such as straightlining)
+- Duplicate (Survey software has detected this panelist as duplicate participant)
+
+> PLEASE NOTE THAT: No points will be issued to **Quality** and **Duplicate terminates**!
