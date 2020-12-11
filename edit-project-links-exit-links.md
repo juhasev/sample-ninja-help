@@ -1,5 +1,5 @@
 ## Project Exit Links
-These are the exit links where you should pass panelist after they exit a survey. If you survey solution supports redirect link hashing you should always use it to prevent tampering with the links.
+These are the exit links where you should redirect panelist after they exit the survey. If you survey solution supports "redirect link hashing" you should always use it to prevent tampering with the links.
 
 There are total of 5 different survey outcomes:
 
