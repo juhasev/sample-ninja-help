@@ -9,4 +9,4 @@ There are total of 5 different survey outcomes:
 - Quality (Survey software has detected straightlining or other quality issues)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 
-> **PLEASE NOTE THAT:** No points will be issued to **Quality** and **Duplicate terminates**!
+> **PLEASE NOTE THAT:** No points will be issued to **Quality** and **Duplicate** survey outcomes!
