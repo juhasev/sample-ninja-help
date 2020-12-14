@@ -1,7 +1,13 @@
-### Participant goe location
+### Participant heat map
 
-The chart shows where your respondents are coming from. You can change the map layout using the top pulldown for example you can view United States by State.
+Participant heat map is showing you where you completed interviews are originating from. 
 
-The bar at the bottom indicates frequency and its color coding on the map.
+### Participant cluster map
 
-> If would like to get additionap maps added please contact us or send a feature request using the feedback icon on the top toolbar.
+Use the cluster map to see clustered number of participants. You click on the clusters to to zoom in.
+
+### Setting default view
+
+Press the **crosshair** button bottom right corner to set the current view as your default view. From there on it will be applied to all maps you view.
+
+> Max number of completes or items used for visualization is 10,000.
