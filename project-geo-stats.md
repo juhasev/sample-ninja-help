@@ -4,7 +4,7 @@ Participant heat map is showing you where you completed interviews are originati
 
 ### Participant cluster map
 
-Use the cluster map to see clustered number of participants. You click on the clusters to to zoom in.
+Use the cluster map to see clustered number of participants in a region. Click on the clusters to to zoom in.
 
 ### Setting default view
 
@@ -14,7 +14,7 @@ Press the **crosshair** button bottom right corner to set the current view as yo
 
 Use right mouse button to pan and rotate the map.
 
-> Mac users can alternative hold down CTRL key and use the left mouse button to achive the same effect.
+> Mac users can alternatively hold down CTRL key and use the left mouse button to achive the same effect.
 
 Use mouse scroll wheel to zoom in and out.
 
