@@ -18,7 +18,7 @@ This chart plots the Daily and Hourly project progress. The chart is automatical
 
 > You can click and highlight a series of days or hour slots which will zoomed in for more granular analysis.
 
-It is possible to share these charts and the associated data by clicking on the (three dot icon - top right of the chart) by generating Image files, Data files or Printing them directly.
+If you like you can export the chart image or it's data click on **three dots** at top right of the chart.
 
 SampleNinja offers the following Image options (show Image options) and the following Data options (show data options) for the distribution of the chart.
 
