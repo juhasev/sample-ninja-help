@@ -4,7 +4,7 @@ Participant heat map is showing you where you completed interviews are originati
 
 ### Participant cluster map
 
-Use the cluster map to see clustered number of participants in a region. Click on the clusters to to zoom in.
+Use the cluster map to see clustered number of participants in a region. Click on the clusters to to zoom in. If you zoom in enough you will start seeign individual panelists indicated with the **location**. Clicking on a marker will take you to the Panelist Manager to edit the panelist.
 
 ### Setting default view
 
