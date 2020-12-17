@@ -1,13 +1,18 @@
 ## Panelist Imported Select File
 
-The 'Panelist Importer' component let’s you to import panelists (members) to an existing panel or subpanel. Before attempting to import, please ENSURE that the import file...
+Panelist Importer let’s you to import panelists (members) to an existing panel or subpanel from a CSV file.
 
-1. is saved or stored in a CSV (comma delimited) format. Currently, this is the only format supported by the Panelist Importer.
-2. contains column for FIRST_NAME, LAST_NAME and EMAIL Data Variables. These variables are mandatory system requirement and therefore need to present in every import file.
+You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically you can import any variable that are are import writable with the exception POINTS_BALANCE, LOCALE and RECRUITMENT_SOURCE which cannot be modified once imported.
+
+> You can view a list of importer writable variable in **Data Variables** but selecting **Registration / Import writable** as class.
+
+Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. Just follow the format and you are good to go. 
+
+> IMPORTANT: Do not import test import files back in unless you are running **DEMO MODE**.
 
 ## Important: 
 
-BEFORE selecting a file to import, it’s highly recommended that you create a data variable (including answer options) in the ‘Data Variables’ component for each variable in the import file that you intend to import.
+BEFORE selecting a file to import, it’s highly recommended that you create a data variable (including answer options) in **Data Variables** for each variable in the import file that you intend to import.
 
 It’s further recommended that the name of data variable name in the Data Variables component and the corresponding name of the variable in the import file match, where possible. This will save you a lot time in having to correcting errors, mapping variables or avoid you having to re-start the import process.   
 
