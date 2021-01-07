@@ -11,7 +11,9 @@ The following data variables can be piped into all emails
 - LAST_NAME
 - EMAIL
 
-Simply place variable name in square brackets and it will be replaced on the fly i.e. Hello [FIRST_NAME] we have a survey for you!
+Simply place variable name in square brackets and it will be replaced on the fly i.e. Hello [FIRST_NAME] we have a survey for you! If the data variable is missing it will be silently removed.
+
+> Please note that test sessions are not tied to a real panelist thus data variable piping is not possible for any test sessions.
 
 ### Email sender name
 Type in the email sender name you want the email to appear to be coming from.
