@@ -65,7 +65,7 @@ Project response rate percentage.
 
 Response rate has a color indicator that can be either **Green, Amber and Red**. The red color indicator is triggered when **Send notification when response rate % falls under** -setting limit has been met in the **PANEL SETTINGS**.
 
-> Response rate is calculate as percentage of the total number of **starts for the project (regardless of outcome of the start)** divided by the total number of **invitations sent out** for a particular project.  
+> Response rate is calculated using **completes / invitations * 100%** 
 
 #### RATING
 
