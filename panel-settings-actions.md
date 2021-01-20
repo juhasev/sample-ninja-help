@@ -19,5 +19,3 @@ This settings tells the system when to consider someone a speeder. If you projec
 > If you are logged in you get these notifications pushed to the application otherwise an email will be sent instead.
 
 > Please note that the project **email notification** - setting must be turned on to receive an email notifications!
-
-> Response rate is calculated completes / invites * 100 %
