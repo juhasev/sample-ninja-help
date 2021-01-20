@@ -18,11 +18,12 @@ Use the balance button to quickly evenly balance all the cells using total numbe
 
 #### Run feasibility
 
-Runs a quick feasibility check on each cell based on the average response rate for those qualying for the cell. The resulting multiplier tells you how many times can you fill the quota cell. In the other words you have an indication if you are not likely to be able to meet the quotas. Sample Ninja by default consider multiple of #3 suffiecient. Anything else will be flagged and colored from yellow thru orange to red. To see the defails bring you mouse over the **multiplier box**. Details include:
+Runs a quick feasibility check on each cell based on the average response rate for those qualying for the cell. The resulting multiplier tells you how many times can you fill the quota cell. In the other words you have an indication how likely are able to fullfill the quota cell. Sample Ninja by default consider multiple of #3 sufficient. Anything else will be flagged and colored from yellow thru orange to red. To see the defails bring you mouse over the **multiplier box**. 
 
-- Invitations needed
-- Availability
-- Average response rate for this cell
+- Details include:
+-- Invitations needed
+-- Availability
+-- Average response rate for this cell
 
 #### Turning quotas off
 
