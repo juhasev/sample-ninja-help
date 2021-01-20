@@ -26,7 +26,7 @@ Runs a quick feasibility check on each cell based on the average response rate f
 
 #### Turning quotas off
 
-Turning quotas off is not recommended. Instead this should be done using properly by excluding this segment in **Qualifications**. If you turn a quota cell off then the sampling engine will discard any panelists it finds that belong to the disabled bucket. This may have negative effect on the sampling efficiency.
+Turning quotas off is not recommended unless the availability for cell is zero. If you want to disable cell with non zero availability you should do some in the  **Qualifications** instead. If you turn a quota cell off then the sampling engine will discard any panelists it finds that belong to the disabled bucket. This may have negative effect on the sampling efficiency.
 
 #### Relaxing quotas
 
