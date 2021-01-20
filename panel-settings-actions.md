@@ -1,6 +1,6 @@
 ### Action thresholds
 
-#### Send notifications when response / completion rate percentage falls under particular % the system** 
+#### Send notifications when response / start rate percentage falls under particular % the system** 
 The system will automatically notify the project manager and the assistant manager (if selected) when **Response / Completion Rate** has fallen below the configured percentage.
 
 #### Send notification when survey rating falls under
@@ -12,3 +12,5 @@ This settings tells the system when to consider someone a speeder. If you projec
 > If you are logged in you get these notifications pushed to the application otherwise an email will be sent instead.
 
 > Please note that the project **email notification** - setting must be turned on to receive an email notifications!
+
+> Response rate is calculated completes / invites * 100 %
