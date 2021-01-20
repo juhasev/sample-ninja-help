@@ -1,7 +1,7 @@
 ### Action thresholds
 
 #### Send notifications when response / start rate percentage falls under particular % the system** 
-The system will automatically notify the project manager and the assistant manager (if selected) when **Response / Completion Rate** has fallen below the configured percentage.
+The system will automatically notify the project manager and the assistant manager (if selected) when **Response or Start Rate** has fallen below the configured percentage.
 
 #### Send notification when survey rating falls under
 The system will automatically notify the project managers if survey rating fall under the configured score here.
