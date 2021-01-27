@@ -28,6 +28,10 @@ Firstly, click on the (4 Dot Icon) on the Top Right of the screen, then click on
 
 Then select all the variable that you wish to assign to that group and click on the **ASSIGN TO GROUP** button on the bottom left.
 
+### Create a new STANDARD data variables
+
+Allows you to create STANDARD Sample Ninja data variables. These standards are based on LUCID's standard questions.
+
 ### Create a new data variable
 
 Hit the **PLUS** button to create a new data available in you panel database.
