@@ -1,6 +1,6 @@
 ### Project Quotas
 
-On this tab you can monitor progress of your quotas. Each quota cell contains value current count vs. quota that is set. This is indicated i.e. 100/500. The progress bar displays this completion rate visually. If you mouse over the progress bar you will additionally see the number of total invites that has been sent out this far as well as the real response rate to this quota cell.
+On this tab you can monitor progress of your quotas. Each quota cell contains value current count vs. quota that is set. This is indicated i.e. 100/500. The progress bar displays this completion rate visually. 
 
 ### Feasibility multiplier
 This value appears after the X and indicative of your current available supply for this quota cell. If you mouse over the multiplier you will see:
@@ -8,12 +8,16 @@ This value appears after the X and indicative of your current available supply f
 - Invites needed (based on the estimated response rate for each quota cell)
 - Availability (this is how many panelists are available in total)
 - Estimated response rate (this is how many panelists in the past have matched with quota cell)
+- Number of invites
+- Real response rate
 
 The feasibility multiplier is color coded. Generally speaking anything < 3 will have color coding fading from green to red. Anything in RED is indicative of imminent quota short fall.
 
 #### Relaxing quotas
 
 Use the toggle to relax any quotas. Basically what this means that you indicate that you allow quota overage on this cell. Typically you would want to do that if one particular quota is "dragging" down the others and it is more important that you complete the project with overage on a few cells.
+
+> Please note that relaxing is not the same as generic tracking quota as the sampling engine will only select panelists that have answer to one the relaxed quotas.
 
 #### Reload feasibility
 
