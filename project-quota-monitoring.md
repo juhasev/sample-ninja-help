@@ -1,6 +1,6 @@
 ### Project Quotas
 
-On this tab you can monitor progress of your quotas. Each quota cell contains value current count vs. quota that is set. This is indicated i.e. 100/500. The progress bar displays this completion rate visually. 
+On this tab you can monitor progress of your quotas. Each quota cell contains current count and quota limit. This is indicated as number pair like 100/500. The progress bar displays this completion rate visually in this case 20%. 
 
 ### Feasibility multiplier
 This value appears after the X and indicative of your current available supply for this quota cell. If you mouse over the multiplier you will see:
@@ -16,8 +16,6 @@ The feasibility multiplier is color coded. Generally speaking anything < 3 will 
 #### Relaxing quotas
 
 Use the toggle to relax any quotas. Basically what this means that you indicate that you allow quota overage on this cell. Typically you would want to do that if one particular quota is "dragging" down the others and it is more important that you complete the project with overage on a few cells.
-
-> Please note that relaxing is not the same as generic tracking quota as the sampling engine will only select panelists that have answer to one the relaxed quotas.
 
 #### Reload feasibility
 
