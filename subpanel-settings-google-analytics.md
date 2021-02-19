@@ -3,11 +3,11 @@
 Track every single action with your panelists using your own Google Analytics dashboard. Tracking works on all landing pages, 
 registration surveys and even in the members app. Certain features **emit events** to Google Analytics. Example of such events are:
 
-- Registration welcome
-- Registration start
-- Registartion complete
-- Members app login
-- Members app authenticated
+- Registration welcome (registration welcome page view)
+- Registration start (registration survey start)
+- Registration complete (registration survey completed)
+- Members app login (login page view)
+- Members app authenticated (login successfully completed)
 
 Event allow you to track percentage of panelists who started vs. completes the registration survey for example.
 
