@@ -10,7 +10,7 @@ Track every single action with your panelists using your own Google Analytics da
 
 Event allow you to track percentage of panelists who started vs. completes the registration survey for example.
 
-> IMPORTANT: Google Analytics is not GDPR compliant. If you use this feature it should be properly disclosed in the **Privacy Policy** landing page in the section **Information we collect**
+> **IMPORTANT!** Google Analytics is not GDPR compliant. If you use this feature it should be properly disclosed in the **Privacy Policy** landing page in the section **Information we collect**
 
 ### Setup
 
