@@ -11,9 +11,9 @@ This is your sub panel name. This name is visible to panelist as in a browser ta
 Description for the sub panel. This is not visible to panelists.
 
 #### Community URL
-If you run your own custom community site, inserts the URL here.
+If you run your own custom community site, insert the URL here.
 
-> Community URL needs to be a valid community URL. Various landing pages display **VISIT COMMUNITY** button which will forward panelist to this address. If you are not using a community you can disable the button from the **Landing Page** settings.
+> Community URL needs to be a valid community URL. Various landing pages display **VISIT COMMUNITY** button which will send panelist to the configured URL. If you are not using a community you can disable the button from the **Landing Page** settings.
 
 #### Support email address
 Support Email needs to be a valid support email. Various landing pages display **CONTACT SUPPORT** button which will launch an email client. If you are not providing email support at all you can disable this button from the **Landing Page** settings.
