@@ -37,4 +37,4 @@ This number is typically in format: UA-190182115-1
 Enter number without the UA- prefix into the Universal Analytics ID field. And you are done. 
 
 #### Step 7 - Test
-Visit any panelist features like registration survey, members app or any landing page.
+Visit any panelist features like registration survey, members app or any landing page. Observe that the real time statisctics are getting reported in Google Analytics.
