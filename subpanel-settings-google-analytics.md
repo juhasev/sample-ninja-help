@@ -13,17 +13,17 @@ Event allow you to track percentage of panelists who started vs. completes the r
 
 > IMPORTANT: Google Analytics is not GDPR compliant. If you use this feature it should be properly disclosed in the **Privacy Policy** landing page in the section **Information we collect**
 
-#### Setup
+### Setup
 
 First you need register with [Google Analytics](https://analytics.google.com) and log in.
 
-##### Step 1 - Account
+#### Step 1 - Account
 Create an account in Google Analytics and call it SampleNinja.
 
-##### Step 2 - Property setup
+#### Step 2 - Property setup
 Give property a name like **Panelist Tracker**, select reporting timezone and currency.
 
-##### Step 3 - Advanced options
+#### Step 3 - Advanced options
 Click on **Show advanced options** and click on **Create a Universal Analytics Property** -toggle. Next enter the website URL
 ```https://yourcompany.sampleninja.io```
 Select **Create an Universal Analytics property only**
