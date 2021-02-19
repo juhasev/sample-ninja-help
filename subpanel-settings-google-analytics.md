@@ -30,7 +30,7 @@ Select **Create an Universal Analytics property only**
 #### Step 4 - About your business
 Fill in your business details and click on **Create** -button. Accept terms of conditions if prompted.
 
-#### Step 5 - Record Universal Analytics (UA) ID displayed at the top of the page.
+#### Step 5 - Record Universal Analytics ID displayed at the top of the page.
 This number is typically in format: UA-190182115-1
 
 #### Step 6 - Enter the UA number into Sample Ninja
