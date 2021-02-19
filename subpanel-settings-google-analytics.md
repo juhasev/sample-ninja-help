@@ -23,8 +23,8 @@ Create an account in Google Analytics and call it SampleNinja.
 Give property a name like **Panelist Tracker**, select reporting timezone and currency.
 
 #### Step 3 - Advanced options
-Click on **Show advanced options** and click on **Create a Universal Analytics Property** -toggle. Next enter the website URL
-```https://yourcompany.sampleninja.io```
+Click on **Show advanced options** and click on **Create a Universal Analytics Property** -toggle. Next enter the website URL **https://yourcompany.sampleninja.io**. This URL must match your Sample Ninja domain name. 
+
 Select **Create an Universal Analytics property only**
 
 #### Step 4 - About your business
