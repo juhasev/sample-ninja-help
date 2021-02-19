@@ -32,6 +32,10 @@ Select **Create an Universal Analytics property only**
 Fill in your business details and click on **Create** -button. Accept terms of conditions if prompted.
 
 #### Step 5 - Record Universal Analytics (UA) ID displayed at the top of the page.
+This number is typically in format: UA-190182115-1
 
 #### Step 6 - Enter the UA number into Sample Ninja
+Enter number without the UA- prefix into the Universal Analytics ID field. And you are done. 
 
+#### Step 7 - Test
+Visit any panelist features like registration survey, members app or any landing page.
