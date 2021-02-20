@@ -8,7 +8,7 @@ Track every single panelist interaction using your own Google Analytics dashboar
 - Members app login (login page view)
 - Members app authenticated (login successfully completed)
 
-Event allow you to track percentage of panelists who started vs. completes the registration survey for example.
+The events allow you to track percentage of panelists who started vs. completed the registration survey for example.
 
 > **IMPORTANT!** Google Analytics is not GDPR compliant. If you use this feature it should be properly disclosed in the **Privacy Policy** landing page in the section **Information we collect**
 
