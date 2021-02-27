@@ -18,7 +18,7 @@ The feasibility multiplier is color coded. Generally speaking anything < 3 will 
 Display the status of the column. Typically you would see arrow pointing up or down. This means balancing is taking place in the background. If you mouse over this column you will see wealth of informations what going on currently with the cell.
 
 ### Enforcing quotas
-Use the toggle to turn on/off enforce quota. By default all quotas are enforces. If you turn enforce -toggle off that basically means that you indicate that you allow unlimited quota overage on this cell.
+Use the toggle to turn on/off enforce quota. By default all quotas are enforced. This means that if you click on the invitation link and the quota cells you fit in are already full the panelist will see the "Quota terminated" -landing page. If you turn enforce -toggle off that basically means that you indicate that you allow unlimited quota overage on this cell.
 
 ### Status label
 Visual indicator of the quota status. Statuses are:
