@@ -1,6 +1,6 @@
 ### Project Quotas
 
-On this tab you can monitor progress of your quotas. Each quota cell contains current count and quota limit. This is indicated as number pair like 100/500. The progress bar displays this completion rate visually in this case 20%.
+On this tab you can monitor the overall progress of your quotas. Each quota cell contains current count and quota limit. This is indicated as number pair like 100/500. The progress bar displays this completion rate visually in this case 20%.
 
 > By default the quota system only terminates at survey start thus you may end up with slight overage if you have a lot of current sessions (panelists currently taking your survey). To minimize overage simplty increase the project duration. You should not attempt to complete any project with quotas under 24 hours. It is fair to assume 12 hours is reasonable expection for somebody to read their email. Therefore any short duration project is forced to oversample which will lead to uncessary quota terminations which again leads to poor panelist experience.
 
