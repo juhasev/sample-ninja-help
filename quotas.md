@@ -1,6 +1,6 @@
-### Quotas
+### Sample Quota Balancing
 
-By setting quotas you can control more precisely how the sample is deployed. Using quotas is optional.
+By setting quotas you can control more precisely how your sample is balanced. Using balacingquotas is optional.
 
 #### Target completes
 
@@ -29,6 +29,7 @@ Runs a quick feasibility check on each cell based on the average response rate f
 
 Turning quotas off is not recommended unless the availability for cell is zero. If you want to disable cell with non zero availability you should do some in the  **Qualifications** instead. If you turn a quota cell off then the sampling engine will discard any panelists it finds that belong to the disabled bucket. This may have negative effect on the sampling efficiency.
 
-#### Relaxing quotas
+#### Turning enforcing off
 
-You can relax any quota cell to allow overrage. This is especially handy when your quotas may be conflicting with each other. When a quota cell is relaxed overage is allowed.
+You can relax any quota cell to allow overrage. This means that a panelist can to start a survey even if quota is full. This may be helpful in situation where target quotas not known or there are multiple sample vendors supplying sample. Needless to say if you can do this then do it as it will provide better overall experience for your panelists.
+
