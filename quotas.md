@@ -12,6 +12,8 @@ The target completes fields displays # of completes setup in the basic settings 
 
 Next select variables that you would like to use. Quotas can be created from any **radio** or **date** -question. The date -question type must categorized into ranges before it can be used (or to be visible).
 
+> IMPORTANT! Sample Ninja does not currently support adding quotas to projects that already have completed interviews.
+
 #### Use percent values
 
 Click on the "percent %" button to enable divisions by percent.
