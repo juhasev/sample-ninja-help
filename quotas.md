@@ -12,6 +12,10 @@ The target completes fields displays # of completes setup in the basic settings 
 
 Next select variables that you would like to use. Quotas can be created from any **radio** or **date** -question. The date -question type must categorized into ranges before it can be used (or to be visible).
 
+#### Use percent values
+
+Click on the "percent %" button to enable divisions by percent.
+
 #### Balance
 
 Use the balance button to quickly evenly balance all the cells using total number of completes needed.
