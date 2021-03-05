@@ -1,6 +1,6 @@
 # Sub Panels  
 
-Each sub panel is its own independent community each with their own independent look and feel for all their communications. 
+Each sub panel is its own independent community each with their own independent look and feel.
 
 Click on the top buttons to configure **Email templates**, **Landing Pages** and **Settings**. Sub Panel logo can be changed simply by clicking on the logo or the upload button (if logo has not yet been uploaded).
 
