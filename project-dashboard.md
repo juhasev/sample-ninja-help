@@ -41,6 +41,9 @@ SampleNinja offers the following Image options (show Image options) and the foll
 - Completed - Total number of Completed surveys for the project
 - Quota terminations - Total number of surveys terminated because of Quotas reached for that criteria
 - Profile terminations - Total number of surveys terminated because of Profile not being suitable for a particular project
+- Routed in - Total number of panelists routed into this project from other projects
+- Routed out - Total number of profile or quota terminated panelists successfully routed to other projects
+
 
 ### Redemption Points allocations for Panellists
 - Total Revenue - Total redemption points allocated thus far for this project in the platform
