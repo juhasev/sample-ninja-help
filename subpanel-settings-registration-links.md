@@ -4,3 +4,7 @@ These are the actual registration links to enter the registration survey. By cli
 > Please note that no panelist will be created if you take the registration survey in test mode. This also means you will not received email confirmation email.
 
 > Any registration survey link can be turned into test mode simply by appending ?test at the end of registration survey URL.
+
+Be aware that all security check will be by passed as long as you authenticated to the admin application. 
+
+> If you want to test that appropiate security checks are working simply copy the link and paste it into a new private window. In Google Chrome this is same as **New ingognito window**
