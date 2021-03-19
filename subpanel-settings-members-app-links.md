@@ -1,4 +1,4 @@
-## Members app links ##
+## Member's app links ##
 
 If you have enabled **Members App** in the sub panel settings you will see links for each locale in this dialog. Click on the login button to be transferred to the member's app login screen.
 
