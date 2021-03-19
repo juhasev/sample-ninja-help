@@ -9,7 +9,7 @@ Click on the **TEST** -button you can take the survey in the test mode. Test mod
 
 Click on the **REGISTER** -button to register a real panelist.
 
-> Be aware that all built-in security checks will be by passed as long as you authenticated to the admin application. If you need to test that appropiate security checks are working simply copy the link and paste it into a private window. Different browsers call the private windows differently. Refer to the list below if unsure what to look for. You can also paste the link into an another browser that is not currently authentication to the admin application.
+> Be aware that all built-in security checks will be by passed as long as you authenticated to the admin application. If you need to test that appropiate security checks are working simply copy the link and paste it into a private window. Different browsers call the private windows differently. Refer to the list below if unsure what to look for. You can also paste the link into an another browser that is not currently authenticated to the admin application.
 
 - Google Chrome **New ingognito window**
 - Safari **New private window**
