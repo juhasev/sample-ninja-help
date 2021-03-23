@@ -14,16 +14,24 @@ Completion rate % is defined as proportion of the total number of Survey Complet
 
 ### Project progress chart
 
-This chart plots the Daily and Hourly project progress. The chart is automatically scaled to fit the running project duration. If you mouse over over the chart the tooltips will tell you exactly how each bar is composed and what the colors mean.
+This chart plots the Daily and Hourly project progress for the last 72 hours. If you mouse over over the chart the tooltips will tell you exactly how each bar is composed and what the colors mean.
 
 > You can click and highlight a series of days or hour slots which will zoomed in for more granular analysis.
 
 If you like you can export the chart image or it's data click on **three dots** at top right of the chart.
 
-SampleNinja offers the following Image options (show Image options) and the following Data options (show data options) for the distribution of the chart.
+### Outcome statistic to left of the chart
+
+- Starts - Total number of Started surveys for the project
+- Completed - Total number of Completed surveys for the project
+- Quota terminations - Total number of panelists terminated because of Quotas reached for that criteria. Mouse over to see percent from started.
+- Profile terminations - Total number of panelists terminated because of Profile not being suitable for a particular project. Mouse over to see percent from started.
+- Quality terminations - Total number of panelists terminated due to quality. Mouse over to see percent from started.
+- Duplicate terminations - Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
 
 ### Statistics under chart  
-
+- Routed in - Total number of panelists routed into this project from other projects
+- Routed out - Total number of profile or quota terminated panelists successfully routed to other projects
 - Number of initiations sent - Shows the total number of email invites
 - Delivered shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”
 - Opened Shows the number fo opened invitations
@@ -37,17 +45,9 @@ SampleNinja offers the following Image options (show Image options) and the foll
   - 1-10 complaints = Dark Orange
   - No complaints = Green
 
-- Starts - Total number of Started surveys for the project
-- Completed - Total number of Completed surveys for the project
-- Quota terminations - Total number of surveys terminated because of Quotas reached for that criteria
-- Profile terminations - Total number of surveys terminated because of Profile not being suitable for a particular project
-- Routed in - Total number of panelists routed into this project from other projects
-- Routed out - Total number of profile or quota terminated panelists successfully routed to other projects
-
-
 ### Redemption Points allocations for Panellists
 - Total Revenue - Total redemption points allocated thus far for this project in the platform
 - Rewards Issued Total - Total redemption points allocated thus far for this project issued to Panellists
 - Gross Revenue - Is the calculation of Total Revenue MINUS Rewards issued
-- Gross Revenue Margin - TBC
+- Gross Revenue Margin - Display gross revenue margin
 
