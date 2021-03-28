@@ -32,7 +32,9 @@ This allows the user to Select to new subscription status for the checked paneli
 
 This allows the user to DELETE the selected panelists.    
 
-> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist and Sample Ninja will automatically remove them after 1 year. This enables you to retain project statistics, health metrics and other statistics vital to your panel.
+> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete unsubscribed and blacklisted panelists after 1 year. This enables you to retain project statistics, health metrics and other statistics vital to your panel.
+
+> Blacklisted panelist cannot re-join the panel where as unsubscribed panelists can.
 
 #### Change Sub-panel(s) membership
 
