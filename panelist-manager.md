@@ -20,19 +20,19 @@ If you want to use query filter to find panelist you can either build a query ad
 
 The blue button (bottom right of screen) is only visible when AT LEAST ONE panelist is selected using the left hand check boxes.
 
-> **IMPORTANT!** If you are using query filter then batch action is applied to all the panelists, not just the panelist who are visible on the screen!
+> **WARNING!** If you are using query filter then batch action is applied to all the panelists, not just the panelist who are visible on the screen!
 
 #### Change subscription status
 
 This allows the user to Select to new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**
 
-> WARNING! Sample Ninja will automatically delete all collected data variables for any unsubscribed or blacklisted panelists. The activity history and all data system data variables will be retained for 1 year.
+> **WARNING!** Sample Ninja will automatically delete all collected data variables for any unsubscribed or blacklisted panelists. The activity history and all data system data variables will be retained for 1 year.
 
 #### Delete panelists
 
 This allows the user to DELETE the selected panelists.    
 
-> **WARNING - ONCE DELETED YOU CANNOT GET THE PANELIST DATA BACK**
+> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist and Sample Ninja will automatically remove them after 1 year. This enables you to retain project statistics, health metrics and other statistics vital to your panel.
 
 #### Change Sub-panel(s) membership
 
