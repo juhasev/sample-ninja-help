@@ -18,9 +18,9 @@ If you want to use query filter to find panelist you can either build a query ad
 
 ### Perform Batch action
 
-The blue button (bottom right of screen) is only visible when AT LEAST ONE panelist is selected using the left hand check boxes.
+The blue button (bottom right of screen) is only visible when AT LEAST ONE panelist is selected.
 
-> **WARNING!** If you are using query filter then batch action is applied to all the panelists, not just the panelist who are visible on the screen!
+> **WARNING!** If you don't select any panelists when using a query filter then the batch action is applied to all the panelists, not just the panelist who are visible on the screen!
 
 #### Change subscription status
 
