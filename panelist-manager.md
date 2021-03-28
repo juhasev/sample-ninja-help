@@ -42,5 +42,5 @@ This allows the user to DELETE the selected panelists.
 
 This allows the user to switch the selected panelists to chosen Sub-Panels.  This is particularly useful if an organisation is changing how they want to re-structure multiple Sub-panels.
 
-> **IMPORTANT!** The target **sub panel** must contain moved panelists locale.
+> **IMPORTANT!** The target **sub panel** must contain moved panelists locale(s).
 
