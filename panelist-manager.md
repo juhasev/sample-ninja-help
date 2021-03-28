@@ -14,7 +14,9 @@ If there are more than 100 matches using a name, the search screen will only dis
 At the top right corner you have a button to change the data variables fields the are visible. You can select any number of data variables.
 
 #### Add Filter
-If you want to use query filter to find panelist you can either build a query ad hoc or pick an existing query filter saved in the Segments.
+If you want to use query filter to find panelist you can either build a query on the fly or pick an existing query filter you have previously saved in the Segments.
+
+> In order to use segment as a filter, it must be flagged as such in the segment manager!
 
 ### Perform Batch action
 
