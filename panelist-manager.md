@@ -1,8 +1,8 @@
-### Panelist Manager
+## Panelist Manager
 
 Find, edit and perform batch actions on individual panelists or groups of panellists.
 
-#### Searching Panel
+### Searching Panel
 
 You can search for individual panelists by their First Name, Second Name or any wildcard combination of letters contained within these names, as well as searching by individual panelist ID or email address.
 
