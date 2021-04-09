@@ -2,7 +2,7 @@
 
 Health score is simply calculated using formula PANEL UTILIZATION % - PANEL TERMINATED %. Maximum score is 100%. 
 
-> This simple calculation is going to be overhauled in Q2 2021 with more precise calculation!
+> This simple calculation is going to be overhauled in Q3 2021 with more precise calculation!
 
 ### Active vs. Engaged
 
