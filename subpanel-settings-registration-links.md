@@ -18,6 +18,10 @@ You can provide recruitment source ID on the URL by providing **source** paramet
 
 ```https://mysite.sampleninja.io/registration/1/ENG-US?source=1```
 
+Or combined with the test mode
+
+```https://mysite.sampleninja.io/registration/1/ENG-US?source=1&test```
+
 > Source ID must match on of the **Recruitment Sources** created.
 
 ### Security checks
