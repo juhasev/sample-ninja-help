@@ -22,7 +22,7 @@ Or combined with the test mode
 
 ```https://mysite.sampleninja.io/registration/1/ENG-US?source=1&test```
 
-> Source ID must match on of the **Recruitment Sources** created. The parameters can be supplied in any order.
+> Source ID must match the ID of one of the **Recruitment Sources** created. The parameters can be supplied in any order.
 
 ### Security checks
 
