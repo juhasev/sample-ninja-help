@@ -6,7 +6,9 @@ Click on the **TEST** -button you can take the survey in the test mode. The firs
 
 > Please note that no panelist will be created if you take the registration survey in test mode. This also means you will not received email confirmation email.
 
-> Any registration survey link can be turned into test mode simply by appending ?test at the end of registration survey URL.
+> Any registration survey link can be turned into test mode simply by appending ?test at the end of registration survey URL. Example:
+
+```https://mysite.sampleninja.io/registration/1/ENG-US?test```
 
 Click the **URL** to copy it to the clipboard.
 Click on the **REGISTER** -button to register a real panelist.
