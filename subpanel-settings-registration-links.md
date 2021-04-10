@@ -1,7 +1,7 @@
 ## Registration Links
 These are links to for the registration survey. 
 
-Click on the **TEST** -button you can take the survey in the test mode. Test mode also gives you blue **INFO** button in the survey itself given you debug information what is been collected in the background. 
+Click on the **TEST** -button you can take the survey in the test mode. Test mode also gives you blue **INFO** button in the survey itself given you debug information what is been collected in the background. The first link is universal link which automatically detects user's locale.
 
 > Please note that no panelist will be created if you take the registration survey in test mode. This also means you will not received email confirmation email.
 
