@@ -1,10 +1,10 @@
 ## Registration Links
 
-Click on the **TEST** -button you can take the survey in the test mode. The first link is a universal link which automatically detects user's locale.
+Click on the **TEST** -button you can take the survey in the **test mode**. The first link is a universal link which automatically detects user's locale.
 
 > If you run the survey in the test mode then you will see a blue **INFO** button which gives you more information what is beign collected in the background. 
 
-> Please note that no panelist will be created if you take the registration survey in test mode. This also means you will not received email confirmation email.
+> Please note that the registration survey does not register new panelists or send confirmation emails when run using the **test mode**. 
 
 > Any registration survey link can be turned into test mode simply by appending **test** parameter at the end of registration survey URL. Example:
 
