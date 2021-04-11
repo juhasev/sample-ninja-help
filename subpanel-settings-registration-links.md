@@ -1,17 +1,17 @@
 ## Registration Links
 
-Click on the **TEST** -button you can take the survey in the **test mode**. The first link is a universal link which automatically detects user's locale.
+- Click on the **TEST** -button you can take the survey in the **test mode**. 
+- Click the **URL** to copy it to the clipboard.
+- Click on the **REGISTER** -button to register a real panelist.
+
+> The first link indicated with **globe** -icon is a universal link that detect user's country and locale automatically.
 
 > If you run the survey in the test mode then you will see a blue **INFO** button which gives you more information what is beign collected in the background. 
 
 > Please note that the registration survey does not register new panelists or send confirmation emails when run using the **test mode**. 
 
 > Any registration survey link can be turned into test mode simply by appending **test** parameter at the end of registration survey URL. Example:
-
-```https://mysite.sampleninja.io/registration/1/ENG-US?test```
-
-Click the **URL** to copy it to the clipboard.
-Click on the **REGISTER** -button to register a real panelist.
+> ```https://mysite.sampleninja.io/registration/1/ENG-US?test```
 
 ### Recruitment sources
 You can provide recruitment source ID on the URL by providing **source** parameter on the link. Example:
