@@ -10,6 +10,11 @@ Next select the variable you would like to query. **Match** operation is automat
 ### OR groups
 If you need to add ```OR``` condition click on the **Add sub group** button. Select some variables and if any one them matches the entire group is considered **TRUE**
 
+### Business rules
+If you click on the business rules box you can toggle business rules on / off to see their impact on your segment.
+
+> You cannot permanently turn off the business rules off in projects. Projects will automatically turn business rules back on when saved.
+
 ### Segment settings
 These settings only show if you are editing actual segment.
 
