@@ -15,6 +15,8 @@ If you click on the business rules box you can toggle business rules on / off to
 
 > You cannot permanently turn off the business rules off in projects. Projects will automatically turn business rules back on when saved.
 
+If you need to modify or review your business rules you can do so by visiting **Panel Settings** **Business Rules** -tab.
+
 ### Segment settings
 These settings only show if you are editing actual segment.
 
