@@ -7,7 +7,7 @@ Next select the variable you would like to query. **Match** operation is automat
 
 > To reduce clutter on the screen use the **Compact** toggle to get rid of the ```AND``` and ```OR``` -labels.
 
-### OR groups
+#### OR groups
 If you need to add ```OR``` condition click on the **Add sub group** button. Select some variables and if any one them matches the entire group is considered **TRUE**
 
 ### Business rules
