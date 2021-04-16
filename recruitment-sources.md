@@ -16,6 +16,10 @@ Once this is created, the new recruitment source will be given a Unique Recruitm
 
 ## Tracking recruitment sources in real life
 
-If you are using the built-in registration survey you need to append &source=[ID] to the URL to capture the recruitment source. The recruitment source IDs are listed on the each row. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
+If you are using the built-in registration survey you need to append &source=[ID] to the URL to capture the recruitment source. Example:
+
+```https://yourcompany.sampleninja.io/registration/1/ENG-US?source=12```
+
+The recruitment source IDs are listed on the each row. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
 
 > If you do not append any recruitment source the default source will be used.
