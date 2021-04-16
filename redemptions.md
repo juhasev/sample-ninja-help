@@ -2,9 +2,9 @@
 
 ### APPROVALS
 
-This table displays requests from individual panelists to redeem their accumulated points. Select redemptions and either chose to **APPROVE SELECTED** or **REJECT SELECTED**. When reward is approved Sample Ninja will execute the redemption with vendor.
+This table displays redemption requests from panelists to redeem their points for rewards. Select one or more redemption requests and either choose to **APPROVE SELECTED** or **REJECT SELECTED**. When a reward request is approved Sample Ninja will execute the redemption with vendor in the next fifteen minutes.
 
-> Rejected redemptions are refunded back to the panelists so they can try again.
+> If you reject redemption requests the panelists are given full refund.
 
 ### HISTORY
 
