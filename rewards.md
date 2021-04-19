@@ -12,7 +12,7 @@ Once the account API keys have been obtained click on the **configure** button t
 
 #### Manage Rewards
 
-The user can chose to **Select** the chosen currency nominations (1, 5, 10, 20, 50,100, 200, 500 and 1000), currently only available in Canadian Dollars, Euros, Great British Pounds and US Dollars.
+Select the nominations and currencies your would like to offer. Maximum nomination for USD, GBP and EUR is 200 others 1000.
 
 #### Disable
 
