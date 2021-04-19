@@ -24,7 +24,7 @@ The TangoCard integration enables you to distribute hundreds of electronic gift 
 
 > Click on the **Tango catalog** to view full catalog of gift cards available for example if you wanted to know what rewards are available in your country.
  
-> **IMPORTANT!** Tango Card account only supports funding in **USD** however you can selected rewards cards in other currencies. Sample Ninja will automatically converts the foreign currency to USD using rates established by Tango Card.
+> **IMPORTANT!** Tango Card only supports funding in **USD** however you can select rewards cards in other currencies. Sample Ninja will automatically converts the foreign currency to USD using rates established by Tango Card.
 
 #### Manage Rewards
 
