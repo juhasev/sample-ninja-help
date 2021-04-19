@@ -1,6 +1,6 @@
 ## Rewards
 
-This screen is for managing rewards, gift cards and redemption options that are already available within Sample Ninja.
+This screen is for managing rewards, gift cards and redemption options that are already available within Sample Ninja. All reward redemptions that your panelist request must be manually approved in **Redemptions**.
 
 ### PayPal
 
@@ -18,13 +18,13 @@ The user can chose to **Select** the chosen currency nominations (1, 5, 10, 20, 
 
 Disables reward partner completely.
 
-> All PayPal redemptions that your panelist make must be manually approved in **Redemptions**
-
 ### TangoCard
 
 The TangoCard integration enables you to distribute hundreds of electronic gift cards in multiple different countries. You can get started by clicking on the configure dialog. Sample Ninja will automatically create an account for you. If you selected "Sandbox" then we will automatically fund the account with $1000 USD.
 
 > Click on the **Tango catalog** to view full catalog of gift cards available for example if you wanted to know what rewards are available in your country.
+ 
+> **IMPORTANT!** Tango Card account only supports funding in **USD** however you can selected rewards cards in other currencies. Sample Ninja will automatically converts the foreign currency to USD using rates established by Tango Card.
 
 #### Manage Rewards
 
@@ -34,4 +34,3 @@ Allows the user to select which reward cards (and appropriate denominations) are
 
 Disables reward partner completely.
 
-> All TangoCard redemptions that your panelist make must be manually approved in **Redemptions**
