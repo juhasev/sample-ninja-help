@@ -18,6 +18,8 @@ The user can chose to **Select** the chosen currency nominations (1, 5, 10, 20, 
 
 Disables reward partner completely.
 
+> All PayPal redemptions that your panelist make must be manually approved in **Redemptions**
+
 ### TangoCard
 
 The TangoCard integration enables you to distribute hundreds of electronic gift cards in multiple different countries. You can get started by clicking on the configure dialog. Sample Ninja will automatically create an account for you. If you selected "Sandbox" then we will automatically fund the account with $1000 USD.
@@ -31,3 +33,5 @@ Allows the user to select which reward cards (and appropriate denominations) are
 #### Disable
 
 Disables reward partner completely.
+
+> All TangoCard redemptions that your panelist make must be manually approved in **Redemptions**
