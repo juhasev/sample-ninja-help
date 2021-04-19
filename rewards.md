@@ -8,7 +8,7 @@ PayPal integration enables you distribute cash rewards to your panelists in a ve
 
 Once the account API keys have been obtained click on the **configure** button to enter the keys. First by selecting the appropriate **Environment** and then entering the **Client ID** and **Secret required**. If everything went successfully you should see account balance(s) loaded up.
 
-> **IMPORTANT!** In order to distribute PayPal rewards in multiple currencies you must add that currency into your account. Sample Ninja does not support currency conversions due to high fees imposed by PayPal. Once you have multiple currencies on your account you can select rewards for that currency.
+> **IMPORTANT!** In order to distribute PayPal rewards in multiple currencies you must add that funds in that currency into your account. Sample Ninja does not support currency conversions due to high fees imposed by PayPal. Once you have multiple currencies on your account you can select rewards for that currency.
 
 #### Manage Rewards
 
