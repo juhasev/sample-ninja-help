@@ -17,7 +17,7 @@ https://yourdomain.sampleninja.io/registration/1/ENG-CA?source=10
 
 Toggle **TUNE Enabled** if you need the recruitment survey to send conversion data back to Tune.
 
-> For more information visit [Tune's Website](https://www.tune.com)
+> For more information visit https://www.tune.com
 
 When enabled the **transaction_id** parameter must be provided along with the **source** parameter. Example:
 
