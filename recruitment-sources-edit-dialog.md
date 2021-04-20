@@ -25,3 +25,4 @@ When enabled the **transaction_id** parameter must be provided along with the **
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
 ```
 
+> For developer documentation please visit [Getting started with the JavaScript SDK](https://developers.tune.com/javascript-sdk/getting-started-with-the-javascript-sdk){:target="_blank"}
