@@ -4,11 +4,11 @@
 
 This table displays redemption requests from panelists to redeem their points for rewards. Select one or more redemption requests and either choose to **APPROVE SELECTED** or **REJECT SELECTED**. When a reward request is approved Sample Ninja will execute the redemption with vendor in the next fifteen minutes.
 
-> If you reject redemption requests the panelists are given full refund.
+> If you reject redemption requests the panelists are given a full refund.
 
 ### HISTORY
 
-View historical approvals data and monitor partner status. If you mouse over the **info** icon you will see a popup that contains reward partner data.
+View historical approvals data and monitor partner status. If you mouse over the **info** icon you will see a popup that contains reward partner supplied data. This data varies by vendor but can be useful for trouble shooting purposes.
 
 ### TangoCard statuses
 
