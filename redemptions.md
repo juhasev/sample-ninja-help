@@ -10,11 +10,13 @@ This table displays redemption requests from panelists to redeem their points fo
 
 View historical approvals data and monitor partner status. If you mouse over the **info** icon you will see a popup that contains reward partner data.
 
-#### TangoCard statuses
+### TangoCard statuses
 
 ```COMPLETE``` Transaction was successfully completed
 
-#### PayPal Statuses
+> Looking for a indivial panelist redemption? If so you are in the wrong place! Go to **panelist manager** and search for the panelist either by using, name, email or ID. Click on the panelist and open the **redemptions** -tab.
+
+### PayPal Statuses
 
 ```SUCCESS``` Funds have been credited to the recipient’s account.
 
