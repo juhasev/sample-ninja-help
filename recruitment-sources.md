@@ -1,8 +1,8 @@
 # Recruitment Sources
 
-This screen displays all of the Recruitment sources that the Panel have used to directly to recruit their panelists and have attached an associated COST (**In terms of internal points within the platform**) to each unique Recruitment source. 
+Recruitment sources can be used to keep track ofdifferent recruitment sources, their effectiveness and costs. By default all panelist are assigned RECRUITMENT_SOURCE = 1.
 
-To edit the cost per conversion, click on any recruitment source name to edit. If you disable a recruitment source it will no longer accept any recruits.
+To edit the **cost per conversion**, click on any recruitment source name to edit. If you disable a recruitment source it will no longer accept any recruits.
 
 ## Create new recruitment sources
 
@@ -18,4 +18,4 @@ If you are using the built-in registration survey you need to append &source=[ID
 
 The recruitment source IDs are listed on the each row. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
 
-> If you do not append any recruitment source the default source will be used.
+> If you do not append any recruitment source the default source (1) will be used.
