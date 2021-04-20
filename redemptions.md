@@ -14,7 +14,7 @@ View historical approvals data and monitor partner status. If you mouse over the
 
 ```COMPLETE``` Transaction was successfully completed
 
-> Looking for a indivial panelist redemption? If so you are in the wrong place! Go to **panelist manager** and search for the panelist either by using, name, email or ID. Click on the panelist name and open up the **redemptions** -tab.
+> If you looking for an indiviaul panelist's redemption then you are in the wrong place! Go to **panelist manager** and search for the panelist either by using, name, email or ID. Click on the panelist name and open up the **redemptions** -tab.
 
 ### PayPal Statuses
 
