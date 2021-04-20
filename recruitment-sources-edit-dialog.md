@@ -19,7 +19,7 @@ Toggle **TUNE Enabled** if you need the recruitment survey to send conversion da
 
 > For more information visit [Tune's Website](https://www.tune.com)
 
-When enabled the **transaction_id** parameter must be providing along with the **source** parameter. Example:
+When enabled the **transaction_id** parameter must be provided along with the **source** parameter. Example:
 
 ```
 https://yourdomain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8-066b-4c8f-b0a1-dd0421d0a3c6
