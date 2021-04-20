@@ -11,7 +11,6 @@ In order for the recruitment source tracking to work you must supply the **sourc
 
 ```
 https://yourdomain.sampleninja.io/registration/1/ENG-CA?source=10
-
 ```
 
 #### Tune Integration
