@@ -10,7 +10,7 @@ By default all recruitment sources are enabled. If you wish to turn one off then
 In order for the recruitment source tracking to work you must supply the **source** parameter on the URL. Example:
 
 ```
-https://yourdomain.sampleninja.io/registration/1/ENG-CA?source=10
+https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 ```
 
 #### Tune Integration
@@ -22,6 +22,6 @@ Use the switch/toggle to enable conversion reporting back to Tune.
 When enabled the **transaction_id** parameter must be provided along with the **source** parameter. Example:
 
 ```
-https://yourdomain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
+https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
 ```
 
