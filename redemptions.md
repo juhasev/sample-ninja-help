@@ -12,7 +12,7 @@ View historical approvals data and monitor partner statuses.
 
 > If you mouse over the **info** icon you will see a popup that contains any reward partner supplied data. This data varies by vendor but can be useful for trouble shooting purposes. Click on the icon to copy all the data.
 
-### TangoCard statuses
+### Tango Card statuses
 
 ```COMPLETE``` Transaction was successfully completed
 
