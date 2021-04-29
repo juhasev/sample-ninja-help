@@ -13,9 +13,10 @@ You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technica
 These values cannot be modified once imported!
 
 > You can view a list of importer writable variables in **Data Variables** but selecting **Registration / Import writable** as class
+
 > **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
 
-> If you import BIRTH_DATE variable the system will automatically check it against **minimum age to joini** settings found in the **Sub Panel settings**.
+> If you import BIRTH_DATE variable the system will automatically check it against **minimum age to join** settings found in the **Sub Panel settings**.
 
 ## Getting started with your own import
 
