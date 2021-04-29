@@ -70,9 +70,9 @@ Example results file:
 
 ```csv
 "BIRTH_DATE","EMAIL","FIRST_NAME","LAST_NAME","RECRUITMENT_SOURCE","POINTS_BALANCE"
-# BIRTH_DATE: Panelist does not meet the minimum age requirement to join. Please refer to Sub Panel settings -> minimum age to join!
+# BIRTH_DATE: Panelist does not meet the minimum age requirement to join
 # RECRUITMENT_SOURCE: Valid values are 1,2,3,5
-"2021-03-23","juha2@hotmail.com","Jailyn","Preston",6,2000
+"2021-03-23","john@hotmail.com","Jailyn","Preston",6,2000
 # EMAIL: Skipped existing panelist
-"1980-03-29","juha3@hotmail.com","Charity","Paige",2,1000
+"1980-03-29","doe@hotmail.com","Charity","Paige",2,1000
 ```
