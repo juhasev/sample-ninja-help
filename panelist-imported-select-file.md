@@ -17,7 +17,7 @@ These values cannot be modified once imported!
 
 Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. Just follow the format and you are good to go. 
 
-> **IMPORTANT!** Do not import the file back in unless you are running **SIMULATION MODE**.
+> **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated at the top toolbar with lanel **SIMULATION**
 
 ## An overview of the process is shown below:
 
