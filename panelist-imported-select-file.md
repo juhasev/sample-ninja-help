@@ -17,9 +17,11 @@ These values cannot be modified once imported!
 
 > If you import BIRTH_DATE variable the system will automatically check it against **minimum age to joini** settings found in the **Sub Panel settings**.
 
-Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
+## Getting started with your own import
 
-> **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated at the top toolbar with label **SIMULATION**
+The easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
+
+> **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**
 
 ## An overview of the process is shown below:
 
