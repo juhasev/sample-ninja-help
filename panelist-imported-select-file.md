@@ -16,7 +16,9 @@ These values cannot be modified once imported!
 
 > **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
 
-> If you import BIRTH_DATE variable the system will automatically check it against **minimum age to join** settings found in the **Sub Panel settings**.
+> BIRTH_DATE variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
+
+> LOCALE must exists in the targeted sub panel or line will fail. Locales must be specified in format ENG-US.
 
 ## Getting started with your own import
 
