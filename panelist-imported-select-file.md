@@ -18,13 +18,13 @@ These values cannot be modified once imported!
 
 > If you import BIRTH_DATE variable the system will automatically check it against **minimum age to join** settings found in the **Sub Panel settings**.
 
-### Getting started with your own import
+## Getting started with your own import
 
 The easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**
 
-### An overview of the process is shown below:
+### Import process
 
 1. Select file to import 
 2. Inspection 
@@ -34,7 +34,7 @@ The easiest way to get started is to produce a test import file by clicking **GE
 
 ### 1.	Select file to import
 
-Click on the designated area and browse your device for the file you want to import or simply locate the file on your device and drag & drop it into the drop zone indicated by a dashed line.
+Click on the designated area and select a file to import or simply locate the file on your device and drag & drop it into the drop zone indicated by a dashed line.
 
 ### 2.	Inspection
 
