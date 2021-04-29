@@ -15,7 +15,9 @@ These values cannot be modified once imported!
 > You can view a list of importer writable variables in **Data Variables** but selecting **Registration / Import writable** as class
 > **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
 
-Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. Just follow the format and you are good to go. 
+> If you import BIRTH_DATE variable the system will automatically check it against **minimum age to joini** settings found in the **Sub Panel settings**.
+
+Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated at the top toolbar with label **SIMULATION**
 
