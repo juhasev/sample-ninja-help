@@ -10,4 +10,4 @@ If you have enabled the member's app you can access the link by clicking on the 
 
 If you are using built-in registration survey you can access the links by clicking on the **registration survey** box.
 
-> Sub panel logos should be uploaded in PNG format and they should be supplied 900px x 300px size. Depending on your landing page / email template design you might want to upload logo with transparent background.
+> Sub panel logos should be uploaded in PNG format and they should be supplied 900px x 300px size. Depending on your landing page / email template design you might want to upload logo with transparent background. This applies to **PNG** format only.
