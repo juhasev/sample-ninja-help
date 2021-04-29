@@ -58,7 +58,7 @@ You can assign or specify the following before clicking the ‘Upload’ button:
 3.	Recruitment source
 4.	Join date
 
-> You can provide LOCALE, RECRUITMENT_SOURCE and SUBSCRIBED_DATE variables for each individual panelist as well. If you do then the importer will ignore selections you make here.
+> You can provide LOCALE, RECRUITMENT_SOURCE and SUBSCRIBED_DATE variables for each individual panelists. If the importer encounters any blank or missing values then the default values provided will be used.
 
 ## 5.	Results
 
