@@ -64,4 +64,4 @@ The result of the outcome of the upload is displayed here. You can see how many 
 
 If you import contains any errors the system will automatically generate CSV import result file containing all the CSV lines with errors and explanation how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to download the file or click on the **Downloads** -button. 
 
-> Use the results file to iteratively fix issues. Once you have applied required fix you can re-import the results file.
+> Use the results file to iteratively fix issues. Download the file and fix the indicated issues. You can re-import the results file with the error comments in place!
