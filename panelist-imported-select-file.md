@@ -2,9 +2,18 @@
 
 Panelist Importer let’s you to import panelists (members) to an existing panel or subpanel from a CSV file.
 
-You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically you can import any variable that are are import writable with the exception POINTS_BALANCE, LOCALE and RECRUITMENT_SOURCE which cannot be modified once imported.
+You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically you cannot import into any data variables that are not owned by the system with the exception 
 
-> You can view a list of importer writable variable in **Data Variables** but selecting **Registration / Import writable** as class.
+- POINTS_BALANCE
+- LOCALE
+- SUBSCRIBED_DATE
+- EMAIL_CONFIRMED
+- RECRUITMENT_SOURCE
+
+These values cannot be modified once imported!
+
+> You can view a list of importer writable variables in **Data Variables** but selecting **Registration / Import writable** as class
+> **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
 
 Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. Just follow the format and you are good to go. 
 
