@@ -44,12 +44,13 @@ Once you have completed inspecting your file, you can either click the ‘Restar
 
 ### 3.	Mapping
 
-The system will attempt to automatically map all variables/ columns in the import file to a variable in the system with the same name, provided that such a variable exists. 
-The variables or columns in the import file are shown on the left hand-side of window and the matching variable in the system on the right-hand side.
-Where the system cannot auto-map a variable you have the options of either: 
+The system will attempt to automatically map all variables/ columns in the import file to a variable in the system with the same name, provided that such a variable exists. The variables or columns in the import file are shown on the left hand-side of window and the matching variable in the system on the right-hand side.
 
-1.	manually mapping to a variable in the system by selecting from the list of available variables in the dropdown list, or 
-2.	leaving this variable out in the import by clicking on ‘ignore this column’ button.
+If the system cannot auto-map a variable you have the options of either: 
+
+1.	Manually mapping to a variable in the system by selecting from the list of available variables in the dropdown list, or 
+2.	Leaving this variable out in the import by clicking on **ignore this column** button.
+
 If the later is chosen, the variable in question will be skipped and left out from the import. 
 Where there are missing values or validation failures a warning message is displayed against the variable in question. For more detailed inspection of the error, simply click on the error text.
 
