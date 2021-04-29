@@ -52,12 +52,16 @@ Where there are missing values or validation failures a warning message is displ
 
 You can assign or specify the following before clicking the ‘Upload’ button:
 1.	Target sub panel 
-2.	 Locale
+2.	Locale
 3.	Recruitment source
 4.	Join date
 
+> You can provide LOCALE, RECRUITMENT_SOURCE and SUBSCRIBED_DATE variables for each individual panelist as well. If you do then the importer will ignore selections you make here.
+
 ## 5.	Results
 
-The result of the outcome of the upload is displayed here. You can see how many panelists were successfully imported and similarly the number of panelists that couldn’t be imported. 
+The result of the outcome of the upload is displayed here. You can see how many panelists were successfully imported and similarly the number of panelists that couldn’t be imported. Any errors are highlighted in red. If you mouse over the error items you will see more details description of the error.
 
-A download of all panelist that couldn’t be imported is available.
+If you import contains any errors the system will automatically generate CSV import result file containing all the CSV lines with errors and explanation how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to download the file or click on the **Downloads** -button. 
+
+> Use the results file to iteratively fix issues. Once you have applied required fix you can re-import the results file.
