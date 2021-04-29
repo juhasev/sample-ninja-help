@@ -65,3 +65,14 @@ The result of the outcome of the upload is displayed here. You can see how many 
 If you import contains any errors the system will automatically generate CSV import result file containing all the CSV lines with errors and explanation how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to download the file or click on the **Downloads** -button. 
 
 > Use the results file to iteratively fix issues. Download the file and fix the indicated issues. You can re-import the results file with the error comments in place!
+
+Example results file:
+
+```csv
+"BIRTH_DATE","EMAIL","FIRST_NAME","LAST_NAME","RECRUITMENT_SOURCE","POINTS_BALANCE"
+# BIRTH_DATE: Panelist does not meet the minimum age requirement to join. Please refer to Sub Panel settings -> minimum age to join!
+# RECRUITMENT_SOURCE: Valid values are 1,2,3,5
+"2021-03-23","juha2@hotmail.com","Jailyn","Preston",6,2000
+# EMAIL: Skipped existing panelist
+"1980-03-29","juha3@hotmail.com","Charity","Paige",2,1000
+```
