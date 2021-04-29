@@ -62,7 +62,7 @@ You can assign or specify the following before clicking the ‘Upload’ button:
 
 The result of the outcome of the upload is displayed here. You can see how many panelists were successfully imported and similarly the number of panelists that couldn’t be imported. Any errors are highlighted in red. If you mouse over the error items you will see more details description of the error.
 
-If you import contains any errors the system will automatically generate CSV import result file containing all the CSV lines with errors and explanation how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to download the file or click on the **Downloads** -button. 
+If you import contains any errors the system will automatically generate an results file containing all the CSV lines with errors and explanation how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to go to downloads or click on the **Downloads** -button in the importer results screen. 
 
 > Use the results file to iteratively fix issues. Download the file and fix the indicated issues. You can re-import the results file with the error comments in place!
 
