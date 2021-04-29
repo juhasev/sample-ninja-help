@@ -2,7 +2,7 @@
 
 Panelist Importer let’s you to import panelists (members) to an existing panel or subpanel from a CSV file.
 
-You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically you cannot import into any data variables that are not owned by the system with the exception 
+You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically you cannot import into any data variables that are not owned by the system with the exception of
 
 - POINTS_BALANCE
 - LOCALE
@@ -17,13 +17,7 @@ These values cannot be modified once imported!
 
 Easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. Just follow the format and you are good to go. 
 
-> IMPORTANT: Do not import test import files back in unless you are running **DEMO MODE**.
-
-## Important: 
-
-BEFORE selecting a file to import, it’s highly recommended that you create a data variable (including answer options) in **Data Variables** for each variable in the import file that you intend to import.
-
-It’s further recommended that the name of data variable name in the Data Variables component and the corresponding name of the variable in the import file match, where possible. This will save you a lot time in having to correcting errors, mapping variables or avoid you having to re-start the import process.   
+> **IMPORTANT!** Do not import the file back in unless you are running **SIMULATION MODE**.
 
 ## An overview of the process is shown below:
 
@@ -35,7 +29,7 @@ It’s further recommended that the name of data variable name in the Data Varia
 
 ## 1.	Select file to import
 
-Click on the designated area and browse your device for the file you want to import or simply locate the file on your device and drag & drop it into designated area
+Click on the designated area and browse your device for the file you want to import or simply locate the file on your device and drag & drop it into the drop zone indicated by a dashed line.
 
 ## 2.	Inspection
 
