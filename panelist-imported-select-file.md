@@ -16,9 +16,9 @@ These values cannot be modified once imported!
 
 > **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
 
-> BIRTH_DATE variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
+> **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
-> LOCALE must exists in the targeted sub panel or line will fail. Locales must be specified in format ENG-US.
+> **LOCALE** must exists in the targeted sub panel or line will fail. Locales must be specified in format **ENG-US**.
 
 ## Getting started with your own import
 
@@ -34,11 +34,11 @@ Click on the designated area and select a file to import or simply locate the fi
 
 Here you’ll be able to visually inspect the first 100 records of your CSV file for any obvious errors. At the bottom of this screen you can also change the number records or rows per page shown. 
 
-Once you have completed inspecting your file, you can either click the ‘Restart’ button at the bottom of the page to re-start the import process or click ‘Next let’s map your data’ button to continue.
+Once you have completed inspecting your file, you can either click the **Restart** button at the bottom of the page to re-start the import process or click **Next let’s map your data** -button to continue.
 
 ### 3.	Mapping
 
-The system will attempt to automatically map all variables/ columns in the import file to a variable in the system with the same name, provided that such a variable exists. The variables or columns in the import file are shown on the left hand-side of window and the matching variable in the system on the right-hand side.
+The system will attempt to automatically map all columns in the import file to a variables in the system with the same names, provided that such a variable exists. The variables or columns in the import file are shown on the left hand-side of window and the matching variable in the system on the right-hand side.
 
 If the system cannot auto-map a variable you have the options of either: 
 
@@ -50,13 +50,14 @@ Where there are missing values or validation failures a warning message is displ
 
 ### 4.	Upload
 
-You can assign or specify the following before clicking the ‘Upload’ button:
+You can assign or specify the following before clicking the **Upload** button:
+
 1.	Target sub panel 
 2.	Locale
 3.	Recruitment source
-4.	Join date
+4.	Subscribed date
 
-> You can provide LOCALE, RECRUITMENT_SOURCE and SUBSCRIBED_DATE variables for each individual panelists. If the importer encounters any blank or missing values then the default values provided will be used.
+> You can provide **LOCALE**, **RECRUITMENT_SOURCE** and **SUBSCRIBED_DATE** for each individual panelists if desired. If the importer encounters any blank or missing values then the values you selected here will be used. You may also omit these columns completely from your CSV file.
 
 ### 5.	Results
 
