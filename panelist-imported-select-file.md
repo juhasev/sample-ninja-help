@@ -26,14 +26,6 @@ The easiest way to get started is to produce a test import file by clicking **GE
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**
 
-### Import process
-
-1. Select file to import 
-2. Inspection 
-3. Mapping
-4. Upload
-5. Results
-
 ### 1.	Select file to import
 
 Click on the designated area and select a file to import or simply locate the file on your device and drag & drop it into the drop zone indicated by a dashed line.
