@@ -10,8 +10,6 @@ You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technica
 - EMAIL_CONFIRMED
 - RECRUITMENT_SOURCE
 
-These values cannot be modified once imported!
-
 > You can view a list of importer writable variables in **Data Variables** but selecting **Registration / Import writable** as class
 
 > **RECRUITMENT_SOURCE** must be one of the defined under **Recruitment Sources** menu item.
