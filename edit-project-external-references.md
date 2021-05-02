@@ -1,4 +1,6 @@
 ### External references
 
-Optional fields for referencing other systems like customer relationship management (CRM) and billing systems. Values can be anything.
+Optional fields for referencing other systems like customer relationship management (CRM) and billing systems. 
+
+> Values can be anything in string or number format.
 
