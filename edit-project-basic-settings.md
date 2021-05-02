@@ -34,3 +34,7 @@ The total number of survey completes that the project needs to achieve.
 
 #### Length of interview
 Estimated length of interview in minutes. The length of interview will be displayed to the participants if you have configured your email invitation template to display the **Project Info Box**. The default project email templates are configurable for each sub panel under **sub panels**.
+
+#### Estimated Incidence rate
+This is provided for reference purposes. If value deviates too much from the estimate Sample Ninja can provide automatic alerts. See **Panel Settings -> Basic settings** to configure the alers.
+
