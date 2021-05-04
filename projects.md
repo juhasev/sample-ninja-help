@@ -67,6 +67,11 @@ Response rate has a color indicator that can be either **Green, Amber and Red**.
 
 > Response rate is calculated using **completes / invitations * 100%** 
 
+#### INCIDENCE RATE
+Displays project's current incidence rate. The indicator is color coded based on difference of the estimated incidence compared and the actual incidence rate. Incidence indicator stays **green** as long as your actual incidence > estimated incidence and gradually goes thru **amber** to **red**. The red status is given based on the incidence rate threshold setup in **the panel settings**.
+
+> Incidence rate is calculated using **completes / (completes + terminated) * 100%**
+
 #### RATING
 
 This is an average survey rating score on a scale of 1 - 10. Survey ratings are collected at the end of each interview and is voluntary to panelists. The rating functionality is on by default but can be turned off in the **PANEL SETTINGS** if desired.
