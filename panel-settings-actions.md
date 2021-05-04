@@ -2,11 +2,12 @@
 
 ### Send notifications when **response rate** falls under configured % 
 The system will automatically notify the project manager and the assistant manager (if selected) when **Response Rate** has fallen below the configured percentage.
+The following projects prequisites must be met. A project has been sampling at least 4 hours or has minimum of 100 starts.
 
 >**Response rate** is calculated using **completed / invited * 100%**
 
 ### Send notifications when **start rate** falls under configured % 
-The system will automatically notify the project manager and the assistant manager (if selected) when **Start Rate** has fallen below the configured percentage. The following projects prequisites must be met. A project has been sampling at least 4 hours or has minimum of 100 starts.
+The system will automatically notify the project manager and the assistant manager (if selected) when **Start Rate** has fallen below the configured percentage. The following projects prequisites must be met. A project has been sampling at least 4 hours or minimum of 100 invites has been sent out.
 
 > **Start rate** is calculated using **started / invited * 100%**
 
@@ -24,3 +25,5 @@ This settings tells the system when to consider someone a speeder. If you projec
 > If you are logged in you get these notifications pushed to the application otherwise an email will be sent instead.
 
 > Please note that the project **email notification** - setting must be turned on to receive an email notifications!
+
+> Email notifications repeat every 4 hours by default unless the problem has been fixed 
