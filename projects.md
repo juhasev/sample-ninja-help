@@ -8,9 +8,9 @@ The screen is kept uncluttered by default by applying **Responsible for** filter
 
 ### Search
 
-The search functionality searches thru ID name, **external project reference* and **extenral billing reference**. Make sure you clear filters before searching otherwise you may not see the results.
+The search functionality searches thru **ID**, **name**, **external project reference* and **external billing reference**. Make sure you clear any filters before searching otherwise you may not see the results.
 
-> **PLEASE NOTE** that the search will only search thru the active projects. If you need to search for archived projects please switch to the **ARCHIVED PROJECTS** -tab.
+> **PLEASE NOTE** that the search will only search thru the active projects. If you need to search for archived projects please switch to the ARCHIVED PROJECTS -tab.
 
 ### Projects table
 
