@@ -10,19 +10,24 @@ The screen is kept uncluttered by default by applying **Responsible for** filter
 
 Some columns are sortable simply click on the table headers to change the sort order.
 
-#### PROJECT NAME
-This is internal project name. This name is never disclosed to the panelists
+#### ID
 
-#### PROJECT ERROR INDICATOR
-If you see an error indicator on your project something may have gone wrong. Click on the error indicator to see the details. 
-
-> If you clear all the errors the error indicator will disappear but will come back if any consequent sampling errors occur.
+Simply indicates project ID
 
 #### PRIORITY
 
 If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5). 
 
 > The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. All new registerered, uploaded panelists and all panelists that are continuously freed as the business rules exclusions expire are added to the available sample pool.
+
+#### NAME
+This is internal project name. This name is never disclosed to the panelists
+
+#### ERROR INDICATOR
+If you see an error indicator on your project something may have gone wrong. Click on the error indicator to see the details. 
+
+> If you clear all the errors the error indicator will disappear but will come back if any consequent sampling errors occur.
+
 
 #### PROGRESS
 
