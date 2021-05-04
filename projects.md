@@ -6,6 +6,12 @@ Create, manage and track progress of all projects within the system. To create a
 
 The screen is kept uncluttered by default by applying **Responsible for** filter. You can change the filtering by adding or removing additional filters.
 
+### Search
+
+The search functionality searches thru ID name, **external project reference* and **extenral billing reference**. Make sure you clear filters before searching otherwise you may not see the results.
+
+> **PLEASE NOTE** that the search will only search thru the active projects. If you need to search for archived projects please switch to the **ARCHIVED PROJECTS** -tab.
+
 ### Projects table
 
 Some columns are sortable simply click on the table headers to change the sort order.
