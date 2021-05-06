@@ -1,3 +1,5 @@
 ### External supplies
 
-> Experimental feature, help file coming soon.
+External suppliers are third party sample providers typically other panels. To create a new supplier click on the **plus** -button top right.
+
+To edit simply click on the supplier name.
