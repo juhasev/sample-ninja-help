@@ -6,9 +6,7 @@ To edit the **cost per conversion**, click on any recruitment source name to edi
 
 ## Create new recruitment sources
 
-By clicking on the plus sign in the top right of the screen, you can add new recruitment sources.
-
-Each recruitment source has a Unique Recruitment Source ID, which the SampleNinja Platform uses to track the unique Panelist journey within the panel that feeds into all of the various reports.
+Click on the plus -icon to add a new recruitment source.
 
 ## Tracking recruitment sources in real life
 
@@ -16,6 +14,6 @@ If you are using the built-in registration survey you need to append &source=[ID
 
 ```https://yourcompany.sampleninja.io/registration/1/ENG-US?source=12```
 
-The recruitment source IDs are listed on the each row. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
+The recruitment source IDs are listed on the each row for each source. Similarly if you are registering panelist using the Community API you must supply the correct ID in the **RegisterPanelist** API call.
 
 > If you do not append any recruitment source the default source (1) will be used.
