@@ -4,7 +4,7 @@ Find, edit and perform batch actions on individual panelists or groups of panell
 
 ### Searching Panel
 
-You can search for individual panelists by their First Name, Second Name or any wildcard combination of letters contained within these names, as well as searching by individual panelist ID or email address.
+You can search for individual panelists by their Panelist ID, First Name, Last Name or any wildcard combination of letters contained within these names, as well as searching by individual panelist ID or email address.
 
 > The search displays first 100 matches while the blue box on the right indicates the total number of panelists that match the search string.
 
