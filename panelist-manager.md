@@ -6,9 +6,7 @@ Find, edit and perform batch actions on individual panelists or groups of panell
 
 You can search for individual panelists by their First Name, Second Name or any wildcard combination of letters contained within these names, as well as searching by individual panelist ID or email address.
 
-The search displays ALL matches of the search sting. If you search for a common name the screen will display the total number of panelists.
-
-If there are more than 100 matches using a name, the search screen will only display the first 100 panelists.
+> The search displays first 100 matches while the blue box on the right indicates the total number of panelists that match the search string.
 
 #### Selecting fields
 At the top right corner you have a button to change the data variables fields the are visible. You can select any number of data variables.
@@ -16,7 +14,7 @@ At the top right corner you have a button to change the data variables fields th
 #### Add Filter
 If you want to use query filter to find panelist you can either build a query on the fly or pick an existing query filter you have previously saved in the Segments.
 
-> In order to use segment as a filter, it must be flagged as such in the segment manager!
+> In order to use segment as a filter, it must be saved with **filter** toggle turned on!
 
 ### Perform Batch action
 
