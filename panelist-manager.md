@@ -28,13 +28,13 @@ The blue button (bottom right of screen) is only visible when AT LEAST ONE panel
 
 This allows the user to Select to new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**
 
-> **WARNING!** Sample Ninja will automatically delete all collected data variables for any unsubscribed or blacklisted panelists. The activity history and all data system data variables will be retained for 1 year.
+> **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics and other critical statistics to operate your panel efficiently.
 
 #### Delete panelists
 
 This allows the user to DELETE the selected panelists.    
 
-> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete unsubscribed and blacklisted panelists after 1 year. This enables you to retain project statistics, health metrics and other statistics vital to your panel.
+> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics and other critical statistics to operate your panel efficiently.
 
 > Blacklisted panelist cannot re-join the panel where as unsubscribed panelists can.
 
