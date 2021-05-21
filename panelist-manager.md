@@ -34,7 +34,7 @@ This allows the user to Select to new subscription status for the checked paneli
 
 This allows the user to DELETE the selected panelists.    
 
-> **WARNING** - Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics and other critical statistics to operate your panel efficiently.
+> **WARNING!** Delete panelist function should only be used when you absolutely need to wipe out the entire panelist record including any activity. For all other purposes you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics and other critical statistics to operate your panel efficiently.
 
 > Blacklisted panelist cannot re-join the panel where as unsubscribed panelists can.
 
