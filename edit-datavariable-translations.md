@@ -2,7 +2,7 @@
 
 Here you control how this variable is going to be presented as a question to panelists. Any question text and option texts you define here are automatically applied to any registration survey or dynamic profiling questions. All questions can be translated for multiple locales (languages) if desired.
 
-> TIP: If your panel is single locale and your data variable options match those of question options you should only edit data variable options under the **settings** tab. Sample Ninja will automatically keep the question options in sync!
+> TIP: If your panel is using only one language and your data variable options match those of question options you should only edit data variable options under the **settings** tab. Sample Ninja will automatically keep the question options in sync!
 
 ### Entering question options
 If your question options are exactly the same as data variable option name you can use the **Sync options** button to copy the data variable options texts to your question.
