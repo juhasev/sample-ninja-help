@@ -36,8 +36,6 @@ Allows you to create STANDARD Sample Ninja data variables. These standards are b
 
 Hit the **PLUS** button to create a new data available in you panel database.
 
-After selecting the data variable type, the next step is to **select the associated Locales** that you wish to use for the panel environment.
-
-To select the appropriate Locale, clicking on the top right of the chosen flag and make sure that the green corner triangular flag is enabled (flag with green marker image) and then click on Accept selected.
+After selecting the data variable type, the next step is to **select the base locale**. You can add more locales later on. If your panel only has one locale this selection is done automatically for you.
 
 > Text question types are analyzed! This means that partial matches can be also returned. If this is not what you want use the **Keyword** type instead.
