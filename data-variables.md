@@ -30,7 +30,7 @@ Then select all the variable that you wish to assign to that group and click on 
 
 ### Create a new STANDARD data variables
 
-Allows you to create STANDARD Sample Ninja data variables. These standards are based on LUCID's standard questions.
+Allows you to create STANDARD Sample Ninja data variables. These standards are based on LUCID's standard questions and offer greater flexibility in terms of buying and selling from exchanged than your own home baked data variables.
 
 ### Create a new data variable
 
