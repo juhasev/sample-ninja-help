@@ -10,7 +10,7 @@ This displays the percentage breakdown of the total the number of Panellists who
 
 ### By status
 
-Display percentage breakdown of the total the number of Panellists who are defined as **Subscribed, Unsubscribed** or **Blacklisted** within the Platform.  By mousing over the chart, it automatically opens up the chosen segment and displays the percentage that fulfil that criterial (and displays the actual number of panellists in that segment in brackets. Consider removing blacklisted and unsubscribed panelist from the panel. We will save their activity history for 12 months which means your reports won't be affected.
+Display percentage breakdown of the total the number of Panellists who are defined as **Subscribed, Unsubscribed** or **Blacklisted** within the Platform.  By mousing over the chart, it automatically opens up the chosen segment and displays the percentage that fulfil that criteria (and displays the actual number of panellists in that segment in brackets. Consider removing blacklisted and unsubscribed panelist from the panel. We will save their activity history for 12 months which means your reports won't be affected.
 
 ### By activity
 
