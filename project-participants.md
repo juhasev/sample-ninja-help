@@ -1,6 +1,6 @@
 ### Project participants
 
-List of project participants. Use filters (top right) to filter by status.
+List of project participants. Use filters (top right) to filter by status. If you would like to display Panelist Identifiers toggle on **Show Id**.
 
 #### Time column
 
@@ -24,4 +24,4 @@ Click on the **triple dot** button on each row to reveal menu for available oper
 
 Both options will rollback any issued reward points and project revenue.
 
-> By default we display completes ordered by the project start time
+> By default we display completes ordered by the start time
