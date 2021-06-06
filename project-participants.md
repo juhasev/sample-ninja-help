@@ -1,4 +1,4 @@
-### Project participants
+## Project participants
 
 List of project participants. Use filters (top right) to filter by status. If you would like to display Panelist Identifiers toggle on **Show Id**.
 
