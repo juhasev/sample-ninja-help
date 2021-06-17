@@ -1,7 +1,6 @@
 ## Clients
 
-Sample Ninja lets you create clients so that you can associate projects to the clients. This way Sample Ninja can produce
-project reports per client.
+Create and edit clients. Clients can be associated with projects for deeper reporting insights.
 
 ### Create new client
 
