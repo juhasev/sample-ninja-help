@@ -1,8 +1,7 @@
 ## Clients
 
-This screen displays all of the Clients that the users chose to add onto the SampleNinja platform.
-
-Once entered, it is possible to link clients with projects, so later on produce financial reports filtered by particular Clients.
+Sample Ninja lets you create clients so that you can associate projects to the clients. This way Sample Ninja can produce
+project reports per client.
 
 ### Create new client
 
