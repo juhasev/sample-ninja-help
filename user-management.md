@@ -11,4 +11,6 @@ At the top of the screen you have **PLUS** button to invite more users as well a
 ### Roles
 Sample Ninja comes pre-loaded with various roles you would expect to find in most panels. By clicking on the roles button you can customize which roles each user has as well as see individual permission that each roles has.
 
-> Only users with Admin -role can change roles!
+> Only users with Admin -role can assign roles to the users!
+
+If you would like to create a custom role you can do so by clicking the roles tab.
