@@ -13,4 +13,4 @@ Sample Ninja comes pre-loaded with various roles you would expect to find in mos
 
 > Only users with Admin -role can assign roles to the users!
 
-If you would like to create a custom role you can do so by clicking the roles tab.
+If you would like to create a custom role you can do so by clicking the roles tab and then click on **PLUS** icon.
