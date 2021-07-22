@@ -24,6 +24,31 @@ The easiest way to get started is to produce a test import file by clicking **GE
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**
 
+## Preparing your own data file
+
+### Blank / NULL / unknown values
+If a panelist doesn't have value for example BIRTH_DATE you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
+
+**FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No**
+John,Doe,john@sampleninja.io,1980-01-01,0,1 **<-- GOOD LINE**
+Lisa,Doe,lisa@sampleninja.io,,1,0 **<-- BIRTH DATE BLANK**
+Jack,Doe,jack@sampleninja.io,1966-04-12,, **<-- BLANK CHECKBOX**
+
+### Data formats
+The importer access only values in the international formats
+
+#### Date
+All dates must be imported in format 2021-07-22 or YYYY-MM-DD.
+
+#### Phone
+All phone numbers must be in the international format for example US number (512) 670-4444 needs to be converted to +15126564444.
+
+#### Checkbox
+Checkbox columns must be noted with target variable name followed by the option label. Checked options are noted with 1 and unchecked options are noted with 0. For example:
+
+**BREXIT:yes,BREXIT:no**
+1,0
+
 ### 1.	Select file to import
 
 Click on the designated area and select a file to import or simply locate the file on your device and drag & drop it into the drop zone indicated by a dashed line.
