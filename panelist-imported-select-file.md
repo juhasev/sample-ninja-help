@@ -29,10 +29,12 @@ The easiest way to get started is to produce a test import file by clicking **GE
 ### Blank / NULL / unknown values
 If a panelist doesn't have value for example BIRTH_DATE you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
 
-**FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No**
-John,Doe,john@sampleninja.io,1980-01-01,0,1 **<-- GOOD LINE**
-Lisa,Doe,lisa@sampleninja.io,,1,0 **<-- BIRTH DATE BLANK**
-Jack,Doe,jack@sampleninja.io,1966-04-12,, **<-- BLANK CHECKBOX**
+```
+FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No
+John,Doe,john@sampleninja.io,1980-01-01,0,1 <-- GOOD LINE
+Lisa,Doe,lisa@sampleninja.io,,1,0 <-- BIRTH DATE BLANK
+Jack,Doe,jack@sampleninja.io,1966-04-12,, <-- BLANK CHECKBOX
+```
 
 ### Data formats
 The importer access only values in the international formats
@@ -51,8 +53,10 @@ All phone numbers must be in the international format for example US number (512
 #### Checkbox
 Checkbox columns must be noted with target variable name followed by the option label. Checked options are noted with 1 and unchecked options are noted with 0. For example:
 
-**BREXIT:yes,BREXIT:no**
+```
+BREXIT:yes,BREXIT:no
 1,0
+```
 
 #### Radio
 Data values must correspond to option number i.e. GENDER -> Male -> 1
@@ -61,6 +65,7 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1
 
 The importer scans each column and attempt to discover the CSV data type. The detection runs in the following order: 
 
+```json
 {
     csvDataType: 'Date',
     variableTypes: ['date']
@@ -92,8 +97,8 @@ The importer scans each column and attempt to discover the CSV data type. The de
 {
     csvDataType: 'String',
     variableTypes: ['text', 'keyword'],
-},
-
+}
+```
 This generates list of potential target variable types and if the target data variable **LABEL** matches the **CSV COLUMN HEADER** then the imported will map the CSV column to the data variable automatically. 
 
 > If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. Please verify your data format and the desired target variable type.
