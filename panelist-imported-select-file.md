@@ -66,7 +66,7 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1
 
 ### Data type detection and how it affects mapping
 
-The importer scans each column and attempt to discover the CSV data type and the potential target data variable types. The detection runs in the following order: 
+The importer scans each column and attempts to discover the column's data type and the potential target data variable types. The detection runs in the following order: 
 
 ```javascript
 [
