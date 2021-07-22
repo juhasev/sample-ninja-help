@@ -22,32 +22,32 @@ If you like you can export the chart image or it's data click on **three dots** 
 
 ### Outcome statistic to left of the chart
 
-- Starts - Total number of Started surveys for the project
-- Completed - Total number of Completed surveys for the project
+- Starts - Total number of Started surveys for the project.
+- Completed - Total number of Completed surveys for the project.
 - Quota terminations - Total number of panelists terminated because of Quotas reached for that criteria. Mouse over to see percent from started.
 - Profile terminations - Total number of panelists terminated because of Profile not being suitable for a particular project. Mouse over to see percent from started.
 - Quality terminations - Total number of panelists terminated due to quality. Mouse over to see percent from started.
 - Duplicate terminations - Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
 
 ### Statistics under chart  
-- Routed in - Total number of panelists routed into this project from other projects
-- Routed out - Total number of profile or quota terminated panelists successfully routed to other projects
-- Number of initiations sent - Shows the total number of email invites
-- Delivered shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”
-- Opened Shows the number fo opened invitations
-- Bounced shows the total number of bounced emails from the emails sent in that project. This is colour code for instant recognition
+- Routed in - Total number of panelists routed into this project from other projects.
+- Routed out - Total number of profile or quota terminated panelists successfully routed to other projects.
+- Number of initiations sent - Shows the total number of email invites.
+- Delivered shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”.
+- Opened Shows the number fo opened invitations.
+- Bounced shows the total number of bounced emails from the emails sent in that project. This is colour code for instant recognition.
   - Over 3.001%= Red
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
 
-- Complained show the number of complain emails sent to the SampleNinja email server with regards this project. This is colour code for instant recognition
+- Complained show the number of complain emails sent to the SampleNinja email server with regards this project. This is colour code for instant recognition:
   - Over 10 complaints = Red (**Project automatically shut down**)
   - 1-10 complaints = Dark Orange
   - No complaints = Green
 
 ### Redemption Points allocations for Panellists
-- Total Revenue - Total redemption points allocated thus far for this project in the platform
-- Rewards Issued Total - Total redemption points allocated thus far for this project issued to Panellists
-- Gross Revenue - Is the calculation of Total Revenue MINUS Rewards issued
-- Gross Revenue Margin - Display gross revenue margin
+- Total Revenue - Total redemption points allocated thus far for this project in the platform.
+- Rewards Issued Total - Total redemption points allocated thus far for this project issued to Panellists.
+- Gross Revenue - Is the calculation of Total Revenue MINUS Rewards issued.
+- Gross Revenue Margin - Display gross revenue margin.
 
