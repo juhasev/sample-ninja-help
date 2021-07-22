@@ -29,6 +29,9 @@ The easiest way to get started is to produce a test import file by clicking **GE
 ### CSV Headers
 Always use CSV headers that match the target variable name!
 
+### Minimum requirements
+Variables **FIRST_NAME**, **LAST_NAME** and **EMAIL** are always required.
+
 ### Blank / NULL / unknown values
 If a panelist doesn't have value for example BIRTH_DATE you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
 
