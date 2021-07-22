@@ -104,9 +104,10 @@ The importer scans each column and attempt to discover the CSV data type and the
     }
 ]
 ```
-When imported has discovered a full list potential target variable types it then trying to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If match is good then the column mapper should selected the variable automatically.
 
-> If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. Please verify your data format and the desired target variable type.
+When the importer has discovered suitable target variable types for CSV column it then tries to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If match is good > 50% then the column mapper should select the target variable automatically.
+
+> If you don't see your variable listed under the mapping selection then either the data is provided in wrong format or the data variable you are trying to map to is using a wrong type. For example if CSV data type is detected as **String** you would be unable to map it to **Radio** data variable type. Please verify your data format and the desired target variable types!
 
 ## Using the importer
 
