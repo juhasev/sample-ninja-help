@@ -50,6 +50,9 @@ In SampleNinja the text variables are tokenized and analyzed allowing you to sto
 
 For example if you store: "Brown lazy dog" you could then later search for matches like "Brown dog". This may not be what you want and if you need to match the whole term you should use the **Keyword** data variable type instead.
 
+#### Keyword
+The keyword variable type requires exact match when searching. This variable type is the best choice for things like Car Make & Model, City, Region etc...
+
 #### Date
 All dates must be imported in format **2021-07-22** or **YYYY-MM-DD**. If you attempt to use for example US date notation 7/31/1976 this will not be detected as date and you will not be able to map it **Date** -data variable type.
 
