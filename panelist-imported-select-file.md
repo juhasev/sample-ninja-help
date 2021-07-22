@@ -37,6 +37,11 @@ Jack,Doe,jack@sampleninja.io,1966-04-12,, **<-- BLANK CHECKBOX**
 ### Data formats
 The importer access only values in the international formats
 
+#### Text
+In SampleNinja the text variables are tokenized and analyzed allowing you to store various kind of text data if desired.
+
+For example if you store: "Brown lazy dog" you could then later search for matches like "Brown dog". This may not be what you want and if you need to match the whole term you should use the **Keyword** data variable type instead.
+
 #### Date
 All dates must be imported in format 2021-07-22 or YYYY-MM-DD.
 
@@ -48,6 +53,52 @@ Checkbox columns must be noted with target variable name followed by the option 
 
 **BREXIT:yes,BREXIT:no**
 1,0
+
+#### Radio
+Data values must correspond to option number i.e. GENDER -> Male -> 1
+
+### Data type detection and how it affects mapping
+
+The importer scans each column and attempt to discover the CSV data type. The detection runs in the following order: 
+
+{
+    csvDataType: 'Date',
+    variableTypes: ['date']
+},
+{
+    csvDataType: 'Phone',
+    variableTypes: ['phone', 'keyword']
+},
+{
+    csvDataType: 'Integer',
+    variableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
+},
+{
+    csvDataType: 'Numeric',
+    variableTypes: ['number', 'keyword', 'text'],
+},
+{
+    csvDataType: 'Email',
+    variableTypes: ['email', 'keyword'],
+},
+{
+    csvDataType: 'Locale',
+    variableTypes: ['locale', 'keyword']
+},
+{
+    csvDataType: 'ZipCode',
+    variableTypes: ['keyword', 'number'],
+},
+{
+    csvDataType: 'String',
+    variableTypes: ['text', 'keyword'],
+},
+
+This generates list of potential target variable types and if the target data variable **LABEL** matches the **CSV COLUMN HEADER** then the imported will map the CSV column to the data variable automatically. 
+
+> If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. Please verify your data format and the desired target variable type.
+
+## Using the importer
 
 ### 1.	Select file to import
 
