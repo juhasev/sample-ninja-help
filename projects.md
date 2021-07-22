@@ -14,11 +14,11 @@ The search functionality searches thru **ID**, **name**, **external project refe
 
 ### Projects table
 
-Some columns are sortable simply click on the table headers to change the sort order.
+Some columns are sortable. Simply click on the table headers to change the sort order.
 
 #### ID
 
-Simply indicates project ID
+Simply indicates project ID.
 
 #### PRIORITY
 
@@ -27,7 +27,7 @@ If you have an urgent project where you anticipate running out of sample the pri
 > The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. All new registerered, uploaded panelists and all panelists that are continuously freed as the business rules exclusions expire are added to the available sample pool.
 
 #### NAME
-This is internal project name. This name is never disclosed to the panelists
+This is internal project name. This name is never disclosed to the panelists.
 
 #### ERROR INDICATOR
 If you see an error indicator on your project something may have gone wrong. Click on the error indicator to see the details. 
@@ -65,7 +65,7 @@ When project is **archived** no more respondents are allowed to either start or 
 
 There are TWO dashboards available for each project.
 
-- **Project Dashboard** - Allows the user to explore granular statistics on the activity around that particular project  
+- **Project Dashboard** - Allows the user to explore granular statistics on the activity around that particular project.  
 - **Map of Respondents** - Allow the user to see geographic representation of Survey Starts.  
 
 Click on the blue icons on each row to access these features.
@@ -76,12 +76,12 @@ Project response rate percentage.
 
 Response rate has a color indicator that can be either **Green, Amber and Red**. The red color indicator is triggered when **Send notification when response rate % falls under** -setting limit has been met in the **PANEL SETTINGS**.
 
-> Response rate is calculated using **completes / invitations * 100%** 
+> Response rate is calculated using **completes / invitations * 100%**.
 
 #### INCIDENCE RATE
 Displays project's current incidence rate. The indicator is color coded based on difference of the estimated incidence compared and the actual incidence rate. Incidence indicator stays **green** as long as your actual incidence > estimated incidence and gradually goes thru **amber** to **red**. The red status is given based on the incidence rate threshold setup in **the panel settings**.
 
-> Incidence rate is calculated using **completes / (completes + terminated) * 100%**
+> Incidence rate is calculated using **completes / (completes + terminated) * 100%**.
 
 #### RATING
 
@@ -101,9 +101,9 @@ Indicates when the projects are running.
 
 Click on the triple dot at the end of each row button to see available project actions.
 
-**View participants** View participants
-**Disqualify** Batch disqualify participants by providing a list panelist IDs.
-**Clone** Clone project
-**Delete** Delete project
+**View participants** - View participants.
+**Disqualify** - Batch disqualify participants by providing a list panelist of IDs.
+**Clone** - Clone project.
+**Delete** - Delete project.
 
 > You can only delete projects without participants. Consider archiving the project to make it "disappear" from your view.
