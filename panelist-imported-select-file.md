@@ -63,41 +63,41 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1
 
 ### Data type detection and how it affects mapping
 
-The importer scans each column and attempt to discover the CSV data type. The detection runs in the following order: 
+The importer scans each column and attempt to discover the CSV data type and the potential target data variable types. The detection runs in the following order: 
 
 ```javascript
 [
     {
         csvDataType: 'Date',
-        variableTypes: ['date']
+        targetVariableTypes: ['date']
     },
     {
         csvDataType: 'Phone',
-        variableTypes: ['phone', 'keyword']
+        targetVariableTypes: ['phone', 'keyword']
     },
     {
         csvDataType: 'Integer',
-        variableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
+        targetVariableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
     },
     {
         csvDataType: 'Numeric',
-        variableTypes: ['number', 'keyword', 'text'],
+        targetVariableTypes: ['number', 'keyword', 'text'],
     },
     {
         csvDataType: 'Email',
-        variableTypes: ['email', 'keyword'],
+        targetVariableTypes: ['email', 'keyword'],
     },
     {
         csvDataType: 'Locale',
-        variableTypes: ['locale', 'keyword']
+        targetVariableTypes: ['locale', 'keyword']
     },
     {
         csvDataType: 'ZipCode',
-        variableTypes: ['keyword', 'number'],
+        targetVariableTypes: ['keyword', 'number'],
     },
     {
         csvDataType: 'String',
-        variableTypes: ['text', 'keyword'],
+        targetVariableTypes: ['text', 'keyword'],
     }
 ]
 ```
