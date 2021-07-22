@@ -54,7 +54,7 @@ For example if you store: "Brown lazy dog" you could then later search for match
 All dates must be imported in format 2021-07-22 or YYYY-MM-DD.
 
 #### Phone
-All phone numbers must be in the international format for example US number (512) 670-4444 needs to be converted to +15126564444.
+All phone numbers must be in the international format for example US number (512) 670-4444 needs to be converted to +15126564444. If you are storing phonenumber for reference only and don't plan to use SMS functions then you can also use the **Keyword** type.
 
 #### Checkbox
 Checkbox columns must be noted with target variable name followed by the option label. Checked options are noted with 1 and unchecked options are noted with 0. For example:
