@@ -31,9 +31,9 @@ If a panelist doesn't have value for example BIRTH_DATE you may leave the value 
 
 ```
 FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No
-John,Doe,john@sampleninja.io,1980-01-01,0,1 <-- GOOD LINE
-Lisa,Doe,lisa@sampleninja.io,,1,0 <-- BIRTH DATE BLANK
-Jack,Doe,jack@sampleninja.io,1966-04-12,, <-- BLANK CHECKBOX
+John,Doe,john@sampleninja.io,1980-01-01,0,1                    <-- GOOD LINE
+Lisa,Doe,lisa@sampleninja.io,,1,0                              <-- BIRTH DATE BLANK
+Jack,Doe,jack@sampleninja.io,1966-04-12,,                      <-- BLANK CHECKBOX
 ```
 
 ### Data formats
