@@ -26,6 +26,9 @@ The easiest way to get started is to produce a test import file by clicking **GE
 
 ## Preparing your own data file
 
+### CSV Headers
+Always use CSV headers that match the target variable name!
+
 ### Blank / NULL / unknown values
 If a panelist doesn't have value for example BIRTH_DATE you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
 
@@ -101,7 +104,7 @@ The importer scans each column and attempt to discover the CSV data type and the
     }
 ]
 ```
-This generates list of potential target variable types and if the target data variable **LABEL** matches the **CSV COLUMN HEADER** then the imported will map the CSV column to the data variable automatically. 
+When imported has discovered a full list potential target variable types it then trying to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If match is good then the column mapper should selected the variable automatically.
 
 > If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. Please verify your data format and the desired target variable type.
 
