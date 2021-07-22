@@ -65,7 +65,7 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1
 
 The importer scans each column and attempt to discover the CSV data type. The detection runs in the following order: 
 
-```json
+```javascript
 [
     {
         csvDataType: 'Date',
