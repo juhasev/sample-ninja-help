@@ -66,38 +66,40 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1
 The importer scans each column and attempt to discover the CSV data type. The detection runs in the following order: 
 
 ```json
-{
-    csvDataType: 'Date',
-    variableTypes: ['date']
-},
-{
-    csvDataType: 'Phone',
-    variableTypes: ['phone', 'keyword']
-},
-{
-    csvDataType: 'Integer',
-    variableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
-},
-{
-    csvDataType: 'Numeric',
-    variableTypes: ['number', 'keyword', 'text'],
-},
-{
-    csvDataType: 'Email',
-    variableTypes: ['email', 'keyword'],
-},
-{
-    csvDataType: 'Locale',
-    variableTypes: ['locale', 'keyword']
-},
-{
-    csvDataType: 'ZipCode',
-    variableTypes: ['keyword', 'number'],
-},
-{
-    csvDataType: 'String',
-    variableTypes: ['text', 'keyword'],
-}
+[
+    {
+        csvDataType: 'Date',
+        variableTypes: ['date']
+    },
+    {
+        csvDataType: 'Phone',
+        variableTypes: ['phone', 'keyword']
+    },
+    {
+        csvDataType: 'Integer',
+        variableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
+    },
+    {
+        csvDataType: 'Numeric',
+        variableTypes: ['number', 'keyword', 'text'],
+    },
+    {
+        csvDataType: 'Email',
+        variableTypes: ['email', 'keyword'],
+    },
+    {
+        csvDataType: 'Locale',
+        variableTypes: ['locale', 'keyword']
+    },
+    {
+        csvDataType: 'ZipCode',
+        variableTypes: ['keyword', 'number'],
+    },
+    {
+        csvDataType: 'String',
+        variableTypes: ['text', 'keyword'],
+    }
+]
 ```
 This generates list of potential target variable types and if the target data variable **LABEL** matches the **CSV COLUMN HEADER** then the imported will map the CSV column to the data variable automatically. 
 
