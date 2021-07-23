@@ -11,5 +11,20 @@ Statistics include number of new panelists, conversion rate, surveys started and
 
 > Conversion rate is calculated from started surveys, using simple formula **Number of new panelists** / **Number of started surveys** * 100.
 
+### Registration rejections vs. completes
+SampleNinja can reject registration for variety of reasons:
+
+- Is out of country or countries if you sub panel contain multiple country locales
+- Is using public VPN
+- Is using corporate VPN
+- Is bot
+
+The above detection can be turned on/off in the sub panel settings. If your panel is B2B we recommend that you allow corporate VPNs. Additionally registration can get rejected if
+
+- Provide a fake email domain that cannot receive email
+- Provide an email address that bounced
+- Provide an email address that is blacklisted
+- Provide an email address domain that is blacklisted
+
 ### Registration activity chart
 This chart displays stacked totals that are indicative how many surveys are started, pending email confirmation and new panelists. The pending confirmation email count and the new panelists counts are substracted from the started. You can mouse over each column on the chart to view details.
