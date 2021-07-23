@@ -16,11 +16,13 @@ You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technica
 
 > **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
+
 ## Getting started with your own import
 
 The easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**.
+
 
 ## Preparing your own data file
 
@@ -38,8 +40,8 @@ FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No
 John,Doe,john@sampleninja.io,1980-01-01,0,1                    <-- GOOD LINE
 Lisa,Doe,lisa@sampleninja.io,,1,0                              <-- BIRTH DATE BLANK
 Jack,Doe,jack@sampleninja.io,1966-04-12,,                      <-- BLANK CHECKBOX
-```
 
+```
 
 ### Data formats
 The importer can only access values which are in the international format.
@@ -71,19 +73,20 @@ BREXIT:yes,BREXIT:no
 Data values must correspond to option number i.e. GENDER -> Male -> 1
 
 #### Locale
-Locale must exist in the targeted sub panel or line will fail. Locales must be specified in this format, **ENG-US**.
+Locale must exist in the targeted sub panel or line will fail. Locales must be specified in the correct format i.e. **ENG-US**.
 
 ### Excel Data Formatting
 In order for Sample Ninja to correctly map data, certain variables needed to be formatted into a specific data type in Excel. These are shown below:
 
 ```
-Sample Ninja Data Variable   |    Excel Data Format
+Sample Ninja Data Variable  |    Excel Data Format
 -----------------------------|------------------------
-            Date             |    Date | 2021-07-23
-            Phone            |    Text | +12345678912
+            Date             |    Date as 2021-07-23
+            Phone            |    Text as +12345678912
             Checkbox         |    Number (No Decimals)
             Radio            |    Number (No Decimals)
  All Other Data Variables    |    Text
+ 
 ```
 
 ### Data type detection and how it affects mapping
@@ -130,6 +133,7 @@ The importer scans each column and attempts to discover the column's data type a
 When the importer has discovered suitable target variable types for a CSV column, it then tries to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If the match is good > 50% then the column mapper should select the target variable automatically.
 
 > If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. For example, if the CSV data type is detected as **String** you would be unable to map it to a **Radio** data variable type. Please verify your data format and the desired target variable types!
+
 
 ## Using the importer
 
