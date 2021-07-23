@@ -15,7 +15,7 @@ Statistics include number of new panelists, conversion rate, surveys started and
 
 SampleNinja can reject registration for variety of reasons:
 
-- Is out of country or countries if you sub panel contain multiple country locales
+- Is out of country
 - Is using public VPN
 - Is using corporate VPN
 - Is bot
