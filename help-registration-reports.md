@@ -7,7 +7,7 @@ If you have at least one registration survey active you can select it from the t
 > The registration statistics are limited for the past month. You can use the **JOIN_DATE**, **EMAIL_VALID**, **EMAIL_CONFIRMED** - data variables to filter, slice and dice any given period in various other features throughout the application. The email delivery statistics are not stored for more than 30 days and cannot be use in filtering or in segments. The **EMAIL_VALID** variable indicates whether your email is valid, meaning we have recorded successfull delivery at least once. If panelist email bounces the **EMAIL_VALID** variable will be set to NO.
 
 ### Top row statistics
-Statistics include number of new panelists, conversion rate, surveys started and completed. Additionally we also include statistics for confirmation (double opt-in) emails in form of delivered, opened and bounced counts. 
+Statistics include number of new panelists, conversion rate, survey rejections, surveys started and completed. Additionally we also include statistics for confirmation (double opt-in) emails in form of delivered, opened and bounced counts. 
 
 > Conversion rate is calculated from started surveys, using simple formula **Number of new panelists** / **Number of started surveys** * 100.
 
@@ -28,5 +28,8 @@ The above detection can be turned on/off in the sub panel settings. If your pane
 - Failed to confirm email address
 - Email address bounces
 
-### Registration activity chart
-This chart displays stacked totals that are indicative how many surveys are started, pending email confirmation and new panelists. The pending confirmation email count and the new panelists counts are substracted from the started. You can mouse over each column on the chart to view details.
+### Recruiment sources pie chart
+Provider details which recruitment sources are the most active in the past month. These statistics include all page visitors.
+
+### Devices, Operating system and browser statistics
+Provides information of all devices visiting the registration survey. These statistics inlude all page visitors.
