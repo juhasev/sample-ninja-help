@@ -23,7 +23,6 @@ SampleNinja can reject registration for variety of reasons:
 The above detection can be turned on/off in the sub panel settings. If your panel is B2B we recommend that you allow corporate VPNs. Additionally registration can get rejected if
 
 - Provide a fake email domain that cannot receive email
-- Provide an email address that bounced
 - Provide an email address that is blacklisted
 - Provide an email address domain that is blacklisted
 - Failed to confirm email address
