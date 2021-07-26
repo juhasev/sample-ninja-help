@@ -1,4 +1,4 @@
-## Project participants
+## Project Participants
 
 List of project participants. Use filters (top right) to filter by status. If you would like to display Panelist Identifiers toggle on **Show Id**.
 
@@ -7,7 +7,7 @@ Use the filter in the title bar to filter respondents by status. Click on starte
 
 #### Time column
 
-Displays time in minutes it took from the project start to finish.
+Displays the time in minutes it took from project start to finish.
 
 #### Country, region and city
 
