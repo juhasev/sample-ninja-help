@@ -1,5 +1,7 @@
-### Sampling Priority
+### Sampling priority
 
-The default sampling priority for ALL projects is 5, which means that Sample will be drawn for this project the same as any other project which has a Sampling priority of 5. Sampling is always carried out in the priority order using 15 minute intervals. This means if you have two competing projects let's say you have Project A with priority 7 and Project B with priority 10. When sampling is performed the project B will receive sample first where as Project A may run out of sample. 
+Normally you would left this setting to the default of 5. Sample Ninja runs sampling in every 10 to 15 minutes following the sampling priority order. If you have 2 or more projects competing for the same sample you can adjust this setting to prioritize projects of your choosing.
 
-> Regardless of the priority Sample Ninja attempts to finish each project by the end date.
+> Please note that other project manager's priority is also taken into the account. You should establish a standard for sampling prioritazations inside your organization. Setting the sampling priority setting to max everytime is not the right way to go.
+
+> Regardless of the priority Sample Ninja attempts to finish each project by the end date by adjusting the invitation rate.
