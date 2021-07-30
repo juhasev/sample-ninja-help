@@ -1,2 +1,2 @@
 ## Registration log
-Registration log allows you to review in detail what happening with individual panelists.
+Registration log allows you to review in detail what is happening with individual panelists.
