@@ -24,7 +24,7 @@ The blue button (bottom right of screen) is only visible when AT LEAST ONE panel
 
 #### Change subscription status
 
-This allows the user to Select to new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**
+This allows the user to Select to new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**.
 
 > **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics and other critical statistics to operate your panel efficiently.
 
