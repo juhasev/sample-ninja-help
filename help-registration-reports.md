@@ -28,8 +28,14 @@ The above detection can be turned on/off in the sub panel settings. If your pane
 - Failed to confirm email address
 - Email address bounces
 
-### Recruiment sources pie chart
+### Recruiment sources tab
 Provider details which recruitment sources are the most active in the past month. These statistics include all page visitors.
 
-### Devices, Operating system and browser statistics
+### Recruitment sources tab
 Provides information of all devices visiting the registration survey. These statistics inlude all page visitors.
+
+### Links tab
+Access to all the registration survey links.
+
+### Registration log
+At the top of the page there is blue button that allows you to inspect detailed registration log.
