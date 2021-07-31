@@ -1,4 +1,4 @@
-## Registration Links
+## Registration Surveys URLs
 
 - Click on the **TEST** -button you can take the survey in the **test mode**. 
 - Click the **URL** to copy it to the clipboard.
@@ -23,6 +23,15 @@ Or combined with the test mode
 ```https://mysite.sampleninja.io/registration/1/ENG-US?source=1&test```
 
 > Source ID must match the ID of one of the **Recruitment Sources** created. The parameters can be supplied in any order.
+
+### Providing additional data
+You can provide the following variables on the url to prefill and skip.
+
+- first = FIRST_NAME
+- last = LAST_NAME
+- email = EMAIL
+
+> If you want to auto skip feature to work we recommend that you place these variables at the beginning your survey.
 
 ### Security checks
 
