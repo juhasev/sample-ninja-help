@@ -31,6 +31,9 @@ You can provide the following variables on the url to prefill and skip.
 - last = LAST_NAME
 - email = EMAIL
 
+```
+https://mysite.sampleninja.io/registration/1/ENG-US?first=John&last=Doe&email=john.doe@example.com
+```
 > If you want to auto skip feature to work we recommend that you place these variables at the beginning your survey.
 
 ### Security checks
