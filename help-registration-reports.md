@@ -1,4 +1,4 @@
-## Registration Dashboard
+## Dashboard
 
 Registration statistics are available if you are using the built in Registration Survey. Each Sub Panel has their own registration survey. To configure registration survey for a Sub Panel please find the Registration Survey tab in the Sub Panel Settings.
 
@@ -28,18 +28,15 @@ The above detection can be turned on/off in the sub panel settings. If your pane
 - Failed to confirm email address
 - Email address bounces
 
-## Recruiment sources tab
+## Sources tab
 Provides details which recruitment sources are the most active in the past month. These statistics include all page visitors.
 
 > These values are recorded using everybody visiting the registration survey.
 
-## Recruitment sources tab
+## Sources tab
 Provides information of all devices visiting the registration survey. These statistics inlude all page visitors.
 
 > These values are recorded using everybody visiting the registration survey.
 
-## Links tab
-Access to all the registration survey links.
-
-## Registration log
+## Registration activity
 At the top of the page there is blue button that allows you to inspect detailed registration log.
