@@ -6,6 +6,8 @@ If you have at least one registration survey active you can select it from the t
 
 > The registration statistics are limited for the past month. You can use the **JOIN_DATE**, **EMAIL_VALID**, **EMAIL_CONFIRMED** - data variables to filter, slice and dice any given period in various other features throughout the application. The email delivery statistics are not stored for more than 30 days and cannot be use in filtering or in segments. The **EMAIL_VALID** variable indicates whether your email is valid, meaning we have recorded successfull delivery at least once. If panelist email bounces the **EMAIL_VALID** variable will be set to NO.
 
+> Click on the **View Activity** button at the top to view indivual registration sessions.
+
 ### Top row statistics
 Statistics include number of new panelists, conversion rate, survey rejections, surveys started and completed. Additionally we also include statistics for confirmation (double opt-in) emails in form of delivered, opened and bounced counts. 
 
@@ -32,10 +34,7 @@ The above detection can be turned on/off in the sub panel settings. If your pane
 Provides details which recruitment sources are the most active in the past month.
 > These values are recorded using everybody visiting the registration survey.
 
-## Sources tab
+## Devices tab
 Provides information of all devices visiting the registration survey..
 
 > These values are recorded using everybody visiting the registration survey.
-
-## Registration activity
-At the top of the page there is blue button that allows you to inspect a detailed registration log.
