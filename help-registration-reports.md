@@ -29,14 +29,13 @@ The above detection can be turned on/off in the sub panel settings. If your pane
 - Email address bounces
 
 ## Sources tab
-Provides details which recruitment sources are the most active in the past month. These statistics include all page visitors.
-
+Provides details which recruitment sources are the most active in the past month.
 > These values are recorded using everybody visiting the registration survey.
 
 ## Sources tab
-Provides information of all devices visiting the registration survey. These statistics inlude all page visitors.
+Provides information of all devices visiting the registration survey..
 
 > These values are recorded using everybody visiting the registration survey.
 
 ## Registration activity
-At the top of the page there is blue button that allows you to inspect detailed registration log.
+At the top of the page there is blue button that allows you to inspect a detailed registration log.
