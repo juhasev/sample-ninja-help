@@ -35,6 +35,6 @@ Provides details which recruitment sources are the most active in the past month
 > These values are recorded using everybody visiting the registration survey.
 
 ## Devices tab
-Provides information of all devices visiting the registration survey..
+Provides information of all devices visiting the registration survey.
 
 > These values are recorded using everybody visiting the registration survey.
