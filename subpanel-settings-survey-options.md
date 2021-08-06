@@ -1,5 +1,8 @@
 ## Survey Options
 
+### Survey name
+Any name would like to give to the registration survey.
+
 ### Enable registration
 This must be turned on to access the registration survey, otherwise you will receive 404 Not Found message.
 
