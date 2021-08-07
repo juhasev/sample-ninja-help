@@ -20,4 +20,4 @@ Simply click on the registration survey name to edit.
 ### Deleting registration surveys
 Click on the delete button to delete the survey.
 
-> We are aware that if you delete a registration survey you will lose the associated statistics!
+> WARNING! Be aware that if you delete a registration survey you will lose the associated statistics!
