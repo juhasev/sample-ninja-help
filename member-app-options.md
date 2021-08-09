@@ -7,7 +7,5 @@ Let's you turn on/off features:
 - **Display header in the toolbar** Whether to display the logo in the Member App's toolbar.
 - **Rewards enabled** Choose if you want to display the rewards page
 - **Redemption enabled** Choose if you want to display the redemption page
-- **Display surveys as postcard** Applies special formatting to the survey items while pulling in the body from the email invitation.
+- **Compact survey list** Applies compact formatting to the survey items.
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned.
-- **Feed enabled** Enables feeds page that display are available surveys and other items in Facebook style format.
-- **Refer a friend enabled** Enables refer a friend feature in the feed and also the my account page.
