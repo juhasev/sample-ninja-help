@@ -6,9 +6,8 @@ This project dashboard gives a wealth of statistics about an individual project.
 
 - Project status - **Online, Closed, Archived** and **Offline**
 - Percentage completed - Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
-- Response Rate, (Then mouse over to give the Completion Rate) - The Response rate is defined as proportion of the total number of Survey Starts DIVIDED by the Total number of invitations sent.
-Completion rate % is defined as proportion of the total number of Survey Completes DIVIDED by Survey Starts
-- Project deadline - Shows the remaining fieldwork days for this project. If you **MOUSE OVER** this figure, the System shows the end time for the project on that day
+- Response Rate rate is defined as proportion of the total number of completed / invitations * 100%. On the flip side you see start rate which is calculated started / invitations * 100%.
+- Indicence rate % is calculate starts / (starts + completes) * 100
 - Target Completes - The total target completes for that Project
 - Rating - This is the average survey rating on exit of the survey for that particular project (Colour coded against Settings parameters)
 
