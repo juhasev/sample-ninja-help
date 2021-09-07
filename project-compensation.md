@@ -8,4 +8,4 @@ You may override values on per project basis. Reward and revenue must be entered
 
 > **IMPORTANT!** If you change LOI new values are automatically inserted!
 
-> If you never reward **profile** or **quota** terminated you can turn these fields off in **Sub Panels -> Settings -> Compensation**
+> If you never reward **profile** or **quota** terminates you can turn these fields off in **Sub Panels -> Settings -> Compensation**
