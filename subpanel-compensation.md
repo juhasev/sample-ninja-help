@@ -12,8 +12,8 @@ The compensation table starts with 0. And you can have as many tiers as you like
 If project's LOI is set to 12 minutes compensation tier C is used. 
 If project's LOI is over 15 the last tier is always used.
 
-> If your sub panel rewards completes only you can use **Rewards completes only** to simplify the compensation table.
+> You cannot edit the 0 LOI on the first tier, but you are free to setup as many LOI tiers as you like.
 
-> You cannot edit LOI on the first tier, but you are free to setup as many LOI tiers as you like.
+> **TIP** compensation and revenue can be overwritten in **Project Settings**.
+> **TIP** If your sub panel rewards completes only you can use **Rewards completes only** to simplify the compensation table.
 
-> Compensation can be overwritten in each project's settings if desired.
