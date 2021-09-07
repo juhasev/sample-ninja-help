@@ -15,5 +15,6 @@ If project's LOI is over 15 the last tier is always used.
 > You cannot edit the 0 LOI on the first tier, but you are free to setup as many LOI tiers as you like.
 
 > **TIP** compensation and revenue can be overwritten in **Project Settings**.
+
 > **TIP** If your sub panel rewards completes only you can use **Rewards completes only** to simplify the compensation table.
 
