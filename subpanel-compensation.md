@@ -16,5 +16,5 @@ If project's LOI is over 15 the last tier is always used.
 
 > **TIP!** compensation and revenue can be overwritten in **Project Settings**.
 
-> **TIP!** If your sub panel rewards completes only you can use **Rewards completes only** to simplify the compensation table.
+> **TIP!** If you rewards **completes only** toggle on **Rewards completes only** -toggle to simplify the compensation grid.
 
