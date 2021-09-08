@@ -2,7 +2,7 @@
 
 Enter the default compensation and revenue based on the LOI (Length Of Interview) for this sub panel. The compensation and revenue values must be entered in **Reward Points**. The LOI is entered in minutes.
 
-The compensation table starts with 0. And you can have as many tiers as you like. The system determines correct compensation automatically when you setup new projects. Let's imagine you have defined your compensation table as:
+The compensation table starts with 0 and you can have as many tiers as you like. The system determines correct compensation automatically when you setup new projects. Let's imagine you have defined your compensation table as:
 
 - A) LOI 0 min Reward Completed: 100 Revenue completed: 200 
 - B) LOI 5 min Reward Completed: 200 Revenue completed: 300 
