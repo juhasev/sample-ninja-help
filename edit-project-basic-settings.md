@@ -1,13 +1,6 @@
 ### Project name
 This can be any name (any Alpha Numeric or Special characters between 5 and 150 characters long). This is internal name and never disclosed to the participants.
 
-### Project mode
-Normal projects use **Auto sampling mode** however if you need to do a recontact i.e. there was a survey skip logic error use the **re-contact** mode. In the re-contact mode you can paste in a list of panelist identifiers up to 1000 identifiers.
-
-> In the **Recontact** mode the panel business rules are bypassed and the invitations are send out immediately in batches up to 1000 emails per hour.
-
-> Please note that once the project's **mode** is saved it cannot be changed anymore.
-
 ### Project status
 This controls project fielding status. 
 
