@@ -38,4 +38,7 @@ Estimated length of interview in minutes. The length of interview will be displa
 #### Estimated Incidence rate
 This is provided for reference purposes and can be left empty. Sample Ninja will send automatic alerts if the estimate incidence rate deviates configured % from the actual incidence rate. 
 
+#### Cost to client
+Enter the actual cost to your end client using accounting currency i.e. USD, EUR etc... Sample Ninja uses this value to distribute revenue for each panelist who participates. Sample Ninja keeps track of revenue per panelist. See the **compensation** -tab for more details and revenue calculation example.
+
 > Go to **Panel Settings -> Basic settings** to configure the alers.
