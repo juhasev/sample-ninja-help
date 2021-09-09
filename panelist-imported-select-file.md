@@ -2,15 +2,17 @@
 
 Panelist Importer let’s you to import panelists (members) to an existing panel or subpanel from a CSV file.
 
-You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Technically, you cannot import into any data variables that are not owned by the system with the exception of:
+You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Sample Ninja provided system variables cannot be written to with the exception of:
 
 - POINTS_BALANCE
+- POINTS_REWARDED (lifetime)
+- POINTS_REDEEMED (lifetime)
 - LOCALE
 - SUBSCRIBED_DATE
 - EMAIL_CONFIRMED
 - RECRUITMENT_SOURCE
 
-> You can view a list of importable variables in **Data Variables** by selecting **Registration / Import writable** -class.
+> You can view a list of importable variables in **Data Variables** by selecting **Registration / Import writable** from the **Filter by class** select at the top right corner.
 
 > **RECRUITMENT_SOURCE** must be one of the choices defined under **Recruitment Sources** menu item.
 
