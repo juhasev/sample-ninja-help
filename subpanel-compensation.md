@@ -12,6 +12,8 @@ The compensation table starts with 0 and you can have as many tiers as you like.
 If project's LOI is set to 12 minutes compensation tier C is used. 
 If project's LOI is over 15 the last tier is always used.
 
+If you enter project's billable cost to the client in **Project Settings** Sample Ninja will automaticlly calculate and apply correct revenue per completed panelist per project basis.
+
 > You cannot edit the 0 LOI on the first tier, but you are free to setup as many LOI tiers as you like.
 
 > **TIP** The compensation and revenue can be overwritten in **Project Settings**.
