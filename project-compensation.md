@@ -1,6 +1,6 @@
 ### Project compensation
 
-Project compensation is automatically selected from **Sub Panels -> Settings -> Compensation -> Compensation grid** based on the entered project LOI (Lenght Of Interview) setting in the **Basic Settings** tab.
+Project compensation is automatically selected from **Sub Panels -> Settings -> Compensation -> Compensation table** based on the entered project LOI (Lenght Of Interview) setting in the **Basic Settings** tab.
 
 Use the revenue calculator to apply correct per panelist revenue. You must first enter **cost to client** in the **Basic Settings** -tab. Sample Ninja tracks revenue per panelists and can report various metrics like how profitable certain segments coming from various recruitment sources are and more. Using the revenue is optional but **highly recommended**.
 
