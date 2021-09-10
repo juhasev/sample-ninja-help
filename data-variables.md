@@ -38,4 +38,4 @@ Hit the **PLUS** button to create a new data available in you panel database.
 
 After selecting the data variable type, the next step is to **select the base locale**. You can add more locales later on. If your panel only has one locale this selection is done automatically for you.
 
-> Text question types are analyzed! This means that partial matches can be also returned. If this is not what you want use the **Keyword** type instead.
+> Text question types are analyzed! This means that partial matches can be also returned. If this is not what you want use the **Keyword** type instead. For example SampleNinja uses keyword type for CITY, STATE and PORTAL_CODE.
