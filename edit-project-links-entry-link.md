@@ -26,6 +26,8 @@ Panelist ID is automatically placed on the URL. You need to be able to save this
 
 https://surveyengine.com?project_id=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
+If you toggle on "Random test ID" SampleNinja will send random panelist ID to your test survey when using the test button (blue link button). Is some cases this makes testing easier especially if duplicate IDs are blocked by the survey software.
+
 ### Signing and security
 You should always use signing if your target platform supports it. This prevents URL tampering. Sample Ninja supports
 
