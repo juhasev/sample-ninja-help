@@ -16,7 +16,5 @@ If you enter project's billable cost to the client in **Project Settings** Sampl
 
 > You cannot edit the 0 LOI on the first tier, but you are free to setup as many LOI tiers as you like.
 
-> **TIP** The compensation and revenue can be overwritten in **Project Settings**.
-
-> **TIP** If you only compensate completes you can toggle on **Rewards completes only** - this will simplify the compensation grid.
+> **TIP** If you reward completes only you can toggle on **Rewards completes only** to simplify the compensation table.
 
