@@ -18,5 +18,5 @@ If you enter project's billable cost to the client in **Project Settings** Sampl
 
 > **TIP** The compensation and revenue can be overwritten in **Project Settings**.
 
-> **TIP** To only show rewards completes, toggle on **Rewards completes only** - this will simplify the compensation grid.
+> **TIP** If you only compensate completes you can toggle on **Rewards completes only** - this will simplify the compensation grid.
 
