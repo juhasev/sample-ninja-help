@@ -9,3 +9,6 @@ Let's you turn on/off features:
 - **Redemption enabled** Choose if you want to display the redemption page
 - **Compact survey list** Applies compact formatting to the survey items.
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned.
+- **Allow panelist to create password at login** This enables seemsless panel migration or if you never had interface your panelist.
+
+> If you eneable allow creating passwords option also visit your Sub Panel settings and make sure that your have a Members App enabled and that "Community link points to the member'app" toggled on.
