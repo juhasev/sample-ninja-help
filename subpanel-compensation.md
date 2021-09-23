@@ -4,10 +4,10 @@ Enter the default compensation and revenue based on the LOI (Length Of Interview
 
 The compensation table starts with 0 and you can have as many tiers as you like. The system determines correct compensation automatically when you setup new projects. Let's imagine you have defined your compensation table as:
 
-- A) LOI 0 min Reward Completed: 100 Revenue completed: 200 
-- B) LOI 5 min Reward Completed: 200 Revenue completed: 300 
-- C) LOI 10 min Reward Completed: 300 Revenue completed: 400 
-- D) LOI 15 min Reward Completed: 400 Revenue completed: 500 
+- A) LOI  0 min Reward points (completed)  100 Revenue completed: $1.50 
+- B) LOI  5 min Reward points (completed)  200 Revenue completed: $3.00  
+- C) LOI 10 min Reward points (completed)  300 Revenue completed: $4.00  
+- D) LOI 15 min Reward points (completed)  400 Revenue completed: $5.00 
 
 If project's LOI is set to 12 minutes compensation tier C is used. 
 If project's LOI is over 15 the last tier is always used.
