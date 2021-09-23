@@ -6,8 +6,8 @@ Use the revenue calculator to apply correct per panelist revenue. You must first
 
 You may override values on per project basis. Reward must be entered in **Reward Points** while revenue is entered using **accounting currency** like US Dollar or EUR. To edit any value bring you mouse over the value and click to edit.
 
-> **IMPORTANT!** If you change LOI new values are automatically inserted!
+> **IMPORTANT!** If you change project's LOI (Length of Interview) you must click apply button to update the **revenue** column.
 
 > If you never reward **profile** or **quota** terminates you can turn these fields off in **Sub Panels -> Settings -> Compensation**
 
-> Accounting currency is specified in the **panel settings** choose **settings** from the main menu.
+> Accounting currency is specified in the **panel settings**. Choose **settings** from the main menu.
