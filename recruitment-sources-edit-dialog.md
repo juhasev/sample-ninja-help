@@ -15,13 +15,16 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 
 ### TUNE Conversion reporting
 
-In order to use **TUNE** reporting you must first enable in the **Panel Settings**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via **TUNE** admin interface or from your **TUNE** representative.
+In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via **TUNE** admin interface or from your **TUNE** representative.
 
-Use the pulldown to enable conversion reporting back to Tune. 
+Use the **Integration Partner** pulldown and select **TUNE**
 
-> For more information visit https://www.tune.com
+When enabled the he **source** and **transaction_id** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+```
+https://domain.sampleninja.io/registration/1/ENG-CA
+```
 
-When enabled the **transaction_id** parameter must be provided along with the **source** parameter. Example:
+You would add the parameters and now your new URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
@@ -32,10 +35,13 @@ Or for test mode:
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8&test=true
 ```
+As long as the **registration survey** URL is configured in **TUNE's admin interface** these URL parameters are automatically and appended when new recruits land into your registration survey.
 
-> For developer documentation please visit [Getting started with the JavaScript SDK](https://developers.tune.com/javascript-sdk/getting-started-with-the-javascript-sdk)
+> The **source** parameter must be a valid **Recruitment Source ID** and the **Recruitment Source** must have **TUNE** enabled.
 
-### MVF Integration
+> For more information visit https://www.tune.com
+
+### MVF Conversion reporting
 
 In order to use **MVF** integration you must first enable it in the **Panel Settings** under **Integrations** -tab. You must have an account **MVF** and know you reporting pixel URL.
 
@@ -59,6 +65,8 @@ https://sampleninja.app/registration/1/ENG-US?source=4&sid=12345&did=123456&firs
 ```
 
 Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey.
+
+As long as you have configured your **MVF** account correctly these parameters are automatically passed in from **MVF** when new recruits land into your registration survey.
 
 > Variable data that is not in valid format will be silently ignored and users are automatically asked to fill in questions again.
 
