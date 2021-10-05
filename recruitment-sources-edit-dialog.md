@@ -68,6 +68,6 @@ Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatica
 
 As long as you have configured your **MVF** account correctly these parameters are automatically passed in from **MVF** when new recruits land into your registration survey.
 
-> Variable data that is not in valid format will be silently ignored and users are automatically asked to fill in questions again.
+> Variable data that does not pass the validation by Sample Ninja will be silently ignored and users are automatically asked to fill in these questions again.
 
-> You must have **GENDER** variable in your **Registration Survey** or **GENDER** will fail to automatically collect.
+> **IMPORTANT!** You must have **GENDER** variable in your **Registration Survey** or **GENDER** will fail to automatically collect.
