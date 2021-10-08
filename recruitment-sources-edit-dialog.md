@@ -49,24 +49,25 @@ Use the **Integration Partner** pulldown to and select **MVF**.
 
 > For more information visit https://www.mvfglobal.com
 
-When **MVF** is turned on for a **Recruitment Source** Sample Ninja expects 6 URL parameters to be passed in:
+When **MVF** is turned on for a **Recruitment Source** Sample Ninja expects 6 URL query parameters to be passed in:
 
 1) **sid** MVF internal user identifier (assigned by MVF)
-2) **pip** MVF internal job identifier (assigned by MVF)
+2) **pix** MVF internal pixel identifier (assigned by MVF)
 3) **first** First name collected by MVF -> auto saved as **FIRST_NAME** -data variable.
 4) **last**  Last name collected by MVF -> auto saved as **LAST_NAME** -data variable.
 5) **gender** Gender collected by MVF -> auto saved as **GENDER** -data variable.
 6) **email** Email address collected by MVF -> auto saved as **EMAIL** -data variable.
 
-Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** enabled. Your **Registration Survey** based URL would look like this:
+Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** enabled. Your base **Registration Survey** URL would look like this:
 
 ```
-https://sampleninja.app/registration/1/ENG-US
+https://client.sampleninja.io/registration/1/ENG-US
 
 ```
-Next you append the query string:
+Next you append the required query parameters to the URL:
+
 ```
-?source=4&sid=12345&did=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
+?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
 
 Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey.
