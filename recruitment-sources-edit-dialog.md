@@ -62,15 +62,14 @@ Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** e
 
 ```
 https://client.sampleninja.io/registration/1/ENG-US
-
 ```
+
 Next you append the required query parameters to the URL:
 
 ```
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
-
-Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey.
+Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey. **EMAIL** address is pre-filled but must be confirmed the registerting user the rest of the questions are auto populated.
 
 As long as you have configured your **MVF** account correctly these parameters are automatically passed in from **MVF** when new recruits land into your registration survey.
 
