@@ -17,18 +17,24 @@ Statistics include number of new panelists, conversion rate, survey rejections, 
 
 SampleNinja can reject registration for variety of reasons:
 
-- Is out of country
-- Is using public VPN
-- Is using corporate VPN
-- Is bot
+- Is out of country (Configurable Sub Panel Settings -> Security)
+- Is using public VPN (Configurable Sub Panel Settings -> Security)
+- Is using corporate VPN (Configurable Sub Panel Settings -> Security)
+- Is bot (Configurable Sub Panel Settings -> Security)
+- Email address's domain cannot accept email (missing MX or Mail Exchange record)
+- Duplicate (Machine fingerprint matches exatly some body else, these are not blocked but review is recommended)
+- Email address provided produces a permanent bounce (email does not exist)
 
-The above detection can be turned on/off in the sub panel settings. If your panel is B2B we recommend that you allow corporate VPNs. Additionally registration can get rejected if
+Some of the security features can be turned on/off in the **Sub Panel -> Security** settings. If your panel is B2B we recommend that you allow corporate VPNs.
 
-- Provide a fake email domain that cannot receive email
+Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
+
+> Only if we all team up we make the future of research better. Your contribution is appreciated.
+
+To recoup you registration will be rejected if you
+
 - Provide an email address that is blacklisted
-- Provide an email address domain that is blacklisted
-- Failed to confirm email address
-- Email address bounces
+- Provide an email address that contains a domain name that is blacklisted
 
 ## Sources tab
 Provides details which recruitment sources are the most active in the past month.
