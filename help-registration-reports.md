@@ -1,6 +1,6 @@
 ## Dashboard
 
-Registration statistics are available if you are using the built in Registration Survey. Each Sub Panel has their own registration survey. To configure registration survey for a Sub Panel please find the Registration Survey tab in the Sub Panel Settings.
+Registration statistics are available if you are using the built-in Registration Survey. Each Sub Panel has their own registration survey. To configure registration survey for a Sub Panel please find the Registration Survey tab in the Sub Panel Settings.
 
 If you have at least one registration survey active you can select it from the top pulldown to view statistics.
 
