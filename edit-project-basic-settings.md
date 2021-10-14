@@ -32,9 +32,13 @@ Estimated length of interview in minutes. The length of interview will be displa
 This is provided for reference purposes and can be left empty. Sample Ninja will send automatic alerts if the estimate incidence rate deviates configured % from the actual incidence rate. 
 
 #### Project cost
-Enter the actual cost to your end client using accounting currency i.e. USD, EUR etc... Sample Ninja uses this value to distribute revenue for each panelist who participates. Sample Ninja keeps track of revenue per panelist. See the **compensation** -tab for more details and revenue calculation example. Or alternative use the **Cost per incidence** fields. Both field update each other based on the **target completes**
+Enter the actual cost to your end client using accounting currency i.e. USD, EUR etc... Sample Ninja uses this value to distribute revenue for each panelist who participates. Sample Ninja keeps track of revenue per panelist. Or alternative use the **Cost per incidence** fields. Both field update each other based on the **target completes**
+
+> See the **compensation** -tab for more details and revenue calculation example.
 
 #### Cost Per Incidence
 Enter the **cost per incidence** or **CPI** to your client. The project **total cost** field will be automatically updated based on the entered **CPI** and **Target Completes**
+
+> See the **compensation** -tab for more details and revenue calculation example.
 
 > Go to **Panel Settings -> Basic settings** to configure the alers.
