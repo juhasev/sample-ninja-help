@@ -31,14 +31,12 @@ Some of the security features can be turned on/off in the **Sub Panel -> Securit
 
 > **WARNING** If you allow any VPNs (Virtual Private Network), hosted server runnig VPN to access your community / projects your location IP accuracy is no longer reliable.
 
-Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
-
-> Only if we all team up we make the future of research better. Your contribution is appreciated.
-
-To recoup you registration will be rejected if you
+Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. You may additional terminated for:
 
 - Provide an email address that is blacklisted
 - Provide an email address that contains a domain name that is blacklisted
+
+Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
 
 ## Sources tab
 Provides details which recruitment sources are the most active in the past month.
