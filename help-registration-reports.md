@@ -25,7 +25,11 @@ SampleNinja can reject registration for variety of reasons:
 - Duplicate (Machine fingerprint matches exatly some body else, these are not blocked but review is recommended)
 - Email address provided produces a permanent bounce (email does not exist)
 
-Some of the security features can be turned on/off in the **Sub Panel -> Security** settings. If your panel is B2B we recommend that you allow corporate VPNs.
+Some of the security features can be turned on/off in the **Sub Panel -> Security** settings. 
+
+> **IMPORTANT**: If your panel is B2B we recommend that you allow corporate VPNs. For example almost all the Health Care Panels will have panelists like physicians / doctors accessing the system through a corporate VPN. The reported geo location will be around the facilities your client operates. Any employee can remote in but the location will be reported as the facility address.
+
+> **WARNING** If you allow any VPNs (Virtual Private Network), hosted server runnig VPN to access your community / projects your location IP accuracy is no longer reliable.
 
 Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
 
