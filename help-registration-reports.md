@@ -31,7 +31,7 @@ Some of the security features can be turned on/off in the **Sub Panel -> Securit
 
 > **WARNING** If you allow any VPNs (Virtual Private Networks), hosted servers runnig VPN to access your community / projects your location accuracy is no longer reliable. A user accessing the Internet throught a VPN service can originate from from **Iran** or any other country including **North Korea** and pretend to originate which ever country to VPN user chooses. There is no way to detect this automatically.
 
-Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. You may additional terminated for:
+Additionally we scan for email addresses that you have already blacklisted. SampleNinja also maintains a blacklist list for email domains that are known to be bad actors. In sort the registering folks may also be terminated if they:
 
 - Provide an email address that is blacklisted
 - Provide an email address that contains a domain name that is blacklisted
