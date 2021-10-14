@@ -40,5 +40,3 @@ Enter the actual cost to your end client using accounting currency i.e. USD, EUR
 Enter the **cost per incidence** or **CPI** to your client. The project **total cost** field will be automatically updated based on the entered **CPI** and **Target Completes**
 
 > See the **compensation** -tab for more details and revenue calculation example.
-
-> Go to **Panel Settings -> Basic settings** to configure the alers.
