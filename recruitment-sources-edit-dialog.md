@@ -12,6 +12,21 @@ In order for the recruitment source tracking to work you must supply the **sourc
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 ```
+### AdBloom conversion reporting
+
+In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via **AdBloom** admin interface or from your **AdBloom** representative
+
+When enabled the he **source** and **cid** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+
+```
+https://domain.sampleninja.io/registration/1/ENG-CA
+```
+
+You would add the parameters and now your new URL will look like this:
+
+```
+https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
+```
 
 ### TUNE Conversion reporting
 
