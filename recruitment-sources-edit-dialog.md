@@ -16,6 +16,8 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 
 In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via **AdBloom** admin interface or from your **AdBloom** representative
 
+Next create a **recruitment source** and enabled **ADBLOOM** integration.
+
 When enabled the recruitment source ID or **source** and AdBloom click ID or **cid** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
 
 ```
@@ -28,7 +30,7 @@ You need apped the required parameters and the final URL will look like this:
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
 ```
 
-**AdBloom** must program their system to use this URL format for all the redirects they do.
+> **AdBloom** must use this URL format for all the redirects they do.
 
 ### TUNE Conversion reporting
 
@@ -46,6 +48,8 @@ You need apped the required parameters and the final URL will look like this:
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
 ```
+
+> **TUNE** must use this URL format for all the redirects they do.
 
 Or for test mode:
 
@@ -86,6 +90,8 @@ Next you append the required query parameters to the URL:
 ```
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
+> **MVF** must use this URL format for all the redirects they do.
+
 Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey. **EMAIL** address is pre-filled but must be confirmed the registerting user the rest of the questions are auto populated.
 
 As long as you have configured your **MVF** account correctly these parameters are automatically passed in from **MVF** when new recruits land into your registration survey.
