@@ -32,11 +32,11 @@ Estimated length of interview in minutes. The length of interview will be displa
 This is provided for reference purposes and can be left empty. Sample Ninja will send automatic alerts if the estimate incidence rate deviates configured % from the actual incidence rate. 
 
 #### Cost Per Incidence
-Enter the **cost per incidence** or **CPI** to your client. The project **total cost** field will be automatically updated based on the entered **CPI** and **Target Completes** or alternatively if you know the project's **Total Cost** enter that to the **Total Cost** field instead. This will automatically calculate **CPI** for you.
+Enter the **Cost per Incidence** or **CPI**. This is the revenue figure you make by for each completing panelist. The project's **total cost** field will be automatically updated based on the entered **CPI** and **Target Completes** or alternatively if you know the project's **Total Cost** but know **CPI** enter that to the **Cost per Incidence** field instead. This will automatically calculate **CPI** for you.
 
 > See the **compensation** -tab for more details and revenue calculation example.
 
 #### Project cost
-Enter the actual cost to your end client using accounting currency i.e. USD, EUR etc... Sample Ninja uses this value to distribute revenue for each panelist who participates. Sample Ninja keeps track of revenue per panelist. Or alternative use the **Cost Per Incidence** fields. Both field update each other based on the **Target Completes**
+Enter the actual cost to your end client using accounting currency i.e. USD, EUR etc... Sample Ninja uses this value to calculate **Cost per Incidence** or revenue per completed. Sample Ninja keeps track of revenue per panelist. Or alternatively you may use the **Cost Per Incidence** field. Both fields update each other based on the **Target Completes**
 
 > See the **Compensation** -tab for more details and revenue calculation example.
