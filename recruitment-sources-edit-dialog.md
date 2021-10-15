@@ -16,17 +16,19 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 
 In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via **AdBloom** admin interface or from your **AdBloom** representative
 
-When enabled the he **source** and **cid** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+When enabled the recruitment source ID or **source** and AdBloom click ID or **cid** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA
 ```
 
-You would add the parameters and now your new URL will look like this:
+You need apped the required parameters and the final URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
 ```
+
+**AdBloom** must program their system to use this URL format for all the redirects they do.
 
 ### TUNE Conversion reporting
 
@@ -34,12 +36,12 @@ In order to use **TUNE** conversion reporting you must first enable it in the **
 
 Use the **Integration Partner** pulldown and select **TUNE**
 
-When enabled the he **source** and **transaction_id** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+When enabled the recruitment source ID or **source** and TUNE transaction id or **transaction_id** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA
 ```
 
-You would add the parameters and now your new URL will look like this:
+You need apped the required parameters and the final URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
