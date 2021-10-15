@@ -4,7 +4,7 @@ Project compensation is automatically selected from **Sub Panels -> Settings -> 
 
 Use the revenue calculator to apply correct per panelist revenue or Cost Per Incidence **CPI**. You must first enter **Project cost** or **Cost per incidence** in the **Basic Settings** -tab. Sample Ninja tracks revenue per panelists and can report various metrics like how profitable certain segments coming from various recruitment sources are and more. Using the revenue / CPI is optional but **highly recommended**.
 
-You may override values on per project basis. Reward must be entered in **Reward Points** while revenue is entered using **accounting currency** like US Dollar or EUR. To edit any value bring you mouse over the value and click to edit.
+You may override values on per project basis. Reward must be entered in **Reward Points** while **CPI** is entered using **accounting currency** like US Dollar or EUR. To edit any value bring you mouse over the value and click to edit.
 
 > **IMPORTANT!** If you change project's LOI (Length of Interview) you must click apply button to update the **Cost Per Incidence** column.
 
