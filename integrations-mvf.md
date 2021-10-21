@@ -6,7 +6,7 @@ Use MVF Co-registration to drive new recruits into the **registration survey**. 
 https://www.safe-track.net/xxxxxxxxx/space.gif
 ```
 
-> **IMPORTANT:** Do not append the query parameters **sid** or **pix** on this URL. These parameters are automatically appended by **Sample Ninja**.
+> **IMPORTANT:** Do not append the query parameters **sid** or **pix** or anyother query parameters on this URL. These parameters are automatically appended by **Sample Ninja**.
 
 > Read more under **Recruitment Sources**
 
