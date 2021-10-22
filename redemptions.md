@@ -37,3 +37,9 @@ View historical approvals data and monitor partner statuses.
 ```REFUNDED``` This payout request was refunded.
 
 ```REVERSED``` This payout request was reversed.
+
+The following additional errors may also occur while communiticating with PayPal
+
+```AUTHORIZATION_ERROR``` This error means that your account is not eligible for using PayOuts API. You must have Business Account with PayPal have requests specifically to allow your account to be used for the **PayOuts** API.
+
+```UNKNOWN``` If error is none of the above this will be setup with STATUS CODE.
