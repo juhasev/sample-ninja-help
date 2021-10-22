@@ -42,4 +42,4 @@ The following additional errors may also occur while communiticating with PayPal
 
 **AUTHORIZATION_ERROR** This error means that your account is not eligible for using PayOuts API. You must have Business Account with PayPal have requests specifically to allow your account to be used for the **PayOuts** API.
 
-**UNKNOWN** This error can be returned in some rare cases. Most likely cause is that your account keys are not correct or there is some other issue authenticating with **PayPal**. These could include account setup problems like not enabling **PayOuts API**. Contact support@sampleninja.io if in doubt.
+**UNKNOWN** This error can be returned in some rare cases. Most likely cause is that your account keys are not correct or there is some other issue authenticating with **PayPal**. These could include account setup problems like not enabling **PayOuts API** or **Transaction Search**. These two features are required. Contact support@sampleninja.io if in doubt.
