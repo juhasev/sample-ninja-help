@@ -16,6 +16,8 @@ View historical approvals data and monitor partner statuses.
 
 **COMPLETE** Transaction was successfully completed
 
+**FAILED** Transaction failed
+
 > If you are looking for either refunding or re-sending panelist's redemption email then you are in the wrong place! Instead locate the panelist first by going to **panelist manager** and search for the panelist either by using, name, email or ID. Click on the panelist name and open up the **redemptions** -tab. 
 
 ### PayPal Statuses
