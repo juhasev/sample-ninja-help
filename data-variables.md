@@ -42,7 +42,7 @@ After selecting the data variable type, the next step is to **select the base lo
 
 ### Data Variable Export and Import
 
-**Data Variable Export** - Click on the **Export** button (cloud icon with downwards arrow). From here you can select the Data Variables that you wish to export. On clicking **Done** a downloadable file will be created, which can be acessed from the 'Downloads' section of Sample Ninja.
+**Data Variable Export** - Click on the **Export** button (cloud icon with downwards arrow). From here you can select the Data Variables that you wish to export. On clicking **Done** a downloadable file will be created, which can be accessed from the 'Downloads' section of Sample Ninja.
 
 **Data Variable Import** - Click on the **Import** button (cloud icon with upwards arrow). Here, select the downloadable file that was created during the exporting process. On clicking **Open** your selected Data Variables will be imported into Sample Ninja.
 
