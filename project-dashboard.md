@@ -6,7 +6,7 @@ This project dashboard gives a wealth of statistics about an individual project.
 - **Percentage completed** Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
 - **Response Rate** is defined as proportion of the total number of completed / invitations * 100%. On the flip side you see start rate which is calculated started / invitations * 100%.
 - **Indicence Rate %** is calculate starts / (starts + completes) * 100
-- **Length of Interview** is 99% percentile average or 2.5 standard deviations frmo mean.
+- **Length of Interview** Reported using 99% percentile average or 2.5 standard deviations from mean.
 - **Target Completes** - The total target completes for that Project
 - **Rating** This is the average survey rating on exit of the survey for that particular project (Color coded using **Panel Settings** -> **Send notification when survey rating falls under**)
 
