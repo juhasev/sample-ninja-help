@@ -3,13 +3,19 @@
 This project dashboard gives a wealth of statistics about an individual project.
 
 ### Statistics at the top
+- **Percentage completed** Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
+- **Response Rate** is defined as proportion of the total number of completed / invitations * 100%. On the flip side you see start rate which is calculated started / invitations * 100%.
+- **Indicence Rate %** is calculate starts / (starts + completes) * 100
+- **Length of Interview** is 99% percentile average or 2.5 standard deviations frmo mean.
+- **Target Completes** - The total target completes for that Project
+- **Rating** This is the average survey rating on exit of the survey for that particular project (Color coded using **Panel Settings** -> **Send notification when survey rating falls under**)
 
+### Project status, name and ID
+
+On this line you see:
 - Project status - **Online, Closed, Archived** and **Offline**
-- Percentage completed - Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
-- Response Rate rate is defined as proportion of the total number of completed / invitations * 100%. On the flip side you see start rate which is calculated started / invitations * 100%.
-- Indicence rate % is calculate starts / (starts + completes) * 100
-- Target Completes - The total target completes for that Project
-- Rating - This is the average survey rating on exit of the survey for that particular project (Colour coded against Settings parameters)
+- Project name
+- Project ID
 
 ### Project progress chart
 
@@ -40,13 +46,15 @@ If you like you can export the chart image or it's data click on **three dots** 
   - 1% or less = Green  
 
 - Complained show the number of complain emails sent to the SampleNinja email server with regards this project. This is colour code for instant recognition:
-  - Over 10 complaints = Red (**Project automatically shut down**)
-  - 1-10 complaints = Dark Orange
+  - Over 10 complaints = Red
+  - Under 1-10% complaints = Dark Orange
   - No complaints = Green
 
+> If your project exceed 1% complaint rate then **Sample Ninja** will automatically shut your project down. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation.
+
 ### Redemption Points allocations for Panellists
-- Total Revenue - Total redemption points allocated thus far for this project in the platform.
-- Rewards Issued Total - Total redemption points allocated thus far for this project issued to Panellists.
-- Gross Revenue - Is the calculation of Total Revenue MINUS Rewards issued.
-- Gross Revenue Margin - Display gross revenue margin.
+- **Total Revenue** Total redemption points allocated thus far for this project in the platform.
+- **Rewards Issued** Total redemption points allocated thus far for this project issued to Panellists.
+- **Gross Revenue** Is the calculation of **Total Revenue** minus **Rewards Issued**
+- **Gross Revenue Margin** Display gross revenue margin.
 
