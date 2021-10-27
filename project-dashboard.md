@@ -33,7 +33,7 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Profile terminations** Total number of panelists terminated because of Profile not being suitable for a particular project. Mouse over to see percent from started.
 - **Quality terminations** Total number of panelists terminated due to quality. Mouse over to see percent from started.
 - **Duplicate terminations** Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
-- **Security terminations** Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
+- **Security terminations** Total number of panelists terminated due to security check like **out of country**. Mouse over to see percent from started.
 
 ### Statistics under chart  
 - **Routed in** Total number of panelists routed into this project from other projects.
