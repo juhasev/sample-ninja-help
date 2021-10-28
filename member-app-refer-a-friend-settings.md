@@ -14,7 +14,7 @@ Recommended size is 900 x 300 pixels. We recommend that don't place any text dir
 Simply click on the text to edit. The text box support **Markdown**. Use the slider below image to adjust position of the text box.
 
 ### Referee Reward
-Number of reward points paid to the referee when all the configurable settings below are met.
+Number of reward points paid to the referee when all the configurable settings below are met. Leave zero for no compensation.
 
 ### Minimum days as member
 Controls minimum number of days as subscribed panelist before becoming eligible to refer friends. Leave zero to disable.
