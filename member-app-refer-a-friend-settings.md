@@ -6,7 +6,7 @@ Refer a friend features let's your panelists to invite their friends to join for
 
 Consider configuring this feature with some time or action based restrictions to help mitigate potential misuse by professional panelists. 
 
-> A professional panelist is a person who is using dirty tactics in an attempt to earn and cash out maximum rewards. Professionals use any tools available them including creating multiple accounts, providing false data to surveys to produce maximum completes etc... 
+> A professional panelist is a person who is using dirty tactics in an attempt to earn and cash out maximum rewards. Professionals use any tools available them including creating multiple accounts, providing false data to surveys to produce maximum completes or misuse features like **Refer a friend**. 
  
 #### Locale selecton
 Select in which locale you would like to preview **Refer a Friend** banner.
