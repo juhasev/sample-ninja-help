@@ -1,6 +1,17 @@
 ## Refer a friend
 
-Allows your panelists to invite their friends to join for an extra rewards. Configuration options:
+Refer a friend features let's your panelists to invite their friends to join for an extra rewards. You have multiple configuration options in terms how the reward payout takes place. To start you need to slider the **Enabled** -toggle to right.
+
+Configuration options:
+
+### Locale selecton
+Select in which locale you would like to preview **Refer a Friend** banner.
+
+### Upload background image
+Recommended size is 900 x 300 pixels. We recommend that don't place any text directly into your background image but let **SampleNinja** to overlay the text on your background image. This is a requirement if you **Sub Panel** is multilingual.
+
+### Editing texts
+Simply click on the text to edit. The text box support **Markdown**. Use the slider below image to adjust position of the text box.
 
 ### Referee Reward
 Number of reward points paid to the referee when all the configurable settings below are met.
