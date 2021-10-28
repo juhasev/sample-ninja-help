@@ -29,4 +29,6 @@ Controls how many survey referred panelist must complete before referee earns re
 #### Minimum days between referrals
 Controls how ofter an individual can refer friends. Leave zero for unlimited referrals.
 
+#### Maximum number of friends to refer
+This is the number of friends that can be referred at one time. This settings does not control life time maximum referrals.
 
