@@ -12,15 +12,13 @@ Consider configuring this feature with some time or action based restrictions to
 Select in which locale you would like to preview **Refer a Friend** banner.
 
 #### Upload background image
-Recommended size is 900 x 300 pixels. We recommend that don't place any text directly on your background image but let **SampleNinja** to overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. **SimpleNinja** overlays the text using the correct **Locale** and **Language**. You can use **PNG** image to achieve transparency and you can also used **SVG** images for indefinite scalability and sharpness on high resolution screens.
+Recommended size is 900 x 300 pixels. We recommend that don't place any text directly on your background image but let **SampleNinja** to overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. **SimpleNinja** overlays the text using the correct **Locale** and **Language**. You can use **PNG** image to achieve transparency and you can also used **SVG** images for indefinite scalability and sharpness on high resolution screens. 
 
-> **NOTE** You cannot have different images for different locales. 
+To upload an alternate image simply mouse over the image and click on the upload icon at the bottom right. You can adjust the margins and force the text elements to appear in certain area horizontally.
 
-> When you mouse over the image the upload icon appears at the bottom left corner.
+> **IMPORTANT** We recommend using least amount of spacing and keeping your messaging short. All the text must fit on mobile phone screen! 
 
-> You can adjust the margin and force the text elements to appear in certain area horizontally. This depends on your background image is designed. 
-
-> **IMPORTANT** We recommend using least amount of spacing and keeping your messaging short. All the text must fit on mobile phone screen!  
+> **NOTE** You cannot have different images for different locales.  
 
 #### Editing texts
 Simply click on the text to edit. The text box support **Markdown**. Use the slider below image to adjust position of the text box. Similarly click on the button to customize the text for the current locale.
