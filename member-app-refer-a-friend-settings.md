@@ -16,9 +16,9 @@ Recommended size is 900 x 300 pixels. We recommend that don't place any text dir
 
 To upload an alternate image simply mouse over the image and click on the upload icon at the bottom right. You can adjust the margins and force the text elements to appear in certain area horizontally.
 
-> **IMPORTANT** We recommend using least amount of spacing and keeping your messaging short. All the text must fit on mobile phone screen! 
+> **IMPORTANT** We recommend using the least amount of spacing and keeping your messaging short. This is ensure that all the text fits on mobile phone screen! 
 
-> **NOTE** You cannot have different images for different locales.  
+> **NOTE** You cannot have different images for different locales.
 
 #### Editing texts
 Simply click on the text to edit. The text box support **Markdown**. Use the slider below image to adjust position of the text box. Similarly click on the button to customize the text for the current locale.
