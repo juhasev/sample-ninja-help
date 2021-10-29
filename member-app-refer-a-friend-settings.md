@@ -12,7 +12,7 @@ Consider configuring this feature with some time or action based restrictions to
 Select in which locale you would like to preview **Refer a Friend** banner.
 
 #### Upload background image
-Recommended size is 900 x 300 pixels. We recommend that don't place any text directly into your background image but let **SampleNinja** to overlay the text on your background image. This is a requirement if your **Sub Panel** is multilingual so we can dynamically swap the contents based on user's language. 
+Recommended size is 900 x 300 pixels. We recommend that don't place any text directly on your background image but let **SampleNinja** to overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. You cannot have different images for different locales therefore **SimpleNinja** overlays the text using the correct **Locale** and **Language** on top the upload background image.
 
 > When you mouse over the image the upload icon appears at the bottom left corner.
 
