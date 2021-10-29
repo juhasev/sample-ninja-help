@@ -1,6 +1,6 @@
 ## Refer a friend
 
-Refer a friend features let's your panelists to invite their friends to join for an extra rewards. You have multiple configuration options in terms how the reward payout takes place. To start, click on the **Enabled** -toggle to turn the feature on.
+Refer a friend features let's your panelists to invite their friends to join for an extra rewards. You have multiple configuration options in terms how and when the reward payout takes place. You also have controls who is eligible to refer friends. For example you may require at least 30 days panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
 
 ### Configuration options:
 
