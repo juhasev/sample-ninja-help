@@ -2,6 +2,8 @@
 
 Refer a Friend lets panelists earn extra rewards for inviting friends to join and complete surveys. You have multiple configuration options in terms of how and when the reward payout takes place. You also have control of who is eligible to refer friends, e.g. you may require at least 30 days of panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
 
+When enabled **Refer a Friend** features writes to system variables **REFERRED_COUNT** and **REFERRED_BY**. 
+
 ### Configuration options:
 
 Consider configuring this feature with some time or action based restrictions to help mitigate potential misuse by professional panelists. 
