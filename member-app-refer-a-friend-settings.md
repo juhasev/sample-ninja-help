@@ -43,3 +43,11 @@ This is the number of friends that can be referred at one time. This setting doe
 #### Redirect to registration survey
 By default all traffic from confirming the referral is sent to the registration survey. However, if you run your registration survey externally you can define an alternate redirect URL where the referrals are sent.
 
+Alternate URL will receive the following query parameters:
+
+**ref** Unique referral ID
+**locale** Locale of the referring panelist
+**source** Recruitment source ID
+
+> These values can be supplied when using **Application API** **Register Panelist** -end point.
+
