@@ -47,7 +47,7 @@ Alternate URL will receive the following query parameters:
 
 - **ref** Unique referral ID
 - **locale** Locale of the referring panelist
-= **source** Recruitment source ID
+- **source** Recruitment source ID
 
 > These values can be supplied when using **Application API** **Register Panelist** -end point.
 
