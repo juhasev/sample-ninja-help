@@ -48,6 +48,7 @@ Alternate URL will receive the following query parameters:
 - **ref** Unique referral ID
 - **locale** Locale of the referring panelist
 - **source** Recruitment source ID
+- **email** Referred email address
 
-> These values can be supplied when using **Application API** **Register Panelist** -end point.
+> Use this values in your own registration flow. **locale**, **source** and **email** can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
 
