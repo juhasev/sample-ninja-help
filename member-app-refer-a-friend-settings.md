@@ -50,5 +50,9 @@ Alternate URL will receive the following query parameters:
 - **source** Recruitment source ID
 - **email** Referred email address
 
-> Use this values in your own registration flow. **locale**, **source** and **email** can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
+> Use this values in your own registration flow. The following values can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
+
+- **locale** Pass in using **LOCALE** variable
+- **source** Pass in using **RECRUITMENT_SOURCE** variable
+- **email** Pass in using **EMAIL** variable.
 
