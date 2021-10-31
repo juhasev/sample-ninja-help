@@ -16,9 +16,11 @@ Select which locale you would like to preview the **Refer a Friend** banner in.
 #### Upload background image
 The recommended background image size is 900 x 300 pixels. We recommend that you do not place any text directly on your background image, but let **SampleNinja** overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. **SimpleNinja** overlays the text using the correct **Locale** and **Language**. You can use **PNG** image to achieve transparency and can also use **SVG** images for indefinite scalability as well as sharpness on high resolution screens. 
 
-To upload an alternate image, simply click on the upload icon at the bottom right. You can adjust the margins and force the text elements to appear horizontally in certain areas.
+To upload an alternate image, simply click on the upload icon at the bottom right. 
 
-> **IMPORTANT** We recommend using the least amount of spacing and keeping your messaging short. This is to ensure that all the text fits on a mobile phone screen! 
+> **TIP:** Use the sliders below to set margins for your text block. You can use the margins to prevent text from overlapping features on the background image. 
+
+> **IMPORTANT** We recommend using the least amount of margins and keeping your messaging short. This is to ensure that all the text fits on a mobile phone screen! 
 
 > **NOTE** You cannot have different images for different locales.
 
