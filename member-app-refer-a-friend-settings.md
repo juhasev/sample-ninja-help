@@ -35,7 +35,7 @@ Controls the minimum number of days a panelist must be subscribed, before becomi
 Controls how many surveys a referred panelist must complete, before the referee earns reward points. Leave as zero for immediate referee payment.
 
 #### Minimum days between referrals
-Controls how often an individual can refer friends. Leave as zero for unlimited referrals.
+Controls how often an individual can refer friends. Enter zero to have **Refer a friends** permanently visible.
 
 #### Maximum number of friends to refer
 This is the number of friends that can be referred at one time. This setting does not control maximum life time referrals.
