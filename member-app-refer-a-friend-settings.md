@@ -35,7 +35,7 @@ Controls the minimum number of days a panelist must be subscribed, before becomi
 Controls how many surveys a referred panelist must complete, before the referee earns reward points. Leave as zero for immediate referee payment.
 
 #### Minimum days between referrals
-Controls how often an individual can refer friends. Enter zero to have **Refer a friends** permanently visible.
+Controls how often an individual can refer friends. Enter zero to have **Refer a friend** permanently visible.
 
 #### Maximum number of friends to refer
 This is the number of friends that can be referred at one time. This setting does not control maximum life time referrals.
@@ -50,7 +50,7 @@ Alternate URL will receive the following query parameters:
 - **source** Recruitment source ID
 - **email** Referred email address
 
-> Use this values in your own registration flow. The following values can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
+> Use these values in your own registration flow. The following values can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
 
 - **locale** Pass in using **LOCALE** variable
 - **source** Pass in using **RECRUITMENT_SOURCE** variable
