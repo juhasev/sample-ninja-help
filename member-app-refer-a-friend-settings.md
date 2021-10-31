@@ -40,3 +40,6 @@ Controls how often an individual can refer friends. Leave as zero for unlimited 
 #### Maximum number of friends to refer
 This is the number of friends that can be referred at one time. This setting does not control maximum life time referrals.
 
+#### Redirect to registration survey
+By default all traffic from confirming the referral is sent to the registration survey. However, if you run your registration survey externally you can define an alternate redirect URL where the referrals are sent.
+
