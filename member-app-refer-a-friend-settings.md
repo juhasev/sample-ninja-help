@@ -1,17 +1,17 @@
-## Refer a Friend
+## Refer Friends
 
-Refer a Friend lets panelists earn extra rewards for inviting friends to join and complete surveys. You have multiple configuration options in terms of how and when the reward payout takes place. You also have control of who is eligible to refer friends, e.g. you may require at least 30 days of panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
+Refer Friends lets panelists earn extra rewards for inviting friends to join and complete surveys. You have multiple configuration options in terms of how and when the reward payout takes place. You also have control of who is eligible to refer friends, e.g. you may require at least 30 days of panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
 
-When enabled the **Refer a Friend** feature writes to system variables **REFERRED_COUNT** and **REFERRED_BY**.
+When enabled the **Refer Friends** feature writes to system variables **REFERRED_COUNT** and **REFERRED_BY**.
 
 ### Configuration options:
 
 Consider configuring this feature with some time or action based restrictions to help mitigate potential misuse by professional panelists. 
 
-> A professional panelist is a person who is using dirty tactics in an attempt to earn and cash out maximum rewards. Professionals use any tools available to them; including creating multiple accounts, providing false data in surveys to produce maximum completes or misusing features like **Refer a Friend**. 
+> A professional panelist is a person who is using dirty tactics in an attempt to earn and cash out maximum rewards. Professionals use any tools available to them; including creating multiple accounts, providing false data in surveys to produce maximum completes or misusing features like **Refer Friends**. 
  
 #### Locale selecton
-Select which locale you would like to preview the **Refer a Friend** banner in.
+Select which locale you would like to preview the **Refer Friends** banner in.
 
 #### Upload background image
 The recommended background image size is 900 x 300 pixels. We recommend that you do not place any text directly on your background image, but let **SampleNinja** overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. **SimpleNinja** overlays the text using the correct **Locale** and **Language**. You can use **PNG** image to achieve transparency and can also use **SVG** images for indefinite scalability as well as sharpness on high resolution screens. 
@@ -37,7 +37,7 @@ Controls the minimum number of days a panelist must be subscribed, before becomi
 Controls how many surveys a referred panelist must complete, before the referee earns reward points. Leave as zero for immediate referee payment.
 
 #### Minimum days between referrals
-Controls how often an individual can refer friends. Enter zero to have **Refer a friend** permanently visible.
+Controls how often an individual can refer friends. Enter zero to have **Refer Friends** permanently visible.
 
 #### Maximum number of friends to refer
 This is the number of friends that can be referred at one time. This setting does not control maximum life time referrals.
