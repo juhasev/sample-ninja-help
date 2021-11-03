@@ -13,6 +13,12 @@ Consider configuring this feature with some time or action based restrictions to
 #### Locale selecton
 Select which locale you would like to preview the **Refer Friends** banner in.
 
+#### Defaultl background
+Select one of the default background that come bundled with **SampleNinja**. See below **Upload background image** how to upload your own custom background image.
+
+#### Referee Reward
+This is the number of reward points paid to the referee when all the configurable settings below are met. Leave as zero for no compensation.
+
 #### Upload background image
 The recommended background image size is 900 x 300 pixels. We recommend that you do not place any text directly on your background image, but let **SampleNinja** overlay the text. This is the minimum requirement if your **Sub Panel** is multilingual. **SimpleNinja** overlays the text using the correct **Locale** and **Language**. You can use **PNG** image to achieve transparency and can also use **SVG** images for indefinite scalability as well as sharpness on high resolution screens. 
 
@@ -26,9 +32,6 @@ To upload an alternate image, simply click on the upload icon at the bottom righ
 
 #### Editing texts
 Simply, click on the text to edit. The text box supports **Markdown**. Use the slider below image to adjust the position of the text box. Similarly, click on the button to customize the text for the current locale.
-
-#### Referee Reward
-This is the number of reward points paid to the referee when all the configurable settings below are met. Leave as zero for no compensation.
 
 #### Minimum days as member
 Controls the minimum number of days a panelist must be subscribed, before becoming eligible to refer friends. Leave as zero to disable.
