@@ -4,6 +4,8 @@ Refer Friends lets panelists earn extra rewards for inviting friends to join and
 
 When enabled the **Refer Friends** feature writes to system variables **REFERRED_COUNT** and **REFERRED_BY**.
 
+If you are using the built-in registration survey all the referred panelists are clearly marked in R -icon in the registration participation log. Click on the icon to see who the referee is.
+
 ### Configuration options:
 
 Consider configuring this feature with some time or action based restrictions to help mitigate potential misuse by professional panelists. 
