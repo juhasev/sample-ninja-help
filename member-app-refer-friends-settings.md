@@ -4,7 +4,7 @@ Refer Friends lets panelists earn extra rewards for inviting friends to join and
 
 When enabled the **Refer Friends** feature writes to system variables **REFERRED_COUNT** and **REFERRED_BY**.
 
-If you are using the built-in registration survey all the referred panelists are clearly marked in R -icon in the registration participation log. Click on the icon to see who the referee is.
+If you are using the built-in registration survey all the referred panelists are clearly marked in **R** -icon in the registration participation log. Click on the icon to see who the referee is.
 
 ### Configuration options:
 
@@ -28,7 +28,7 @@ To upload an alternate image, simply click on the upload icon at the bottom righ
 
 > **TIP:** Use the sliders below to set margins for your text block. You can use the margins to prevent text from overlapping features on the background image. 
 
-> **IMPORTANT** We recommend using the least amount of margins and keeping your messaging short. This is to ensure that all the text fits on a mobile phone screen! 
+> **IMPORTANT** We recommend using the least amount of margins and keeping your messaging short. This is to ensure that all the text fits on mobile phone screens! 
 
 > **NOTE** You cannot have different images for different locales.
 
