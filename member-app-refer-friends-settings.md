@@ -1,10 +1,12 @@
 ## Refer Friends
 
-Refer Friends lets panelists earn extra rewards for inviting friends to join and complete surveys. You have multiple configuration options in terms of how and when the reward payout takes place. You also have control of who is eligible to refer friends, e.g. you may require at least 30 days of panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
+Enable Refer Friends to let your panelists earn extra rewards for inviting friends to join. You have multiple configuration options in terms of how and when the reward payout takes place. You also have control of who is eligible to refer friends, e.g. you may require at least 30 days of panel membership. To start, click on the **Enabled** -toggle to turn the feature on.
 
 When enabled the **Refer Friends** feature writes to system variables **REFERRED_COUNT** and **REFERRED_BY**.
 
 If you are using the built-in registration survey all the referred panelists are clearly marked in **R** -icon in the registration participation log. Click on the icon to see who the referee is.
+
+> All referred friends are automatically tagged with **Refer a friend** -recruitment source. This recruitment source is automatically created for you.
 
 ### Configuration options:
 
