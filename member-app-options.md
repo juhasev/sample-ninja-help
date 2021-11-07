@@ -10,6 +10,6 @@ Let's you turn on/off features:
 - **Compact survey list** Applies compact formatting to the survey items
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned.
 - **Allow panelist to create password at login** This enables seemsless panel migration or adding one if you never had an website with your panelist.
-- **API access only** Turning this setting on will disable access to the build-in member app while allowing API access from a custom community.
+- **API access only** Turning this setting on will disable access to the built-in member app while allowing API access from a custom community.
 
 > If you ```enabled``` allow "create password at login" option also remember to visit your Sub Panel settings and make sure that your have a Members App enabled and that the "Community link points to the members app" settings is toggled on. Additionally you must visit your Landing Page Configuration and make sure the "Show Community Button" is enabled. These settings will draw your panelists to the community site to create their passwords.
