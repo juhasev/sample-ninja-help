@@ -1,6 +1,6 @@
 ## Project Dashboard
 
-This project dashboard gives a wealth of statistics about your project.
+The project dashboard gives a wealth of statistics about your project.
 
 ### Statistics at the top
 - **Percentage completed** Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
