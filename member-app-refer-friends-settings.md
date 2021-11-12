@@ -28,11 +28,9 @@ The recommended background image size is 900 x 300 pixels. We recommend that you
 
 To upload an alternate image, simply click on the upload icon at the bottom right. 
 
-> **TIP:** Use the sliders below to set margins for your text block. You can use the margins to prevent text from overlapping features on the background image. 
+> **TIP** Use the sliders below to set margins for your text block. You can use the margins to prevent text from overlapping features on the background image. We recommend using the least amount of margins and keeping your messaging short. This is to ensure that all the text fits on mobile phone screens! 
 
-> **IMPORTANT** We recommend using the least amount of margins and keeping your messaging short. This is to ensure that all the text fits on mobile phone screens! 
-
-> **NOTE** You cannot have different images for different locales.
+> **LIMITATIONS** You cannot have different images for different locales.
 
 #### Editing texts
 Simply, click on the text to edit. The text box supports **Markdown**. Use the slider below image to adjust the position of the text box. Similarly, click on the button to customize the text for the current locale.
