@@ -39,7 +39,7 @@ Simply, click on the text to edit. The text box supports **Markdown**. Use the s
 Controls the minimum number of days a panelist must be subscribed, before becoming eligible to refer friends. Leave as zero to disable.
 
 #### Number of completed surveys
-Controls how many surveys a referred panelist must complete, before the referee earns reward points. Leave as zero for immediate referee payment.
+Controls how many surveys a referee must complete, before the refered panelist is paid out. Leave as zero for an immediate referer compensation.
 
 #### Minimum days between referrals
 Controls how often an individual can refer friends. Enter zero to have **Refer Friends** permanently visible.
