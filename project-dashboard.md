@@ -46,21 +46,23 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Number of initiations sent** Shows the total number of email invites.
 - **Delivered** shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”.
 - **Opened** Shows the number of opened invitations. This value is not 100% accurate and should be used for guidance only
-- **Bounced** shows the total number of bounced emails from the emails sent in that project. This is colour code for instant recognition.
+- **Bounced** shows the total number of bounced emails from the emails sent in that project. This is colour coded for instant recognition.
   - Over 3.001%= Red
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
 
-- Complained show the number of complain emails sent to the SampleNinja email server with regards this project. This is colour code for instant recognition:
+- **Complaints** shows the number of complain emails sent to the SampleNinja email server with regards to this project. This is colour coded for instant recognition:
   - **Over 10 complaints**  Red
   - **Under 1-10% complaints** Dark Orange
   - **No complaints** Green
 
-> If your project exceed 1% complaint rate then **Sample Ninja** will automatically shut your project down. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation.
+> If your project exceeds 1% complaint rate then **Sample Ninja** will automatically shut your project down. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation.
 
 ### Redemption Points allocations for Panellists
 - **Total Revenue** Total redemption points allocated thus far for this project in the platform.
 - **Rewards Issued** Total redemption points allocated thus far for this project issued to Panellists.
 - **Gross Revenue** Is the calculation of **Total Revenue** minus **Rewards Issued**
 - **Gross Revenue Margin** Display gross revenue margin.
+- **Wasted Reward Point Cost** Displays the total cost associated with wasted reward points.
 
+> Within the **Balancing** segment, keep an eye on the numbers in the quota cells. If these numbers get too high, it means you are trying to complete the project too fast or the quota cells are requiring too many invitations due to a low response rate. This will incur unnecessary cost.
