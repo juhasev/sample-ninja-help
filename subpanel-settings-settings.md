@@ -24,8 +24,8 @@ Enable the built-in members app. Panelists can login and see available surveys, 
 #### Community URL points to member's app
 If you enable this settings then community site points directly to the member's app. If you are running your own custom community site do not enable this setting.
 
-### Minimum mebger api
-Blcoks respondents autonmatically if they sekect their age less than the what is configurated here,
+### Minimum member api
+Blocks respondents automatically, if they select their age less than what is configurated here.
 
 ### Minimum points to redeem
-Enforces that you as a panelist has earned at least indicated amount of reward points. Tracked by data variables POINTS_REWARDED. This setting enables you to block new bies and frandlulent panelists from redeeming any reward till they accumulated the specified minmum. Leave as 0 for no resctictions.
+Enforces that you as a panelist have earned at least the indicated amount of reward points. Tracked by data variable POINTS_REWARDED. This setting enables you to block new and frandlulent panelists from redeeming any reward till they accumulated the specified minimum. Leave as 0 for no restrictions.
