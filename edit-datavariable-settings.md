@@ -1,6 +1,9 @@
 ## Data variable label
 Each variable has it's own unique label. The labels are used to identify the data variable. Sample Ninja data variables can also presented as questions for various locales (ENG-US, SPA-US) and used in both Dynamic Profiling and in the Registration surveys. You must manually supply question text and options text under **QUESTION** tab. You can safely rename the variable label without any impact on the underlaying data or the existing segments, projects or filters.
 
+## Display name
+Let's you specify more human readable label for the data variable. For example if you use data variable label **HH_MEMBERS** you could give it a more readable  display name like **Household Members**. The display name is used in the query builder to make queries more readable and understandable by junior **Project Managers**.
+
 ## Option labels
 Option labels are shown for radio and checkbox questions only.
 
