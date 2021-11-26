@@ -24,7 +24,7 @@ Simply indicates project ID.
 
 If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls you can just leave the priority setting to the default of five (5). Maximum priority is 10 so 5 falls in the middle ground as indicated as **dot**. Lower or higher priorities are indicates with **arrow** -icons pointing either up or down. 
 
-> The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order the currently fielding projects get to use any new panelists awailable. All new registerered, uploaded panelists and all panelists that are continuously freed as the business rules exclusions expire are added to the available sample pool.
+> The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in which order to sample from the currently available panelist pool.
 
 #### NAME
 This is internal project name. This name is never disclosed to the panelists.
@@ -33,7 +33,6 @@ This is internal project name. This name is never disclosed to the panelists.
 If you see an error indicator on your project something may have gone wrong. Click on the error indicator to see the details. 
 
 > If you clear all the errors the error indicator will disappear but will come back if any consequent sampling errors occur.
-
 
 #### PROGRESS
 
