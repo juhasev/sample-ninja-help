@@ -6,8 +6,8 @@ Displays Activity History for each panelist.
 **TYPE** - Activity type, e.g Project  
 **NAME** - Project Name  
 **STATUS** - Activity status, varies among types 
-**REWARD** - # of reward points  
-**REVENUE** - # of revenue earned
+**REWARD** - Number of reward points  
+**REVENUE** - Revenue earned
 **COST** - # Cost
 **CREATED** - Activity create date and time
 
