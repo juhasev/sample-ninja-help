@@ -1,14 +1,70 @@
 ### ACTIVITY
 
-Displays all the activity Statues for that individual panelist. Each line denotes a dedicated entry in the system.
-
-The page shows the following and can be sorted by clicking on the appropriate header:
+Displays Activity History for each panelist.
 
 **ID** - The unique project ID  
 **TYPE** - Activity type, e.g Project  
 **NAME** - Project Name  
-**STATUS** - Project Status, this can be either **invited, quota, opened, started** or **completed**  
-**REWARD** - Denotes the number of panelist reward points were given for that activity  
-**REVENUE** - Denotes the number of panelist reward points revenue estimated for that project  
-**COST** - Denotes the cost to the Panel (of a Redemption transaction)  
-**CREATED** - Shows the date and time stamp for that entry
+**STATUS** - Activity status, varies among types 
+**REWARD** - # of reward points  
+**REVENUE** - # of revenue earned
+**COST** - # Cost
+**CREATED** - Activity create date and time
+
+#### Activity history items:
+
+**Project**
+
+Indicates different statuses panelists may get when answering to surveys. Possible statuses are:
+
+- opened
+- started
+- duplicate
+- quality
+- security
+- completed
+- quota
+- profile
+- invited
+- reminded
+
+**Redemption** with statuses
+
+- processed
+
+Status is used to indicated panelist's status change. Possible statuses are statuses
+
+- subscribed
+- unsubscribed
+- blacklisted
+ 
+**Registration** with statuses
+
+- completed
+
+**AccountTransfer** with statuses
+
+- completed
+
+**DataVariable** 
+Is used with Dynamic Profiling. So every entry will create a new activity record. Possible statuses:
+
+- completed
+
+**ImportBalance**
+Is used if panelist points balance was imported. Possible statuses are
+
+- completed
+
+**ReferredFriend**
+
+- invited
+- completed
+
+**Password**
+
+Is used if panelist creates or resets a password. Possible statuses:
+
+- create
+- reset
+
