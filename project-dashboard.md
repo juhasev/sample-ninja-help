@@ -12,6 +12,7 @@ The project dashboard gives a wealth of statistics about your project.
 - **Estimated LOI** is directly what is entered in the **Project Settings** -> **Basic Settings** -> **Length of Interview**
 - **Target Completes** The total target completes for that Project
 - **Rating** This is the average survey rating given by the participants
+- **Ratings count** is the number of survey ratings given by the participants
 
 > **Response rate, Incidence Rate and Rating** Take color cues from **Panel Settings** -> **Action Thresholds**
 
