@@ -96,5 +96,5 @@ Next you append the required query parameters to the URL:
 
 When an API request is received and validation passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration template**. When a registering panelist confirms their email the standard security checks, fingerprinting and other will run.
 
-Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from MVF. Sample Ninja will automatically report these as completed registration surveys so you have normal registration survey statistics.
+Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from **MVF**. **Sample Ninja** will automatically report these as completed registration surveys so you will have normal registration survey statistics even though these users never took the actual registration survey.
 
