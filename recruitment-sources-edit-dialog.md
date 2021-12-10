@@ -62,7 +62,7 @@ As long as the **registration survey** URL is configured in **TUNE's admin inter
 
 > For more information visit https://www.tune.com
 
-### MVF Conversion reporting
+### MVF Co-registration conversion reporting
 
 In order to use **MVF** integration you must first enable it in the **Panel Settings** under **Integrations** -tab. You must have an account **MVF** and know you reporting pixel URL.
 
@@ -82,20 +82,13 @@ When **MVF** is turned on for a **Recruitment Source** Sample Ninja expects 6 UR
 Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** enabled. Your base **Registration Survey** URL would look like this:
 
 ```
-https://client.sampleninja.io/registration/1/ENG-US
+https://client.sampleninja.io/co-registration/mvf/1/ENG-US
 ```
+> **MVF** Registration information is submitted via API call to the above URL.
 
 Next you append the required query parameters to the URL:
 
 ```
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
-> **MVF** must use this URL format for all the redirects they do.
-
-Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered and user will only see **EMAIL** which is prefilled but needs user's confirmation. You can add any number of additional questions to your registration survey. **EMAIL** address is pre-filled but must be confirmed the registerting user the rest of the questions are auto populated.
-
-As long as you have configured your **MVF** account correctly these parameters are automatically passed in from **MVF** when new recruits land into your registration survey.
-
-> Variable data that does not pass the validation by Sample Ninja will be silently ignored and users are automatically asked to fill in these questions again.
-
-> **IMPORTANT!** You must have **GENDER** variable in your **Registration Survey** or **GENDER** will fail to automatically collect.
+Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from MVF. Sample Ninja will automatically report these as completed registration surveys so you have normal registration survey statistics.
