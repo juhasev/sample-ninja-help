@@ -38,14 +38,14 @@ Additionally we scan for email addresses that you have already blacklisted. Samp
 
 Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
 
-## Sources tab
+### Filtering
+Click on the **filter** icon top right to open up the filter menu. You can select time range to look at the statistics and/or select individual recruitment sources to compare how the different sources are performing. 
+
+### Sources tab
 Provides details which recruitment sources are the most active in the past month.
 > These values are recorded using everybody visiting the registration survey.
 
-## Devices tab
+### Devices tab
 Provides information of all devices visiting the registration survey.
 
 > These values are recorded using everybody visiting the registration survey.
-
-### Filtering
-Click on the **filter** icon top right to open up the filter menu. You can select time range to look at the statistics and/or select individual recruitment sources to compare how the different sources are performing. 
