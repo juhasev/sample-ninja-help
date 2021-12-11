@@ -34,7 +34,9 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234
 > **AdBloom** must use this URL format for all the redirects they do.
 
 ### Lucid Recruitment
-Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. Incoming registration URL must contain **rid** parameter from **Lucid**. For example if your **Lucid** -enable recruitment sources ID is 6 the registration URL would look like this:
+Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. 
+
+The registration URL must contain **rid** parameter automatically appended by **Lucid** marketplace. For example if your **Lucid** -enable recruitment sources ID is 6 the registration URL would look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=6&rid=fa4a9ce9-48c8-4f2f-a221-9acfb79d8db3
