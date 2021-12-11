@@ -97,7 +97,7 @@ Next you append the required query parameters to the URL:
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
 
-> **NOTE** The URL does not point to the registration survey, instead it points to a specific URL for co-registration!
+> **NOTE** The URL does not point to the registration survey, instead it points to a specific URL for co-registration! This URL is used to server to server communication between **MVF** and **Sample Ninja**
 
 When an API request is received and validation passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration template**. When a registering panelist confirms their email the standard security checks, fingerprinting etc.. will run.
 
