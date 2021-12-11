@@ -4,7 +4,7 @@ Recruitment sources can be used to keep track ofdifferent recruitment sources, t
 
 To edit recruitment sources click on the name.
 
-> More detailed help file is available in the edit / create dialog.
+> More detailed help is available in the edit / create dialog.
 
 ## Create new recruitment sources
 
