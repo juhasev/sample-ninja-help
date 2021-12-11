@@ -1,5 +1,10 @@
 ## TUNE Recruitment
-Sample Ninja support using **TUNE** to driver new recruits to the **Registration Survey**. This integration enables seemless conversion reporting back to **Tune** via **Registration Surveys**. Please enter your **TUNE reporting URL**. You get this URL from Tune once you have an account. And remember to **ENABLE** Tune integration. No other settings needed.
+
+Sample Ninja supports recruiting panelist from **TUNE**. This integration handles reporting conversions back to **TUNE** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
+
+Please enter your **TUNE reporting URL** and toggle **TUNE Recruitment** on. 
+
+> Contact your **TUNE** account presentative for the reporting URL.
 
 > Read more under **Recruitment Sources**
 
