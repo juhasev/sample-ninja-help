@@ -31,8 +31,6 @@ You need apped the required parameters and the final URL will look like this:
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
 ```
 
-> **AdBloom** must use this URL format for all the redirects they do.
-
 ### Lucid Recruitment
 Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. 
 
