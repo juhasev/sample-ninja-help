@@ -25,7 +25,7 @@ When enabled the recruitment source ID or **source** and AdBloom click ID or **c
 https://domain.sampleninja.io/registration/1/ENG-CA
 ```
 
-You need apped the required parameters and the final URL will look like this:
+You need apped all the required parameters and the final URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
@@ -91,7 +91,7 @@ Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** e
 https://client.sampleninja.io/co-registration/mvf/1/ENG-US
 ```
 
-Next you append the required query parameters to the URL:
+Next append all the required query parameters to the URL:
 
 ```
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
