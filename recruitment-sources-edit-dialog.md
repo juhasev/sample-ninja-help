@@ -12,7 +12,8 @@ In order for the recruitment source tracking to work you must supply the **sourc
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 ```
-### AdBloom conversion reporting
+
+### AdBloom recruitment
 
 In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via **AdBloom** admin interface or from your **AdBloom** representative
 
@@ -40,7 +41,6 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=6
 ```
 
 ### TUNE Recruitment
-
 In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via **TUNE** admin interface or from your **TUNE** representative.
 
 Use the **Integration Partner** pulldown and select **TUNE**
@@ -69,9 +69,8 @@ As long as the **registration survey** URL is configured in **TUNE's admin inter
 
 > For more information visit https://www.tune.com
 
-### MVF Co-registration conversion reporting
-
-In order to use **MVF** integration you must first enable it in the **Panel Settings** under **Integrations** -tab. You must have an account **MVF** and know you reporting pixel URL.
+### MVF Co-registration
+In order to use **MVF** co-registration you must first enable it in the **Panel Settings** under **Integrations** -tab. You must have an account with **MVF** and know your server to server double opt-in reporting URL.
 
 Use the **Integration Partner** pulldown to and select **MVF**.
 
