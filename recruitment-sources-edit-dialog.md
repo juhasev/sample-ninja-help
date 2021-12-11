@@ -34,7 +34,7 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234
 ### Lucid Recruitment
 Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. 
 
-The registration URL must contain **rid** parameter automatically appended by **Lucid** marketplace. For example if your **Lucid** -enable recruitment sources ID is 6 the registration URL would look like this:
+The registration URL must contain **rid** parameter. This parameter is automatically appended by **Lucid** marketplace. For example if your **Lucid** -enabled recruitment sources ID is 6 the registration URL would look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=6&rid=fa4a9ce9-48c8-4f2f-a221-9acfb79d8db3
@@ -90,7 +90,6 @@ Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** e
 ```
 https://client.sampleninja.io/co-registration/mvf/1/ENG-US
 ```
-> **MVF** Registration information is submitted via API call to the above URL.
 
 Next you append the required query parameters to the URL:
 
@@ -98,7 +97,7 @@ Next you append the required query parameters to the URL:
 ?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
 ```
 
-> This is the URL would give **MVF** to send API requests to.
+> **NOTE** The URL does not point to the registration survey, instead it points to a specific URL for co-registration!
 
 When an API request is received and validation passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration template**. When a registering panelist confirms their email the standard security checks, fingerprinting etc.. will run.
 
