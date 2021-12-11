@@ -1,9 +1,11 @@
 ## AdBloom conversion reporting
 
-Sample Ninja supports reporting conversions back to **AdBloom** via **Registration Surveys**. The reporting takes place when a registering user confirms their email address. Please enter your **AdBloom reporting URL**. You get obtain this URL from **AdBloom**. 
+Sample Ninja supports recruiting panelist from **Adbloom**. This integration handles reporting conversions back to **Adbloom** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
 
-And remember to **ENABLE** **AdBloom** integration.
+Please enter your **AdBloom reporting URL** and toggle the feature on. 
 
-> Read more under **Recruitment Sources** how to use **Adbloom** with recruitment sources.
+> You will get your reporting URL from your **Adbloom** representative.
+
+> Read more under **Recruitment Sources** how to them in the **Recruitment Sources**.
 
 > Learn more about AdBloom at https://www.adbloom.com
