@@ -32,7 +32,14 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234
 
 > **AdBloom** must use this URL format for all the redirects they do.
 
-### TUNE Conversion reporting
+### Lucid Recruitment
+Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. You must provide **Lucid** enabled **Recruitment Source ID** on the source parameter on the registration survey URL. For example if your **Lucid** -enable recruitment sources ID is 6 the URL would look like this:
+
+```
+https://domain.sampleninja.io/registration/1/ENG-CA?source=6
+```
+
+### TUNE Recruitment
 
 In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via **TUNE** admin interface or from your **TUNE** representative.
 
