@@ -7,7 +7,7 @@ SampleNinja supports using MVF Co-registration process to recruit new panelists.
 - Gender (gender, 1 = male, 2 = female)
 - Email address (email)
 
-When the recruits confirm their email address **Sample Ninja** will automatically report conversion back to **MVF**. You need to have registration survey configured id you want statistics on how the **MVF** recruitment source performs.
+When the recruits confirm their email address **Sample Ninja** will automatically report conversion back to **MVF**. You need to have a registration survey configured for desired **Sub Panel** and **Locale**. **MVF** co-registration recruits appear like they completed the registration survey even through they did not. Enabling the registration survey gives your wealth of statistics on how the **MVF** recruitment source performs.
 
 MVF reporting URL use the following format in the most cases. Contact your **MVF** representative to get your own **URL**
 
