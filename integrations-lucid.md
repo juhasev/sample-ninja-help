@@ -8,6 +8,6 @@ Simply **ENABLE** the **Lucid recruitment** and head down to **Recruitment Sourc
 https://yourpanel.sampleninja.io/registration/1/ENG-US?source=[ID]&rid=[RID]
 ```
 
-> Read more under **Recruitment Sources** how to use **Lucid** with recruitment sources.
+> Read more under **Recruitment Sources** how to use **Lucid** with the **recruitment sources**.
 
 > Learn more about **Lucid** at https://www.lucid.com
