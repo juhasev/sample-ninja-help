@@ -3,7 +3,7 @@
 Enter the name and cost per conversion.
 
 ### Enabling and disabling recruitment sources
-By default all recruitment sources are enabled. If you wish to turn one off then use the **Source ENABLED** / **Source DISABLED** select to do so.
+By default all recruitment sources are enabled. If you wish to turn one off, then use the **Source ENABLED** / **Source DISABLED** select to do so.
 
 > When recruitment source is disabled any traffic sent from the URL will be terminated immediately.
 
@@ -15,17 +15,17 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=10
 
 ### AdBloom recruitment
 
-In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via **AdBloom** admin interface or from your **AdBloom** representative
+In order to use **AdBloom** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **AdBloom** and know your **Reporting URL** before you can enable the service. This information is available via the **AdBloom** admin interface or from your **AdBloom** representative.
 
-Next create a **recruitment source** and enabled **ADBLOOM** integration.
+Next create a **recruitment source** and enable **ADBLOOM** integration.
 
-When enabled the recruitment source ID or **source** and AdBloom click ID or **cid** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+When enabled, the recruitment source ID or **source** and AdBloom click ID or **cid** URL query parameters must be provided. For example, if your standard **Registration Survey** URL looks like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA
 ```
 
-You need apped all the required parameters and the final URL will look like this:
+You need to append all the required parameters and the final URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
@@ -41,16 +41,16 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=6&rid=fa4a9ce9-48c8-4
 ```
 
 ### TUNE Recruitment
-In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via **TUNE** admin interface or from your **TUNE** representative.
+In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via the **TUNE** admin interface or from your **TUNE** representative.
 
 Use the **Integration Partner** pulldown and select **TUNE**
 
-When enabled the recruitment source ID or **source** and TUNE transaction id or **transaction_id** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
+When enabled, the recruitment source ID or **source** and TUNE transaction id or **transaction_id** URL query parameters must be provided. For example if your standard **Registration Survey** URL looks like this:
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA
 ```
 
-You need apped the required parameters and the final URL will look like this:
+You need to append the required parameters and the final URL will look like this:
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
@@ -63,16 +63,16 @@ Or for test mode:
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8&test=true
 ```
-As long as the **registration survey** URL is configured in **TUNE's admin interface** these URL parameters are automatically and appended when new recruits land into your registration survey.
+As long as the **registration survey** URL is configured in **TUNE's admin interface** these URL parameters are automatically appended when new recruits land into your registration survey.
 
 > The **source** parameter must be a valid **Recruitment Source ID** and the **Recruitment Source** must have **TUNE** enabled.
 
 > For more information visit https://www.tune.com
 
 ### MVF Co-registration
-In order to use **MVF** co-registration you must first enable it in the **Panel Settings** under **Integrations** -tab. You must have an account with **MVF** and know your server to server double opt-in reporting URL.
+In order to use **MVF** co-registration you must first enable it in the **Panel Settings** under the **Integrations** -tab. You must have an account with **MVF** and know your server to server double opt-in reporting URL.
 
-Use the **Integration Partner** pulldown to and select **MVF**.
+Use the **Integration Partner** pulldown to select **MVF**.
 
 > For more information visit https://www.mvfglobal.com
 
@@ -99,7 +99,7 @@ Next append all the required query parameters to the URL:
 
 > **NOTE** The URL does not point to the registration survey, instead it points to a specific URL for co-registration! This URL is used to server to server communication between **MVF** and **Sample Ninja**
 
-When an API request is received and validation passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration invitation**. When a registering panelist confirms their email the standard security checks, fingerprinting etc.. will run.
+When an API request is received and validation is passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration invitation**. When a registering panelist confirms their email, the standard security checks, fingerprinting etc.. will run.
 
-Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from **MVF**. **Sample Ninja** will automatically report these as completed registration surveys so you will have normal registration survey statistics even though these users never took the actual registration survey.
+Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from **MVF**. **Sample Ninja** will automatically report these as completed registration surveys, so you will have normal registration survey statistics even though these users never took the actual registration survey.
 
