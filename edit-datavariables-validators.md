@@ -44,7 +44,7 @@ The **Regluar Expression Validation** allows the user to build complex expressio
 - Integer
 - Regular Expression Validation (advanced)
 
-The **Regluar Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
+The **Regular Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
 
 > https://regexr.com/
 
