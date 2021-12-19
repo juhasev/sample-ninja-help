@@ -9,7 +9,9 @@ If you have at least one registration survey active you can select it from the t
 > Click on the **View Activity** button at the top to view indivual registration sessions.
 
 ### Top row statistics
-Statistics include number of new panelists, conversion rate, survey rejections, surveys started and completed. Additionally we also include statistics for confirmation (double opt-in) emails in form of delivered, opened and bounced counts. 
+Statistics include number of new panelists, conversion rate, survey rejections, surveys started and completed. Additionally we also include statistics for confirmation (double opt-in or DOI) emails in form of delivered, reminded, opened, bounced, complained counts.
+
+> Reminders are sent out automatically after 24 hours if a registering panelist has not confirmed their email address. To enable sending reminders please visit **Sub Panels** -> **Registration Survey** -settings by clicking on the **gear** icon in the Registration Survey box.
 
 > Conversion rate is calculated from started surveys, using simple formula **Number of new panelists** / **Number of started surveys** * 100.
 
