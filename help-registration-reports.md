@@ -44,9 +44,9 @@ Click on the **filter** -icon top right to open up the filter menu. You can sele
 ### Sources tab
 Provides details which recruitment sources are the most active in the past month.
 
-> Source statistics includes everybody who started the registration survey
+> Source statistics are calculated using all registration surveys starts.
 
 ### Devices tab
-Provides information of all devices visiting the registration survey.
+Provides device information of all the registeted and confirmed panelists.
 
 > Device statistics only include confirmed panelists.
