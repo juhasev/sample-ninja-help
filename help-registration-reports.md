@@ -43,6 +43,9 @@ Contact support@sampleninja.io if you would like to contribute to our blackliste
 ### Filtering
 Click on the **filter** -icon top right to open up the filter menu. You can select time range to look at the statistics and/or select individual recruitment sources to compare how the different sources are performing. 
 
+### View participant list
+Click on the **View Participants** -button on the top right of the screen.
+
 ### Sources tab
 Provides details which recruitment sources are the most active in the past month.
 
