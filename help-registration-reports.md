@@ -48,5 +48,3 @@ Provides details which recruitment sources are the most active in the past month
 
 ### Devices tab
 Provides device information of all the registeted and confirmed panelists.
-
-> Device statistics only include confirmed panelists.
