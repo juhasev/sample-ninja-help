@@ -52,7 +52,7 @@ If you like you can export the chart image or it's data click on **three dots** 
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
 
-> If you project exceed 7% complaint rate then **Sample Ninja** will automatically stops ending sample to your project. This will generate both a project error and notification sent to the project managers.
+> If you project exceeds 7% complaint rate then **Sample Ninja** will automatically stops ending sample to your project. This will generate both a project error and notification sent to the project managers.
 
 - **Complaints** shows the number of complain emails sent to the SampleNinja email server with regards to this project. This is color coded for instant recognition:
   - **Over 10 complaints**  Red
