@@ -52,12 +52,14 @@ If you like you can export the chart image or it's data click on **three dots** 
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
 
-- **Complaints** shows the number of complain emails sent to the SampleNinja email server with regards to this project. This is colour coded for instant recognition:
+> If you project exceed 7% complaint rate then **Sample Ninja** will automatically stops ending sample to your project. This will generate both a project error and notification sent to the project managers.
+
+- **Complaints** shows the number of complain emails sent to the SampleNinja email server with regards to this project. This is color coded for instant recognition:
   - **Over 10 complaints**  Red
   - **Under 1-10% complaints** Dark Orange
   - **No complaints** Green
 
-> If your project exceeds 1% complaint rate then **Sample Ninja** will automatically shut your project down. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation.
+> If your project exceeds 1% complaint rate then **Sample Ninja** will automatically stop sending sample to your project. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation. This will generate both a project error and notification sent to the project managers.
 
 ### Redemption Points allocations for Panellists
 - **Total Revenue** Total redemption points allocated thus far for this project in the platform.
