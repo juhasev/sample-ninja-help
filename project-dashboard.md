@@ -2,6 +2,10 @@
 
 The project dashboard gives a wealth of statistics about your project.
 
+### Toolbar button at the top right corner
+- Use the "Reload" -button to update stale data
+- Use "View participant list" -button to quickly browser thru the participants
+
 ### Statistics at the top
 - **Percentage completed** Shows the % of completed Surveys against the Target completes for that project, if you **MOUSE OVER** this % figure, the report is switched to the actual number of completes.
 - **Response Rate** is defined as proportion of the total number of completed / invitations * 100%. 
