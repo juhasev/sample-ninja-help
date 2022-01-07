@@ -22,7 +22,7 @@ Each template can have its own **Subject** and **Sender name**.
 
 Within the body of the email you can edit text for any element simply by clickin on them.
 
-> Additionally you can use the pipe variables **[FIRST_NAME]** and **[LAST_NAME]** to personalize messages.
+> Additionally you can use the pipe variables **[FIRST_NAME]**, **[LAST_NAME]**, **[EMAIL]** or **[POINTS_BALANCE]** to personalize messages.
 
 Some fields use Markdown language which allows the user to apply formatting like header, bolding, bulleted lists etc..
 
