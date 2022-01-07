@@ -20,3 +20,7 @@ Simply place variable name in square brackets and it will be replaced on the fly
 Type in the email sender name you want the email to appear to be coming from.
 
 > The defaults can be configured under **Sub Panels** and **Email Templates**
+
+Some fields use Markdown language which allows the user to apply formatting like header, bolding, bulleted, high light box, lists etc..
+
+> (https://www.markdownguide.org/basic-syntax/#overview)
