@@ -10,6 +10,7 @@ The following data variables can be piped into all emails
 - FIRST_NAME
 - LAST_NAME
 - EMAIL
+- POINTS_BALANCE
 
 Simply place variable name in square brackets and it will be replaced on the fly i.e. Hello [FIRST_NAME] we have a survey for you! If the data variable is missing it will be silently removed.
 
