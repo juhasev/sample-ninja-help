@@ -18,4 +18,8 @@ Display percentage breakdown of the total the number of Panellists who are defin
 
 This displays percentage values of the total Panellists held within the platform. If you mouse over any of these statuses it will give the actual number of Panellists.
 
+### Filter by Sub Panel
+
+Click on the blue filter -icon on the top right corner to filter by **Sub Panels**.
+
 > You can select the reporting period using the pulldown at the very bottom.
