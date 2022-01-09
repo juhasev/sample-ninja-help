@@ -6,7 +6,9 @@ Health score is simply calculated using formula PANEL UTILIZATION % - (PANEL DIS
 
 ### Active vs. Engaged
 
-This displays the percentage breakdown of the total the number of Panellists who are defined as ACTIVE or ENGAGED. By mousing over the chart you will see the actual counts and percentages.
+This displays the percentage breakdown of the total the number of Panellists who are defined as ACTIVE or ENGAGED. An active panelist is somebody you have invited and they have started at least one survey in the past 90 days. An engaged panelist is somebody you have actually completed surveys. You should think of that metric from the panelist experience point of view. Ideally all of your panelists are engaged and earning rewards which ultimetely means they are less likely to leave.
+
+By mousing over the chart you will see the actual counts and percentages.
 
 > What is an active or an engaged panelist? You define that in the Settings -> Basic settings and click anywhere on the **Active Panelist** or **Engages Panelist** box. Use the **Query Builder** to define your own criteria and remember to use **Filters** to impose restrictions like how often can somebody be invited.
 
