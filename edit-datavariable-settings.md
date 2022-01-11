@@ -15,6 +15,9 @@ Use the **Add option** button to add more options or the trashcan icon to delete
 
 > This option is not available for the system variable or variables belonging to the Standard Questions library.
 
+### Making options exclusive (Checkbox)
+> Simply turn the "toggle" switch on to make an option exclusive.
+
 ### Creating multiple options at one
 Use the **paste options** button to paste a list of options text from Word, Excel or text file.
 
