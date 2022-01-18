@@ -1,6 +1,10 @@
 ### Dynamic Profiling
 
-Dynamic Profiling allows you to populate data variables on various landing pages that support the feature. Before you can use dynamic profiling you need to make sure your question text and options texts are setup. This can be accomplished in the **QUESTION** tab.
+Dynamic Profiling allows you to populate data variables on various landing pages that support the feature. Before you can use dynamic profiling you need to make sure your question text and options texts are setup for all locales you would like to dynamically profile. 
+
+> If the question does not have locale for example: ENG-CA this question would not be shown to panelists with locale ENG-CA!
+
+This can be accomplished in the **QUESTION** tab.
 
 ### Triggers
 
