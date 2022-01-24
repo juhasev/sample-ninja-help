@@ -41,8 +41,7 @@ This is a Unique calculation, which generates a factor call called the **Cost Mu
 > =   Active Panellist Recruitment cost / Recruitment cost
 
 
-**NINJA NUGGET** - This gives an incredible insight into **actual recruitment costs** within the panel and well as helping evolving new recruitment strategies by slicing and dicing using different filters.  Eg, understanding if there is a difference in costs and cost multiplier	based on Age, Gender, Education or any combination of data variables etc.  The forensic analysis possibilities are endless.
-
+> This gives an incredible insight into **actual recruitment costs** within the panel and well as helping evolving new recruitment strategies by slicing and dicing using different filters.  Eg, understanding if there is a difference in costs and cost multiplier	based on Age, Gender, Education or any combination of data variables etc.  The forensic analysis possibilities are endless.
 
 ### ACTUAL RECRUITMENT COST
 
@@ -51,7 +50,6 @@ This shows the average cost for Recruiting an **Active panelist** (as defined in
 This is a calculation of **Recruitment Cost** as well as fulfilling the criteria for an **Active Panelist**, since not all recruited panelists fulfil the criteria for an active panelists.
 
 Reward costs are calculated from tracking all the various recruitment sources into the Panel and keeping a track of the individual cost per panelist per recruitment source.
-
 
 ### REVENUE
 
