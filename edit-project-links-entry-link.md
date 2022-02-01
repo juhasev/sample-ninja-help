@@ -15,7 +15,7 @@ You can easily pipe data variables simply my selecting the data variables you wo
 
 You can fully customized the parameter names to match what you use in the survey. For example if you selected GENDER the resulting URL might look like this
 
-https://surveyengine.com?project_id=343&gender=1
+https://surveyengine.com?project_id=343&g=1
 
 If you customize parameter name to just letter "gender" the URL would look like this
 
