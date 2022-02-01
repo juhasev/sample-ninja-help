@@ -21,6 +21,13 @@ If you customize parameter name to just letter "g" the URL would look like this
 
 https://surveyengine.com?project_id=343&g=1
 
+#### Checkbox
+Sample Ninja pipes check box values as multiple values. For example if your HOBBIES are 1,2,3 the URL would be something like:
+
+https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
+
+> Some survey platform may use alternate formats like hobbies=1,2,3
+
 ### Panelist ID
 Panelist ID is automatically placed on the URL. You need to be able to save this value along with the survey responses if you need to able to match panelists to their survey answers i.e. to more detailed data analysis. By default the parameter name is PID but you may customize this to match the target platform.
 
