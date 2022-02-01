@@ -1,14 +1,14 @@
 ## Survey Entry Link
 
-The survey link defines where the panelists are sent to. Additionally you can pipe data, enabled URL hashing and other options.
+The survey link defines where the panelists are sent to after they respond to the invitation. Additionally you can pipe data and enable URL security via hashing.
 
-Templates allow you to define entry link for your target interview platform.
+Templates allow you to define entry link templates for the most common survey platform that you send sample to.
 
-For example you may define template for the survey engine you use all the time. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example you base URL could look like this:
+For example you may define template for the survey platform that you use all the time. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example your base URL could look like this:
 
-https://surveyengine.com?project=[ID]
+https://decipher.com?project=[ID]
 
-> The default link points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes.
+> The default link for new projects points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes.
 
 ### Piping data variables to surveys
 You can easily pipe data variables simply my selecting the data variables you would like to pipe.
