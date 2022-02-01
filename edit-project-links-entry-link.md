@@ -37,16 +37,16 @@ https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
 > Some survey platform may use alternate formats like hobbies=1,2,3. Please contact support@sampleninja.io if you run into this situation.
 
-#### Test link and data variable pipes
-Sample Ninja will automatically insert random data for all the defined the data variable pipes.
-
-> The inserted data for the Keyword and the Text -variable types is static because there is no way for the test data generator to figure out the real intent of the data variable. For example if you pipe in **CITY** you will see data set as **test_keyword_city**. Similarly for text variable let's call it **DESCRIPTON** you would see data set as **test_text_description**.
-
 #### Piping locale
 Every panelist has assigned locale for example ENG-US. If you are running multilingual survey then should pipe data variable **LOCALE** into the survey.
 
 > Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this stuation.
 
+#### Test link and data variable pipes
+Sample Ninja will automatically insert random data for all the defined the data variable pipes.
+
+> The inserted data for the Keyword and the Text -variable types is static because there is no way for the test data generator to figure out the real intent of the data variable. For example if you pipe in **CITY** you will see data set as **test_keyword_city**. Similarly for text variable let's call it **DESCRIPTON** you would see data set as **test_text_description**.
+ 
 ### Panelist ID
 Panelist ID is automatically piped on the URL. You should save the panelist ID along with the survey responses. This important for reconsilidation i.e. if you need to disqualify some participants after survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
 
