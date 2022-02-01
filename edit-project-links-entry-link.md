@@ -29,7 +29,12 @@ If you customize parameter name to just letter "gender" the URL would look like 
 
 https://surveyengine.com?project_id=343&gender=1
 
-#### Piping checkbox values
+#### Piping radio data
+Radio value is piped using the Option ID number visible the **Data Variables**. For example:
+
+https://surveyengine.com?project=[ID]&education=1
+
+#### Piping checkbox data
 Sample Ninja pipes check box values as multiple values. For example if your HOBBIES are 1,2,3 the URL would be something like:
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
