@@ -35,7 +35,7 @@ Sample Ninja pipes check box values as multiple values. For example if your HOBB
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
-> Some survey platform may use alternate formats like hobbies=1,2,3. Please contact support@sampleninja.io if you run into this situation.
+> Some survey platforms may use alternate formats like hobbies=1,2,3. Please contact support@sampleninja.io if you run into this situation.
 
 #### Piping locale
 Every panelist has assigned locale for example ENG-US. If you are running multilingual survey then should pipe data variable **LOCALE** into the survey.
