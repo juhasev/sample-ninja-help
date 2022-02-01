@@ -1,19 +1,22 @@
-## Survey Entry Link
+## Survey Link
 
-The survey link defines where the panelists are sent to after they respond to the invitation. Additionally you can pipe data and enable URL security via hashing.
+The survey link defines where panelists are sent after they respond to invitations. Additionally you can pipe panelist ID, data variable data and enable URL security via hashing.
 
-> The default link for new projects points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes. When using the Sample Ninja **Test Survey** you can manually select the survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
+> The default link for new projects points to Sample Ninja **Test Survey** that can be used in place of an actual survey for testing purposes. When using the Sample Ninja **Test Survey** you can manually select survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
-Templates allow you to pre-define entry link templates for the most common survey platform that you send sample to. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example in your template the base URL could look like this:
+## Survey link templates
+Templates allow you to pre-define survey link templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed in **id** parameters, then you **Base URL** would look like this:
 
-https://decipher.com?project=[ID]&panelist_id=[pid]
+https://surveyplatform.com/survey?id=[ID]
 
 When the template is applied you would only need to change the [ID] with desired target survey ID.
 
 The following variable pipes are reserved:
-**[PROJECT_ID]** is reserved and will pipe Sample Ninja project ID number to the survey.
-**[pid]** is reserved for Panelist ID but you can configure this to be anything you want
-**[hash]** is reserved for hash but you can configured this to be anything you want.
+
+The following pipes are inserted automatically depending on how they are configured
+**[pid]** is reserved for Panelist ID
+**[hash]** is reserved for the security hash (inserted only when hashing is enabled)
+**[PROJECT_ID]** if you use this placeholder it will be automatically be replaced with Sample Ninja project ID.
 
 ### Piping data variables to surveys
 You can easily pipe data variables simply my selecting the data variables you would like to pipe.
