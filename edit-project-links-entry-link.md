@@ -2,13 +2,18 @@
 
 The survey link defines where the panelists are sent to after they respond to the invitation. Additionally you can pipe data and enable URL security via hashing.
 
-Templates allow you to define entry link templates for the most common survey platform that you send sample to.
+> The default link for new projects points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes. When using the Sample Ninja **Test Survey** you can manually select the survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
-For example you may define template for the survey platform that you use all the time. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example your base URL could look like this:
+Templates allow you to pre-define entry link templates for the most common survey platform that you send sample to. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example in your template the base URL could look like this:
 
-https://decipher.com?project=[ID]
+https://decipher.com?project=[ID]&panelist_id=[pid]
 
-> The default link for new projects points to Sample Ninja **Test Survey** that can be used in place of actual survey for testing purposes.
+When the template is applied you would only need to change the [ID] with desired target survey ID.
+
+The following variable pipes are reserved:
+**[PROJECT_ID]** is reserved and will pipe Sample Ninja project ID number to the survey.
+**[pid]** is reserved for Panelist ID but you can configure this to be anything you want
+**[hash]** is reserved for hash but you can configured this to be anything you want.
 
 ### Piping data variables to surveys
 You can easily pipe data variables simply my selecting the data variables you would like to pipe.
