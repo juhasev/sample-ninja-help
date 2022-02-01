@@ -21,18 +21,14 @@ The following pipes are inserted automatically depending on how they are configu
 ### Piping data variables to surveys
 You can easily pipe data variables simply my selecting the data variables you would like to pipe.
 
-You can fully customized the parameter names to match what you use in the survey. For example if you selected GENDER the resulting URL might look like this
+You can fully customized the parameter names to match what you use in the survey. For example if you selected **GENDER** the resulting URL might look like this
 
-https://surveyengine.com?project_id=343&g=1
-
-If you customize parameter name to just letter "gender" the URL would look like this
-
-https://surveyengine.com?project_id=343&gender=1
+https://surveyengine.com?project=343&g=1
 
 #### Piping radio data
-Radio value is piped using the Option ID number visible the **Data Variables**. For example:
+Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example piping **EDUCATION** data variable:
 
-https://surveyengine.com?project=[ID]&education=1
+https://surveyengine.com?project=[ID]&education=5
 
 #### Piping checkbox data
 Sample Ninja pipes check box values as multiple values. For example if your HOBBIES are 1,2,3 the URL would be something like:
