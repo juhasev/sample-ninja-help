@@ -1,4 +1,4 @@
-## Survey Entry Link
+## Survey entry link
 
 The survey link defines where panelists are sent after they respond to invitations. Additionally you can pipe panelist ID, data variable data and enable URL security via hashing.
 
