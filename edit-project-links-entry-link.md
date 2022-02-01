@@ -28,6 +28,11 @@ https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
 > Some survey platform may use alternate formats like hobbies=1,2,3. Please contact support@sampleninja.io if you run into this situation.
 
+#### Piping locale
+Every panelist has assigned locale for example ENG-US. If you are running multilingual survey then should pipe data variable **LOCALE** into the survey.
+
+> Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this stuation.
+
 ### Panelist ID
 Panelist ID is automatically piped on the URL. You should save the panelist ID along with the survey responses. This important for reconsilidation i.e. if you need to disqualify some participants after survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
 
