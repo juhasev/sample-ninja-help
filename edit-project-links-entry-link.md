@@ -5,7 +5,7 @@ The survey link defines where panelists are sent after they respond to invitatio
 > The default link for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
 ## Survey link templates
-Templates allow you to pre-define survey link templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed in **id** parameters, then you **Base URL** would look like this:
+Templates allow you to pre-define survey link templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then you **Base URL** would look like this:
 
 https://surveyplatform.com/survey?id=[ID]
 
