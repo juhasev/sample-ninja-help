@@ -1,8 +1,8 @@
 ## LINKS
 
-This section defines both the Entry and Exit links for the survey invites for this project.
+These are your survey entry link and exit links.
 
-Templates allow you to define entry link for your target interview platform
+Templates allow you to define entry link for your target interview platform and template things like data variable pipes.
 
 For example you may define template for the survey engine you use all the time. When you define template URLs you can use place holders that need to be manually replaced for each project you run. For example you base URL could look like this:
 
@@ -21,7 +21,7 @@ If you customize parameter name to just letter "g" the URL would look like this
 
 https://surveyengine.com?project_id=343&g=1
 
-#### Checkbox
+#### Piping checkbox values
 Sample Ninja pipes check box values as multiple values. For example if your HOBBIES are 1,2,3 the URL would be something like:
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
