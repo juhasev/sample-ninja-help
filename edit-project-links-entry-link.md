@@ -11,8 +11,6 @@ https://surveyplatform.com/survey?id=[ID]
 
 When the template is applied you would only need to change the [ID] with desired target survey ID.
 
-The following variable pipes are reserved:
-
 The following pipes are inserted automatically depending on how they are configured
 **[pid]** is reserved for Panelist ID
 **[hash]** is reserved for the security hash (inserted only when hashing is enabled)
