@@ -12,6 +12,7 @@ In this mode the panelist IDs pasted in should be qualified **completes**.
 
 > In this mode all other completes will be disqualified!
 
+#### Pasting IDs
 The identifier list should only contain panelist identifiers in format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Optionally the identifiers can be separated by comma and/or be enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
 Once submitted the server will verify that each panelist has ```completed``` status in the project. Any invalid identifiers are returned back.
