@@ -19,7 +19,7 @@ Once submitted the server will verify that each panelist has ```completed``` sta
 
 > If your survey platform is capable of identifying duplicates and participants with quality issues like straight lining you can use the appropiate exit links to terminate them immediately. See **Project configuration** -> **Exit links** for more details.
 
-### What does the disqualification project do?
+### What does the disqualification process do?
 The disqualification process handles rolling back "completed" status in the following steps:
 
 1) Delete completed record and reward points earned
