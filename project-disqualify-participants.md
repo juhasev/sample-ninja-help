@@ -22,11 +22,10 @@ Once submitted the server will verify that each panelist has ```completed``` sta
 ### What does the disqualification process do?
 The disqualification process handles rolling back "completed" status in the following steps:
 
-1) Delete **completed record**
-2) Rollback any earned **reward points**
-3) Rollback any earned **revenue**
-4) Create either **quality record** or **duplicate record** based disqualification reason
-5) Rollback project complete
-6) Rollback project quotas
+1) Rollback any earned **reward points**
+2) Rollback any earned **revenue**
+3) Create either **quality record** or **duplicate record** based disqualification reason
+4) Rollback project **completed record**
+5) Rollback project quotas
 
 > You can disqualify panelists while your project is running! **Sample Ninja's Sampling Engine** will automatically find replacement panelists and invite them to the project!
