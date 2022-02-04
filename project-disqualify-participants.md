@@ -18,3 +18,13 @@ The identifier list should only contain panelist identifiers in format ```494d4c
 Once submitted the server will verify that each panelist has ```completed``` status in the project. Any invalid identifiers are returned back.
 
 > If your survey platform is capable of identifying duplicates and participants with quality issues like straight lining you can use the appropiate exit links to terminate them immediately. See **Project configuration** -> **Exit links** for more details.
+
+### What does the disqualification project do?
+The disqualification process handles rolling back "completed" status in the following steps:
+
+1) Delete completed record and reward points earned
+2) Create either **quality record** or **duplicate record**
+3) Rollback project complete
+4) Rollback quotas
+
+> You can disqualify panelists while your project is running! **Sample Ninja's Sampling Engine** will automatically find replacement panelists and invite them to the project!
