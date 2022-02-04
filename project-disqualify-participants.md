@@ -8,9 +8,9 @@ You can paste IDs of either **Disqualified Completes** or **Qualified completes*
 In this mode the panelist IDs pasted in will be disqualied if they have status **Completed**
 
 #### Qualified completes
-In this mode the panelist IDs pasted in should be qualified **completes**. 
+In this mode the panelist IDs pasted in should be qualified and verified **completes**. 
 
-> In this mode all other completes will be disqualified!
+> You must do this action in a single batch as all completes not matching the pasted list will be disqualified! 
 
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Optionally the identifiers can be separated by comma and/or be enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
