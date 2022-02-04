@@ -27,6 +27,6 @@ The disqualification process handles rolling back "completed" status in the foll
 3) Rollback any earned **revenue**
 4) Create either **quality record** or **duplicate record** based disqualification reason
 5) Rollback project complete
-6) Rollback quotas
+6) Rollback project quotas
 
 > You can disqualify panelists while your project is running! **Sample Ninja's Sampling Engine** will automatically find replacement panelists and invite them to the project!
