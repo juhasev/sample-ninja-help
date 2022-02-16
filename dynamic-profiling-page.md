@@ -5,7 +5,7 @@ Dynamic Profiling let's you hydrate you panel in real time without having to res
 > We are in process to improve **Dynamic Profiling** even further to improve your panel's efficiency. These improvement will bring **Dynamic Profiling** to the Member's App, registration password confirmation page. We will be also adding "Aggressive" profiling options that will automatically reach out to selected panelists to collect more missing data variable data.
 
 ### Data Variable usage in projects
-This tab displays all variables that you have used in either project qualifications or quotas. This list is always sorted by the most frequently used variable. The frequency is indicated as usage percent compared to the most frequently used variable. The X multiplier indicates how many project has used this variable in the selected reporting period. Use the sub panel selector to see how different **Sub Panels** are been targeted and how their variable hydration corresponds to the targeting.
+This tab displays all variables that you have used in either project qualifications or quotas. This list is always sorted by the most frequently used variable. The frequency is indicated as usage percent compared to the most frequently used variable. The X multiplier indicates how many projects have used this variable in the selected reporting period. Use the sub panel selector to see how different **Sub Panels** are been targeted and how their variable hydration corresponds to the targeting.
 
 The second half indicates current hydration percents and if **Dynamic Profiling** is enabled you will also see **Priority**.
 
