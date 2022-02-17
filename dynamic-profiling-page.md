@@ -13,7 +13,7 @@ The second half indicates current hydration percentages and where **Dynamic Prof
 
 > Click on the **dots** -button to display additional actions for each **Data Variable**; such as usage / age stats or if you would like to edit the data variable.
 
-### Variables not Used
+### Unsed variables
 This list contains variables that have not been used for the selected reporting period and sub panels. 
 
 > Consider using these variables to improve Sampling Efficiency or to delete them.
