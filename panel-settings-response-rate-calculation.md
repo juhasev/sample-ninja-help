@@ -3,4 +3,4 @@ Set the number of days you would like to use to calculate panelists' response ra
 
 > For most panels the default value of 90 days is a good starting point.
 
-> ** Sample Ninja** sets response rate to zero for all panelists that doesn't have activity in the ninety day period. This process runs in the background every (6) hours.
+> ** Sample Ninja** sets response rate to zero for all panelists that doesn't have activity in the defined period.
