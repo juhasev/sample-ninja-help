@@ -22,7 +22,9 @@ At this stage conditions can only be applied to ‘Radio’ based questions. So 
 
 > For example, **COUNTRY** (Keyword) can be conditionally linked to **EDUCATION** (Radio) but this would not work in reverse. Similarly, **PHONE** (Number) cannot be conditionally linked to **FIRST_NAME** (Text), nor would this work vice versa.
 
-> Anytime questions are added, ensure that the necessary question translation has been supplied, otherwise the registration survey may become unavailable for some locales! Questions that are missing translations are marked with the warning icon.
+Anytime questions are added, ensure that the necessary question translation has been supplied, otherwise the registration survey may become unavailable for some locales. 
+
+> Questions that are missing translations are marked with the warning icon.
 
 ### Localizations
 When you use data variables as question they must be provided proper localizations. For example if you have two Sub Panel locales ENG-US, SPA-US you must provide localizations for both locales using the **EDIT** button.
