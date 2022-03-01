@@ -1,4 +1,4 @@
-## Lucid recruitment
+## Lucid Recruitment
 
 Sample Ninja supports recruiting panelist from **Lucid market place**. This integration handles, reporting conversions back to **Lucid** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
 
@@ -8,6 +8,6 @@ Simply **ENABLE** the **Lucid recruitment** and head down to **Recruitment Sourc
 https://yourpanel.sampleninja.io/registration/1/ENG-US?source=[ID]&rid=[RID]
 ```
 
-> Read more under **Recruitment Sources** for how to use **Lucid** with the **Recruitment Sources**.
+> Read more under **Recruitment Sources**.
 
 > Learn more about **Lucid** at https://www.lucid.com
