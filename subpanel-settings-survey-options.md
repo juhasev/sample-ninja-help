@@ -21,3 +21,10 @@ This enables Google's reCaptcha validation which is designed to make sure no bot
 
 ### Send reminders
 Enable this setting to automatically send email confirmation reminders. The reminders are sent after 24 hours after registration if panelist has not confirmed their email address.
+
+### Show prominent email confirmation info
+Provides registering panelist extra information about the confirmation email like checking spam folder and whitelisting the sender address.
+
+> **Example:** We have sent you a confirmation email! Please check your inbox now to complete your registration!
+> - Remember to check your spam folder! Sometimes emails maybe placed there accidentally.
+> - Please add email invite@clientname.panelservice.io to your address book, so you do not miss any survey opportunities!
