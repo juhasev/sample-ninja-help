@@ -4,4 +4,6 @@ The localization editor allows you edit sub panel specific localizations that ma
 
 You can toggle **translated** status on/off by clicking on icon before each item. Translated status is automatically toggle on after you edit each translation.
 
+> **SampleNinja** used AI machine translations and therefore non English languages are marked as "Untranslated". If you have happy with the machine translation click on the yellow button to set translated.
+
 > You cannot edit main landing page or email template body translations that use Markdown here. Those edits should be done using the template editors.
