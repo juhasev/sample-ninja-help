@@ -14,8 +14,4 @@ Let's you turn on/off features:
 > If you ```enabled``` allow "create password at login" option also remember to visit your Sub Panel settings and make sure that your have a Members App enabled and that the "Community link points to the members app" settings is toggled on. Additionally you must visit your Landing Page Configuration and make sure the "Show Community Button" is enabled. These settings will draw your panelists to the community site to create their passwords.
 
 - **API access only** Turning this setting on will disable access to the built-in member app while allowing API access from a custom community.
-- **Prominent email confirmation info** Provides registering panelist extra information about the confirmation email like checking spam folder and whitelisting the sender address.
 
-> **Example:** We have sent you a confirmation email! Please check your inbox now to complete your registration!
-> - Remember to check your spam folder! Sometimes emails maybe placed there accidentally.
-> - Please add email invite@clientname.panelservice.io to your address book, so you do not miss any survey opportunities!
