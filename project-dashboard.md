@@ -12,7 +12,7 @@ The project dashboard gives a wealth of statistics about your project.
 - **Start Rate** (flip side of **Response Rate**) you see **Start Rate** which is calculated started / invitations * 100%.
 - **Indicence Rate %** is calculate starts / (starts + completes) * 100.
 - **Estimated Incidence Rate** (flip side of **Incidence Rate**) is directly what is entered in the **Project Settings** -> **Basic Settings** -> **Length of Interview**
-- **Length of Interview** Reported using 99% percentile average or 2.5 standard deviations from mean to remove out liers from the data.
+- **Length of Interview** Reported using 95% percentile average or 2 standard deviations from mean to remove out liers from the data.
 - **Estimated LOI** is directly what is entered in the **Project Settings** -> **Basic Settings** -> **Length of Interview**
 - **Target Completes** The total target completes for that Project
 - **Rating** This is the average survey rating given by the participants
