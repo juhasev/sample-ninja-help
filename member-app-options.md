@@ -7,7 +7,7 @@ Let's you turn on/off features:
 - **Display header in the toolbar** Whether to display the logo in the Member App's toolbar.
 - **Rewards enabled** Choose if you want to display the rewards page
 - **Redemption enabled** Choose if you want to display the redemption page
-- **Enable push notifications** Deliver survey notifications to user's web browser in real time.
+- **Enable push notifications** Deliver survey notifications to panelist's web browser in real time.
 - **Compact survey list** Applies compact formatting to the survey items
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned.
 - **Allow panelist to create password at login** This enables seemsless panel migration or adding one if you never had an website with your panelist.
