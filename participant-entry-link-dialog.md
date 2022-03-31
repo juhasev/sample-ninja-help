@@ -1,4 +1,4 @@
-### Participant entry link dialog
+## Participant entry link dialog
 Use this feature to copy the entry link for testing, resolve other issues or manually re-invite the individual.
 
 > Use the **COPY** button to copy the entry link into clipboard
