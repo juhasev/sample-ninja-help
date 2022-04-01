@@ -7,4 +7,4 @@ Use the **OPEN** button to enter the survey like the participant would. This is 
 
 Use the **RESEND** button to resend the project invitation. 
 
-> The resend option is only available to project participants who does not have final status ( PROFILE, QUOTA, DUPLICATE, SECURITY or COMPLETED).
+> The resend option is only available to project participants who does not have final status (PROFILE, QUOTA, DUPLICATE, SECURITY or COMPLETED).
