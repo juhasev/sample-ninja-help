@@ -21,7 +21,7 @@ Enable the built-in members app. Panelists can login and see available surveys, 
 If you enable this settings then community site points directly to the member's app. If you are running your own custom community site do not enable this setting.
 
 #### Enable push notifications
-Deliver survey notifications to panelist's web browser in real time. The user doesn't have to be on the website as long as they have their web browser open. Subscribe to push notifications dialog is automatically displayed on all termination pages (completed, profile, quota), in the member app and on the email confirmation page.
+Deliver survey notifications to panelist's web browser in real time. The user doesn't have to be on the website as long as they have their web browser open. Subscribe to push notifications dialog is automatically displayed on all termination pages (completed, profile, quota), in the member app and on the email confirmation page. The push notification work in all desktop browsers like Chrome, Edge and Firefox as long as user allows Chrome to display notifications.
 
 #### Minimum member age
 Blocks respondents automatically, if they select their age less than what is configurated here.
