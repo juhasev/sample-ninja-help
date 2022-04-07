@@ -1,7 +1,3 @@
-## SETTINGS
-
-This outlines the basic settings for the Sub-Panel, defining all Settings, Sub Panel Manager, Dynamic profile settings and Locales.
-
 ### Settings
 
 #### Sub Panel name
@@ -27,8 +23,8 @@ If you enable this settings then community site points directly to the member's 
 #### Enable push notifications
 Deliver survey notifications to panelist's web browser in real time. The user doesn't have to be on the website as long as they have their web browser open.
 
-### Minimum member api
+#### Minimum member age
 Blocks respondents automatically, if they select their age less than what is configurated here.
 
-### Minimum points to redeem
+#### Minimum points to redeem
 Enforces that you as a panelist have earned at least the indicated amount of reward points. Tracked by data variable POINTS_REWARDED. This setting enables you to block new and frandlulent panelists from redeeming any reward till they accumulated the specified minimum. Leave as 0 for no restrictions.
