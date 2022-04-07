@@ -24,7 +24,7 @@ Enable the built-in members app. Panelists can login and see available surveys, 
 #### Community URL points to member's app
 If you enable this settings then community site points directly to the member's app. If you are running your own custom community site do not enable this setting.
 
-### Enable push notifications
+#### Enable push notifications
 Deliver survey notifications to panelist's web browser in real time. The user doesn't have to be on the website as long as they have their web browser open.
 
 ### Minimum member api
