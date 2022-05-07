@@ -18,6 +18,7 @@ You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Sample N
 
 > **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
+> **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. 
 
 ## Getting started with your own import
 
