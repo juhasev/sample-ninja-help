@@ -1,19 +1,36 @@
 ## Dynamic Profiling
 
-Dynamic Profiling allows for panel hydration in real time, without having to resort to additional profiling surveys. Dynamic profiling activates everytime panelists get 'Terminated' or come back as a 'Completed' from a survey project.
+With **Dynamic Profiling** you can populate **Data Variables** automatically without having to run resort to additional update surveys. Dynamic profiling activates everytime panelists get terminated (profile, quota) or come back as a completed from a survey project. The **Dynamic Profiling** can also be enabled in the **Member App** settings. When enabled your panelist can complete **Dynamic Profiling** questions at any time they want.
 
-> **Dynamic Profiling** is in the process of being improved further, allowing for enhanced panel efficiency. These improvements will bring **Dynamic Profiling** to the Member's App as well as the Registration Survey password confirmation page. 'Aggressive' profiling options will also be added, which will automatically reach out to selected panelists to collect more missing variable data.
+### Dynamic Profiling master settings
+Let's you control whether **Sub Panel** is included in the **Dynamic Profiling**, adjust the compensation for each question and set daily question limits.
 
-### Data Variable Usage in Projects
-This tab displays all variables that are being used in either 'Project Qualifications' or 'Quotas'. The list is always sorted by the most frequently used variable. The frequency is indicated as an usage percentage, compared to the most frequently used variable. The X multiplier indicates how many projects have used this variable in the selected reporting period. Use the sub panel selector to see how different **Sub Panels** are being targeted and how their variable hydration corresponds to the targeting.
+> Make sure that your daily question limit is set correctly and in the manner that **Minimum points to redeem** -setting is higher than panelist's daily maximum earnings from answering to the Dynamic Profiling questions. The reason is simple: you do not want panelists to create an account and walk out with a rewards without completing a single survey. You can set the **Minimum points to redeem** in each **Sub Panel** settings.
 
-The second half indicates current hydration percentages and where **Dynamic Profiling** is enabled **Priority** will also be shown.
+### Answer frequency
+General indicator of the answer frequency for the selected period.
 
-> Click on the database icon to enable **Dynamic Profiling** when a variable is missing.
+### Filter
+Click on the filter button to set time limit how far back you want to look in terms of data variable usage / usage frequency / answers provided.
 
-> Click on the **dots** -button to display additional actions for each **Data Variable**; such as usage / age stats or if you would like to edit the data variable.
+### Data Variable list columns
 
-### Unused Variables
-This list contains variables that have not been used for the selected reporting period and sub panels. 
+#### Name
+This column display the variable name and whether the dynamic profiling has been enabled.
 
-> Consider using these variables to improve Sampling Efficiency or to delete them.
+#### Settings
+This column indicates
+- Priority of dynamic profiling
+- Refresh interval (ask question again)
+- Any warnings such as missing translations
+
+#### Usage in projects
+This tab displays all variables that are being used in either **Project Qualifications** or in **Sample Balancing**. The list is by default sorted by the most frequently used variable. The frequency is indicated as a progress bar which is calculated comparing the variable to the most used variable. The X multiplier indicates how many projects have used this variable in the selected reporting period.
+
+#### Hydration
+This column displays the current hydration percent in percent % out of the subscribed **Sub Panel** members.
+
+#### Actions
+Click on the gear icon to bring up **Dynamic Profiling Settings** for the variable.
+
+Click on the **dots** -button to display additional actions for each **Data Variable**. Edit variable button let's you convenienty add any missing translation to the variables. You can also pull up the data variable statistics from this menu without having to go back **Data Variables**
