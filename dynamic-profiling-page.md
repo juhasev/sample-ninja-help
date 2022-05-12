@@ -13,7 +13,7 @@ General indicator of the answer frequency for the selected period.
 ### Filter
 Click on the filter button to set time limit how far back you want to look in terms of data variable usage / usage frequency / answers provided.
 
-### Data Variable list columns
+### Data Variables table
 
 #### Name
 This column display the variable name and whether the dynamic profiling has been enabled.
