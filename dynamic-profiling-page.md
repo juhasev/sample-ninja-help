@@ -28,7 +28,7 @@ This column indicates:
 This tab displays all variables that are being used in either **Project Qualifications** or in **Sample Balancing**. The list by default is sorted by the most frequently used variable. The frequency is indicated as a progress bar which is calculated comparing the variable to the most used variable. The X multiplier indicates how many projects have used this variable in the selected reporting period.
 
 #### Hydration
-This column displays the current hydration percent in percent % out of the subscribed **Sub Panel** members.
+This column displays the current hydration percent in percent % out of the subscribed **Sub Panel** members. The selected time period filter has no impact on hydration.
 
 #### Actions
 Click on the gear icon to bring up **Dynamic Profiling Settings** for the variable.
