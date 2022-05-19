@@ -13,7 +13,7 @@ Statistics include number of new panelists, conversion rate, survey rejections, 
 
 > Reminders are sent out automatically after 24 hours if a registering panelist has not confirmed their email address. To enable sending reminders please visit **Sub Panels** -> **Registration Survey** -settings by clicking on the **gear** icon in the Registration Survey box.
 
-> Conversion rate is calculated from started surveys, using simple formula **Number of new panelists** / **Number of started surveys** * 100.
+> Conversion rate is calculated from started surveys, using a simple formula **Number of new panelists** / **Number of started surveys** * 100%
 
 ### Registration failures pie chart
 
