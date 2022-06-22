@@ -1,7 +1,7 @@
 ## REDEMPTIONS
 
 ### FILTERING OPTIONS
-Use the search field to find any panelist usingn firstname, lastname or email. If you would like to view redemption request for any given Sub Panel(s) you may do so by clicking the filter icon.
+Use the search field to find any panelist using firstname, lastname or email. If you would like to view redemption request for any given Sub Panel(s) you may do so by clicking the filter icon.
 
 > Use the **REMENER FILTER** to set this as your default filter.
 
