@@ -3,7 +3,7 @@
 ### FILTERING OPTIONS
 Use the search field to find any panelist using firstname, lastname or email. If you would like to view redemption request for any given Sub Panel(s) you may do so by clicking the filter icon.
 
-> Use the **REMEMBER FILTER** to set this as your default filter.
+> Use the **REMEMBER FILTER** -button to set this as your default filter.
 
 > This works in either in the **APPROVALS** -tab or the **HISTORY** -tab.
 
