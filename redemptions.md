@@ -1,6 +1,6 @@
 ## REDEMPTIONS
 
-These are you pending redemptions requests that need to approved before the panelist will get awarded their rewards.
+These are you pending redemptions requests that need to manually approved before the panelist get sent their rewards. Select the redemptions using the checkbox on the left and then click on the **APPROVE** or **REJECT** button at the bottom of the table.
 
 ### FILTERING OPTIONS
 Use the search field to find any panelist using firstname, lastname or email. If you would like to view redemption request for any given Sub Panel(s) you may do so by clicking the filter icon.
