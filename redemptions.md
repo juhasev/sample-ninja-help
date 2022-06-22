@@ -5,6 +5,8 @@ Use the search field to find any panelist using firstname, lastname or email. If
 
 > Use the **REMENER FILTER** to set this as your default filter.
 
+> This works in either in the **APPROVALS** -tab or the **HISTORY** -tab.
+
 ### APPROVALS
 
 This table displays redemption requests from panelists to redeem their points for rewards. Select one or more redemption requests and either choose to **APPROVE SELECTED** or **REJECT SELECTED**. When a reward request is approved Sample Ninja will execute the redemption with vendor in the next fifteen minutes.
