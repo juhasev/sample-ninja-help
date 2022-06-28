@@ -33,5 +33,5 @@ Displays number of panelist added and lost due to churn (unsubscriptions) over t
 Click on the blue filter -icon on the top right corner to filter by **Sub Panels** and or time range.
 
 ### Note about caching
-> Many of these feature uses advanced caching on the server side. This cache time is on average about 2 hours. For example if you deleted 1000 panelists it would takes on average two hours for those changed to be reflected on the charts.
+> We use advanced caching on the server side. This cache time is on average about 2 hours. For example if you deleted 1000 panelists it would takes on average two hours for those changed to be reflected on the charts.
 
