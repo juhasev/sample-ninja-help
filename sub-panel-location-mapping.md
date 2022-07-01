@@ -46,5 +46,5 @@ No action, variable will not be mapped
 
 When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records.
 
-> **IMPORTANT**: Use the "Scan and report only" switch to run a test mapping. It is important that you understand how your data will be changed. For example if you are currently using **REGION** abbreviations, these will be changed from **TX** -> **Texas**. Any project looking for sample in **TX** would no longer find any panelists!
+> **IMPORTANT**: Use the "Scan and report only" switch to run a test mapping. In this mode no data is changes but you will still receive detailed CSV how the data would have been changed. It is important that you understand how your data will be changed. For example if you are currently using appreviation in the **REGION** variable, these will be changed from **TX** -> **Texas**. Any project looking for sample in **REGION** **TX** would no longer find any panelists!
 
