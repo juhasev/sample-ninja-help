@@ -6,17 +6,19 @@ This feature lets you request automatic **POSTAL_CODE** mapping to **CITY**, **R
 
 ### Postal Code
 
-You can configure the update to delete invalid postal codes. This can be handy as you can dynamically profile **POSTAL_CODE** with automatic postal code validation turned on to ensure you are collecting only valid codes going forward.
+You can configure **SampleNinja** to delete invalid postal codes by selecting option **"Remove invalid postal codes**. This can be handy as you can dynamically profile **POSTAL_CODE** with automatic postal code validation turned on to ensure you are collecting only valid codes going forward.
 
-> All panels should use **POSTAL_CODE** and **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE**, please contact support@sampleninja.io how to migrate or consolidate.
+Or alternative you may want to choose **"No action"** which leaves the **POSTAL_CODE** variable intact.
+
+> Your panel should use **POSTAL_CODE** and **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE**, please contact support@sampleninja.io how to migrate or consolidate them.
 
 > Postal codes in **United Kingdom, Canada and Netherlands** will use the short format.
 
-Or alternative you may want to choose "No action" which leaves the **POSTAL_CODE** variable intact.
-
 ### CITY, REGION, COUNTRY and DMA
 
-Choose the options which make sense to your panel and do a test run. Please note that the region values will be replaced with full names like **Texas**, **California** not abbrevations like **TX**, **CA**.
+Choose the options which make sense to your panel and do a test run. 
+
+> Please note that the region values will be replaced with full names like **Texas**, **California** not abbrevations like **TX**, **CA**.
 
 #### Overwrite
 This option will overwrite existing values if the new value is different. This can be handy if your existing values have differences in spellling like "United States" vs "US".
@@ -42,7 +44,7 @@ No action, variable will not be mapped
 - DMA
 - OLD_DMA
 
-When the mapping process is completed you will receive an instant notification with high level details about the updated, added and deleted records.
+When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records.
 
 > **IMPORTANT**: Use the "Scan and report only" switch to run a test mapping. It is important that you understand how your data will be changed. For example if you are currently using **REGION** abbreviations, these will be changed from **TX** -> **Texas**. Any project looking for sample in **TX** would no longer find any panelists!
 
