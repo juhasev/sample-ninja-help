@@ -1,25 +1,22 @@
 ## Postal Code mapping
 
-**SampleNinja** can automatically map **POSTAL_CODE** variables to **CITY**, **REGION**, **DMA** (typically state or province) and **COUNTRY**.
+This feature lets you request automatic **POSTAL_CODE** mapping to **CITY**, **REGION** (typically state or province), **COUNTRY** and **DMA**.
 
-Region values will be full names not abbrevations like TX, CA.
-
-> **DMA** coding is only available to US panelists and will always be stored in the numeric format.
-
-There are multiple ways to configure how things are handled.
+> **DMA** coding is only available to US panelists and will always stored in the numeric format.
 
 ### Postal Code
-You can configure the update to delete invalid postal codes. This can be handy as you can dynamically profile **POSTAL_CODE** with validation turn on.
 
-> Panels based in United States should use **POSTAL_CODE** variable and not some custom variable like **ZIP_CODE**.
+You can configure the update to delete invalid postal codes. This can be handy as you can dynamically profile **POSTAL_CODE** with automatic postal code validation turned on to ensure you are collecting only valid codes going forward.
 
-> Postal codes in United Kingdom, Canada and Netherlands will use the short format.
+> All panels should use **POSTAL_CODE** and **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE**, please contact support@sampleninja.io how to migrate or consolidate.
+
+> Postal codes in **United Kingdom, Canada and Netherlands** will use the short format.
 
 Or alternative you may want to choose "No action" which leaves the **POSTAL_CODE** variable intact.
 
 ### CITY, REGION, COUNTRY and DMA
 
-Choose the options which make sense to your panel and do a test run. 
+Choose the options which make sense to your panel and do a test run. Please note that the region values will be replaced with full names like **Texas**, **California** not abbrevations like **TX**, **CA**.
 
 #### Overwrite
 This option will overwrite existing values if the new value is different. This can be handy if your existing values have differences in spellling like "United States" vs "US".
