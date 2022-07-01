@@ -2,7 +2,7 @@
 
 This feature lets you request automatic **POSTAL_CODE** mapping to **CITY**, **REGION** (typically state or province), **COUNTRY** and **DMA**.
 
-> **DMA** coding is only available to US panelists and will always stored in the numeric format.
+> **DMA** coding is only available to US panelists and will always stored in the numeric format. You must also create **DMA** variable by visiting **Data Variables** and by click on **STANDARD** button and select **DMA** to create it.
 
 ### Postal Code
 
