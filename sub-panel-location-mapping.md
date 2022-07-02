@@ -35,6 +35,7 @@ No action, variable will not be mapped
 
 - PANELIST_ID
 - POSTAL_CODE
+- OLD_POSTAL_CODE
 - CITY
 - OLD_CITY
 - REGION
@@ -44,5 +45,5 @@ No action, variable will not be mapped
 - DMA
 - OLD_DMA
 
-When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records.
+When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each LOCALE you **Sub Panel** contains.
 
