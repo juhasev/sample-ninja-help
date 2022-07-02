@@ -31,7 +31,7 @@ No action, variable will not be mapped
 
 ### Notification & results
 
-**SampleNinja** will produce detailed CSV file that contains. If you choose "No action" for any variable then the new and old values are omitted as no changes will be made.
+**SampleNinja** will produce detailed CSV file that contains the following columns. 
 
 - PANELIST_ID
 - POSTAL_CODE
@@ -45,5 +45,7 @@ No action, variable will not be mapped
 - DMA
 - OLD_DMA
 
-When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each LOCALE you **Sub Panel** contains.
+> If you choose "No action" for any variable then the new and old values are omitted as no changes will be made.
+
+> When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each LOCALE you **Sub Panel** contains.
 
