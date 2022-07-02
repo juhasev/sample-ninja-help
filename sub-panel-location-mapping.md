@@ -21,7 +21,7 @@ Or alternatively you may want to choose **"No action"** which leaves the **POSTA
 Choose the options which make sense to your panel and do a test run by toggling on "Scan and report" (default). When ready to update your panelists toggle "Scan and report" off to apply the changes.
 
 #### Overwrite
-This option will overwrite existing values if the new value is different. This can be handy if your existing values have differences in spellling like "United States" vs "US".
+This option will overwrite the existing value if the new value is different. This can be handy if your existing values have differences in spellling like "United States" vs "US" or "London" vs "Lonson". Its imperative that all records are clean. It would be possible for a project manager to accidentally target "Lonson" while meaning to target "London"! 
 
 #### Add missing only
 This option will add missing values only.
