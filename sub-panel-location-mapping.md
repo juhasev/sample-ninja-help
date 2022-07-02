@@ -29,8 +29,6 @@ This option will add missing values only.
 #### No action
 Take no action, variable will not be mapped. 
 
-> Any "No action" variables will be absent from the detailed CSV report.
-
 ### Notification & results
 
 **SampleNinja** will produce detailed CSV file that contains the following columns. 
@@ -47,7 +45,7 @@ Take no action, variable will not be mapped.
 - DMA
 - OLD_DMA
 
-> If you choose "No action" for any variable then the new and old values are omitted as no changes will be made.
+> If you choose "No action" for any variable then variable columns will be omitted as no changes will be made.
 
 > When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each LOCALE you **Sub Panel** contains.
 
