@@ -31,7 +31,7 @@ No action, variable will not be mapped
 
 ### Notification & results
 
-**SampleNinja** will produce detailed CSV file that contains
+**SampleNinja** will produce detailed CSV file that contains. If you choose "No action" for any variable then the new and old values are omitted as no changes will be made.
 
 - PANELIST_ID
 - POSTAL_CODE
