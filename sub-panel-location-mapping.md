@@ -2,6 +2,8 @@
 
 This feature lets you request automatic **POSTAL_CODE** mapping to **CITY**, **REGION** (typically state or province), **COUNTRY** and **DMA**.
 
+> **IMPORTANT**: Use the "Scan and report only" switch to run a test mapping. In this mode no data is changed but **SampleNinja** will produce a detailed CSV how the data would have been changed. It is important that you understand how your data will be changed. For example if you are currently using appreviation in the **REGION** variable, these will be changed from **TX** -> **Texas**. Any project looking for sample in **REGION** **TX** would no longer find any panelists!
+
 > **DMA** coding is only available to US panelists and will always stored in the numeric format. You must also create **DMA** variable by visiting **Data Variables** and by clicking on the **STANDARD** button and then selecting **DMA** to create it.
 
 ### Postal Code
@@ -43,6 +45,4 @@ No action, variable will not be mapped
 - OLD_DMA
 
 When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records.
-
-> **IMPORTANT**: Use the "Scan and report only" switch to run a test mapping. In this mode no data is changed but **SampleNinja** will produce a detailed CSV how the data would have been changed. It is important that you understand how your data will be changed. For example if you are currently using appreviation in the **REGION** variable, these will be changed from **TX** -> **Texas**. Any project looking for sample in **REGION** **TX** would no longer find any panelists!
 
