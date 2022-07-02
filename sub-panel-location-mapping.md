@@ -45,7 +45,7 @@ Take no action, variable will not be mapped.
 - DMA
 - OLD_DMA
 
-> If you choose "No action" for any variable then variable columns will be omitted as no changes will be made.
+> If you choose "No action" for any of target variables then the variable will be omitted from the report as no changes will be made.
 
-> When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each LOCALE you **Sub Panel** contains.
+> When the mapping process is completed you will receive an instant notification with the high level details about the updated, added and deleted records by each **LOCALE** your **Sub Panel** contains.
 
