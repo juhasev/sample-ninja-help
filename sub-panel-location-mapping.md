@@ -18,7 +18,7 @@ Or alternatively you may want to choose **"No action"** which leaves the **POSTA
 
 ### CITY, REGION, COUNTRY and DMA
 
-Choose the options which make sense to your panel and do a test run by switching "Scan and report" on (default). When ready to update your panelists toggle off.
+Choose the options which make sense to your panel and do a test run by toggling on "Scan and report" (default). When ready to update your panelists toggle "Scan and report" off to apply the changes.
 
 #### Overwrite
 This option will overwrite existing values if the new value is different. This can be handy if your existing values have differences in spellling like "United States" vs "US".
