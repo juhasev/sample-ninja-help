@@ -10,7 +10,7 @@ This feature lets you request automatic **POSTAL_CODE** mapping to **CITY**, **R
 
 You can configure **SampleNinja** to delete invalid postal codes by selecting option **"Remove invalid postal codes"**. This can be handy as you can dynamically profile **POSTAL_CODE** with automatic postal code validation turned on to ensure you are collecting only valid codes going forward.
 
-Or alternatively you may want to choose **"No action"** which leaves the **POSTAL_CODE** variable intact.
+Or alternatively you may want to choose **"No action"** which leaves the existing **POSTAL_CODE** values intact.
 
 > Your panel should **ALWAYS** use the **POSTAL_CODE** and the **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE** the automatic features / validation will not be available. Please contact support@sampleninja.io for information how to migrate to **POSTAL_CODE** and **REGION**.
 
