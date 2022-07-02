@@ -27,7 +27,9 @@ This option will overwrite the existing value if the new value is different. Thi
 This option will add missing values only.
 
 #### No action
-No action, variable will not be mapped
+Take no action, variable will not be mapped. 
+
+> Any "No action" variables will be absent from the detailed CSV report.
 
 ### Notification & results
 
