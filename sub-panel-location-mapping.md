@@ -12,7 +12,7 @@ Or alternatively you may want to choose **"No action"** which leaves the **POSTA
 
 > Your panel should use **POSTAL_CODE** and **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE**, please contact support@sampleninja.io how to migrate or consolidate them.
 
-> Postal codes in **United Kingdom, Canada and Netherlands** will use the short format.
+> Postal codes in **United Kingdom, Canada and Netherlands** will use the short format. If a long format portal code is found it will be automatically converted to the short format.
 
 ### CITY, REGION, COUNTRY and DMA
 
