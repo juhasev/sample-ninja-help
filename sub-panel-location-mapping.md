@@ -12,7 +12,7 @@ You can configure **SampleNinja** to delete invalid postal codes by selecting op
 
 Or alternatively you may want to choose **"No action"** which leaves the **POSTAL_CODE** variable intact.
 
-> Your panel should use **POSTAL_CODE** and **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE** the automatic features / validation will not be available. Please contact support@sampleninja.io for information how to migrate to **POSTAL_CODE** and **REGION**.
+> Your panel should **ALWAYS** use the **POSTAL_CODE** and the **REGION** variables. If you are using some home grown variables like **ZIP_CODE**, **STATE** or **PROVINCE** the automatic features / validation will not be available. Please contact support@sampleninja.io for information how to migrate to **POSTAL_CODE** and **REGION**.
 
 > **IMPORTANT** Postal codes in **United Kingdom, Canada and Netherlands** will use the short format. If a long format portal code is found it will be automatically converted to the short format.
 
