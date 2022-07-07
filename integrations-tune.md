@@ -4,7 +4,7 @@ Sample Ninja supports recruiting panelist from **TUNE**. This integration handle
 
 Please enter your **TUNE reporting URL** and toggle **TUNE Recruitment** on. 
 
-> Contact your **TUNE** account presentative for the reporting URL.
+> Contact your **TUNE** account representative for the reporting URL.
 
 > Read more under **Recruitment Sources**
 
