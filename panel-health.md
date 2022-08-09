@@ -18,6 +18,31 @@ Displays percentage breakdown of the total the number of Panellists who are defi
 
 > Sample Ninja will automatically remove ubsubscribed and blacklisted panelists from your panelist withing 12 months. When somebody unsubscribes or gets blacklisted we will delete their variable data within 4 hours but save their activity for 12 months to retain correct reporting for projects and other features.
 
+### Panel Utilization
+The panel utilization displays chart of panelist activity along with statistics how you are using your panelists. 
+
+#### Utilization
+Percentage of panelists have been invited to at least one project.
+
+#### Started
+Percentage of panelists have started at least one project.
+
+#### Profile
+Percentage of panelists have profile terminated at least once.
+
+#### Quota
+Percentage of panelists have quota terminated at least once.
+
+#### Security
+Percentage of panelists have security terminated at least once.
+
+#### Completed
+Percentage of panelists have completed at least one project.
+
+> To look at a different time range click on the filter button in the top right corner.
+
+> Mouse over to view the actual panelist count
+
 ### By activity
 
 Displays percentage values of the total Panellists held within the platform. If you mouse over any of these statuses it will give the actual number of Panellists.
