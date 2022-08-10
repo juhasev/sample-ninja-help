@@ -41,8 +41,6 @@ Percentage of panelists have completed at least one project.
 
 > To look at a different time range click on the filter button in the top right corner.
 
-> Mouse over to view the actual panelist count
-
 ### By activity
 
 Displays percentage values of the total Panellists held within the platform. If you mouse over any of these statuses it will give the actual number of Panellists.
