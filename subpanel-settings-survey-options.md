@@ -11,7 +11,7 @@ Use this control to enabled the progress bar in the registration survey.
 
 > Sample Ninja uses IP based Geo Location provided by https://www.ip-api.com. For example you wouldn't know person's exact street address but you would most likely place them in the right zip code in the correct city. If you decide to collect variables like CITY and POSTAL_CODE during the registration survey this setting will not override actual answers provided by the registering panelist.
 
-> Please note that mobile customers using Apple's iPhone will have their location masked which means they city may be different fron the actual city the panelist lives in. Generally spaeking the state level data is accurate.
+> Please note that mobile customers using Apple's iPhone will have their location masked which means they city may be different fron the actual city the panelist lives in. Generally speaking the state level data can be considered accurate.
 
 ### Create password
 When enabled registration survey prompts registering panelist to create a password. A password is required if your panelist are offered access to the **Member's app** via the built in app or via **Community API**.
