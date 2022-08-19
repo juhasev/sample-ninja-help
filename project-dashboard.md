@@ -46,6 +46,8 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Security terminations** Total number of panelists terminated due to security check like **out of country**. Mouse over to see percent from started.
 - **Dropouts** Total number of panelist who dropped out from the survey or did not finish the survey. During a live project "on going survey takers" fall in this bucket so you may see higher than expected rate at the beginning of the survey.
 
+> **TIP** Mouseover the percentage values to see the actual count.
+
 ### Statistics under chart  
 - **Routed in** Total number of panelists routed into this project from other projects.
 - **Routed out** Total number of profile or quota terminated panelists successfully routed to other projects.
