@@ -75,4 +75,6 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Gross Revenue Margin** Display gross revenue margin.
 - **Wasted Reward Point Cost** Displays the total cost associated with wasted reward points.
 
+> Wasted Reward Points are accumulated when an overinvite is registered. This could ne indication that you are attempting to field the project too fast.
+
 > Within the **Balancing** segment, keep an eye on the numbers in the quota cells. If these numbers get too high, it means you are trying to complete the project too fast or the quota cells are requiring too many invitations due to a low response rate. This will incur unnecessary cost.
