@@ -44,7 +44,7 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Quality terminations** Total number of panelists terminated due to quality. Mouse over to see percent from started.
 - **Duplicate terminations** Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
 - **Security terminations** Total number of panelists terminated due to security check like **out of country**. Mouse over to see percent from started.
-- **Dropout** Total number of panelist who dropped out from the survey. During a live projest "on going survey takers" fall in this bucket so you may see higher that realistic rate at the beginning of the survey.
+- **Dropouts** Total number of panelist who dropped out from the survey or did not finish the survey. During a live project "on going survey takers" fall in this bucket so you may see higher than expected rate at the beginning of the survey.
 
 ### Statistics under chart  
 - **Routed in** Total number of panelists routed into this project from other projects.
