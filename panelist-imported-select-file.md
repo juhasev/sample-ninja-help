@@ -5,8 +5,6 @@ Panelist Importer let’s you to import panelists (members) to an existing panel
 You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Sample Ninja provided system variables cannot be written to with the exception of:
 
 - POINTS_BALANCE
-- POINTS_REWARDED (lifetime)
-- POINTS_REDEEMED (lifetime)
 - LOCALE
 - SUBSCRIBED_DATE
 - EMAIL_CONFIRMED
