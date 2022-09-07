@@ -20,6 +20,6 @@ a24d102b-d5ee-46dd-b602-78f94129b8c8,,1,2      <-- REGION IS NULL
 f6f9496a-92a4-4f24-8880-bfa40b8059e0,,,6       <-- REGION AND GENDER ARE NULL
 ```
 
-If you intend to delete empty values from the database choose **"Delete empty variables / options"**, otherwise existing NULL values will be skipped. This allows you to update multiple columns at the same time while skipping deletes all together.
+If you intend to delete empty values from the database choose **"Delete empty variables / options"**, otherwise existing NULL values will be skipped. This allows you to update multiple columns at the same time while skipping null values which means existing values will remain in the database.
 
 > Always test you update CSV with a single test panelist before proceeding!
