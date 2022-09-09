@@ -5,11 +5,12 @@ Panelist Importer let’s you to import new panelists to your panel from a CSV f
 ### When importing new panelists
 You must have column **EMAIL**, **FIRST_NAME** and **LAST_NAME** columns in your CSV file. Sample Ninja's **system variables** cannot be written to with the exception of:
 
-- POINTS_BALANCE
-- LOCALE
-- SUBSCRIBED_DATE
-- EMAIL_CONFIRMED
-- RECRUITMENT_SOURCE
+```
+- POINTS_BALANCE      <-- Allows you to bring in the existing points balance
+- LOCALE              <-- Allows you to set locale if you existing panel contains multiple locales
+- SUBSCRIBED_DATE     <-- Set the actual subscribed date when the panelist signed up
+- RECRUITMENT_SOURCE  <-- Allows you to specify recruitment source ID
+```
 
 The first column should always be **EMAIL**.
 
@@ -20,6 +21,9 @@ The first column should always be **EMAIL**.
 > **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
 > **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. 
+
+### Importing STATE or PROVINCE
+**Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
 
 ### When updating panelists
 
@@ -38,6 +42,28 @@ The easiest way to get started is to produce a test import file by clicking **GE
 You can export your existing panelists to a CSV file by using the **Panelist Manager** where you use any query filter to find the segment you need and select which data variables you need to export.
 
 ## Preparing your own data file
+
+### Cleaning your data
+It is imperative that you spend significant time cleaning up your import file. **Sample Ninja** uses strict validation on all values and prevents you from importing garbage in your database. For example if you have previously collected car make and have values like:
+
+- Toyota
+- toyota
+- tyoota
+
+In your data file these will be all considered different car makes in **Sample Ninja** when stored to the keyword type -variable. In additional you should make sure your value set does not contain other garbage like values that read NULL.
+
+Pay attention to the values that are stored as Keywords in **Sample Ninja**. Examples:
+
+```
+POSTAL_CODE: 45455   <-- OK
+POSTAL_CODE: 4546    <-- Invalid US postal CODE
+POSTAL_CODE: A1A 1A1 <-- OK Canada
+POSTAL_CODE: A2B2C1  <-- Invalid Canada
+POSTAL_CODE: a1a 1a1 <-- Should be upper case
+REGION: Texas        <-- OK
+REGION: TX           <-- Use full keywords not abbreviations
+CITY: los angeles    <-- Capitalization incorrect 
+```
 
 ### CSV Headers
 Always use CSV headers that match the target variable name. **Sample Ninja** can automatically map these to your variables. Makes life easier!
@@ -64,7 +90,7 @@ In SampleNinja the text variables are tokenized and analyzed allowing you to sto
 For example if you store: "Brown lazy dog" you could then later search for matches like "Brown dog". This may not be what you want and if you need to match the whole term you should use the **Keyword** data variable type instead.
 
 #### Keyword
-The keyword variable type requires exact match when searching. This variable type is the best choice for things like Car Make & Model, City, Region etc...
+The keyword variable type requires exact match when searching. This variable type is the best choice for things like Car Make & Model, City, Region etc... Keyword is case sensitive.
 
 #### Date
 All dates must be imported in the international format i.e. **2021-07-22** or **YYYY-MM-DD**. As an incorrect example, if you use the US date notation 7/31/1976, this will not be detected as a date and you will not be able to map it to **Date** -data variable type.
