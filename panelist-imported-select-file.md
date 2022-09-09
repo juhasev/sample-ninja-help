@@ -101,48 +101,6 @@ Sample Ninja Data Variable  |    Excel Data Format
  
 ```
 
-### Data type detection and how it affects mapping
-
-The importer scans each column and attempts to discover the column's data type and the potential target data variable types. The detection runs in the following order: 
-
-```javascript
-[
-    {
-        csvDataType: 'Date',
-        targetVariableTypes: ['date']
-    },
-    {
-        csvDataType: 'Phone',
-        targetVariableTypes: ['phone', 'keyword']
-    },
-    {
-        csvDataType: 'Integer',
-        targetVariableTypes: ['radio', 'checkbox', 'number', 'keyword', 'text']
-    },
-    {
-        csvDataType: 'Numeric',
-        targetVariableTypes: ['number', 'keyword', 'text'],
-    },
-    {
-        csvDataType: 'Email',
-        targetVariableTypes: ['email', 'keyword'],
-    },
-    {
-        csvDataType: 'Locale',
-        targetVariableTypes: ['locale', 'keyword']
-    },
-    {
-        csvDataType: 'ZipCode',
-        targetVariableTypes: ['keyword', 'number'],
-    },
-    {
-        csvDataType: 'String',
-        targetVariableTypes: ['text', 'keyword'],
-    }
-]
-```
-
-When the importer has discovered suitable target variable types for a CSV column, it then tries to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If the match is good > 50% then the column mapper should select the target variable automatically.
 
 ## Using the importer
 
