@@ -118,19 +118,18 @@ Data values must correspond to option number i.e. GENDER -> Male -> 1. You can s
 Locale must exist in the targeted sub panel or line will fail. Locales must be specified in the correct format i.e. **ENG-US**. In additional your target **Sub Panel** must have the locale enabled.
 
 ### Excel Data Formatting
-In order for Sample Ninja to correctly map data, certain variables needed to be formatted into a specific data type in Excel. These are shown below:
+In order for Sample Ninja to correctly map data, certain variables needed to be formatted into a specific data type in Excel or other spreadsheet applications. These are shown below:
 
 ```
-Sample Ninja Data Variable  |    Excel Data Format
------------------------------|------------------------
-            Date             |    Date as 2021-07-23
-            Phone            |    Text as +12345678912
-            Checkbox         |    Number (No Decimals)
-            Radio            |    Number (No Decimals)
- All Other Data Variables    |    Text
- 
+Sample Ninja Data Variable   |    Spreadsheet Data Format
+-----------------------------|---------------------------
+Date                         |    Date as 2021-07-23
+Phone                        |    Text as +12345678912
+Checkbox                     |    Number (No Decimals)
+Radio                        |    Number (No Decimals)
+All Other Data Variables     |    Text
+--------------------------------------------------------- 
 ```
-
 
 ## Using the importer
 
