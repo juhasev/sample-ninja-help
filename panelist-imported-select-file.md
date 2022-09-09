@@ -61,13 +61,15 @@ Pay attention to the values that are stored as Keywords in **Sample Ninja**. Exa
 POSTAL_CODE: 45455   <-- OK
 POSTAL_CODE: 4546    <-- Invalid US postal CODE
 POSTAL_CODE: A1A 1A1 <-- OK Canada
-POSTAL_CODE: A2B2C1  <-- Invalid Canadian postal code
+POSTAL_CODE: A2B2C1  <-- Space in between missing
 POSTAL_CODE: a1a 1a1 <-- Should be upper case
 REGION: Texas        <-- OK
 REGION: TX           <-- Use full keywords not abbreviations
 CITY: los angeles    <-- Capitalization incorrect
 CITY: NULL           <-- Do not use NULL values, leave blank instead
 ```
+
+> When you clean your data file your sampling efficiency is increased! It is better to delete all invalid data so you re-populate it later on using **Dynamic Profiling**.
 
 ### CSV Headers
 Always use CSV headers that match the target variable name. **Sample Ninja** can automatically map these to your variables. Makes life easier!
