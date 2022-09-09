@@ -1,14 +1,17 @@
 ## Panelist Importer
 
-Panelist Importer let’s you to import panelists (members) to an existing panel or subpanel from a CSV file.
+Panelist Importer let’s you to import new panelists to your panel from a CSV file or you can use the importer to update existing panelist profiles.
 
-You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Sample Ninja provided system variables cannot be written to with the exception of:
+### When importing new panelists
+You must have column **EMAIL**, **FIRST_NAME** and **LAST_NAME** columns in your CSV file. Sample Ninja's **system variables** cannot be written to with the exception of:
 
 - POINTS_BALANCE
 - LOCALE
 - SUBSCRIBED_DATE
 - EMAIL_CONFIRMED
 - RECRUITMENT_SOURCE
+
+The first column should always be **EMAIL**.
 
 > You can view a list of importable variables in **Data Variables** by selecting **Registration / Import writable** from the **Filter by class** select at the top right corner.
 
@@ -18,20 +21,29 @@ You must have FIRST_NAME, LAST_NAME and EMAIL columns in your CSV file. Sample N
 
 > **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. 
 
-## Getting started with your own import
+### When updating panelists
 
+Your CSV file should have column **IDENTIFIER** as the first column and that should contain an existing panelist ID. When updating please switch on "Update existing panelists" -toggle.
+
+> You cannot update any system variables i.e. **POINTS_BALANCE** or **LOCALE**.
+
+## Getting started with your import
+
+### When importing panelists
 The easiest way to get started is to produce a test import file by clicking **GENERATE TEST IMPORT FILE**. This little tool let's you pick data variables that you would like to import. When you prepare your own import file simply follow the test import file format.
 
 > **IMPORTANT!** Do not import the file back in unless your panel is in the **SIMULATION MODE**. This is indicated on the application top toolbar with label **SIMULATION**.
 
+### When updating panelists
+You can export your existing panelists to a CSV file by using the **Panelist Manager** where you use any query filter to find the segment you need and select which data variables you need to export.
 
 ## Preparing your own data file
 
 ### CSV Headers
-Always use CSV headers that match the target variable name!
+Always use CSV headers that match the target variable name. **Sample Ninja** can automatically map these to your variables. Makes life easier!
 
 ### Minimum requirements
-Variables **FIRST_NAME**, **LAST_NAME** and **EMAIL** are always required.
+When importing new panelist variables **FIRST_NAME**, **LAST_NAME** and **EMAIL** are always required. When updating panelists **IDENTIFIER** is always required.
 
 ### Blank / NULL / unknown values
 If a panelist doesn't have a value, (for example BIRTH_DATE), you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
@@ -45,7 +57,6 @@ Jack,Doe,jack@sampleninja.io,1966-04-12,,                      <-- BLANK CHECKBO
 ```
 
 ### Data formats
-The importer can only access values which are in the international format.
 
 #### Text
 In SampleNinja the text variables are tokenized and analyzed allowing you to store various kind of text data if desired.
@@ -71,10 +82,10 @@ BREXIT:yes,BREXIT:no
 ```
 
 #### Radio
-Data values must correspond to option number i.e. GENDER -> Male -> 1
+Data values must correspond to option number i.e. GENDER -> Male -> 1. You can see the option values by editing the data variable in question.
 
 #### Locale
-Locale must exist in the targeted sub panel or line will fail. Locales must be specified in the correct format i.e. **ENG-US**.
+Locale must exist in the targeted sub panel or line will fail. Locales must be specified in the correct format i.e. **ENG-US**. In additional your target **Sub Panel** must have the locale enabled.
 
 ### Excel Data Formatting
 In order for Sample Ninja to correctly map data, certain variables needed to be formatted into a specific data type in Excel. These are shown below:
@@ -132,9 +143,6 @@ The importer scans each column and attempts to discover the column's data type a
 ```
 
 When the importer has discovered suitable target variable types for a CSV column, it then tries to use Fuzzy logic to match **CSV COLUMN HEADER** to **DATA VARIABLE LABEL**. If the match is good > 50% then the column mapper should select the target variable automatically.
-
-> If you don't see your variable listed under the mapping selection then either the data is provided in the wrong format or the data variable you are trying to map to is using a wrong type. For example, if the CSV data type is detected as **String** you would be unable to map it to a **Radio** data variable type. Please verify your data format and the desired target variable types!
-
 
 ## Using the importer
 
