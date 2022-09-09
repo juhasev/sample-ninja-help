@@ -1,10 +1,12 @@
 ## Column Mapping
 
-In this screen you map your CSV columns to the data variables. If you used column headers that match your data variables then the mapping should be done automatically for you.
+In this screen you map your CSV columns to the data variables. If you used column headers names that match your data variables names then the mapping should be done automatically for you.
 
 ### What to when auto mapping fails
 
-If you don't see your variable listed under the mapping selection then either the CSV data is provided in the wrong format or the data variable is does not exists or is created using wrong type. For example, if the CSV data type is detected as **String** you would be unable to map it to a **Radio** data variable type. Please verify your data format and the desired target variable types! See the **HELP** in the first screen (file selection, drop page) for details how to format your data file.
+If you don't see your variable listed under the mapping selection then either the CSV data is provided in the wrong format or the data variable is does not exists or is created using wrong type. For example, if the CSV data type is detected as **String** -type you would be unable to map it to a **Radio** data variable type with requires integer values 1 - n. 
+
+If this happens, first verify your data format and the desired target variable types! See the **HELP** in the first screen (file selection, drop page) for details how to format your data file.
 
 > **TIP**: Don't forget to scroll down when you look for variables. If you have a lot of variables, you can simply type in the variable name in selection field to narrow down the data variable list!
 
