@@ -62,7 +62,8 @@ POSTAL_CODE: A2B2C1  <-- Invalid Canada
 POSTAL_CODE: a1a 1a1 <-- Should be upper case
 REGION: Texas        <-- OK
 REGION: TX           <-- Use full keywords not abbreviations
-CITY: los angeles    <-- Capitalization incorrect 
+CITY: los angeles    <-- Capitalization incorrect
+CITY: NULL         <-- Do not use NULL values, leave values blank instead
 ```
 
 ### CSV Headers
@@ -75,11 +76,11 @@ When importing new panelist variables **FIRST_NAME**, **LAST_NAME** and **EMAIL*
 If a panelist doesn't have a value, (for example BIRTH_DATE), you may leave the value blank. If the target variable type is **checkbox** then all columns must be left blank. For example:
 
 ```
-FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,BREXIT:Yes,BREXIT:No
-John,Doe,john@sampleninja.io,1980-01-01,0,1                    <-- GOOD LINE
-Lisa,Doe,lisa@sampleninja.io,,1,0                              <-- BIRTH DATE BLANK
-Jack,Doe,jack@sampleninja.io,1966-04-12,,                      <-- BLANK CHECKBOX
-
+FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,COLORS:blue,COLORS:Brown,COLORS:Red
+John,Doe,john@sampleninja.io,1980-01-01,0,1,1                              <-- OK ALL VALUES SUPPLIED
+Lisa,Doe,lisa@sampleninja.io,,1,0,1                                        <-- OK BIRTH DATE OMITTED
+Jack,Doe,jack@sampleninja.io,1966-04-12,,,                                 <-- OK CHECKBOX OMITTED
+Jack,Doe,jack@sampleninja.io,1966-04-12,,,1                                <-- BAD, ALL CHECKBOX COLUMNS MUST BE PRESENT
 ```
 
 ### Data formats
