@@ -66,7 +66,7 @@ POSTAL_CODE: a1a 1a1 <-- Should be upper case
 REGION: Texas        <-- OK
 REGION: TX           <-- Use full keywords not abbreviations
 CITY: los angeles    <-- Capitalization incorrect
-CITY: NULL         <-- Do not use NULL values, leave values blank instead
+CITY: NULL           <-- Do not use NULL values, leave values blank instead
 ```
 
 ### CSV Headers
