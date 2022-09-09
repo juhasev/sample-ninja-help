@@ -61,7 +61,7 @@ Pay attention to the values that are stored as Keywords in **Sample Ninja**. Exa
 POSTAL_CODE: 45455   <-- OK
 POSTAL_CODE: 4546    <-- Invalid US postal CODE
 POSTAL_CODE: A1A 1A1 <-- OK Canada
-POSTAL_CODE: A2B2C1  <-- Invalid Canada
+POSTAL_CODE: A2B2C1  <-- Invalid Canadian postal code
 POSTAL_CODE: a1a 1a1 <-- Should be upper case
 REGION: Texas        <-- OK
 REGION: TX           <-- Use full keywords not abbreviations
