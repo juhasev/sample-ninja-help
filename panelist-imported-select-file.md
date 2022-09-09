@@ -66,7 +66,7 @@ POSTAL_CODE: a1a 1a1 <-- Should be upper case
 REGION: Texas        <-- OK
 REGION: TX           <-- Use full keywords not abbreviations
 CITY: los angeles    <-- Capitalization incorrect
-CITY: NULL           <-- Do not use NULL values, leave values blank instead
+CITY: NULL           <-- Do not use NULL values, leave blank instead
 ```
 
 ### CSV Headers
@@ -83,7 +83,8 @@ FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,COLORS:blue,COLORS:Brown,COLORS:Red
 John,Doe,john@sampleninja.io,1980-01-01,0,1,1   <-- OK All value supplied
 Lisa,Doe,lisa@sampleninja.io,,1,0,1             <-- OK birth date omitted
 Jack,Doe,jack@sampleninja.io,1966-04-12,,,      <-- OK colors checkbox omitted
-Jack,Doe,jack@sampleninja.io,1966-04-12,,,1     <-- FAIL, all colors checkbox entries must be present
+Jack,Doe,jack@sampleninja.io,1966-04-12,,,1     <-- FAIL, all checkbox entries must be present
+Jack,Doe,jack@sampleninja.io,1966-04-12,0,0,1   <-- FIXED, all checkbox entries are present
 ```
 
 ### Data formats
