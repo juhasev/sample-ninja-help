@@ -1,8 +1,11 @@
 ## Panelist Importer
 
-Panelist Importer let’s you to import new panelists to your panel from a CSV file or you can use the importer to update existing panelist profiles.
+Panelist Importer let’s you to import new panelists to your panel from a CSV file or you can use the importer to update existing panelist profiles. All imports or updates always target a specific **Sub Panel**. The target **Sub Panel** is selected at the end of the import configuration. 
+
+> Panel wide imports across the boundaries of the **Sub Panel** are not allowed!
 
 ### When importing new panelists
+
 You must have column **EMAIL**, **FIRST_NAME** and **LAST_NAME** columns in your CSV file. Sample Ninja's **system variables** cannot be written to with the exception of:
 
 ```
@@ -20,7 +23,7 @@ The first column should always be **EMAIL**.
 
 > **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
-> **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. 
+> **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. In addition your target **Sub Panel** must have the same locales enabled as you are planning to import. 
 
 ### Importing STATE or PROVINCE
 **Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
