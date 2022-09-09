@@ -80,10 +80,10 @@ If a panelist doesn't have a value, (for example BIRTH_DATE), you may leave the 
 
 ```
 FIRST_NAME,LAST_NAME,EMAIL,BIRTH_DATE,COLORS:blue,COLORS:Brown,COLORS:Red
-John,Doe,john@sampleninja.io,1980-01-01,0,1,1                              <-- OK ALL VALUES SUPPLIED
-Lisa,Doe,lisa@sampleninja.io,,1,0,1                                        <-- OK BIRTH DATE OMITTED
-Jack,Doe,jack@sampleninja.io,1966-04-12,,,                                 <-- OK CHECKBOX OMITTED
-Jack,Doe,jack@sampleninja.io,1966-04-12,,,1                                <-- BAD, ALL CHECKBOX COLUMNS MUST BE PRESENT
+John,Doe,john@sampleninja.io,1980-01-01,0,1,1   <-- OK All value supplied
+Lisa,Doe,lisa@sampleninja.io,,1,0,1             <-- OK birth date omitted
+Jack,Doe,jack@sampleninja.io,1966-04-12,,,      <-- OK colors checkbox omitted
+Jack,Doe,jack@sampleninja.io,1966-04-12,,,1     <-- FAIL, all colors checkbox entries must be present
 ```
 
 ### Data formats
