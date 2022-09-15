@@ -1,8 +1,8 @@
 ## HEALTH SCORE
 
-Health score is simply calculated using formula PANEL UTILIZATION % - (PANEL DISQUALIFED /2)%. Maximum score is 100%. 
+The panel health score measures how many panelist are invited and completing projects. If the started count than the invited count then started count is used instead i.e. you run a lot of projects that do not send invitations our at all.
 
-> This simple calculation is going to be overhauled in Q1 2022 with a score calculated for individual panelists.
+Formula is **invited count | started count / completed count * 100% ** 
 
 ### Active vs. Engaged
 
