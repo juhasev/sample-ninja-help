@@ -4,7 +4,7 @@ The panel health score measures how many panelist are invited and completing pro
 
 > Formula is: invited count OR started count / completed count x 100%
 
-> Low health score is indication of panelist fatigue or other issues like panelists are not completing enough projects and therefore not earning any reward points.
+> Low health score is indication of panelist fatigue or other issues like panelists are not completing enough projects. When panelist are not earning any rewards points they have little reason to start projects or participate in general.
 
 ### Active vs. Engaged
 
