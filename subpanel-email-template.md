@@ -16,7 +16,7 @@ Allows you to turn off / on elements used in the invitation. Elements are global
 
 ### Preview
 
-This shows a visual representation of the Email Template. Preview is also an editor and allows you modify texts on each template.
+This shows a visual representation of the Email Template. Preview is also an editor and allows you modify texts on each template. If you would like email yourself click on the blue "Email to me" button at the top right corner.
 
 Each template can have its own **Subject** and **Sender name**.
 
