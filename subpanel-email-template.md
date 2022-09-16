@@ -12,7 +12,7 @@ Choose the Action button colour you like.
 
 ### Elements
 
-Allows you to turn off / on elements used in the invitation. Elements are global and effect all templates. Some elements like **Project information** and **Show members app button** are only applicable to the **Project Invitation** and **Project Reminder** templates.
+Allows you to turn off / on elements used in the invitation. Elements are global and effect all templates. Some elements like **Project information** and **Members app action button** are only applicable to the **Project Invitation** and **Project Reminder** templates.
 
 ### Preview
 
