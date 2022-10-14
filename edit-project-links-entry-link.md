@@ -68,20 +68,23 @@ Signing will verify the path and query part of a survey's URL (i.e. not the prot
 
 Using the following URL as an example:
 
+```
 https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
+```
 
 #### Step 1 - Remove protocol, host and hash -parameter:
 
+```
 /projects?project_id=10&region=2&country=US
-
+```
 #### Step 2 - Sort URL params alphabetically
-
+```
 /projects?country=US&project_id=10&region=2
-
+```
 #### Step 3 - Append the secret at the end of the URL
-
+```
 /projects?country=US&project_id=10&region=2MySecretPasscode
-
+```
 #### Step 4 - Calculate hash
 
 Here we use PHP's built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
@@ -148,12 +151,10 @@ Hashable URL part (params sorted alphabetically)
 ```
 /projects?c=US&g=1&p=1435540&r=2
 ```
-
 Append secret
 ```
 /projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@
 ```
-
 Compute hash:
 ```
 echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); // PHP example
