@@ -113,6 +113,24 @@ Computed hash:
 b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
 
+Extra example using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
+
+Original URL: 
+
+```
+https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1
+```
+
+Hashable URL (parameters sorted alphabetically!)
+```
+projects?c=US&g=1&p=1435540&r=2
+```
+
+Computed hash:
+```
+93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
+```
+
 > You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
 > The **secret** is entered in the Sample Ninja UI -> Edit project -> Survey Links
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
