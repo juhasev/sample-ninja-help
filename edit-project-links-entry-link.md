@@ -67,9 +67,9 @@ Signing will verify the path and query part of a survey's URL (i.e. not the prot
 
 Using the following URL as an example:
 
-https://surveyengine.com/projects?project_id=10&region=2&country=US
+https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 
-#### Step 1 - Remove protocol and host:
+#### Step 1 - Remove protocol, host and hash -parameter:
 
 /projects?project_id=10&region=2&country=US
 
@@ -77,18 +77,24 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US
 
 /projects?country=US&project_id=10&region=2
 
-#### Step 3 - Calculate hash appending the secret
+#### Step 3 - Append the secret at the end of the URL
+
+/projects?country=US&project_id=10&region=2MySecretPasscode
+
+### Step 4 - Calculate hash
 
 PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
 
 ```
 $hash = hash($algorithm, $hashableUrl . $secret)
 $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
+
+echo $hash // 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
 
-#### Step 4 - Verify hash parameter
+#### Step 4 - Verify hash parameter supplied by SN matches your calculated hash
 
-When you receive link you must verify that the Sample Ninja supplied hash is correct. These examples use real computed hash values so that you can verify your own hash calculations against these examples:
+These examples use real computed hash values so that you can verify your own hash calculations against these examples:
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
@@ -134,6 +140,7 @@ Computed hash:
 > You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
 > The **secret** is entered in the Sample Ninja UI -> Edit project -> Survey Links
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
+> **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
 
 ### Example survey exit link (redirect back to SampleNinja)
 To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID. 
