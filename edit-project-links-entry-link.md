@@ -91,9 +91,14 @@ $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPassco
 When you receive link you must verify that the Sample Ninja supplied is correct
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
+
+Hashed URL part
 ```
-/projects?country=US&project_id=10&region=2 # Hashed URL
-d86cca325d097945e54e8f394d031e10e17e815f # Hash
+/projects?country=US&project_id=10&region=2
+```
+Computed hash:
+```
+d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
 Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
