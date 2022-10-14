@@ -10,3 +10,5 @@ These are the exit links where you should redirect panelist after they exit the 
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 
 > **PLEASE NOTE THAT:** No points will be issued to **Quality** and **Duplicate** survey outcomes!
+
+> **SECURITY** Please read the help for the survey entry links
