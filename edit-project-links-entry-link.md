@@ -88,7 +88,7 @@ $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPassco
 
 #### Step 4 - Verify hash parameter
 
-When you receive link you must verify that the Sample Ninja supplied is correct
+When you receive link you must verify that the Sample Ninja supplied hash is correct. These examples use real hash and you can use these to verify your own hash calculations.
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
@@ -102,9 +102,15 @@ d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
 Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
+
+Hashed URL part
 ```
-/projects?country=US&project_id=10&region=2 # Hashed URL
-b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613 # Hash
+/projects?country=US&project_id=10&region=2
+```
+
+Computed hash:
+```
+b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
 
 > You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
@@ -112,7 +118,7 @@ b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613 # Hash
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
 ### Example survey exit link (redirect back to SampleNinja)
-Here is an example return link. To make the link more complex we have added optional panelist ID to the link (id -param).
+To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID. 
 
 ```
 https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
@@ -126,7 +132,7 @@ https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aef
 
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
 
-#### Step 3 - Append calculated hash appending the secret
+#### Step 3 - Append calculated hash to the exit link
 
 Example result using **SHA-1** algorithm with secret **MySecretPasscode**
 ```
