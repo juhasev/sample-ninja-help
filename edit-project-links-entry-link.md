@@ -54,7 +54,7 @@ https://surveyengine.com?project_id=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 If **Random test ID** is toggled on, Sample Ninja will send random panelist ID to the test survey when testing the survey link. In some cases this makes testing easier especially if duplicate IDs are blocked by the survey software.
 
 ### Signing and security
-Signing should always be used if the target platform supports it as this prevents URL tampering. Sample Ninja supports the following algoritms:
+Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algoritms:
 
 - MD5 (not recommended)
 - SHA1 
@@ -103,12 +103,12 @@ Hashable URL part (params sorted alphabetically)
 /projects?country=US&project_id=10&region=2
 ```
 
-Hashable URL part + secret
+Append secret
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
 
-Computed hash:
+Compute hash:
 ```
 echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
@@ -122,12 +122,12 @@ Hashable URL part (params sorted alphabetically)
 /projects?country=US&project_id=10&region=2
 ```
 
-Hashable URL part + secret
+Append secret
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
 
-Computed hash:
+Compute hash:
 ```
 echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
@@ -147,22 +147,21 @@ Hashable URL part (params sorted alphabetically)
 /projects?c=US&g=1&p=1435540&r=2
 ```
 
-Hashable URL part + secret
+Append secret
 ```
 /projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@
 ```
 
-Computed hash:
+Compute hash:
 ```
 echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); // PHP example
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-
-> You can configure what the **hash** -parameter name is in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
-> The **secret** is entered in the Sample Ninja UI -> Edit project -> Survey Links
-> Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 > **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
+> You can configure what the **hash** -parameter name for outgoing links via **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
+> The **hash algorithm** and **secret** is entered in the **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
+> Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
 ### Example survey exit link (redirect back to SampleNinja)
 To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID. 
@@ -211,7 +210,7 @@ Example result using **SHA-256** algorithm with secret **MySecretPasscode**
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
 ```
 
-> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** before the links are actually validated!!! 
+> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** before the links are actually validated!!! You must 
 
 
 
