@@ -58,21 +58,41 @@ Signing should always be used if the target platform supports it as this prevent
 
 - MD5 
 - SHA1 
-- SHA256
+- SHA256 (recommended)
 
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
 Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. Using the following URL as an example:
 
-https://surveyengine.com/projects?project_id=10&region=2
+https://surveyengine.com/projects?project_id=10&region=2&country=US
 
-Signature or hash will be calculated using:
+#### Step 1 - Remove protocol and host:
 
-/projects?project_id=10&region=2
+/projects?project_id=10&region=2&country=US
 
-And appended at the end of the URL using the specified parameter name:
+#### Step 2 - Sort URL params alphabetically
 
-/projects?project_id=10&region=2&signature=325436AB32C324528800023AB
+/projects?country=US&project_id=10&region=2
+
+#### Step 3 - Calculate hash appending the secret
+
+PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php)
+
+```
+$hash = hash($algorithm, $hashableUrl . $secret)
+```
+
+#### Step 4 - Append the hash parameter
+
+Example result using **SHA-1* algorithm with secret **MySecretPasscode**
+```
+https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
+```
+
+Example result using **SHA-1* algorithm with secret **MySecretPasscode**
+```
+https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
+```
 
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
-
+Example using **SHA-256** al
