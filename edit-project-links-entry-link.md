@@ -53,6 +53,21 @@ https://surveyengine.com?project_id=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
 If **Random test ID** is toggled on, Sample Ninja will send random panelist ID to the test survey when testing the survey link. In some cases this makes testing easier especially if duplicate IDs are blocked by the survey software.
 
+### Return statuses
+
+**Sample Ninja** supports multiple return statuses
+- c (completed)
+- q (quota)
+- p (profile)
+- sec (security)
+- dup (duplicate)
+- qua (quality)
+
+Example of returning complete back along with the panelist ID
+```
+https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
+```
+
 ### Signing and security
 Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algoritms:
 
@@ -83,7 +98,7 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c
 
 #### Step 4 - Calculate hash
 
-PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
+Here we use PHP's built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
 
 ```
 $hash = hash($algorithm, $hashableUrl . $secret);
@@ -94,7 +109,7 @@ echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f
 
 #### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
-> **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
+> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status.
 
 ### More examples
 
@@ -207,12 +222,12 @@ Example result using **SHA-1** algorithm with secret **MySecretPasscode**
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=17637eac2a8bbd056bb31b19a31768846474b5fa
 ```
 
-Example result using **SHA-256** algorithm with secret **MySecretPasscode**
+Example result using **SHA-256** algorithm with secret **MySecretPasscode**.
 ```
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
 ```
 
-> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
+> **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
 
 
