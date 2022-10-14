@@ -186,14 +186,14 @@ https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aef
 
 #### Step 4 - Calculate hash
 
-**SHA-1**
+Using SHA-1
 ```
 echo hash('SHA1','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
 17637eac2a8bbd056bb31b19a31768846474b5fa
 ```
 
-**SHA-256**
+Using SHA-256
 ```
 echo hash('SHA256','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
