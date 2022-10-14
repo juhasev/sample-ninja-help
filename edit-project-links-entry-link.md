@@ -97,7 +97,7 @@ echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f
 
 #### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
-> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See the help file for exit links for more information. [Exit links](/edit-project.md)
+> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See the help file for exit links for more information. [Exit links](/edit-project-links-exit-links.md)
 
 ### More examples
 
