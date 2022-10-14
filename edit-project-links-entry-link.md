@@ -92,12 +92,14 @@ When you receive link you must verify that the Sample Ninja supplied is correct
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 ```
-d86cca325d097945e54e8f394d031e10e17e815f
+/projects?country=US&project_id=10&region=2 # Hashed URL
+d86cca325d097945e54e8f394d031e10e17e815f # Hash
 ```
 
 Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
 ```
-b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
+/projects?country=US&project_id=10&region=2 # Hashed URL
+b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613 # Hash
 ```
 
 > You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
