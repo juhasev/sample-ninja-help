@@ -62,7 +62,7 @@ Signing should always be used if the target platform supports it as this prevent
 
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
-### Example
+### Example survey redirect link
 Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. Using the following URL as an example:
 
 https://surveyengine.com/projects?project_id=10&region=2&country=US
@@ -99,4 +99,26 @@ https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=b4f3236
 > You can configure what the **hash** -parameter name is both incoming and outgoing links.
 > The **secret** is entered in the SN UI
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
+
+
+### Example return link
+Here is an example return link. To make the link more complex we have added optional panelist ID to the link (id -param).
+
+```
+https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
+```
+
+#### Step 1 - Remove protocol and host:
+
+/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
+
+#### Step 2 - Sort URL params alphabetically
+
+/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
+
+#### Step 3 - Append calculated hash appending the secret
+Example result using **SHA-256** algorithm with secret **MySecretPasscode**
+
+https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
+
 
