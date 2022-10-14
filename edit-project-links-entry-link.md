@@ -61,13 +61,21 @@ Signing should always be used if the target platform supports it as this prevent
 - SHA1 
 - SHA256 (recommended)
 
-> If you need additional signing algorithms please contact us and we will consider adding them.
+> If you need additional signing algorithms please contact us and we will consider adding them
 
-### Example survey redirect link (from SampleNinja)
+> You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
+
+> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+
+## Example hash calculations
 These examples use real computed hash values so that you can verify your own hash calculations using the examples.
-Signing will verify the path and query part of a survey's URL including the leading slash. 
+Signing will verify the path and query part of a survey's URL including the leading slash. Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
-Using the following URL as an example:
+### Example A
+
+In this example we are using **SHA-256** algorithm with secret **MySecretPasscode** to verify that URL has not been tampered with.
+
+Survey entry link produced by **Sample Ninja**
 
 ```
 https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
@@ -86,39 +94,30 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
 #### Step 4 - Calculate hash
-
 Here we use PHP's built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
-
 ```
 $hash = hash($algorithm, $hashableUrl . $secret);
 $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
 
 echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
-
 #### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
-> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+### Example B
 
-### More examples
+In this example we are using **SHA-1** algorithm with secret **MySecretPasscode**
 
-These examples use real computed hash values so that you can verify your own hash calculations against these examples:
-
-**Example A:** Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
-
+Survey entry link:
 ```
 https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
 ```
-
 #### Step 1 - Remove protocol, host and hash -parameter:
-
 ```
 /projects?country=US&project_id=10&region=2
 ```
 
 #### Step 2 - Sort URL params alphabetically
 No change here
-
 ```
 /projects?country=US&project_id=10&region=2
 ```
@@ -136,47 +135,65 @@ d86cca325d097945e54e8f394d031e10e17e815f
 
 #### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
-> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
-> 
-**Example B** Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
+### Example C
 
-Hashable URL part (params sorted alphabetically)
+In this example we will be using **SHA-256** algorithm with secret **MySecretPasscode** to verify the value hash supplied by **Sample Ninja**
+
+Survey entry link:
+```
+https://surveyengine.com/projects??country=US&project_id=10&region=2&hash=b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
+```
+#### Step 1 - Remove protocol, host and hash -parameter
 ```
 /projects?country=US&project_id=10&region=2
 ```
-
-Append secret
+#### Step 2 - Sort URL params alphabetically
+No change here
+```
+/projects?country=US&project_id=10&region=2
+```
+#### Step 3 - Append the secret at the end of the URL
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
-
-Compute hash:
+#### Step 4 - Calculate hash
 ```
 echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
 b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
-**Example C** using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
+#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+ 
+### Example D
+In this example we are using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
 
-Original URL: 
+Survey entry link:
 ```
 https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1&hash=93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
+
+#### Step 1 - Remove protocol, host and hash -parameter
 Hashable URL part (params sorted alphabetically)
 ```
 /projects?c=US&g=1&p=1435540&r=2
 ```
-Append secret
+#### Step 2 - Sort URL params alphabetically
+No change here
+```
+/projects?c=US&g=1&p=1435540&r=2
+```
+#### Step 3 - Append the secret at the end of the URL
 ```
 /projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@
 ```
-Compute hash:
+#### Step 4 - Calculate hash
 ```
 echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); // PHP example
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-> You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
+#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
-> Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
+
+
 
