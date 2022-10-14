@@ -100,7 +100,7 @@ echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f
 
 These examples use real computed hash values so that you can verify your own hash calculations against these examples:
 
-Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
+**Example A:** Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
 Hashable URL part (params sorted alphabetically)
 ```
@@ -119,7 +119,7 @@ echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); 
 d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
-Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
+**Example B** Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
 
 Hashable URL part (params sorted alphabetically)
 ```
@@ -137,8 +137,7 @@ echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode)
 
 b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
-
-Extra example using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
+**Example C** using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
 
 Original URL: 
 
