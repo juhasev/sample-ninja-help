@@ -1,5 +1,6 @@
 ## Survey exit links
-These are the exit links where you should redirect panelist after they exit the survey. If you survey solution supports **exit link hashing** you should always use it to prevent tampering with the links and in this case outcomes.
+
+When panelist has completed a survey you will send panelists back to these link with the survey outcome or status code. If you survey solution supports **exit link hashing** you should always use it to prevent tampering with the exit links.
 
 **Sample Ninja** support total of 6 different survey outcomes:
 
@@ -10,7 +11,11 @@ These are the exit links where you should redirect panelist after they exit the 
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 - Security (Hash validation failed or some other security mechanism triggered)
 
-> **PLEASE NOTE THAT:** No points will be issued to **Quality** and **Duplicate** survey outcomes!
+The **security** -status should be used if the hash validation fails (See below **Signing and security** section for more details). 
+
+The **duplicate** status is intended to be used if the survey software detects that the panelist is duplicate i.e. using fingerprints or other techniques. 
+
+The **quality** status should be used when panelist straight lines and otherwise don't pay attention to the survey questions.
 
 ### Return status parameters
 
@@ -26,11 +31,6 @@ Example of returning complete back along with the panelist ID
 ```
 https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 ```
-The **security** -status should be used if the hash validation fails (See below **Signing and security** section for more details). 
-
-The **duplicate** status is intended to be used if the survey software detects that the panelist is duplicate i.e. using fingerprints or other techniques. 
-
-The **quality** status should be used when panelist straight lines and otherwise don't pay attention to the survey questions.
 
 > **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
 
