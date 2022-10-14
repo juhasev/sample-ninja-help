@@ -161,9 +161,7 @@ echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); //
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-> You can configure what the **hash** -parameter name for outgoing links via **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
 
-> The **hash algorithm** and **secret** is entered in the **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
 
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
