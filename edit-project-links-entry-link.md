@@ -73,7 +73,6 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c
 ```
 
 #### Step 1 - Remove protocol, host and hash -parameter:
-
 ```
 /projects?project_id=10&region=2&country=US
 ```
