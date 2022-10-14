@@ -56,7 +56,7 @@ If **Random test ID** is toggled on, Sample Ninja will send random panelist ID t
 ### Signing and security
 Signing should always be used if the target platform supports it as this prevents URL tampering. Sample Ninja supports the following algoritms:
 
-- MD5 
+- MD5 (not recommended)
 - SHA1 
 - SHA256 (recommended)
 
@@ -117,8 +117,16 @@ https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aef
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
 
 #### Step 3 - Append calculated hash appending the secret
-Example result using **SHA-256** algorithm with secret **MySecretPasscode**
 
+Example result using **SHA-1** algorithm with secret **MySecretPasscode**
+```
+https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=17637eac2a8bbd056bb31b19a31768846474b5fa
+```
+
+Example result using **SHA-256** algorithm with secret **MySecretPasscode**
+```
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
+```
+
 
 
