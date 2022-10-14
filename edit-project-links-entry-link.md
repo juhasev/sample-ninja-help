@@ -62,7 +62,7 @@ Signing should always be used if the target platform supports it as this prevent
 
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
-### Example survey redirect link
+### Example survey redirect link (from SampleNinja)
 Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. Using the following URL as an example:
 
 https://surveyengine.com/projects?project_id=10&region=2&country=US
@@ -101,7 +101,7 @@ https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=b4f3236
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
 
-### Example return link
+### Example survey exit link (redirect back to SampleNinja)
 Here is an example return link. To make the link more complex we have added optional panelist ID to the link (id -param).
 
 ```
