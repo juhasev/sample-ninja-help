@@ -211,7 +211,7 @@ Example result using **SHA-256** algorithm with secret **MySecretPasscode**
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
 ```
 
-> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** 
+> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** before the links are actually validated!!! 
 
 
 
