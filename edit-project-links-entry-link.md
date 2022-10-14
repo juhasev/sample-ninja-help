@@ -98,24 +98,39 @@ These examples use real computed hash values so that you can verify your own has
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
-Hashed URL part
+Hashable URL part (params sorted alphabetically)
 ```
 /projects?country=US&project_id=10&region=2
 ```
+
+Hashable URL part + secret
+```
+/projects?country=US&project_id=10&region=2MySecretPasscode
+```
+
 Computed hash:
 ```
+echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
+
 d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
 Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
 
-Hashed URL part
+Hashable URL part (params sorted alphabetically)
 ```
 /projects?country=US&project_id=10&region=2
 ```
 
+Hashable URL part + secret
+```
+/projects?country=US&project_id=10&region=2MySecretPasscode
+```
+
 Computed hash:
 ```
+echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
+
 b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
 
@@ -124,20 +139,27 @@ Extra example using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
 Original URL: 
 
 ```
-https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1
+https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1&hash=93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
 
-Hashable URL (parameters sorted alphabetically!)
+Hashable URL part (params sorted alphabetically)
 ```
-projects?c=US&g=1&p=1435540&r=2
+/projects?c=US&g=1&p=1435540&r=2
+```
+
+Hashable URL part + secret
+```
+/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@
 ```
 
 Computed hash:
 ```
+echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); // PHP example
+
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
 
-> You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
+> You can configure what the **hash** -parameter name is in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
 > The **secret** is entered in the Sample Ninja UI -> Edit project -> Survey Links
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 > **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
@@ -157,7 +179,27 @@ https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aef
 
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
 
-#### Step 3 - Append calculated hash to the exit link
+#### Step 3 - Append secret
+
+/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode
+
+#### Step 4 - Calculate hash
+
+**SHA-1**
+```
+echo hash('SHA1','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
+
+17637eac2a8bbd056bb31b19a31768846474b5fa
+```
+
+**SHA-256**
+```
+echo hash('SHA256','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
+
+f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
+```
+
+#### Step 5 - Append hash to the exit link
 
 Example result using **SHA-1** algorithm with secret **MySecretPasscode**
 ```
@@ -168,6 +210,8 @@ Example result using **SHA-256** algorithm with secret **MySecretPasscode**
 ```
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
 ```
+
+> **IMPORTANT** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** 
 
 
 
