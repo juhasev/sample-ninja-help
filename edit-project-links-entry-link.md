@@ -76,23 +76,24 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US
 
 #### Step 3 - Calculate hash appending the secret
 
-PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php)
+PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
 
 ```
 $hash = hash($algorithm, $hashableUrl . $secret)
+$hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
 ```
 
-#### Step 4 - Append the hash parameter
+#### Step 4 - Append the hash parameter as the last parameter
 
 Example result using **SHA-1* algorithm with secret **MySecretPasscode**
 ```
 https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
-Example result using **SHA-1* algorithm with secret **MySecretPasscode**
+Example result using **SHA-256* algorithm with secret **MySecretPasscode**
 ```
 https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
 
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
-Example using **SHA-256** al
+
