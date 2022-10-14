@@ -64,7 +64,8 @@ Signing should always be used if the target platform supports it as this prevent
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
 ### Example survey redirect link (from SampleNinja)
-Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. 
+These examples use real computed hash values so that you can verify your own hash calculations using the examples.
+Signing will verify the path and query part of a survey's URL including the leading slash. 
 
 Using the following URL as an example:
 
