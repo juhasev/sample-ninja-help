@@ -63,7 +63,9 @@ Signing should always be used if the target platform supports it as this prevent
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
 ### Example survey redirect link (from SampleNinja)
-Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. Using the following URL as an example:
+Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. 
+
+Using the following URL as an example:
 
 https://surveyengine.com/projects?project_id=10&region=2&country=US
 
@@ -84,22 +86,23 @@ $hash = hash($algorithm, $hashableUrl . $secret)
 $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
 ```
 
-#### Step 4 - Append the hash parameter as the last parameter
+#### Step 4 - Verify hash parameter
 
-Example result using **SHA-1** algorithm with secret **MySecretPasscode**
-```
-https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
-```
+When you receive link you must verify that the Sample Ninja supplied is correct
 
-Example result using **SHA-256** algorithm with secret **MySecretPasscode**
+Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 ```
-https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
+d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
-> You can configure what the **hash** -parameter name is both incoming and outgoing links.
-> The **secret** is entered in the SN UI
+Example: Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
+```
+b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
+```
+
+> You can configure what the **hash** -parameter name in both incoming and outgoing links via Sample Ninja UI -> Edit project -> Survey Links
+> The **secret** is entered in the Sample Ninja UI -> Edit project -> Survey Links
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
-
 
 ### Example survey exit link (redirect back to SampleNinja)
 Here is an example return link. To make the link more complex we have added optional panelist ID to the link (id -param).
