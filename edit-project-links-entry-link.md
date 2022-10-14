@@ -105,23 +105,38 @@ These examples use real computed hash values so that you can verify your own has
 
 **Example A:** Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
-Hashable URL part (params sorted alphabetically)
+```
+https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
+```
+
+#### Step 1 - Remove protocol, host and hash -parameter:
+
 ```
 /projects?country=US&project_id=10&region=2
 ```
 
-Append secret
+#### Step 2 - Sort URL params alphabetically
+No change here
+
+```
+/projects?country=US&project_id=10&region=2
+```
+
+#### Step 3 - Append the secret at the end of the URL
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
-
-Compute hash:
+#### Step 4 - Calculate hash
 ```
 echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
 d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
+#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+
+> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+> 
 **Example B** Hash result using **SHA-256** algorithm with secret **MySecretPasscode**
 
 Hashable URL part (params sorted alphabetically)
