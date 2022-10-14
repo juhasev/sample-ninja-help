@@ -42,36 +42,37 @@ Signing should always be used when returning panelist back to **Sample Ninja** e
 - SHA256 (recommended)
 
 ### Example survey exit link (redirect back to SampleNinja)
-To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID. 
+To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID.
 
-Returning back as completed
+In this example we are using **SHA-1** and ***SHA-256** algorithms with secret **MySecretPasscode** to compute hash parameter.
+
+Returning back to **SampleNinja** as completed
 
 ```
-https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790&hash=17637eac2a8bbd056bb31b19a31768846474b5fa
+https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
 ```
 
-#### Step 1 - Remove protocol, host and the hash -param:
-
+#### Step 1 - Remove protocol and host
+```
 /p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
-
+```
 #### Step 2 - Sort URL params alphabetically
-
+```
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
-
+```
 #### Step 3 - Append secret
-
+```
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode
-
+```
 #### Step 4 - Calculate hash
-
-Using SHA-1
+When using SHA-1
 ```
 echo hash('SHA1','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
 17637eac2a8bbd056bb31b19a31768846474b5fa
 ```
 
-Using SHA-256
+When using SHA-256
 ```
 echo hash('SHA256','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
