@@ -140,11 +140,9 @@ b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 **Example C** using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
 
 Original URL: 
-
 ```
 https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1&hash=93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-
 Hashable URL part (params sorted alphabetically)
 ```
 /projects?c=US&g=1&p=1435540&r=2
