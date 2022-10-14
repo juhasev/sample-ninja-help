@@ -81,7 +81,7 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c
 
 /projects?country=US&project_id=10&region=2MySecretPasscode
 
-### Step 4 - Calculate hash
+#### Step 4 - Calculate hash
 
 PHP example using built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
 
@@ -92,7 +92,11 @@ $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPassco
 echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
 
-#### Step 4 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+
+> **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
+
+### More examples
 
 These examples use real computed hash values so that you can verify your own hash calculations against these examples:
 
@@ -158,7 +162,6 @@ echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); //
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-> **IMPORTANT:** If computed hash does not match return panelist back to Sample Ninja with **security** or **s=sec** status.
 > You can configure what the **hash** -parameter name for outgoing links via **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
 > The **hash algorithm** and **secret** is entered in the **Sample Ninja UI -> Edit project -> Survey Links -> Survey entry link**
 > Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
