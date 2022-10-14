@@ -59,7 +59,7 @@ If **Random test ID** is toggled on, Sample Ninja will send random panelist ID t
 - c (completed)
 - q (quota)
 - p (profile)
-- sec (security)
+- s (security)
 - dup (duplicate)
 - qua (quality)
 
@@ -67,6 +67,13 @@ Example of returning complete back along with the panelist ID
 ```
 https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 ```
+The **security** -status should be used if the hash validation fails (See below **Signing and security** section for more details). 
+
+The **duplicate** status is intended to be used if the survey software detects that the panelist is duplicate i.e. using fingerprints or other techniques. 
+
+The **quality** status should be used when panelist straight lines and otherwise don't pay attention to the survey questions.
+
+> **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
 
 ### Signing and security
 Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algoritms:
