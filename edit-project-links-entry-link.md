@@ -62,6 +62,7 @@ Signing should always be used if the target platform supports it as this prevent
 
 > If you need additional signing algorithms please contact us and we will consider adding them.
 
+### Example
 Signing will verify the path and query part of a survey's URL (i.e. not the protocol/host), including the leading slash. Using the following URL as an example:
 
 https://surveyengine.com/projects?project_id=10&region=2&country=US
