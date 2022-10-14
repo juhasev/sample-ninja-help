@@ -13,9 +13,9 @@ When the template is applied you would only need to change the [ID] with the des
 
 The following pipes are inserted automatically depending on how they are configured:
 
-**[pid]** is reserved for Panelist ID.
-**[hash]** is reserved for the security hash (inserted only when hashing is enabled).
-**[PROJECT_ID]** if you use this placeholder it will be automatically be replaced with Sample Ninja project ID.
+- **[pid]** variable is for Panelist ID
+- **[hash]** variable is for the security hash (inserted only when hashing is enabled)
+- **[PROJECT_ID]** variable is automatically be replaced with Sample Ninja project ID)
 
 ### Piping Data Variables to Surveys
 Data variables can be easily piped using the 'Select Data Variables' button to choose the required ones from the available selection.
