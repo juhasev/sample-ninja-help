@@ -92,7 +92,7 @@ $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPassco
 echo $hash // 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
 
-#### Step 4 - Verify hash parameter supplied by SN matches your calculated hash
+#### Step 4 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
 These examples use real computed hash values so that you can verify your own hash calculations against these examples:
 
