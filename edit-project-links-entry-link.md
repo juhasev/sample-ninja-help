@@ -88,7 +88,7 @@ $hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPassco
 
 #### Step 4 - Verify hash parameter
 
-When you receive link you must verify that the Sample Ninja supplied hash is correct. These examples use real hash and you can use these to verify your own hash calculations.
+When you receive link you must verify that the Sample Ninja supplied hash is correct. These examples use real computed hash values so that you can verify your own hash calculations against these examples:
 
 Example: Hash result using **SHA-1** algorithm with secret **MySecretPasscode**
 
