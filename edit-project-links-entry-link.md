@@ -68,8 +68,7 @@ Signing should always be used if the target platform supports it as this prevent
 > **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
 
 ## Example hash calculations
-These examples use real computed hash values so that you can verify your own hash calculations using the examples.
-Signing will verify the path and query part of a survey's URL including the leading slash. Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
+These examples use real computed hash values so that you can verify your own hash calculations using the examples. Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
 
 ### Example A
 
