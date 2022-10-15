@@ -47,7 +47,7 @@ Sample Ninja will automatically insert random data for all the defined data vari
 > The inserted data for the Keyword and the Text -variable types is static because there is no way for the test data generator to figure out the real intent of the data variable. For example if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly for the text variable, if the example **DESCRIPTON** is used, data set would show as **test_text_description**.
  
 ### Panelist ID
-Panelist ID is automatically piped in the URL. You should save the panelist ID along with the survey responses. This is important for reconsilidation i.e. if you need to disqualify some participants after the survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
+Panelist ID is automatically piped in the URL. You should save the panelist ID along with the survey responses. This is important when you reconsile participants after the survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
 
 https://surveyengine.com?project_id=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
