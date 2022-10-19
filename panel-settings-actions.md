@@ -27,3 +27,6 @@ This settings tells the system when to consider someone a speeder. If you projec
 > Please note that the project **email notification** - setting must be turned on to receive an email notifications!
 
 > Email notifications repeat every 4 hours by default unless the problem has been fixed 
+
+### Disabling certain notifications
+If you set any notification threshold to zero it will be disabled.
