@@ -71,9 +71,14 @@ B) What is the model of the car?
 - Etc
 
 C) Annual miles driven?
-- < 50000
-- > 50000
+- less than 50,000 miles
+- more than 50,000 miles
 
 This feature let's you set condition on the questions (B) by clicking on the condition icon and then selecting question (A) from the menu and checking "yes" option. In this example you would also repeat condition for question (C).
 
 > The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set identical priority for the follow up questions as for the parent question.
+
+### Limitations
+- You can only use **Radio** -type questions in your conditions.
+- You cannot place conditions on questions that already contains conditions. This prevents circular conditions from taking place.
+- If you turn off dynamic profiling for a question that is used in conditionally display other question, the condition on other questions will be removed (with warning)
