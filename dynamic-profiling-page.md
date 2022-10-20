@@ -2,7 +2,7 @@
 
 With **Dynamic Profiling**, **Data Variables** are automatically populated without having to resort to additional update surveys. Dynamic Profiling activates every time panelists get terminated (profile, quota) or come back as completed from a survey project. **Dynamic Profiling** can also be enabled in the **Member App** settings.
 
-### Top row master settings and answer fequency
+### Top row master settings and answer frequency
 
 #### Settings
 Control whether **Dynamic Profiling** is included in the **Sub Panel**, adjust the compensation for each question and set daily question limits.
