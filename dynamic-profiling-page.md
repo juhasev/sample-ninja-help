@@ -82,5 +82,5 @@ By clicked on the "C" -button you can set condition when to display question (B)
 - You can only target **Radio** -type questions in your conditions.
 - You cannot target question that already contain conditions. This prevents circular conditions from taking place.
 - If you turn off dynamic profiling for a question that is used in conditionally display other question
--- Warning is produced and display with option to abort
--- If you proceed the conditions on the other questions will be removed
+- - Warning is produced and display with option to abort
+- - If you proceed the conditions on the other questions will be removed
