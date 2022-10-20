@@ -74,7 +74,7 @@ You may want to display some questions conditionally. For example let's imagine 
 - less than 50,000 miles
 - more than 50,000 miles
 
-If you click on the "C" -button on the question (2) row, you can set condition when to display the question (2). Next select question (1) "Car ownership" from the menu and then checking "Yes" -option. Next you would repeat the same operation for question (3).
+If you click on the "C" -button on the question (2) row, you can set condition when to display the question (2). Next, select question (1) "Car ownership" from the menu and then checking "Yes" -option. In order to display question (3) conditionally, you would repeat the same operation.
 
 > The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set an identical priority for the follow up questions as for the parent question.
 
