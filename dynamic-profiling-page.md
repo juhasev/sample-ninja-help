@@ -79,7 +79,8 @@ If you click on the "C" -button on the question (2) row, you can set condition w
 > The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set an identical priority for the follow up questions as for the parent question.
 
 ### Limitations
-- You can only target **Radio** -type questions in your conditions.
-- You cannot target question that already contain conditions. This prevents circular conditions from taking place.
+- You can only target **Radio** -type questions in your conditions at the moment.
+- You cannot target questions that already contain conditions as this would result into nested conditional structure.
+- You cannot place conditions on questions that are already conditions targets. Save reason as above.
 
 > If you turn off dynamic profiling for a question that is used to conditionally display other question a warning will be produced. If you abort no changed will be maybe but if you proceed condition on the other questions will be automatically removed.
