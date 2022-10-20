@@ -2,18 +2,34 @@
 
 With **Dynamic Profiling**, **Data Variables** are automatically populated without having to resort to additional update surveys. Dynamic Profiling activates every time panelists get terminated (profile, quota) or come back as completed from a survey project. **Dynamic Profiling** can also be enabled in the **Member App** settings.
 
-### Dynamic Profiling Master Settings
+### Top row master settings and answer fequency
+
+#### Setting
 Control whether **Dynamic Profiling** is included in the **Sub Panel**, adjust the compensation for each question and set daily question limits.
 
 > Make sure that the daily question limit is set correctly and so that the **Minimum points to redeem** -setting is higher than a panelist's daily maximum earnings from answering Dynamic Profiling questions. The reason is simple: you do not want panelists to create an account and walk out with rewards without completing a single survey. The **Minimum points to redeem** -setting can be adjusted in each **Sub Panel's** settings.
 
-### Answer Frequency
+#### Answer Frequency
 General indicator of the answer frequency for the selected period.
 
-### Filter
+### Toolbar
+
+#### Show unused
+Displays all data variables, otherwise we display only variable that are been used in the projects or are enabled for Dynamic Profiling. 
+
+#### Search
+Use this field to quickly find a data variable by using its label or name.
+
+#### Filter by group
+Only should data variables assigned to a single group
+
+#### Time period filter (blue filter icon)
 Click on the filter button to set a time limit for how far back the system should look in terms of Data Variable usage / usage frequency / answers provided.
 
-### Data Variables Table
+#### Reload
+Click on the reload button to refresh data
+
+### Data Variables list columns
 
 #### Name
 This column displays the variable name and whether dynamic profiling has been enabled.
