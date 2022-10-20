@@ -5,7 +5,6 @@ This is the default currency used within the system for the financial reports. P
 
 ### Rewards and redemptions
 All rewards are converted back to the accounting currency for reporting purposes. 
-
 #### Example
 
 1) Panel Accounting currency is set as follows: 100 Reward Points = 1 USD.
