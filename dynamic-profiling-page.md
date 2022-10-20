@@ -58,7 +58,7 @@ Use this button to display Dynamic Profiling question condionally. See section b
 Click on **dots** -button to display additional actions for each **Data Variable**. The Edit variable button conveniently allows for any missing translation/s to be added to the variables. Data Variable statistics can also be pulled from this menu without having to go back **Data Variables**.
 
 ### Displaying questions conditionally
-You may want to display some question conditionally. For example let's imagine we have 3 dependant questions:
+You may want to display some questions conditionally. For example let's imagine we have 3 dependant questions:
 
 A) Car ownership
 - Yes
