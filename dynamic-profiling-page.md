@@ -60,23 +60,23 @@ Click on **dots** -button to display additional actions for each **Data Variable
 ### Displaying questions conditionally
 You may want to display some questions conditionally. For example let's imagine we have 3 dependant questions:
 
-A) Car ownership
+1) Car ownership
 - Yes
 - No
 
-B) What is the model of the car?
+2) What is the model of the car?
 - Toyota
 - Ford
 - Kia
 - Etc
 
-C) Annual miles driven?
+3) Annual miles driven?
 - less than 50,000 miles
 - more than 50,000 miles
 
-By clicked on the "C" -button you can set condition when to display question (B). Next select question (A) from the menu and then checking "yes" option. Next you would repeat the same operation for question (C).
+If you click on the "C" -button on the question (2) row, you can set condition when to display the question (2). Next select question (1) "Car ownership" from the menu and then checking "Yes" -option. Next you would repeat the same operation for question (3).
 
-> The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set identical priority for the follow up questions as for the parent question.
+> The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set an identical priority for the follow up questions as for the parent question.
 
 ### Limitations
 - You can only target **Radio** -type questions in your conditions.
