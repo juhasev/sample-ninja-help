@@ -61,18 +61,18 @@ Click on **dots** -button to display additional actions for each **Data Variable
 You may want to display some question conditionally. For example let's imagine we have 3 dependant questions:
 
 A) Car ownership
--- Yes
--- No
+- Yes
+- No
 
 B) What is the model of the car?
--- Toyota
--- Ford
--- Kia
--- Etc
+- Toyota
+- Ford
+- Kia
+- Etc
 
 C) Annual miles driven?
--- < 50000
--- > 50000
+- < 50000
+- > 50000
 
 This feature let's you set condition on the questions (B) by clicking on the condition icon and then selecting question (A) from the menu and checking "yes" option. In this example you would also repeat condition for question (C).
 
