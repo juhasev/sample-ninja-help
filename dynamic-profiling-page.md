@@ -4,7 +4,7 @@ With **Dynamic Profiling**, **Data Variables** are automatically populated witho
 
 ### Top row master settings and answer fequency
 
-#### Setting
+#### Settings
 Control whether **Dynamic Profiling** is included in the **Sub Panel**, adjust the compensation for each question and set daily question limits.
 
 > Make sure that the daily question limit is set correctly and so that the **Minimum points to redeem** -setting is higher than a panelist's daily maximum earnings from answering Dynamic Profiling questions. The reason is simple: you do not want panelists to create an account and walk out with rewards without completing a single survey. The **Minimum points to redeem** -setting can be adjusted in each **Sub Panel's** settings.
@@ -47,6 +47,33 @@ This tab displays all variables that are being used in either **Project Qualific
 This column displays the current hydration percent in percent % out of the subscribed **Sub Panel** members. The selected time period filter has no impact on hydration.
 
 #### Actions
-Click on the gear icon to bring up **Dynamic Profiling Settings** for the variable.
 
-Click on the **dots** -button to display additional actions for each **Data Variable**. The Edit variable button conveniently allows for any missing translation/s to be added to the variables. Data Variable statistics can also be pulled from this menu without having to go back **Data Variables**.
+##### Settings
+Click on the gear icon to bring up **Dynamic Profiling Settings** for the variable. You can control whether dynamic profiling is enabled, priority and whether the answer should be periodically refreshed.
+
+##### Conditions
+Use this button to display Dynamic Profiling question condionally. See section below for details:
+
+##### Additional actions
+Click on **dots** -button to display additional actions for each **Data Variable**. The Edit variable button conveniently allows for any missing translation/s to be added to the variables. Data Variable statistics can also be pulled from this menu without having to go back **Data Variables**.
+
+### Displaying questions conditionally
+You may want to display some question conditionally. For example let's imagine we have 3 dependant questions:
+
+A) Car ownership
+-- Yes
+-- No
+
+B) What is the model of the car?
+-- Toyota
+-- Ford
+-- Kia
+-- Etc
+
+C) Annual miles driven?
+-- < 50000
+-- > 50000
+
+This feature let's you set condition on the questions (B) by clicking on the condition icon and then selecting question (A) from the menu and checking "yes" option. In this example you would also repeat condition for question (C).
+
+> The follow up questions are prioritized to display immediately after the parent questions. However, due to daily question limit this may not always be the case. For example questions A & B may be asked and then followed up by question C the next day. Therefore you should set identical priority for the follow up questions as for the parent question.
