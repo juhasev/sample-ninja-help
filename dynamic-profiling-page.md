@@ -80,7 +80,7 @@ If you click on the "C" -button on the question (2) row, you can set condition w
 
 ### Limitations
 - You can only target **Radio** -type questions in your conditions at the moment.
-- You cannot target questions that already contain conditions as this would result into nested conditional structure.
-- You cannot place conditions on questions that are already used in conditions in other questions. Same reason as above.
+- You cannot target questions that already contain conditions as this would result into nested conditional structure which are not currently supported.
+- You cannot place conditions on questions that are already used in conditions in other questions. The same reason as above.
 
 > If you turn off dynamic profiling for a question that is used to conditionally display other question a warning will be produced. If you abort no changes will be maybe but if you proceed condition on the other questions will be automatically removed.
