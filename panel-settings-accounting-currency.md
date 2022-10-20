@@ -13,6 +13,6 @@ All rewards are converted back to the accounting currency for reporting purposes
 3) Sample Ninja converts currency using the daily market rate i.e. 1 EUR = 1.20 USD established by Tango Card.
 4) Sample Ninja records rewards transaction cost $12.00 using panel accounting currency in USD
 
-> Tango Card operates natively only in USD. All other currency transaction are converted to USD before you account is changed.
+> Tango Card operates natively only in USD. All non USD giftcard transactions are converted into USD before you account is charged.
 
-> PayPal operates in multiple currencies. PayPal redemptions are always processed using the currency redeemed. This requires you to maintain balances in different currencies.
+> PayPal operates in multiple currencies. This requires you to maintain balances in different currencies.
