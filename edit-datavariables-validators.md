@@ -1,50 +1,48 @@
 ## Validators
 
-Validators are used when localized question is presented to the user for example in **Dynamic Profiling** or in the build in **Registration Survey**.
+Validators are used when a question is presented to the user for example in **Dynamic Profiling** or in the built-in **Registration Survey**. Different validators are available for some questions, some questions don't need validators at all for example email -data variable type is automatically validated.
 
-If the **"Required"** enable switch is switched ON, then the panelist MUST commit an answer to this question.
+#### Required 
+When question answer is required user must answer the quested, otherwise user can skip the question in **Dynamic Profiling**
 
-The other additional Validators come into play based on the particular Data Variable types:
+#### Minimum length
+Minimum length, can be used with text, keyword or number -data variable types.
 
-**Radio** The Validator must be enabled under the *Required* for committed answer
+#### Maximum length
+Maximum length, can be used with text, keyword or number -data variable types.
 
-**Checkbox** Min checks and Max checks denote the Minimum number and Maximum number of responses allowable for this particular variable.  E.G. You are only allowed to select between 1 and 5 choices for this Data Variable Question if you chose to enable these validators
+#### Alphabetic characters only
+Only alphabetic created A-Z are accepted
 
-**Text** When enabled allows the additional validators:
-- Minimum length (in characters)
-- Maximum length (in characters)
-- Alphabetic characters only
-- Alphabetic or Numeric characters only
-- Numberic Characters only
-- Integer
-- Regular Expression Validation (advanced)
+#### Alphabetic or Numeric characters only
+Only aplhabetic and numeric characters are allowed example: SN2022 (valid) SN 2022 (invalid)
 
-The **Regluar Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
+#### Number
+Any numeric value including values with decimals
 
-> https://regexr.com/
+#### Integer
+Value must be an integer. No decimals are allowed
 
-**Date**  The Validator must be enabled under the *Required* for committed answer
-**Number**  When enabled allows the additional validators
-- Integer
-- Minimum value
-- Maximum value
-- Value between
-- Regular Expression Validation (advanced)
+#### Min checks
+This validation applies to checkbox -data variable only.
 
-The **Regluar Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
+#### Max checks
+This validation applies to checkbox -data variable only.
 
-> https://regexr.com/
+#### Min date
+Start of the allowed age range
 
-**Keyword**  When enabled allows the additional validators:
-- Minimum length (in characters)
-- Maximum length (in characters)
-- Alphabetic characters only
-- Alphabetic or Numeric characters only
-- Numberic Characters only
-- Integer
-- Regular Expression Validation (advanced)
+#### Max date
+End of the allowed age range
 
-The **Regular Expression Validation** allows the user to build complex expressions using the sophistication of Regexr.com
+### Regular Expression Validation (advanced)
+Enter a custom regular expression to validate the field value
+
+For example if you like to validate US postal code the regular expression would be
+```
+^[0-9]{5}$
+```
+Vist Regexr.com to test your more complex regular expressions:
 
 > https://regexr.com/
 
