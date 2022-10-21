@@ -2,7 +2,7 @@
 
 Validators are used when a question is presented to the user for example in **Dynamic Profiling** or in the built-in **Registration Survey**. Different validators are available for some questions, some questions don't need validators at all for example email -data variable type is automatically validated.
 
-> **WARNING!** It is possible to create validators that don't have any overlap leading into questions that always fail validation. A user could get stuck to a question like this which in turn could cause **Registration Survey** completes to plunge down to zero! Always test your validators using the **TEST VALIDATORS** -button!
+> **WARNING!** It is possible to create validators that don't have any overlap leading into questions that always fail validation. A user could get stuck to a question like this, which in turn could cause **Registration Survey** completes to plunge down to zero! Always test your validators using the **TEST VALIDATORS** -button!
 
 #### Required 
 When question answer is required user must answer the quested, otherwise user can skip the question in **Dynamic Profiling**
