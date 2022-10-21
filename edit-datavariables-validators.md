@@ -2,6 +2,8 @@
 
 Validators are used when a question is presented to the user for example in **Dynamic Profiling** or in the built-in **Registration Survey**. Different validators are available for some questions, some questions don't need validators at all for example email -data variable type is automatically validated.
 
+> **WARNING** It is possible to create validators that don't have any overlap, therefore questions cannot be answered at all! Always test your validator using the "TEST VALIDATORS" -button!
+
 #### Required 
 When question answer is required user must answer the quested, otherwise user can skip the question in **Dynamic Profiling**
 
@@ -62,7 +64,7 @@ Regular expression to validate Canadian postal code
 > Vist Regexr.com to learn and test your regular expressions: https://regexr.com/
 
 ### Preview question
-Click on the **TEST VALIDATORS** -button to preview the question with the current validator. This is a quick way to test that the validator is working properly. 
+Click on the **TEST VALIDATORS** -button to preview the question with the current validators. There you can quickly test the combination of validators selected are working as intended.
 
 > In the preview dialog you can select any Sub Panel and Locale to preview question with. You can only select from sub panels that are compatible with the data variable in terms of translations and locale.
 
