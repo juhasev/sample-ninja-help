@@ -38,7 +38,7 @@ End of the allowed age range
 #### Regular Expression Validation (advanced)
 Enter a custom regular expression to validate the field value
 
-**Example regular expression**
+Example regular expression
 
 US postal code validation
 ```
