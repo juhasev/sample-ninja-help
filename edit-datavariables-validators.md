@@ -62,7 +62,7 @@ Regular expression to validate Canadian postal code
 > Vist Regexr.com to learn and test your regular expressions: https://regexr.com/
 
 ### Preview question
-Click on the **TEST VALIDATOR** -button to preview the question with the current validator. This is a quick way to test that the validator is working properly. 
+Click on the **TEST VALIDATORS** -button to preview the question with the current validator. This is a quick way to test that the validator is working properly. 
 
 > In the preview dialog you can select any Sub Panel and Locale to preview question with. You can only select from sub panels that are compatible with the data variable in terms of translations and locale.
 
