@@ -35,7 +35,7 @@ Start of the allowed age range
 #### Max date
 End of the allowed age range
 
-### Regular Expression Validation (advanced)
+#### Regular Expression Validation (advanced)
 Enter a custom regular expression to validate the field value
 
 For example if you like to validate US postal code the regular expression would be
@@ -47,6 +47,8 @@ Vist Regexr.com to test your more complex regular expressions:
 > https://regexr.com/
 
 ### Preview question
-Click on the **PREVIEW QUESTION** button to preview the question. In the preview dialog you can select Sub Panel and Locale to preview question with.
+Click on the **TEST VALIDATOR** -button to preview the question with the current validator. This is a quick way to test that the validator is working properly. 
+
+> In the preview dialog you can select any Sub Panel and Locale to preview question with. You can only select from sub panels that are compatible with the data variable in terms of translations and locale.
 
 
