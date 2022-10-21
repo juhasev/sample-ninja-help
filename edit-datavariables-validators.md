@@ -23,6 +23,15 @@ Any numeric value including values with decimals
 #### Integer
 Value must be an integer. No decimals are allowed
 
+#### Min value
+Minimum value, can be used with number -data variable type
+
+#### Max value
+Maximum value, can be used with number -data variable type
+
+#### Range
+Numeric range, can be used with number -data variable type
+
 #### Min checks
 This validation applies to checkbox -data variable only.
 
