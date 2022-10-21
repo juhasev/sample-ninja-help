@@ -38,14 +38,14 @@ End of the allowed age range
 #### Regular Expression Validation (advanced)
 Enter a custom regular expression to validate the field value
 
-Example regular expression
+Examples:
 
-US postal code validation
+Regular expression to validate US postal code
 ```
 ^[0-9]{5}$
 ```
 
-To validate Canadian postal code
+Regular expression to validate Canadian postal code
 ```
 ^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$
 ```
