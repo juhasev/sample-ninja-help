@@ -7,13 +7,13 @@ The survey link defines where panelists are sent after they respond to invitatio
 ## Survey Entry Link Templates
 Templates allow you to pre-define survey link templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
 
-https://surveyplatform.com/survey?id=[ID]
+https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
-When the template is applied you would only need to change the [ID] with the desired target survey ID.
+When the template is applied you would only need to change the [SURVEY ID] with the desired target survey ID.
 
 The following pipes are inserted automatically:
 
-- **[pid]** variable is for Panelist ID
+- **[id]** variable is for Panelist ID
 - **[hash]** variable is for the security hash (inserted only when hashing is enabled)
 - **[PROJECT_ID]** variable is automatically be replaced with Sample Ninja project ID)
 
