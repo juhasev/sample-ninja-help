@@ -11,3 +11,5 @@ You can additionally view your team's shared segment by clicking on the **SHARED
 Use the search box to quickly filter out segments created by your or your entire team.
 
 > You can sort table items by clicking on the column headers
+
+> You must designate segment as a filter in order to use it with reporting or the Panelist Manager!
