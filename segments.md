@@ -1,6 +1,6 @@
 ## SEGMENTS
 
-The segments allow you to define populations in your panel that you use frequently for projects or reportingn purposes. By default, all sample segments obey the panel business rules defined in the panel settings, however if you **designate** a segment as a filter, by default the business rules no longer apply.
+The segments allow you to define populations in your panel that you use frequently for projects or reporting purposes. By default, all sample segments obey the panel business rules defined in the panel settings, however if you **designate** a segment as a filter, by default the business rules no longer apply.
 
 > If you use a segment designated as filter as a project segment the business rules always apply!
 
