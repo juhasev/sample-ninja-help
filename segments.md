@@ -1,6 +1,6 @@
 ## SEGMENTS
 
-SampleNinja segments define sample populations with some established qualification i.e. Woman - Divorced - 30 to 40. By default, all sample segments obey the panel business rules defined in the panel settings, however if you **designate** a segment as a filter, by default the business rules no longer apply. However you can still turn the business rules for a filter depending on your use case.
+Use the segments to define samples you use frequently for projects or filtering purposes i.e. Panelist Manager. By default, all sample segments obey the panel business rules defined in the panel settings, however if you **designate** a segment as a filter, by default the business rules no longer apply. However you can still turn the business rules for a filter depending on your use case.
 
 > If you use a segment designated as filter as a project segment the business rules always apply!
 
