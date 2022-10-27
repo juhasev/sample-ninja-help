@@ -1,4 +1,4 @@
-### Recontact identifiers
+### Recontact Identifiers
 
 Paste a list of panelist identifiers to the target "paste" box. Identifiers can be optionally enclosed in quotation marks and be seperated with commas. We will automatically clean your list and validate that all the identifiers are in the correct format. Any detected errors will be immeadiately shown. 
 
@@ -9,3 +9,13 @@ Paste a list of panelist identifiers to the target "paste" box. Identifiers can 
 > At least one identifier must be valid or the project fails to save.
 
 > You cannot remove identifiers from the project once you have submitted them. However you can add more identifiers simply by pasting more of them in. If you accidentally saved wrong set of identifiers simply take the project offline and start over.
+
+### Passcode Authentication for Surveys
+
+Sample Ninja supports **Passcode** authentication for 'Recontact' projects. Simply, create a new 'Recontact' project and under the 'Panelists' tab, the option to upload CSV files containing 'Panelist IDs' + **Passcodes** is now available. CSV files with other columns can also be added, Sample Ninja will ask which columns contain the 'Panelist ID' as well as the **Passcode**.
+
+Following from the above, under the SURVEY LINK -tab edit the link and ensure the "Passcode param name” is set. Templates can also be used to save the aforementioned setup for future use.
+
+> The **Passcode** feature is only available via CSV files and not by simply pasting in identifiers.
+
+> The **Passcode** needs to be passed into the survey via a predetermined variable.
