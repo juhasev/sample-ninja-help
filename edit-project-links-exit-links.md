@@ -1,4 +1,4 @@
-## Survey exit links
+## Survey exit redirects
 
 When panelist has completed a survey you will send panelists back to these link with the survey outcome or status code. If you survey solution supports **exit link hashing** you should always use it to prevent tampering with the exit links.
 
