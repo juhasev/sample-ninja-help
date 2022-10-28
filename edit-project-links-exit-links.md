@@ -43,8 +43,8 @@ Signing should always be used when returning panelist back to **Sample Ninja** e
 
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
-### Example survey exit link (redirect back to SampleNinja)
-To make the exit link and the resulting hash more complex, we have added optional panelist ID to the link (id -param). You may used some other parameter as well, the only reserved parameters are "s" for status and "session" for session ID.
+### Example survey exit redirects (back to SampleNinja)
+To make the exit redirect and the resulting hash more complex, we recommend you add some additional parameter that is random to the exit redirect links. The only reserved parameters are "s" for status and "session" for session ID.
 
 In this example we are using **SHA-1** and ***SHA-256** algorithms with secret **MySecretPasscode** to compute hash parameter.
 
