@@ -5,7 +5,7 @@ The survey entry redirects define where panelists are sent after they respond to
 > The default link for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
 ## Templates
-Templates allow you to pre-define survey redirects URL, hashing and parameter names for the most common survey platforms that you send sample to. This can be a real time save when you sending to a specific target platform regularly. Templates allow you to define everything that is needed for the target platform including hash URL of the target platform, hashing algorithm, hashing secret and the parameters names. 
+Templates allow you to pre-define survey entry and exit redirects URL, hashing and parameter names for the most common survey platforms that you send sample to. This can be a real time save when you sending to a specific target platform regularly. Templates allow you to define everything that is needed for the target platform including hash URL of the target platform, hashing algorithm, hashing secret and the parameters names. 
 
 > We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
 
