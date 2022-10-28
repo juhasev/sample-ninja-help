@@ -1,11 +1,11 @@
-## Survey Entry Link
+## Survey entry redirects
 
-The survey link defines where panelists are sent after they respond to invitations. Additionally you can pipe panelist ID, data variable data and enable URL security via hashing.
+The survey entry redirects define where panelists are sent after they respond to invitations. Additionally you can pipe panelist ID, data variable data and enable URL security via hashing.
 
 > The default link for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
-## Survey Entry Link Templates
-Templates allow you to pre-define survey link templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
+## Templates
+Templates allow you to pre-define survey redirect templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
 
 https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
@@ -24,35 +24,34 @@ Parameter names can be fully customized to match what is used in the survey. For
 
 https://surveyengine.com?project=343&g=1
 
-#### Piping Radio Data
+#### Sending Radio data to a survey
 Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
 
 https://surveyengine.com?project=[ID]&education=5
 
-#### Piping Checkbox Data
+#### Sending Checkbox data to a survey
 Sample Ninja pipes check box values as multiple values. For example, if using the **HOBBIES** data variable with values 1,2,3 the URL would be something like:
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
-> Some survey platforms may use alternate formats like hobbies=1,2,3. Please contact support@sampleninja.io if you run into this situation.
+> Some survey platforms may use alternate formats like hobbies=1,2,3. For this purpose enable **string** piping option.
 
-#### Piping Locale
+#### Sending Locale -variable to a survey
 Every panelist has an assigned locale, for example ENG-US. If a multilingual survey is being run, then the **LOCALE** data variable should be piped into the survey.
 
 > Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this stuation.
 
-#### Test Link and Data Variable Pipes
+#### Test and sending variable data
 Sample Ninja will automatically insert random data for all the defined data variable pipes.
 
 > The inserted data for the Keyword and the Text -variable types is static because there is no way for the test data generator to figure out the real intent of the data variable. For example if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly for the text variable, if the example **DESCRIPTON** is used, data set would show as **test_text_description**.
  
 ### Panelist ID
-Panelist ID is automatically piped in the URL. You should save the panelist ID along with the survey responses. This is important when you reconsile participants after the survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
+Panelist ID is automatically piped in the URL and is mandatory. You do not have to manually define insert this, but instead you configure you survey entry link param name and **SampleNinja** will take care of the rest for you. You should save the panelist ID along with the survey responses. This is important when you reconsile participants after the survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
 
-https://surveyengine.com?project_id=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
+https://surveyengine.com?pid=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
 If **Random test ID** is toggled on, Sample Ninja will send random panelist ID to the test survey when testing the survey link. In some cases this makes testing easier especially if duplicate IDs are blocked by the survey software.
-
 
 ## Signing and security
 Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algoritms:
