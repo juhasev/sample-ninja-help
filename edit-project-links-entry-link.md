@@ -17,8 +17,8 @@ The following pipes are inserted automatically:
 - **[hash]** variable is for the security hash (inserted only when hashing is enabled)
 - **[PROJECT_ID]** variable is automatically be replaced with Sample Ninja project ID)
 
-### Piping Data Variables to Surveys
-Data variables can be easily piped using the **Select Data Variables** button to choose the required ones from the available selection.
+### Passing variable data to surveys
+Data variables can be easily passed using the **Select Data Variables** button to choose the required ones from the available selection.
 
 Parameter names can be fully customized to match what is used in the survey. For example if **GENDER** is selected, the resulting URL might look like this:
 
