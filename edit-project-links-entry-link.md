@@ -1,11 +1,15 @@
 ## Survey entry redirects
 
-The survey entry redirects define where panelists are sent after they respond to invitations. Additionally you can pipe panelist ID, data variable data and enable URL security via hashing.
+The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform but it can also be any other system that sits in between. Additionally you can send in panelist ID, data variable data and enable URL security via hashing.
 
 > The default link for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
 ## Templates
-Templates allow you to pre-define survey redirect templates for the most common survey platforms that you send sample to. When you define templates you can use place holders for URL parameters that need to be manually replaced. For example most survey platform require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
+Templates allow you to pre-define survey redirects URL, hashing and parameter names for the most common survey platforms that you send sample to. This can be a real time save when you sending to a specific target platform regularly. Templates allow you to define everything that is needed for the target platform including hash URL of the target platform, hashing algorithm, hashing secret and the parameters names. 
+
+> We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
+
+When you define templates you can use place holders for URL parameters that need to be manually replaced. For example, most survey platforms require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
 
 https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
