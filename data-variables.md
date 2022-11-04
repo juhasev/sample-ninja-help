@@ -42,36 +42,36 @@ Store phone numbers using international e164 -standard. System wide phone number
 ### System data variables
 The system variables track various metrics and provide you additional information you can use when running queries against your panel. There are many useful lifetime counters and other system variables you may want to use to manage your panel better. System Variables include
 
-INVITED_COUNT
-STARTED_COUNT
-QUALITY_COUNT
-PROFILE_COUNT
-QUOTA_COUNT
-SECURITY_COUNT
-COMPLETED_COUNT
-EMAIL_VALID (Can receive email or is bounced)
-STATUS (Subscribe, Unsubscribe or Blacklisted)
-RESPONSE_RATE (Response rate in the period as configured in the panel settings) 
-REVENUE (Lifetime revenue earned for your panelists)
-SUBSCRIBED_DATE (When a panelist joined your panel)
-UNSUBSCRIBED_DATE (When a panelist left your panel)
-POINTS_BALANCE (Current points balance)
-POINTS_REWARDED (Lifetime points awarded)
-POINTS_REDEEMED (Lifetime points redeemed)
+- INVITED_COUNT
+- STARTED_COUNT
+- QUALITY_COUNT
+- PROFILE_COUNT
+- QUOTA_COUNT
+- SECURITY_COUNT
+- COMPLETED_COUNT
+- EMAIL_VALID (Can receive email or is bounced)
+- STATUS (Subscribe, Unsubscribe or Blacklisted)
+- RESPONSE_RATE (Response rate in the period as configured in the panel settings) 
+- REVENUE (Lifetime revenue earned for your panelists)
+- SUBSCRIBED_DATE (When a panelist joined your panel)
+- UNSUBSCRIBED_DATE (When a panelist left your panel)
+- POINTS_BALANCE (Current points balance)
+- POINTS_REWARDED (Lifetime points awarded)
+- POINTS_REDEEMED (Lifetime points redeemed)
 
 This is not a comprehensive list of the system variables and it is recommended that you view the full list under system variables by selecting the group filter “SYSTEM” to have an idea what is available. 
 
 ### Using industry standard variables
 You should consider using industry standard variables for B2C panels. Sample Ninja provides the defaults that are Lucid / CINT compatible. When you are using industry standard variables they can be mapped to various sample exchanges with minimal effort. You can create the standard data variables under Data Variables. These are:
 
-GENDER
-HOBBIES
-ETHNICITY
-RELATIONSHIP
-EMPLOYMENT_STATUS
-EDUCATION
-INCOME
-INDUSTRY
+- GENDER
+- HOBBIES
+- ETHNICITY
+- RELATIONSHIP
+- EMPLOYMENT_STATUS
+- EDUCATION
+- INCOME
+- INDUSTRY
 
 ### Data Variable vs. Question
 Any data variable in Sample Ninja can be presented as a multilingual question as long as question text and option texts are provided in the languages needed. This enables you to populate the data variables in the Registration Survey as well as in the Dynamic Profiling.
