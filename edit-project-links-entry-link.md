@@ -4,6 +4,15 @@ The survey entry redirects define where panelists are sent after they respond to
 
 > The default redirect for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select the desired survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
 
+### Settings
+
+- Base URL: Enter the base URL for the survey platform you intend to use.
+- Panelist ID param name: Enter parameter name you would like to use passing **Panelist ID** to the survey platform. (This parameter is automatically inserted)
+- Use random panelist ID to test: Select yes if you survey platform requires using unique panelist IDs when testing.
+- Hash algorithm: Select which hashing algorithm is used to tamper proof redirects.
+- Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
+- Passcode param name: This option is only visible for **Re-contact** projects and be used to automatically pass in an uploaded passcode.
+
 ## Templates
 Templates allow you to pre-define survey entry and exit redirects URL, hashing and parameter names for the most common survey platforms that you send sample to. This can be a real time save when you sending to a specific target platform regularly. Templates allow you to define everything that is needed for the target platform including hash URL of the target platform, hashing algorithm, hashing secret and the parameters names. 
 
