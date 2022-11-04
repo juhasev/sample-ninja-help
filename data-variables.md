@@ -1,15 +1,41 @@
 ## Data Variables
 
 ### Magical data variables
-Data variables CITY, REGION and COUNTRY are magical as. they can be populated automatically using IP based geolocation, user given location i.e. GPS on mobile devices and or based on the POSTAL_CODE entered. Do not use home grown variables like STATE or PROVINCE, use the built-in REGION variable instead due to its special ability.
+Data variables BIRTH_DATE, CITY, REGION and COUNTRY are magical, as they can be populated automatically using IP based geolocation, user given location i.e. GPS on mobile devices and or based on the POSTAL_CODE entered. Do not use home grown variables like STATE or PROVINCE, use the built-in REGION variable instead due to its special ability. You can give the REGION data variable alternative display name like PROVINCE if you like. BIRTH_DATE enables the dashboard age vs. gender chart, can be used to query ranges etc..
 
 ### Data variable types
 Sample Ninja supports multiple different data variable types for more detailed information on each variable type, click the Create new data variable -button under the Data Variables main menu item. Please note the difference between the text and the keyword data variable types. Almost in all cases you want to use the keyword -data variable.
 
-
 Data Variables are the basic storage unit for the panelist information you collect. Use the top row boxes to filter data variables by name, group or system designation. See below for more details.
 
-If you click on the Statistics Icon for a particular data variable it takes you into a dashboard screen for that particular variable.
+#### Text
+Any content saved to a text -type variable is analysed. Records with partial matches are scored and returned in the order of highest matching score first.
+
+#### Keyword
+Keyword variables are always matched with exact search term. Use keyword -variable to store unstructured categorical data like city or postal code.
+
+#### Email
+Email variables must contain valid email and input is automatically validated when placed in the registration survey or dynamic profiling.
+
+#### Radio
+Radio questions can have single multiple answer option selected.
+
+#### Checkbox
+Checkbox questions can have multiple answer options selected.
+
+#### Locale
+Locale question contain standard locale identifier. System wide validation is automatically applied.
+
+#### Date
+Use to store dates. Date values can be searched using ranges. System wide validation is automatically applied.
+
+#### Number
+Use to store numeric data. Numbers can be integers, numbers with decimals or floating point values
+
+#### Phone
+Store phone numbers using international e164 -standard. System wide phone number validation is automatically applied.
+
+> If you click on the blue **Statistics** -button on each row it will take you into the data variable dashboard.
 
 ### System data variables
 The system variables track various metrics and provide you additional information you can use when running queries against your panel. There are many useful lifetime counters and other system variables you may want to use to manage your panel better. System Variables include
@@ -31,7 +57,7 @@ POINTS_BALANCE (Current points balance)
 POINTS_REWARDED (Lifetime points awarded)
 POINTS_REDEEMED (Lifetime points redeemed)
 
-This is not a comprehensive list of the system variables and it is recommended that you view the full list under Data Variables by selecting the group filter “SYSTEM” to have an idea what is available. 
+This is not a comprehensive list of the system variables and it is recommended that you view the full list under system variables by selecting the group filter “SYSTEM” to have an idea what is available. 
 
 ### Using industry standard variables
 You should consider using industry standard variables for B2C panels. Sample Ninja provides the defaults that are Lucid / CINT compatible. When you are using industry standard variables they can be mapped to various sample exchanges with minimal effort. You can create the standard data variables under Data Variables. These are:
