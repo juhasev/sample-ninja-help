@@ -1,7 +1,9 @@
 ## Data Variables
 
 ### Magical data variables
-Data variables BIRTH_DATE, CITY, REGION and COUNTRY are magical, as they can be populated automatically using IP based geolocation, user given location i.e. GPS on mobile devices and or based on the POSTAL_CODE entered. Do not use home grown variables like STATE or PROVINCE, use the built-in REGION variable instead due to its special ability. You can give the REGION data variable alternative display name like PROVINCE if you like. BIRTH_DATE enables the dashboard age vs. gender chart, can be used to query ranges etc..
+Data variables CITY, REGION and COUNTRY are magical as. they can be populated automatically using IP based geolocation, user given location i.e. GPS on mobile devices and or based on the POSTAL_CODE entered. Do not use home grown variables like STATE or PROVINCE, use the built-in REGION variable instead due to its special ability. 
+
+The BIRTH_DATE variable enables the dashboard Age vs. Gender chart can be used to send birthday greeting etc….
 
 ### Data variable types
 Sample Ninja supports multiple different data variable types for more detailed information on each variable type, click the Create new data variable -button under the Data Variables main menu item. Please note the difference between the text and the keyword data variable types. Almost in all cases you want to use the keyword -data variable.
