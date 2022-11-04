@@ -61,6 +61,11 @@ The system variables track various metrics and provide you additional informatio
 
 This is not a comprehensive list of the system variables and it is recommended that you view the full list under system variables by selecting the group filter “SYSTEM” to have an idea what is available. 
 
+### Monitoring your panel with system variables
+You can use any combination of the system variables + your own data variables + activity filters to create almost limitless ways to query and monitor your panel. 
+
+The best way to accomplish this is to create a new segment and save for reuse. When you enable the “Filter” toggle you can then use your saved segments in various reports and use them to find panelists in the Panelist Manager to for example to inspect them manually.
+
 ### Using industry standard variables
 You should consider using industry standard variables for B2C panels. Sample Ninja provides the defaults that are Lucid / CINT compatible. When you are using industry standard variables they can be mapped to various sample exchanges with minimal effort. You can create the standard data variables under Data Variables. These are:
 
