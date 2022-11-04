@@ -9,7 +9,7 @@ Templates allow you to pre-define survey entry and exit redirects URL, hashing a
 
 > We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
 
-When you define templates you can use place holders for URL parameters that need to be manually replaced. For example, most survey platforms require that you pass in a survey ID. Let's say that it needs to be placed to **id** -parameter, then your **Base URL** would look like this:
+When you define templates you can use place holders for URL parameters that need to be manually replaced. For example, most survey platforms require that you pass in a survey ID. Let's say that it needs to be placed to **survey_id** -parameter, then your **Base URL** would look like this:
 
 https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
