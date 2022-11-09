@@ -36,7 +36,7 @@ This column displays the variable name and whether dynamic profiling has been en
 
 #### Settings
 This column indicates:
-- Priority of Dynamic Profiling.
+- Priority of Dynamic Profiling (10 = highest, 1 = lowest)
 - Refresh interval (ask question again).
 - Any warnings such as missing translations.
 
