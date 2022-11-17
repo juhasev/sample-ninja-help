@@ -28,3 +28,10 @@ Blocks respondents automatically, if they select their age less than what is con
 
 #### Minimum points to redeem
 Enforces that you as a panelist have earned at least the indicated amount of reward points. Tracked by data variable POINTS_REWARDED. This setting enables you to block new and frandlulent panelists from redeeming any reward till they accumulated the specified minimum. Leave as 0 for no restrictions.
+
+#### Enable push notifications
+If enabled the panelist can accept to receive browser push notification.
+
+#### Enable communication preferences
+If enabled the panelist can change the amount of notifications he/she receives separated by each channel.
+For e.g. he/she can disable instant messages (push notification) or he/she can change the frequency of emails received (every two days) and so on.
