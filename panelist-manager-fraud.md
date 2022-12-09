@@ -3,39 +3,57 @@ The level of fraud is determinated by issuing security events for various reason
 
 ### Event types
 
-#### isProxy
-Panelist is using public VPN service.
-#### isHosted
-Panelist IP address is originating from a hosted server. This could be targeted bot.
-#### isBot
+#### IS PROXY
+Panelist is using public VPN service or other service that masks users true location.
+
+#### IS HOSTED
+Panelist IP address is originating from a hosted server. Servers are typically used
+as proxies to hide users true location.
+
+#### IS BOT
 Panelist is detected as bot.
-#### ipMismatch
+
+#### IP MISMATCH
 Panelist IP address changed in the middle of the project.
-#### duplicateFingerprint
+
+#### DUPLICATE FINGERPRINT
 Duplicate project fingerprint.
-#### fingerprintMismatch
-Fingerprints do not match from start to end.
-#### isOutOfCountry
+
+#### FINGERPRINT MISMATCH
+Project fingerprints do not match from start to end.
+
+#### IS OUT OF COUNTRY
 Panelist is out of country.
-#### location
-Impossible location change.
-#### linkManipulation
-Panelist has potentially engages in link manipulation.
-#### referFriend
-Refer a friend error or potential abuse.
-#### surveySecurity
-Returned back from a survey with security status
-#### fakeEmail
+
+#### LOCATION
+Impossible location change for example LA to New York in 2 hours.
+
+#### LINK MANIPULATION
+Panelist has potentially engaged in link manipulation. This security event can triggered if link hash validation fails or panelist completes a project under 5% of estimated project LOI.
+
+#### REFER FRIEND
+Refer a friend error or potential abuse. Multiple checks are run for example if we detect that panelist referred themself with a new email or is otherwise attempting to create multiple accounts.
+
+#### SURVEY SECURITY
+Returned back from a survey with security status.
+
+#### FAKE EMAIL
 Email does not resemble name, initials or birthdate.
-#### duplicate
+
+#### DUPLICATE
 Survey exit duplicate or reconciled as duplicate.
-#### security
-Survey exit status security.
-#### cookieDeleted
+
+#### COOKIED DELETED
 Panelist deleted tracking cookie intentionally or using a incognito window.
-#### stolenCookie
+
+#### STOLEN COOKIE
 Panelist device contained cookie that belong to an another panelist
-#### spoofedLocation
-Panelist is attempting to hide their true location.
-#### likelyProxy
-Panelist cross ping reveals abnormal network latency.
+
+#### SPOOFED LOCATION
+Panelist is attempting to hide their true location. Sample Ninja runs WebRTC check which in many cases reports back user's true location. WebRTC is enabled by default in all browsers and basically enables you to participate in video conferences. If WebRTC is disabled is very likely the panelist is intentionally trying to hide their through location.
+
+#### LIKELY PROXY
+If panelist WebRTC check does not pass then Sample Ninja measures cross ping latency to determine if potential proxy sits in between the user and the requesting IP address. Its worth noting that vast majority of Internet connected devices are always behing NAT and thus cross ping cannot be run. If you see this event then it is very likely panelist is trying to hide their real location using proxy services.
+
+#### COMPLETED, PROFILE and QUOTA
+Each time panelist completes project with status "completed","quota" or "profile" the FRAUD score is decreased.
