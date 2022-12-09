@@ -56,4 +56,4 @@ The following additional errors may also occur while communiticating with PayPal
 **UNKNOWN** This error can be returned in some rare cases. Most likely cause is that your account keys are not correct or there is some other issue authenticating with **PayPal**. These could include account setup problems like not enabling **PayOuts API** or **Transaction Search**. These two features are required. Contact support@sampleninja.io if in doubt.
 
 ### EXPORT REDEMPTIONS
-Click on the download button (top right corner) and select the date range you would like to export along with desired filters. The default configuration download all approved redemptions that were processed for the calendar year.
+Click on the download button (top right corner) and select the date range you would like to export along with desired filters. The default configuration includes all approved redemptions that were processed for the calendar year.
