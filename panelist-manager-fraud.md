@@ -44,10 +44,10 @@ Email does not resemble name, initials or birthdate.
 Survey exit duplicate or reconciled as duplicate.
 
 #### COOKIED DELETED
-Panelist deleted tracking cookie intentionally or using a incognito window.
+Panelist deleted tracking cookie intentionally or using a incognito window. It is very unsual to delete cookies repetably unless you are trying game the system using ingognito window, virtual machine, residentiual proxy etc... Repeated warning here should not be taken lightly. You may ask yourself when did you delete you cookies last time?
 
 #### STOLEN COOKIE
-Panelist device contained cookie that belong to an another panelist
+Panelist device contained cookie that belongs to an another panelist. If you see this security event, it is likely that the panelist has registered multiple accounts to game the system.
 
 #### SPOOFED LOCATION
 Panelist is attempting to hide their true location. Sample Ninja runs WebRTC check which in many cases reports back user's true location. WebRTC is enabled by default in all browsers and basically enables you to participate in video conferences. If WebRTC is disabled is very likely the panelist is intentionally trying to hide their through location.
@@ -56,4 +56,4 @@ Panelist is attempting to hide their true location. Sample Ninja runs WebRTC che
 If panelist WebRTC check does not pass then Sample Ninja measures cross ping latency to determine if potential proxy sits in between the user and the requesting IP address. Its worth noting that vast majority of Internet connected devices are always behing NAT and thus cross ping cannot be run. If you see this event then it is very likely panelist is trying to hide their real location using proxy services.
 
 #### COMPLETED, PROFILE and QUOTA
-Each time panelist completes project with status "completed","quota" or "profile" the FRAUD score is decreased.
+Each time panelist completes project with status "completed","quota" or "profile" the FRAUD score is decreased or healed to reward for good behaviour.
