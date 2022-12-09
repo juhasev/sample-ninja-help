@@ -37,9 +37,6 @@ Refer a friend error or potential abuse. Multiple checks are run for example if 
 #### SURVEY SECURITY
 Returned back from a survey with security status.
 
-#### FAKE EMAIL
-Email does not resemble name, initials or birthdate.
-
 #### DUPLICATE
 Survey exit duplicate or reconciled as duplicate.
 
