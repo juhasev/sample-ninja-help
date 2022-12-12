@@ -56,4 +56,8 @@ The following additional errors may also occur while communiticating with PayPal
 **UNKNOWN** This error can be returned in some rare cases. Most likely cause is that your account keys are not correct or there is some other issue authenticating with **PayPal**. These could include account setup problems like not enabling **PayOuts API** or **Transaction Search**. These two features are required. Contact support@sampleninja.io if in doubt.
 
 ### EXPORT REDEMPTIONS
-Click on the download button (top right corner) and select the date range you would like to export along with desired filters. The default configuration includes all approved redemptions that were processed for the calendar year.
+Click on the download button (cloud icon with downwards arrow in the top right corner) and select the date range as well as desired filters to export redemption information to a CSV file. The default configuration includes all approved redemptions that were processed for the calendar year.
+
+> Note that the filter works on logic that supports satisfying the filter criteria i.e. if **FAILED**, **APPROVED** and **PROCESSED** are all selected, the system will only export redemptions that were processed and approved but failed. To show all failed or rejected redemptions, soley tick **FAILED**. To show all approved / completed redemptions, solely tick **APPROVED**. To show redemptions irrespective of status, solely tick **PROCESSED**.
+
+> Toggle on **Export all dates**, to download all redemptions that satify the chosen filter criteria i.e. this will include every redemption from the first to the most recent based on the filter critria. Example - with **Export all dates** toggled on and **PROCESSED** ticked, all processed redemptions will be exported.
