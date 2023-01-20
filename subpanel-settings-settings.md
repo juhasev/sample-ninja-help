@@ -15,7 +15,11 @@ If you run your own custom community site, insert the URL here.
 Support Email needs to be a valid support email. Various landing pages display **CONTACT SUPPORT** button which will launch an email client. If you are not providing email support at all you can disable this button from the **Landing Page** settings.
 
 #### Email user name
-Controls sending email user name which is the first part before @ in example: invite@sampleninja.io. Typically the email username is not visible by default as email clients display Sender Name instead. However, if you are going to ask tour panelists to whitelist your sending email address it has to be done using the actual email address.
+Controls sending email user name which is the first part before @ in example: invite@sampleninja.io. Typically the email username is not visible by default as email clients display Sender Name instead. 
+
+Research Team <super.ninja@sampleninja.app>
+
+However, if you are going to ask tour panelists to whitelist your sending email address it has to be done using the actual email address.
 
 #### Enable members app
 Enable the built-in members app. Panelists can login and see available surveys, make redemptions etc... Member's app can be embedded to your custom community site. See members app integration under **Member's app** and click **<>** icon to get to the installation instructions.
