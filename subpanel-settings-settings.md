@@ -1,4 +1,4 @@
-### Settings
+## Settings
 
 #### Sub Panel name
 This is your sub panel name. This name is visible to panelist as in a browser tab (page title) on all landing pages, registration survey and member's app.
