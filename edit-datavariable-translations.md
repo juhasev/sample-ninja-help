@@ -22,9 +22,7 @@ Some other race
 To switch between different locales, use the selector on the left.
 
 ### Adding locales
-Click on the **MODIFY LOCALES** button to add more locales to this data variable. Simply select **Locales** from the main menu to add them. 
-
-> Visit **locales** - main menu option to add more locales to your panel. Only then you can add them to the questions.
+Click on the **MODIFY LOCALES** button to add more locales to this data variable. Simply select **Settings** -> **Locales** from the main menu to add them. 
 
 > You must have Panel Manager role to add locales to any question.
 
