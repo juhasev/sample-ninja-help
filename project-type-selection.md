@@ -1,4 +1,4 @@
-# Project types
+## Project types
 
 ### Auto sampling
 Auto Sampling projects are the most efficient way to tackle everyday projects. Sample Ninja's intelligent auto-sampling algorithm runs projects to completion with minimal waste. This is good for the panelist experience as your panelists will experience fewer profile and quota terminations. The participants are selected randomly as long as they match the qualifications/balancing criteria selected in the project properties.
