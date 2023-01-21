@@ -9,13 +9,13 @@ The recontact survey accepts a list of panelist IDs to contact. This is handy, a
 > **TIP:** If you want to test the invitation flow, the recontact project is the easiest way to invite yourself to a project.
 
 ### Profiler
-The profiler mode is intended for external surveys you use to build deeper panelist profiles. This mode is suitable for cases where **Dynamic Profiling** cannot be used, for example, when you need complex profiling logic that is only possible in advanced survey software. 
+The profiler mode is intended for external surveys you use to build deeper panelist profiles. This mode is suitable for cases where **Dynamic Profiling** cannot be used, for example, when you need complex profiling logic that is only possible in advanced survey software. You can bring the collected profiles back to Sample Ninja using the **Panelist Importer**'s update mode.
 
 > **TIP:** Remember to publish profiler projects to anyone who qualifies + add an engagement image under Project Settings -> Member App.
 > 
 In the profiler mode, a project has no settings for “target completes” or “end date”. This allows you to keep profiler surveys online forever and offer them automatically to anybody new joining the panel. Profiler surveys sample at a constant rate of 400 invitations / h * Sampling Priority set in the project properties. For example, if you set “sampling priority” to 5 then a profiler project will send 400 * 5 = 2000 invitations per hour. The profiler surveys do not trigger out-of-sample warnings because they are by nature out of sample all the time.
 
-> **TIP:** If you want to invite the entire panel, then add **STATUS = Subscribed** to your Project -> Qualifications.
+> **TIP:** If you want to invite the entire panel, use the **STATUS** variable and select **Subscribed** in your Project -> Qualifications.
 
 If you are starting a new profiling in an existing panel, consider the profiler survey's impact on the other projects you run. A profiler project can quickly invite your entire panel and thus can steer available sample from your other live projects depending on the established business rules. The default business rules limit how often a panelist can be invited to a project in a given period. See Business Rules under Settings from the main menu.
 
