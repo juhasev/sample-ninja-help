@@ -1,10 +1,10 @@
 ## Project types
 
 ### Auto sampling
-Auto Sampling projects are the most efficient way to tackle everyday projects. Sample Ninja's intelligent auto-sampling algorithm runs projects to completion with minimal waste. This is good for the panelist experience as your panelists will experience fewer profile and quota terminations. The participants are selected randomly as long as they match the qualifications/balancing criteria selected in the project properties.
+Auto Sampling projects are the most efficient way to tackle everyday projects. Sample Ninja's intelligent auto-sampling algorithm runs projects to completion with minimal waste. This is good for the panelist experience as your panelists will experience fewer profile and quota terminations. The participants are selected randomly as long as they match the qualifications/balancing criteria selected in the project properties. The maximum number of target completes is 50000.
 
 ### Recontact
-The recontact survey accepts a list of panelist IDs to contact. This is handy, as the name implies, for recontacts where you need to invite certain panelists back, for example, if there were survey programming errors. Recontact -project mode can also be used for other purposes, like if you like to invite a group of hand-selected panelists to participate.
+The recontact survey accepts a list of panelist IDs to contact. This is handy, as the name implies, for recontacts where you need to invite certain panelists back, for example, if there were survey programming errors. Recontact -project mode can also be used for other purposes, like if you like to invite a group of hand-selected panelists to participate. The maximum number of recontact participants in 5000.
 
 > **TIP:** If you want to test the invitation flow, the recontact project is the easiest way to invite yourself to a project.
 
