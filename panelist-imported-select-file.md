@@ -23,7 +23,7 @@ The first column should always be **EMAIL**.
 
 > **BIRTH_DATE** variable is automatically checked against **minimum age to join** settings found in the **Sub Panel settings**.
 
-> **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Locales** from the main menu. In addition your target **Sub Panel** must have the same locales enabled as you are planning to import. 
+> **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Settings** -> **Locales** from the main menu. In addition your target **Sub Panel** must have the same locales enabled as you are planning to import. 
 
 ### Importing STATE or PROVINCE
 **Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
