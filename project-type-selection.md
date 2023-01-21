@@ -11,6 +11,8 @@ The recontact survey accepts a list of panelist IDs to contact. This is handy, a
 ### Profiler
 The profiler mode is intended for surveys you use to build deeper panelist profiles. In the profiler mode, a project has no setting for “target completes” or “end date”. This allows you to keep profiler surveys online forever and offer them automatically to anybody new joining the panel. Profiler surveys sample at a constant rate of 400 invitations / h * Sampling Priority set in the project properties. By default, the Sampling Priority is 5. Thus, by default, a profiler project will send 400 * 5 = 2000 invitations per hour.
 
+> **TIP:** Remember to publish profiler projects to anyone who qualifies + add engagement image under Project Settings -> Member App.
+
 > If you are starting a new profiling in an existing panel, consider the profiler survey's impact on the other projects you run. A profiler project can quickly invite your entire panel and thus can rob sample from your other live projects depending on the established business rules. The default business rules put limitations on how many times any given panelist can be invited to a project in a given period. See Business Rules under Settings from the main menu.
 
 > **WARNING:**  Do not remove the activity filter from the Business Rules! This will most certainly have negative consequences on your panelists, as they may get multiple survey invitations per day. Thus, it is like asking your panelist to press that unsubscribe button!
