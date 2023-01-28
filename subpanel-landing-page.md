@@ -11,7 +11,7 @@ Here you can configure basic settings like which buttons to show to panelist, al
 
 Colors can be selected by simply clicking on the color and selecting a new color. If you have strict style guide for your panel you may instead use the color picker to enter or paste colors in in HTML HEX color notation like #FF00EE. Also HSL or HEX color code references are supported.
 
-> If you need to come with the theme from scratch consider getting **Color picker** browser add on. This allows you to select colors from existing web pages, logos etc.. and may make your job a bit easier.
+> If you need to come with the theme from scratch consider getting **Color picker** browser extension for Chrome -browser. This allows you to select colors from existing web pages, logos etc.. and may make your job a bit easier. Other browsers have similar extensions.
 
 Background gradient can be easily created by selecting **GRADIENT START** and **GRADIENT END** colors. Gradient angle can be adjusted with the slider selection as well. If you want to use solid color for the background simply set **GRADIENT START** and **GRADIENT END** colors to be the same.
 
