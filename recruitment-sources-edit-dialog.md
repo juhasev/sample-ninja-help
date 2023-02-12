@@ -31,13 +31,21 @@ You need to append all the required parameters and the final URL will look like 
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
 ```
 
-### Lucid Recruitment
-Recruit new panelists directly from the **Lucid** marketplace. To enable recruitment navigate to the **Panel Settings** under **Integrations**. You must provide **secret hash** obtained from the **Lucid** marketplace admin interface. 
+### Everflow recruitment
+In order to use **Everflow** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **Everflow** and know your **Reporting URL** before you can enable the service. This information is available via the **Everflow** admin interface or from your **Everflow** representative.
 
-The registration URL must contain **rid** parameter. This parameter is automatically appended by **Lucid** marketplace. For example if your **Lucid** -enabled **Recruitment source ID** is 6 the registration URL would look like this:
+Next create a **recruitment source** and enable **Everflow** integration.
+
+When enabled, the recruitment source ID or **source** and **Everflow** **transaction_id** URL query parameters must be provided. For example, if your standard **Registration Survey** URL looks like this:
 
 ```
-https://domain.sampleninja.io/registration/1/ENG-CA?source=6&rid=fa4a9ce9-48c8-4f2f-a221-9acfb79d8db3
+https://domain.sampleninja.io/registration/1/ENG-CA
+```
+
+You need to append all the required parameters and the final URL will look like this:
+
+```
+https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=a93b5fc7d44234dab8f8
 ```
 
 ### TUNE Recruitment
