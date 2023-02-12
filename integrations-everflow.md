@@ -1,8 +1,8 @@
 ### Everflow
 
-Everflow is a Partner Marketing Platform that can be used to recruit new panelists from variety affiliates and partners. This integration handles reporting conversions back to **Everflow** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
+Everflow is a Partner Marketing Platform that can be used to recruit panelists. This integration handles reporting conversions back to **Everflow** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
 
-Please enter your **Everflow reporting URL** and toggle the feature on. 
+Please enter your **Everflow reporting URL** and toggle the feature on. Do not insert the transaction_id parameter as **SampleNinja** will detect incoming transaction ID and report it automatically.
 
 > You will get your reporting URL from your **Everflow** representative.
 
