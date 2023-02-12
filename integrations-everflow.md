@@ -1,4 +1,4 @@
-### Everflow
+### Everflow conversion reporting
 
 Everflow is a Partner Marketing Platform that can be used to recruit panelists. This integration handles reporting conversions back to **Everflow** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
 
