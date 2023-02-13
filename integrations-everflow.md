@@ -1,4 +1,4 @@
-### Everflow * The registration survey
+### Everflow and the registration survey
 
 Everflow is a Partner Marketing Platform that can be used to recruit panelists. **SampleNinja** automatically reports sll conversions back to **Everflow** Everflow can only be used if you use the built in **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
 
