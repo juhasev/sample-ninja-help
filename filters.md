@@ -4,8 +4,6 @@ Create filters from populations in your panel that you use frequently for projec
 
 You can additionally view your team's shared filters by clicking on the **SHARED** tab. This tab shows filters shared by the team members.
 
-> There are no limits to the number of filters that you can define.
-
 Use the search box to quickly find a filter.
 
-> You can sort table items by clicking on the column headers
+> You can sort the filters by clicking on the column headers
