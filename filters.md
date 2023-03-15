@@ -1,15 +1,11 @@
-## SEGMENTS
+## Filters
 
-The segments allow you to define populations in your panel that you use frequently for projects or reporting purposes. By default, all sample segments obey the panel business rules defined in the panel settings, however if you **designate** a segment as a filter, by default the business rules no longer apply.
+Create filters from populations in your panel that you use frequently for projects or reporting purposes. By default, all filters ignore the panel business rules defined in the panel settings, however if you use a filter in a project qualification the business rules apply.
 
-> If you use a segment designated as filter as a project segment the business rules always apply!
+You can additionally view your team's shared filters by clicking on the **SHARED** tab. This tab shows filters shared by the team members.
 
-You can additionally view your team's shared segment by clicking on the **SHARED** tab. This tab shows Segments created by co-workers have built and that have been shared the entire team.
+> There are no limits to the number of filters that you can define.
 
-> There are no limits to the number of segments that you can define.
-
-Use the search box to quickly filter out segments created by your or your entire team.
+Use the search box to quickly find a filter.
 
 > You can sort table items by clicking on the column headers
-
-> You must designate segment as a filter in order to use it with reporting or the Panelist Manager!
