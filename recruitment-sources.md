@@ -1,18 +1,18 @@
-# Recruitment Sources
+## Recruitment Sources
 
 Recruitment sources can be used to keep track of different recruitment sources, their effectiveness and costs. 
 
 > By default all panelist are assigned data variable **RECRUITMENT_SOURCE** = 1.
 
-> Recruitment Source ID is indicated in the blue circle.
+> Recruitment Source ID is indicated in the blue circle, next to the name.
 
-## Creating and editing recruitment sources
+### Creating and editing recruitment sources
 
 Enter the name, cost per conversion and if you are using external recruitment partners select the partner name from the pulldown.
 
 The recruitment partners are configured in **Settings -> Integrations**.
 
-## Tracking recruitment sources in real life
+### Tracking recruitment sources in real life
 
 If you are using the built-in registration survey you need to append **source** query param to the URL. Example:
 
@@ -74,10 +74,10 @@ if your standard **Registration Survey** URL looks like this:
 https://domain.sampleninja.io/registration/1/ENG-US
 ```
 
-You need to append the **source** parameter to the URL which corresponds to Recruitment Source ID assigned for ShareASale.
+You need to append the **source** parameter to the URL which corresponds to **Recruitment Source ID** assigned for ShareASale. The "sscid" parameter is populated by **ShareASale** and contains click ID. 
 
 ```
-https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
+https://domain.sampleninja.io/registration/1/ENG-CA?source=4&sscid=31k7_182ftf
 ```
 
 ### TUNE Recruitment
