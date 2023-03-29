@@ -4,6 +4,8 @@ Recruitment sources can be used to keep track of different recruitment sources, 
 
 > By default all panelist are assigned data variable **RECRUITMENT_SOURCE** = 1.
 
+> Recruitment Source ID is indicated in the blue circle.
+
 ## Creating and editing recruitment sources
 
 Enter the name, cost per conversion and if you are using external recruitment partners select the partner name from the pulldown.
@@ -64,8 +66,22 @@ You need to append all the required parameters and the final URL will look like 
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=a93b5fc7d44234dab8f8
 ```
 
+### ShareASale Recruitment.
+In order to use **ShareASale** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**.
+
+if your standard **Registration Survey** URL looks like this:
+```
+https://domain.sampleninja.io/registration/1/ENG-US
+```
+
+You need to append the **source** parameter to the URL which corresponds to Recruitment Source ID assigned for ShareASale.
+
+```
+https://domain.sampleninja.io/registration/1/ENG-CA?source=10&transaction_id=935f78f8
+```
+
 ### TUNE Recruitment
-In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. You must have an account with **TUNE** and know your **Reporting URL** before you can enable the service. This information is available via the **TUNE** admin interface or from your **TUNE** representative.
+In order to use **TUNE** conversion reporting you must first enable it in the **Panel Settings** under **Integrations**. 
 
 Use the **Integration Partner** pulldown and select **TUNE**
 
