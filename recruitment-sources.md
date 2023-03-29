@@ -2,7 +2,7 @@
 
 Recruitment sources are used to track of different sources of registration traffic. 
 
-When viewing registration source the **Recruitment Source ID** is indicated in the blue circle, next to the recruitment sources name. This recruitment source ID is always appended to the registration survey URL as **source** query parameter.
+When viewing registration source the **Recruitment Source ID** is indicated in the blue circle, next to the recruitment source's name. This recruitment source ID is always appended to the registration survey URL as **source** query parameter.
 
 ```
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10
