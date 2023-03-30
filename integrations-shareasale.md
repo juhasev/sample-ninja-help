@@ -8,4 +8,4 @@ Please enter your **ShareASale Merchant ID and Master Tag number** and toggle th
 
 > Learn more under **Recruitment Sources**.
 
-> Learn more about **ShareASale** at https://www.shareasale.io
+> Learn more about **ShareASale** at https://www.shareasale.com
