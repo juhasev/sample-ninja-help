@@ -1,6 +1,6 @@
 ### ShareASale and the registration survey
 
-Share A Sale is a Partner Marketing Platform that can be used to recruit panelists. **SampleNinja** automatically reports sll conversions back to **ShareASale** This feature can be used if you use the built-in **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
+Share A Sale is a Partner Marketing Platform that can be used to recruit panelists. **SampleNinja** automatically reports sll conversions back to **ShareASale** This feature can be used if you use the built-in **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address.
 
 Please enter your **ShareASale Merchant ID and Master Tag number** and toggle the feature on.
 
