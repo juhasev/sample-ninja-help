@@ -50,6 +50,7 @@ The system variables track various metrics and provide you additional informatio
 - SECURITY_COUNT
 - COMPLETED_COUNT
 - EMAIL_VALID (Can receive email or is bounced)
+- EMAIL_CONFIRMED (Has confirmed their email address)
 - STATUS (Subscribe, Unsubscribe or Blacklisted)
 - RESPONSE_RATE (Response rate in the period as configured in the panel settings) 
 - REVENUE (Lifetime revenue earned for your panelists)
