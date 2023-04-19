@@ -98,6 +98,15 @@ For example, it is possible to create a data variable group such as Demographics
 
 Allows you to filter by the system class. For example one could find all variables that are flagged **Personally Identifiable (PI)** or variables that community users can write (**Community writable**).
 
+1) System Variables (Owner by system and cannot be deleted)
+2) Personal Information (Variables flagged containing PI)
+3) Admin editable (Admin can edit variable i.e. add options)
+4) Admin writable (Admin can modify stored value for the panelist)
+5) Translatable (Admin can retranslate variable)
+6) Registration / import writable (Variable that can be written to when importing or registering new panelists)
+7) Panelist writable (Panelist can change the value themselves)
+8) Community API writable (API can write and change values)
+
 > It is possible to filter by using a combination of both **Group** and **Class** at the same time.
 
 #### Reload Screen
