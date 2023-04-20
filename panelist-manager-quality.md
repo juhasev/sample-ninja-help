@@ -14,26 +14,26 @@ Speeding event is triggered when panelist completes a survey too fast. The speed
 Each time panelist is returned back to Sample Ninja with status "completed", "quota" or "profile" the quality score is incremented.
 
 ### Scores
-```
-**isProxy** -5
-**isHosted** -20
-**isBot** -20
-**ipMismatch** -20
-**duplicateFingerprint** -5
-**fingerprintMismatch** -20
-**isOutOfCountry** -5
-**speeding** -10
-**location** -100
-**linkManipulation** -45
-**supplierDuplicate** -5
-**referFriend** -5
-**fakeEmail** -20
-**quality** -20
-**duplicate** -7
-**security** -45
-**cookieDeleted** -20
-**spoofedLocation** -45
-**completed** +5
-**profile** +10
-**quota** +10
+
+- **isProxy** -5
+- **isHosted** -20
+- **isBot** -20
+- **ipMismatch** -20
+- **duplicateFingerprint** -5
+- **fingerprintMismatch** -20
+- **isOutOfCountry** -5
+- **speeding** -10
+- **location** -100
+- **linkManipulation** -45
+- **supplierDuplicate** -5
+- **referFriend** -5
+- **fakeEmail** -20
+- **quality** -20
+- **duplicate** -7
+- **security** -45
+- **cookieDeleted** -20
+- **spoofedLocation** -45
+- **completed** +5
+- **profile** +10
+- **quota** +10
 ```
