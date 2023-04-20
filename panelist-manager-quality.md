@@ -14,6 +14,7 @@ Speeding event is triggered when panelist completes a survey too fast. The speed
 Each time panelist is returned back to Sample Ninja with status "completed", "quota" or "profile" the quality score is incremented.
 
 ### Scores
+```
 **isProxy** -5
 **isHosted** -20
 **isBot** -20
@@ -35,3 +36,4 @@ Each time panelist is returned back to Sample Ninja with status "completed", "qu
 **completed** +5
 **profile** +10
 **quota** +10
+```
