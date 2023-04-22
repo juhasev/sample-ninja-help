@@ -24,8 +24,7 @@ Each time panelist is returned to Sample Ninja with the status "completed," "quo
 - **fingerprintMismatch** -20 (Fingerprint from start survey does not match fingerprint at the end)
 - **isOutOfCountry** -5
 - **speeding** -10 (Speeding threshold triggered, configurable in the panel settings)
-- **linkManipulation** -45 (Panelist completed project so fast that most likely link was altered)
-- **fakeEmail** -20 (Email does not resemble first or last name or birthday)
+- **linkManipulation** -45 (Panelist completed project so fast that most likely the exit link was altered)
 - **quality** -20 (Reconciled or returned from a survey with quality status)
 - **duplicate** -7 (Duplicate respondent)
 - **security** -45 (Returned from a survey with security status)
