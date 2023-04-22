@@ -8,7 +8,7 @@ The quality events are used to calculate a quality score between 0 and 100 for e
 A quality event is triggered if the panelist is reconciled in a project or returned to Sample Ninja with the status "quality." You should always reconcile for your projects to catch repeat offenders easily.
 
 #### Speeding
-A speeding event is triggered when a panelist completes a survey too fast. The speeding threshold is set in the panel settings. Suppose we have a project where the estimated LOI is set to 10 minutes. If the speeding threshold is set to 50%, any panelist who completes the project in under 5 minutes will be flagged.
+A speeding event is triggered when a panelist completes a survey too fast. The speeding threshold is set in the panel settings. Suppose we have a project where the estimated LOI is set to 10 minutes. If the speeding threshold is set to 50%, any panelist who completes the project in under 5 minutes will be flagged. If a panelist completes the project in less than 1% of the LOI the panelist flagged with **Link Manipulation** event.
 
 #### Completed, profile or quota
 Each time panelist is returned to Sample Ninja with the status "completed," "quota" or "profile," the quality score is incremented.
