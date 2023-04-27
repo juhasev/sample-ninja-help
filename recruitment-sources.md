@@ -50,6 +50,7 @@ https://domain.sampleninja.io/registration/1/ENG-CA
 You need to append all the required parameters and the final URL will look like this:
 
 ```
+https://domain.sampleninja.io/registration/1/ENG-US?source=3&cid=a93b5fc7d44234dab8f8
 https://domain.sampleninja.io/registration/1/ENG-CA?source=10&cid=a93b5fc7d44234dab8f8
 ```
 
