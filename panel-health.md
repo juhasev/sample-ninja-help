@@ -1,10 +1,41 @@
-## HEALTH SCORE
+## Health Metrics
+
+### Health score
 
 The panel health score measures how many panelist are invited and completing projects. If the started count than the invited count then started count is used instead i.e. you run a lot of projects that do not send invitations our at all. The selected period and/or **Sub Panel** filter affects the health score.
 
 > Formula is: invited count OR started count / completed count x 100%
 
 > Low health score is indication of panelist fatigue or other issues like panelists are not completing enough projects. When panelist are not earning any rewards points they have little reason to start projects or participate in general.
+
+### Quality score
+
+The quality score can be between 0 and 100 and go up and down when any of the following take place:
+
+### Scores
+
+#### Score deductions
+- **isProxy** -5 (Public VPN service)
+- **isHosted** -20 (Proxy or origination from a known server)
+- **isBot** -20
+- **ipMismatch** -20
+- **duplicateFingerprint** -5 (Duplicate fingerprint)
+- **fingerprintMismatch** -20 (Fingerprint from start survey does not match fingerprint at the end)
+- **isOutOfCountry** -5
+- **speeding** -10 (Speeding threshold triggered, configurable in the panel settings)
+- **linkManipulation** -45 (Panelist completed project so fast that most likely the exit link was altered)
+- **quality** -20 (Reconciled or returned from a survey with quality status)
+- **duplicate** -7 (Duplicate respondent)
+- **security** -45 (Returned from a survey with security status)
+
+#### Score additions
+- **completed** +5 (Quality score earned for completing a project)
+- **profile** +10 (Quality score earned for profile status)
+- **quota** +10 (Quality score earned for quota status)
+
+> Always reconcile your projects to keep the QUALITY_SCORE accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
+
+> You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
 
 ### Active vs. Engaged
 
