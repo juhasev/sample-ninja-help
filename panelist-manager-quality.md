@@ -34,4 +34,6 @@ Each time panelist is returned to Sample Ninja with the status "completed," "quo
 - **profile** +10 (Quality score earned for profile status)
 - **quota** +10 (Quality score earned for quota status)
 
+> Always reconcile your projects to keep the QUALITY_SCORE accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
+> You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
