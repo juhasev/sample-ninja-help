@@ -33,6 +33,8 @@ The quality score can be between 0 and 100 and go up and down when any of the fo
 - **profile** +10 (Quality score earned for profile status)
 - **quota** +10 (Quality score earned for quota status)
 
+> Please note that The Average Quality Score is calculated using panelists that have at least one completed interview. This keeps the average quality score more realistic as you only really care about panelists who are actually completing surveys.
+
 > Always reconcile your projects to keep the QUALITY_SCORE accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
 > You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
