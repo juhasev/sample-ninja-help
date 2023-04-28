@@ -11,7 +11,7 @@ A quality event is triggered if the panelist is reconciled in a project or retur
 A speeding event is triggered when a panelist completes a survey too fast. The speeding threshold is set in the panel settings. Suppose we have a project where the estimated LOI is set to 10 minutes. If the speeding threshold is set to 50%, any panelist who completes the project in under 5 minutes will be flagged. If a panelist completes the project in less than 1% of the LOI the panelist flagged with **Link Manipulation** event.
 
 #### Completed, profile or quota
-Each time panelist is returned to Sample Ninja with the status "completed," "quota" or "profile," the quality score is incremented.
+Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10.
 
 ### Scores
 
@@ -29,11 +29,6 @@ Each time panelist is returned to Sample Ninja with the status "completed," "quo
 - **duplicate** -7 (Duplicate respondent)
 - **security** -45 (Returned from a survey with security status)
 
-#### Score additions
-- **completed** +5 (Quality score earned for completing a project)
-- **profile** +10 (Quality score earned for profile status)
-- **quota** +10 (Quality score earned for quota status)
-
-> Always reconcile your projects to keep the QUALITY_SCORE accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
+> Always reconcile your projects to keep the **QUALITY_SCORE** accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
 > You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
