@@ -10,7 +10,7 @@ The panel health score measures how many panelist are invited and completing pro
 
 ### Quality score
 
-The quality score can be between 0 and 100 and go up and down when any of the following take place:
+The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10.
 
 ### Scores
 
@@ -27,11 +27,6 @@ The quality score can be between 0 and 100 and go up and down when any of the fo
 - **quality** -20 (Reconciled or returned from a survey with quality status)
 - **duplicate** -7 (Duplicate respondent)
 - **security** -45 (Returned from a survey with security status)
-
-#### Score additions
-- **completed** +5 (Quality score earned for completing a project)
-- **profile** +10 (Quality score earned for profile status)
-- **quota** +10 (Quality score earned for quota status)
 
 > Please note that The Average Quality Score is calculated using panelists that have at least one completed interview. This keeps the average quality score more realistic as you only really care about panelists who are actually completing surveys.
 
