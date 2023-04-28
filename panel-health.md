@@ -8,7 +8,7 @@ The panel health score measures how many panelist are invited and completing pro
 
 > Low health score is indication of panelist fatigue or other issues like panelists are not completing enough projects. When panelist are not earning any rewards points they have little reason to start projects or participate in general.
 
-### Quality score
+### Quality score (BETA)
 
 The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10.
 
