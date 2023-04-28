@@ -1,4 +1,4 @@
-## Quality Score
+## Quality Score (BETA)
 
 The quality events are used to calculate a quality score between 0 and 100 for each panelist. The quality score is recorded to the system variable **QUALITY_SCORE** and can be used in filtering and queries. Essentially the quality score decrements for bad behaviors and increments for good behavior.
 
