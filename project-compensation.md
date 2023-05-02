@@ -2,8 +2,9 @@
 
 Project compensation is automatically selected from **Sub Panels -> Settings -> Compensation -> Compensation table** based on the entered project LOI (Lenght Of Interview) setting in the **Basic Settings** tab.
 
-Client CPI (This is the sample cost to your client or your revenue)
-Compensation (Compensation in reward points)
+- Client CPI (This is the sample cost to your client or your revenue)
+- Compensation (Compensation in reward points)
+- Net Revenue (which is CPI - cost of reward points)
 
 Use the revenue calculator to apply correct per panelist revenue or Client CPI (Cost Per Incidence). You must first enter **Project cost** or **Client CPI** in the **Basic Settings** -tab. Sample Ninja tracks revenue per panelist and can report various metrics like how profitable certain segments coming from various recruitment sources are and more. Using the Revenue / Client CPI is optional but **highly recommended**.
 
