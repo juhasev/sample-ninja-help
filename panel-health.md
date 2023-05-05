@@ -8,9 +8,9 @@ The panel health score measures how many panelist are invited and completing pro
 
 > Low health score is indication of panelist fatigue or other issues like panelists are not completing enough projects. When panelist are not earning any rewards points they have little reason to start projects or participate in general.
 
-### Quality score (BETA)
+### Quality score
 
-The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10.
+The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10. The quality score is stored in **QUALITY_SCORE** variable enabling you to use it in the Business Rules, qualification, filter and more.
 
 ### Scores
 
@@ -30,9 +30,9 @@ The quality score can be between 0 and 100. Each time panelist is returned to Sa
 
 > Please note that The Average Quality Score is calculated using panelists that have at least one completed interview. This keeps the average quality score more realistic as you only really care about panelists who are actually completing surveys.
 
-> Always reconcile your projects to keep the QUALITY_SCORE accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
+> Always reconcile your projects to keep the Qualify Score accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
-> You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
+> You can easily find all panelists whose the Quality Score has fallen too low, similarly you can automatically exclude panelists with low-quality score by adjusting your panel's **Business Rules**.
 
 ### Active vs. Engaged
 
