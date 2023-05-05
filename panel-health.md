@@ -10,7 +10,7 @@ The panel health score measures how many panelist are invited and completing pro
 
 ### Quality score
 
-The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10. The quality score is stored in **QUALITY_SCORE** variable enabling you to use it in the Business Rules, qualification, filter and more.
+The quality score can be between 0 and 100. Each time panelist is returned to Sample Ninja with the status "completed," the quality score is incremented +10. The quality score is stored in **QUALITY_SCORE** variable enabling you to use it in the Business Rules, qualifications, filters and more.
 
 ### Scores
 
