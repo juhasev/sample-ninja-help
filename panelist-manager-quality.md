@@ -1,4 +1,4 @@
-## Quality Score (BETA)
+## Quality Score 
 
 The quality events are used to calculate a quality score between 0 and 100 for each panelist. The quality score is recorded to the system variable **QUALITY_SCORE** and can be used in filtering and queries. Essentially the quality score decrements for bad behaviors and increments for good behavior.
 
@@ -17,17 +17,17 @@ Each time panelist is returned to Sample Ninja with the status "completed," the 
 
 #### Score deductions
 - **isProxy** -5 (Public VPN service)
-- **isHosted** -20 (Proxy or origination from a known server)
-- **isBot** -20
-- **ipMismatch** -20
-- **duplicateFingerprint** -5 (Duplicate fingerprint)
-- **fingerprintMismatch** -20 (Fingerprint from start survey does not match fingerprint at the end)
-- **isOutOfCountry** -5
+- **isHosted** -20 (The request is originating from a known server address which is most likely a proxy) 
+- **isBot** -20 (Known list of bots / crawlers)
+- **ipMismatch** -20 (If the IP addresses changes between when a panelist starts and completes a survey)
+- **duplicateFingerprint** -5 (This flag will occur if the fingerprint matches an existing fingerprint, i.e. taking survey from two accounts on the same computer)
+- **fingerprintMismatch** -20 (The fingerprint from the start of the survey does not match the fingerprint at the end of the survey)
+- **isOutOfCountry** -5 (The IP address is located outside the country for panelist locale)
 - **speeding** -10 (Speeding threshold triggered, configurable in the panel settings)
 - **linkManipulation** -45 (Panelist completed project so fast that most likely the exit link was altered)
 - **quality** -20 (Reconciled or returned from a survey with quality status)
-- **duplicate** -7 (Duplicate respondent)
-- **security** -45 (Returned from a survey with security status)
+- **duplicate** -7 (Reconciled or returned from a survey with duplicate status)
+- **security** -45 (Returned from a survey with security status or panelist fails to meet sub panel security requirements)
 
 > Always reconcile your projects to keep the **QUALITY_SCORE** accurate! Similarly, try to always set the LOI or Length Of Interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
