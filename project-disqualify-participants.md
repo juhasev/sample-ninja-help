@@ -15,17 +15,17 @@ The identifier list should only contain panelist identifiers in the format ```49
 
 Once submitted, the server will perform a test run and report back the number of panelits affected
 
-1) disqualified 
-2) promoted to complete
-3) no action taken
-4) invalid panelist IDs
-
-If you get many invalid panelist IDs, you are likely reconciling the wrong project! Or it could also be possible that those panelists do not have **started** status in the project.
+1) Disqualified 
+2) Promoted to complete
+3) No action taken
+4) Invalid panelist IDs
 
 The no action taken simply means that 
 
 1) Panelist's current status not match the statuses on allowed list (when reconciled to complete).
 2) Panelist already has a status you are reconciling to.
+
+If you get many invalid panelist IDs, you are likely reconciling the wrong project! Or it could also be possible that those panelists do not have **started** status in the project.
 
 ### What does the disqualification process do?
 
