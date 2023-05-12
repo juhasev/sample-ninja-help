@@ -1,4 +1,4 @@
-### Reconcile participants
+## Reconcile participants
 
 You can reconcile panelists in 3 different ways:
 
