@@ -13,12 +13,12 @@ You can also reconcile specific panelists to completed by using the “Reconcile
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Optionally the identifiers can be separated by a comma and/or be enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
-Once submitted, the server will perform a test run and report back
+Once submitted, the server will perform a test run and report back the number of panelits affected
 
-1) # of disqualified 
-2) # of promoted to complete
-3) # of no action taken
-4) # of invalid panelist IDs
+1) disqualified 
+2) promoted to complete
+3) no action taken
+4) invalid panelist IDs
 
 If you get many invalid panelist IDs, you are likely reconciling the wrong project! Or it could also be possible that those panelists do not have **started** status in the project.
 
