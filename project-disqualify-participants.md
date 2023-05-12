@@ -34,7 +34,7 @@ If you get many invalid panelist IDs, you are likely reconciling the wrong proje
 - Revenue record is created
 - QUALITY_SCORE is adjusted up
 - Quotas are incremented
-- Any quality or duplicate flags are removed, and QUALITY_SCORE is adjusted up
+- Any quality, security or duplicate flags are removed, and QUALITY_SCORE is adjusted up
 
 **RECONCILE TO DISQUALIFIED**
 - Earned rewards for the project points are set to zero
