@@ -6,7 +6,7 @@ You can reconcile panelists in 3 different ways:
 2) Reconcile to complete. Only changed provided IDs to complete -status.
 3) Reconcile to quality or duplicate. Only changes provided ISs to duplicate -status.
 
-You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. In this new mode, anybody else not included in the completes will get automatically reconciled. Additionally, you can provide additional instructions on which statuses should be reconciled to complete. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
+You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. In this mode, anybody else not included in the completes will get automatically reconciled. For these reason you must select **Disqualification reason**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
 
 You can also reconcile specific panelists to completed by using the “Reconcile to complete” mode or, like before, disqualify them for quality or duplication using the “Reconcile to disqualified” mode.
 
