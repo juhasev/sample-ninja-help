@@ -20,7 +20,7 @@ Once submitted, the server will perform a test run and report back the number of
 3) No action taken
 4) Invalid panelist IDs
 
-The no action taken simply means that 
+The **no action taken** simply means that 
 
 1) Panelist's current status not match the statuses on allowed list (when reconciled to complete).
 2) Panelist already has a status you are reconciling to.
