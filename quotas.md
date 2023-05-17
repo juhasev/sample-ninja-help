@@ -1,6 +1,6 @@
-### Sample Quota Balancing
+### Quotas
 
-By setting quotas you can control more precisely how your sample is balanced. Using balacingquotas is optional.
+By setting quotas you can control more precisely how your sample is balanced. Using quotas is optional.
 
 #### Target completes
 
