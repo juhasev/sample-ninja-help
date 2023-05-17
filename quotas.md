@@ -1,4 +1,4 @@
-### Quotas
+## Quotas and balancing your sample
 
 By setting quotas you can control more precisely how your sample is balanced. Using quotas is optional.
 
