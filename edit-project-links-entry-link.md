@@ -37,6 +37,8 @@ Parameter names can be fully customized to match what is used in the survey. For
 
 https://surveyengine.com?project=343&g=1
 
+> Date variables can be casted to age. For example if you want to pass in **BIRTH_DATE** check the toggle to cast to age.
+
 #### Sending Radio data to a survey
 Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
 
