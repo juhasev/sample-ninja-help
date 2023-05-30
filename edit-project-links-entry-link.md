@@ -1,28 +1,28 @@
 ## Survey entry redirects
 
-The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform but it can also be any other system that sits in between. Additionally you can send in panelist ID, data variable data and enable URL security via hashing.
+The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform, but it can also be any other system. Additionally, you can send in panelist ID, and data variable data and enable URL security via hashing.
 
-> The default redirect for new projects points to **Sample Ninja - Test Survey** that can be used in place of an actual survey for testing purposes. When using the test survey you can manually select the desired survey outcome i.e. COMPLETED, QUALITY, QUOTA etc...
+> The default redirect for new projects points to **Sample Ninja - Test Survey** that can be used instead of an actual survey for testing purposes. When using the test survey, you can manually select the desired outcome, i.e., COMPLETED, QUALITY, QUOTA, etc...
 
 ### Settings
 
 - Base URL: Enter the base URL for the survey platform you intend to use.
-- Panelist ID param name: Enter parameter name you would like to use passing **Panelist ID** to the survey platform. (This parameter is automatically inserted)
-- Use random panelist ID to test: Select yes if you survey platform requires using unique panelist IDs when testing.
-- Hash algorithm: Select which hashing algorithm is used to tamper proof redirects.
+- Panelist ID param name: Enter the parameter name you want to use, passing **Panelist ID** to the survey platform. (This parameter is automatically inserted)
+- Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
+- Hash algorithm: Select which hashing algorithm is used to tamper-proof redirects.
 - Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
-- Passcode param name: This option is only visible for **Re-contact** projects and be used to automatically pass in an uploaded passcode.
+- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
 
 ## Templates
-Templates allow you to pre-define survey entry and exit redirects URL, hashing and parameter names for the most common survey platforms that you send sample to. This can be a real time save when you sending to a specific target platform regularly. Templates allow you to define everything that is needed for the target platform including hash URL of the target platform, hashing algorithm, hashing secret and the parameters names. 
+Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. This can be a real-time save when you send to a specific target platform regularly. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
 
 > We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
 
-When you define templates you can use place holders for URL parameters that need to be manually replaced. For example, most survey platforms require that you pass in a survey ID. Let's say that it needs to be placed to **survey_id** -parameter, then your **Base URL** would look like this:
+When you define templates, you can use placeholders for URL parameters that need to be manually replaced. For example, most survey platforms require that you pass in a survey ID. Let's say that it needs to be placed to **survey_id** -parameter, then your **Base URL** would look like this:
 
 https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
-When the template is applied you would only need to change the [SURVEY ID] with the desired target survey ID.
+When the template is applied, you only need to change the [SURVEY ID] with the desired target survey ID.
 
 The following pipes are inserted automatically:
 
@@ -33,11 +33,12 @@ The following pipes are inserted automatically:
 ### Passing variable data to surveys
 Data variables can be easily passed using the **Select Data Variables** button to choose the required ones from the available selection.
 
-Parameter names can be fully customized to match what is used in the survey. For example if **GENDER** is selected, the resulting URL might look like this:
+Parameter names can be fully customized to match what is used in the survey. For example, if **GENDER** is selected, the resulting URL might look like this:
 
 https://surveyengine.com?project=343&g=1
 
-> Date variables can be casted to age. For example if you want to pass in **BIRTH_DATE** check the toggle to cast to age.
+#### Sending Date data to a survey
+Dates are passed in ISO dates like 2023-01-26. Optionally you may pass any date variable as age by enabling the "Cast to Age" toggle. A typical use case would be to pass in **BIRTH_DATE** as age.
 
 #### Sending Radio data to a survey
 Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
@@ -45,48 +46,48 @@ Radio data is piped using the **Option ID** number visible when you edit the **D
 https://surveyengine.com?project=[ID]&education=5
 
 #### Sending Checkbox data to a survey
-Sample Ninja pipes check box values as multiple values. For example, if using the **HOBBIES** data variable with values 1,2,3 the URL would be something like:
+Sample Ninja pipes check box values as multiple values. For example, if using the **HOBBIES** data variable with values 1,2,3 then the URL would be something like this:
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
-> Some survey platforms may use alternate formats like hobbies=1,2,3. For this purpose enable **string** piping option.
+> Some survey platforms may use alternate formats like hobbies=1,2,3. For accomplish this, enable **Pipe checkbox values as string** toggle.
 
 #### Sending Locale -variable to a survey
-Every panelist has an assigned locale, for example ENG-US. If a multilingual survey is being run, then the **LOCALE** data variable should be piped into the survey.
+Every panelist has an assigned locale, for example, ENG-US. If a multilingual survey is being run, then the **LOCALE** data variable should be piped into the survey.
 
-> Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this stuation.
+> Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this situation.
 
-#### Test and sending variable data
+#### Test and send variable data
 Sample Ninja will automatically insert random data for all the defined data variable pipes.
 
-> The inserted data for the Keyword and the Text -variable types is static because there is no way for the test data generator to figure out the real intent of the data variable. For example if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly for the text variable, if the example **DESCRIPTON** is used, data set would show as **test_text_description**.
+> The inserted data for the Keyword and the Text -variable types are static because there is no way for the test data generator to figure out the real intent of the data variable. For example, if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly, for the text variable, if the example **DESCRIPTION** is used, the data set would show as **test_text_description**.
  
 ### Panelist ID
-Panelist ID is automatically piped in the URL and is mandatory. You do not have to manually define insert this, but instead you configure you survey entry link param name and **SampleNinja** will take care of the rest for you. You should save the panelist ID along with the survey responses. This is important when you reconsile participants after the survey data has been reviewed. By default the parameter name is **pid** but you may customize this to match the target survey platform.
+Panelist ID is automatically piped in the URL and is mandatory. You do not have to define and insert this manually, but instead, you configure your survey entry link param name, and **SampleNinja** will take care of the rest for you. You should save the panelist ID along with the survey responses. This is important when you reconcile participants after the survey data has been reviewed. By default, the parameter name is **pid**, but you may customize this to match the target survey platform.
 
 https://surveyengine.com?pid=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
-If **Random test ID** is toggled on, Sample Ninja will send random panelist ID to the test survey when testing the survey link. In some cases this makes testing easier especially if duplicate IDs are blocked by the survey software.
+If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID to the test survey when testing the survey link. Sometimes, this makes testing easier, especially if the survey software blocks duplicate IDs.
 
 ## Signing and security
-Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algoritms:
+Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
 - MD5 (not recommended)
 - SHA1 
 - SHA256 (recommended)
 
-> If you need additional signing algorithms please contact us and we will consider adding them
+> If you need additional signing algorithms, please contact us and we will consider adding them
 
 > You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
 
-> **IMPORTANT:** If the computed hash does not match you should always return panelist back to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+> **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
 
 ## Example hash calculations
-These examples use real computed hash values so that you can verify your own hash calculations using the examples. Please note that these examples are simplified and we have intentionally omitted panelist ID or **pid** parameter.
+These examples use real computed hash values so that you can verify your hash calculations using the examples. Please note that these examples are simplified, and we have intentionally omitted the panelist ID or **pid** parameter.
 
 ### Example A
 
-In this example we are using **SHA-256** algorithm with secret **MySecretPasscode** to verify that URL has not been tampered with.
+In this example, we use the **SHA-256** algorithm with secret **MySecretPasscode** to verify that the URL has not been tampered with.
 
 Survey entry link produced by **Sample Ninja**
 
@@ -94,7 +95,7 @@ Survey entry link produced by **Sample Ninja**
 https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
 
-#### Step 1 - Remove protocol, host and hash -parameter:
+#### Step 1 - Remove protocol, host, and hash -parameter:
 ```
 /projects?project_id=10&region=2&country=US
 ```
@@ -124,7 +125,7 @@ Survey entry link:
 ```
 https://surveyengine.com/projects?country=US&project_id=10&region=2&hash=d86cca325d097945e54e8f394d031e10e17e815f
 ```
-#### Step 1 - Remove protocol, host and hash -parameter:
+#### Step 1 - Remove protocol, host, and hash -parameter:
 ```
 /projects?country=US&project_id=10&region=2
 ```
@@ -150,13 +151,13 @@ d86cca325d097945e54e8f394d031e10e17e815f
 
 ### Example C
 
-In this example we will be using **SHA-256** algorithm with secret **MySecretPasscode** to verify the value hash supplied by **Sample Ninja**
+In this example, we will be using **SHA-256** algorithm with secret **MySecretPasscode** to verify the value hash supplied by **Sample Ninja**
 
 Survey entry link:
 ```
 https://surveyengine.com/projects??country=US&project_id=10&region=2&hash=b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
-#### Step 1 - Remove protocol, host and hash -parameter
+#### Step 1 - Remove protocol, host, and hash -parameter
 ```
 /projects?country=US&project_id=10&region=2
 ```
@@ -185,7 +186,7 @@ Survey entry link:
 https://surveyengine.com/projects?p=1435540&r=2&c=US&g=1&hash=93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
 
-#### Step 1 - Remove protocol, host and hash -parameter
+#### Step 1 - Remove protocol, host, and hash -parameter
 Hashable URL part (params sorted alphabetically)
 ```
 /projects?c=US&g=1&p=1435540&r=2
@@ -206,6 +207,7 @@ echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); //
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
 #### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+
 
 
 
