@@ -20,8 +20,6 @@ In the above examples, four blacklist items will be added to our system.
 
 > **IMPORTANT**: Entering email addresses belonging to existing panelists do not change their status to **BLACKLISTED** but simply prevents them from joining the panel again via the **Registration Survey**. You should always use the **Panelist Manager** to blacklist exising panelists if you want to terminate their membership! 
 
----
-
 Once an email or IP is blacklisted, specific actions are taken based on the type of item:
 
 - If a user tries to access any **Registration Survey** using a blacklisted IP address, they will receive a "404 Not Found" page, indicating that the registration survey is unavailable.
