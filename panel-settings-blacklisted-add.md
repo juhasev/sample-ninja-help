@@ -1,4 +1,4 @@
-## Manually add Blacklisted IP addresses or emails
+## Adding blacklisted IP addresses or emails manually
 
 To prevent unauthorized access, you can add blacklisted items such as emails and/or IP addresses. 
 This allows you to block specific users or sources from accessing **Registration Surveys**.
