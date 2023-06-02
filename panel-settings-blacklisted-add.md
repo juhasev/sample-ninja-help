@@ -18,7 +18,7 @@ panelist-two@example.org,127.0.0.1
 
 In the above examples, four blacklist items will be added to our system.
 
-> **IMPORTANT**: Entering email addresses belonging to existing panelists do not change their status to **BLACKLISTED** but simply prevents them from joining the panel again via the **Registration Survey**. You should always use the **Panelist Manager** to blacklist exising panelists if you want to terminate their membership! When panelists are blacklisted their email addresses are automatically placed on the blacklist! 
+> **IMPORTANT**: Entering email addresses belonging to existing panelists do not change their status to **BLACKLISTED** but simply prevents them from joining the panel again via the **Registration Survey**. You should always use the **Panelist Manager** to blacklist exising panelists if you want to terminate their membership! When managing panelists via the **Panelist Manager** the panelists' email is automatically placed on the blacklist! 
 
 Once an email or IP is blacklisted, specific actions are taken based on the type of item:
 
