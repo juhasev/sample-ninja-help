@@ -1,4 +1,4 @@
-### Service Credits
+## Service Credits
 
 Service Credits can be purchased and enables you to use third party premium services such as Research Defender.
 
