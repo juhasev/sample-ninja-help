@@ -62,4 +62,4 @@ Alternate URL will receive the following query parameters:
 - **locale** Pass in using **LOCALE** variable
 - **source** Pass in using **RECRUITMENT_SOURCE** variable
 
-
+> Please note when testing that there is random delay up to 12 hours of sending the **Refer a friend** email out. If the referring panelist's email address matches one of the admin users there will be no delay!
