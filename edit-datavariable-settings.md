@@ -4,6 +4,8 @@ Each variable has it's own unique label. The labels are used to identify the dat
 ## Display name
 Let's you specify more human readable label for the data variable. For example if you use data variable label **HH_MEMBERS** you could give it a more readable  display name like **Household Members**. The display name is used in the query builder to make queries more readable and understandable by junior **Project Managers**.
 
+
+
 ## Option labels
 Option labels are shown for radio and checkbox questions only.
 
