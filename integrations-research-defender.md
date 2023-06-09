@@ -13,6 +13,6 @@ Select **ON** to protect all registration surveys regardless of the **Sub Panel*
 #### Screen surveys percentage
 Enter a percentage of panelists to screen when they start a survey.
 
-> Each lookup costs 2 cents or USD $0.02
+> Each lookup costs 2 cents or USD $0.02. There is no montly minimum.
 
 > To use Research Defender, you must purchase Sample Ninja service credits under **Panel Settings -> Service Credits**
