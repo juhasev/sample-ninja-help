@@ -1,18 +1,18 @@
 ## Research Defender
 
-Research Defender is a premium service that helps you to cut down panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling this settings for all customer facing panels especially for **the Registration Survey**. You can optionally screen percentage of survey starts, a handy setting for existing panels.
+Research Defender is a premium service that helps you to cut down panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling Research Defender for all consumer panels, especially for **the Registration Survey**. You can save service credits by changing **Screen survey frequency**.
 
 ### Configuration
 
 #### Maximum fraud score
-Enter maximum fraud score when a panelist should be terminated. **Research Defender** recommends that any body with higher score than 29 should be terminated.
+Enter the maximum fraud score when a panelist should be terminated. **Research Defender** recommends that anybody with a higher score than 29 be terminated.
 
 #### Protect all registrations surveys
-Select **ON** to protect all registration surveys regardless of the **Sub Panel**. It is highly recommend to do this to prevent fraudulent panelists from signing up for you panel.
+Select **ON** to protect all registration surveys regardless of the **Sub Panel**. It is highly recommended to do this to prevent fraudulent panelists from signing up for your panel.
 
-#### Re-screen survey frequency
-Enter a re-screen frequency to test started surveys. Always, Daily, Weekly or Monthly. This settings applies to survey starts only.
+#### Screen survey frequency
+Enter a screen frequency for started surveys. Always, Daily, Weekly, or Monthly. This setting applies to survey starts only. This setting enables you to save in Research Defender lookup costs. Please keep in mind that the fraud landscape changes daily. Somebody with a perfect **Research Defender** fraud score may go fraudulent the next day!
 
-> Each lookup costs 2 cents or USD $0.02. There is no montly minimum.
+> Each lookup costs 2 cents or USD 0.02. There is no monthly minimum.
 
 > To use Research Defender, you must purchase Sample Ninja service credits under **Panel Settings -> Service Credits**
