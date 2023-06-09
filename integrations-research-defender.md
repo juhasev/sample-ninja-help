@@ -13,6 +13,9 @@ Select **ON** to protect all registration surveys regardless of the **Sub Panel*
 #### Screen survey frequency
 Enter a screen frequency for started surveys. Always, Daily, Weekly, or Monthly. This setting applies to survey starts only. This setting enables you to save in Research Defender lookup costs. Please keep in mind that the fraud landscape changes daily. Somebody with a perfect **Research Defender** fraud score may go fraudulent the next day!
 
+> **IMPORTANT**: If you change this settings from always duplicate protection will not work for the registration survey or projects.
+
+### Cost and service credits
 > Each lookup costs 2 cents or USD 0.02. There is no monthly minimum.
 
 > To use Research Defender, you must purchase Sample Ninja service credits under **Panel Settings -> Service Credits**
