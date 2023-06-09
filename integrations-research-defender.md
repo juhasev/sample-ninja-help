@@ -10,8 +10,8 @@ Enter maximum fraud score when a panelist should be terminated. **Research Defen
 #### Protect all registrations surveys
 Select **ON** to protect all registration surveys regardless of the **Sub Panel**. It is highly recommend to do this to prevent fraudulent panelists from signing up for you panel.
 
-#### Screen surveys percentage
-Enter a percentage of panelists to screen when they start a survey.
+#### Re-screen survey frequency
+Enter a re-screen frequency to test started surveys. Always, Daily, Weekly or Monthly. This settings applies to survey starts only.
 
 > Each lookup costs 2 cents or USD $0.02. There is no montly minimum.
 
