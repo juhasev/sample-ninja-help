@@ -5,7 +5,9 @@ Research Defender is a premium service that helps you to cut down panel fraud. I
 #### Configuration
 
 **Maximum fraud score** indicates when a panelist should be terminated. **Research Defender** recommends that any body with higher score than 29 should be terminated.
+
 **Protect all registrations surveys** Select on to protect all registration surveys regardless of the **Sub Panel**
+
 **Screen surveys** Enter a percentage of panelists to screen.
 
 > Each lookup costs 2 cents or USD $0.02
