@@ -100,15 +100,14 @@ The following Python example is Decipher compatible. You cannot enter & in Decip
 import hashlib 
 
 AMPERSAND = chr(38)
+SECRET = "OmLXcVR"
 
 #----------------------------------
 # Minimal example
-# Produces correct hash
 #----------------------------------
-secret = "OmLXcVR"
 
 url = "/p/exit?s=c"
-urlWithSecret = "/p/exit?s=c" + secret
+urlWithSecret = "/p/exit?s=c" + SECRET
 hash = hashlib.sha256(urlWithSecret.encode()).hexdigest()
 
 print("\nMinimal example\n")
@@ -116,15 +115,14 @@ print("Original with params sorted alphabetically:\n" + url + "\n");
 print("Url with secret hashed:\n" + urlWithSecret + "\n")
 print("Redirect with hash:\n" + url + AMPERSAND + "hash=" + hash + "\n");
 
-#----------------------------------
-# Skate around amp; issue
-# Produces correct hash
-#----------------------------------
-secret = "OmLXcVR"
+#--------------------------------------------------------
+# Example with panelist ID (Skate around & saving issue)
+# IMPORTANT: Param names must be in alphabetical order
+#--------------------------------------------------------
 panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
 
 url = "/p/exit?id=" + panelistId + AMPERSAND + "s=c"
-urlWithSecret = "/p/exit?id=" + panelistId + AMPERSAND + "s=c" + secret
+urlWithSecret = "/p/exit?id=" + panelistId + AMPERSAND + "s=c" + SECRET
 hash = hashlib.sha256(urlWithSecret.encode()).hexdigest()
 
 print("\nWith panelist ID example\n")
