@@ -109,8 +109,7 @@ secret = "OmLXcVR"
 
 url = "/p/exit?s=c"
 urlWithSecret = "/p/exit?s=c" + secret
-encoded = url.encode()
-hash = hashlib.sha256(encoded).hexdigest()
+hash = hashlib.sha256(urlWithSecret.encode()).hexdigest()
 
 print("\nMinimal example\n")
 print("Original with params sorted alphabetically:\n" + url + "\n");
@@ -126,8 +125,7 @@ panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
 
 url = "/p/exit?id=" + panelistId + AMPERSAND + "s=c"
 urlWithSecret = "/p/exit?id=" + panelistId + AMPERSAND + "s=c" + secret
-encoded = urlWithSecret.encode()
-hash = hashlib.sha256(encoded).hexdigest()
+hash = hashlib.sha256(urlWithSecret.encode()).hexdigest()
 
 print("\nWith panelist ID example\n")
 print("Original with params sorted alphabetically:\n" + url + "\n");
