@@ -93,7 +93,54 @@ Example result using **SHA-256** algorithm with secret **MySecretPasscode**.
 https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
 ```
 
+### Python example:
+The following Python example is Decipher compatible. You cannot enter & in Decipher as will be rejected when you submit your code. The following example illustrated how go around this validation issue:
 
+```
+import hashlib 
+
+AMPERSAND = chr(38)
+SECRET = "OmLXcVR"
+
+#----------------------------------
+# Minimal example
+#----------------------------------
+
+url = "/p/exit?s=c" + SECRET
+encoded = url.encode()
+hash = hashlib.sha256(encoded).hexdigest()
+
+print ("Minimal setup without panelist ID")
+print(url)
+print(url + AMPERSAND + "hash=" + hash);
+
+#----------------------------------
+# Skate around amp; issue
+# Produces correct hash
+#----------------------------------
+secret = "OmLXcVR"
+panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
+
+url = "/p/exit?s=c" + AMPERSAND + "id=" + panelistId + SECRET
+encoded = url.encode()
+hash = hashlib.sha256(encoded).hexdigest()
+
+print("\nWith panelist ID")
+print(url)
+print(url + AMPERSAND + "hash=" + hash);
+```
+
+Produces the following results:
+```
+Minimal setup
+/p/exit?s=cOmLXcVR
+/p/exit?s=cOmLXcVR&hash=70066f17bfa9d3bfa3346e15694c30d0735ba6b6fcc45bc31957031f150d83f8
+
+With panelist ID
+/p/exit?s=c&id=48dc5f0c-e453-4c40-9952-8204bdedfc61OmLXcVR
+/p/exit?s=c&id=48dc5f0c-e453-4c40-9952-8204bdedfc61OmLXcVR&hash=ecc5ccb26082a2bd2b0dee5506e4a2d55e1df18e05fa53ce39e24f6212c040b6
+ecc5ccb26082a2bd2b0dee5506e4a2d55e1df18e05fa53ce39e24f6212c040b6
+```
 
 
 
