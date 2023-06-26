@@ -115,8 +115,7 @@ print(url)
 print(url + AMPERSAND + "hash=" + hash);
 
 #----------------------------------
-# Skate around amp; issue
-# Produces correct hash
+# Skate around ampersand issue
 #----------------------------------
 secret = "OmLXcVR"
 panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
