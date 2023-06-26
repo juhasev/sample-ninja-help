@@ -100,46 +100,63 @@ The following Python example is Decipher compatible. You cannot enter & in Decip
 import hashlib 
 
 AMPERSAND = chr(38)
-SECRET = "OmLXcVR"
 
 #----------------------------------
 # Minimal example
+# Produces correct hash
 #----------------------------------
+secret = "OmLXcVR"
 
-url = "/p/exit?s=c" + SECRET
+url = "/p/exit?s=c"
+urlWithSecret = "/p/exit?s=c" + secret
 encoded = url.encode()
 hash = hashlib.sha256(encoded).hexdigest()
 
-print ("Minimal setup without panelist ID")
-print(url)
-print(url + AMPERSAND + "hash=" + hash);
+print("\nMinimal example\n")
+print("Original with params sorted alphabetically:\n" + url + "\n");
+print("Url with secret hashed:\n" + urlWithSecret + "\n")
+print("Redirect with hash:\n" + url + AMPERSAND + "hash=" + hash + "\n");
 
 #----------------------------------
-# Skate around ampersand issue
+# Skate around amp; issue
+# Produces correct hash
 #----------------------------------
 secret = "OmLXcVR"
 panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
 
-url = "/p/exit?s=c" + AMPERSAND + "id=" + panelistId + SECRET
-encoded = url.encode()
+url = "/p/exit?id=" + panelistId + AMPERSAND + "s=c"
+urlWithSecret = "/p/exit?id=" + panelistId + AMPERSAND + "s=c" + secret
+encoded = urlWithSecret.encode()
 hash = hashlib.sha256(encoded).hexdigest()
 
-print("\nWith panelist ID")
-print(url)
-print(url + AMPERSAND + "hash=" + hash);
+print("\nWith panelist ID example\n")
+print("Original with params sorted alphabetically:\n" + url + "\n");
+print("Url with secret hashed:\n" + urlWithSecret + "\n")
+print("Redirect with hash:\n" + url + AMPERSAND + "hash=" + hash + "\n");
 ```
+The following will output:
 
-Produces the following results:
 ```
-Minimal setup
+Minimal example
+
+Original with params sorted alphabetically:
+/p/exit?s=c
+
+Url with secret hashed:
 /p/exit?s=cOmLXcVR
-/p/exit?s=cOmLXcVR&hash=70066f17bfa9d3bfa3346e15694c30d0735ba6b6fcc45bc31957031f150d83f8
 
-With panelist ID
-/p/exit?s=c&id=48dc5f0c-e453-4c40-9952-8204bdedfc61OmLXcVR
-/p/exit?s=c&id=48dc5f0c-e453-4c40-9952-8204bdedfc61OmLXcVR&hash=ecc5ccb26082a2bd2b0dee5506e4a2d55e1df18e05fa53ce39e24f6212c040b6
-ecc5ccb26082a2bd2b0dee5506e4a2d55e1df18e05fa53ce39e24f6212c040b6
+Redirect with hash:
+/p/exit?s=c&hash=70066f17bfa9d3bfa3346e15694c30d0735ba6b6fcc45bc31957031f150d83f8
+
+With panelist ID example
+
+Original with params sorted alphabetically:
+/p/exit?id=48dc5f0c-e453-4c40-9952-8204bdedfc61&s=c
+
+Url with secret hashed:
+/p/exit?id=48dc5f0c-e453-4c40-9952-8204bdedfc61&s=cOmLXcVR
+
+Redirect with hash:
+/p/exit?id=48dc5f0c-e453-4c40-9952-8204bdedfc61&s=c&hash=e644fb896d823392ececa7158ee6c8b8b4e28b8a772de6dad6adf9730934b534
 ```
-
-
 
