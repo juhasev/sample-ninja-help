@@ -116,7 +116,7 @@ print("Url with secret hashed:\n" + urlWithSecret + "\n")
 print("Redirect with hash:\n" + url + AMPERSAND + "hash=" + hash + "\n");
 
 #--------------------------------------------------------
-# Example with panelist ID (Skate around & saving issue)
+# Example with panelist ID
 # IMPORTANT: Param names must be in alphabetical order
 #--------------------------------------------------------
 panelistId = "48dc5f0c-e453-4c40-9952-8204bdedfc61"
