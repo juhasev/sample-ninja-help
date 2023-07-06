@@ -10,17 +10,9 @@ New to SampleNinja and want to get started right away? Email us at sampleninja@v
 
 Once you have obtained your account credentials you need click on the configure button and paste them in. Finally select the programs you would like to use with Sample Ninja. Each program must begin with SN_ prefix to unique identify the program. Do not use API keys that are in use in other platforms or you will loose ability to get Sample Ninja specific usage reporting.
 
-### PayPal
-
-PayPal integration enables you distribute cash rewards to your panelists in a very convenient way. In order to use PayPal rewards, the user will need to register a commercial developer account with PayPal.
-
-Once the account API keys have been obtained click on the **configure** button to enter the keys. First by selecting the appropriate **Environment** and then entering the **Client ID** and **Secret required**. If everything went successfully you should see account balance(s) loaded up.
-
-> **IMPORTANT!** In order to distribute PayPal rewards in multiple currencies you must add that funds in that currency into your account. Sample Ninja does not support currency conversions due to high fees imposed by PayPal. Once you have multiple currencies on your account you can select rewards for that currency.
-
 #### Manage Rewards
 
-Select the nominations and currencies your would like to offer. Maximum nomination for USD, GBP and EUR is 200 others 1000.
+Allows the user to select which reward cards (and appropriate denominations) are made available to the Panelists when they choose to redeem their points.
 
 #### Disable
 
@@ -42,3 +34,18 @@ Allows the user to select which reward cards (and appropriate denominations) are
 
 Disables reward partner completely.
 
+### PayPal
+
+PayPal integration enables you distribute cash rewards to your panelists in a very convenient way. In order to use PayPal rewards, the user will need to register a commercial developer account with PayPal.
+
+Once the account API keys have been obtained click on the **configure** button to enter the keys. First by selecting the appropriate **Environment** and then entering the **Client ID** and **Secret required**. If everything went successfully you should see account balance(s) loaded up.
+
+> **IMPORTANT!** In order to distribute PayPal rewards in multiple currencies you must add that funds in that currency into your account. Sample Ninja does not support currency conversions due to high fees imposed by PayPal. Once you have multiple currencies on your account you can select rewards for that currency.
+
+#### Manage Rewards
+
+Select the nominations and currencies your would like to offer. Maximum nomination for USD, GBP and EUR is 200 others 1000.
+
+#### Disable
+
+Disables reward partner completely.
