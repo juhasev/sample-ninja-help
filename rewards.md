@@ -2,6 +2,14 @@
 
 This screen is for managing rewards, gift cards and redemption options that are already available within Sample Ninja. All reward redemptions that your panelist request must be manually approved in **Redemptions**.
 
+### Virtual Incentives
+
+Are you an existing client and need to reach your dedicated account manager? Email us at sampleninja@virtualincentives.com.
+
+New to SampleNinja and want to get started right away? Email us at sampleninja@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
+
+Once you have obtained your account credentials you need click on the configure button and paste them in. Finally select the programs you would like to use with Sample Ninja. Each program must begin with SN_ prefix to unique identify the program. Do not use API keys that are in use in other platforms or you will loose ability to get Sample Ninja specific usage reporting.
+
 ### PayPal
 
 PayPal integration enables you distribute cash rewards to your panelists in a very convenient way. In order to use PayPal rewards, the user will need to register a commercial developer account with PayPal.
