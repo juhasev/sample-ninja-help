@@ -12,4 +12,4 @@ Select the nominations and currencies your would like to offer. Maximum nominati
 
 #### Disable
 
-Disables reward partner completely.
+Disables PayPal rewards.
