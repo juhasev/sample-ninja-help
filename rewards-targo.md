@@ -12,4 +12,4 @@ Allows the user to select which reward cards (and appropriate denominations) are
 
 ### Disable
 
-Disables reward partner completely.
+Disables Tango rewards.
