@@ -1,4 +1,4 @@
-### PayPal
+## PayPal
 
 PayPal integration enables you to distribute cash rewards to your panelists in a very convenient way. To use PayPal rewards, the user must register a commercial developer account with PayPal.
 
