@@ -6,7 +6,7 @@ I'm new to SampleNinja and would like to get started right away? Please email su
 
 To start issuing rewards, click the configure button and paste the username and password. Then, please select the programs you'd like to use with Sample Ninja.
 
-> NOTE: It is a requirement that the program names begin with an SN_ prefix.
+> **NOTE** It is a requirement that the program names begin with an SN_ prefix.
 
 #### Manage Rewards
 
