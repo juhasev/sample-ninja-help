@@ -2,7 +2,7 @@
 
 Are you an existing client and need to reach your dedicated account manager? Email us at support@virtualincentives.com.
 
-New to SampleNinja and want to get started right away? Email us at support@virtualincentives.com or visit www.virtualincentives.com.
+New to SampleNinja and want to get started right away? Please email support@virtualincentives.com or visit www.virtualincentives.com.
 
 To start issuing rewards, you must click the configure button and paste the username and password. Then, select the programs you want to use with Sample Ninja.
 
@@ -14,4 +14,4 @@ Allows the user to select which reward cards (and appropriate denominations) are
 
 #### Disable
 
-Disables reward partner completely.
+Disables Virtual Incentives completely.
