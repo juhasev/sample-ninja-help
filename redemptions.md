@@ -2,20 +2,20 @@
 
 The pending redemption requests must be manually approved before the panelist gets their rewards. You may use the blue arrow down button to approve redemptions for a single panelist. Select the redemptions using the checkbox on the left and then click the **APPROVE** or **REJECT** button at the bottom of the page. If you want to view the processed redemptions, select the **HISTORY** -tab.
 
-### ABBREVIATED COLUMNS
-- Days = Days as a member in your panel
+### Abbreviated columns
+- Days = Days as a member of your panel
 - Completes = Number of completed surveys lifetime
 
 > You should review the panelist account before approving redemptions.
 
-### FILTERING OPTIONS
+### Filtering options
 You can use the search field to find any panelist using first name, last name, or email. If you would like to view redemption requests for any given Sub Panel(s), you may do so by clicking the filter icon.
 
 > Use the **REMEMBER FILTER** -button to set this as your default filter i.e., if you only approve redemptions for, say, Italian Sub Panel.
 
 > This works in either in the **APPROVALS** -tab or the **HISTORY** -tab.
 
-### APPROVALS
+### Approvals tab
 
 This table displays redemption requests from panelists to redeem their points for rewards. Select one or more redemption requests and either choose to **APPROVE SELECTED** or **REJECT SELECTED**. Sample Ninja will execute the redemption with the vendor in the next fifteen minutes when a reward request is approved.
 
@@ -24,7 +24,7 @@ You should pay attention to the panelist’s **Quality Score**, which indicates 
 
 > If you reject redemption requests, the panelists are fully refunded.
 
-### HISTORY
+### History tab
 
 View historical approvals data and monitor partner statuses. 
 
@@ -34,9 +34,7 @@ View historical approvals data and monitor partner statuses.
 
 **COMPLETE** Transaction was completed
 
-**FAILED** Transaction failed. Redemption cost was refunded to the panelist.
-
-> If you are looking to refund or re-send the panelist's redemption email, you are in the wrong place! Instead, locate the panelist first by going to **panelist manager** and search for the panelist by using name, email, or ID. Click on the panelist name and open the **redemptions** -tab. 
+**FAILED** Transaction failed. The redemption cost was refunded to the panelist.
 
 ### PayPal Statuses
 
@@ -69,7 +67,7 @@ Click on the download button (cloud icon with downwards arrow in the top right c
 
 > Note that the filter works on logic that supports satisfying the filter criteria, i.e., if **FAILED**, **APPROVED**, and **PROCESSED** are all selected, the system will only export redemptions that were processed and approved but failed. To show all failed or rejected redemptions, solely tick **FAILED**. To show all approved/completed redemptions, solely tick **APPROVED**. To show redemptions irrespective of status, exclusively tick **PROCESSED**.
 
-> Toggle on **Export all dates**, to download all redemptions that satisfy the chosen filter criteria i.e., this will include every redemption from the first to the most recent based on the filter criteria. Example - with **Export all dates** toggled on and **PROCESSED** ticked, all processed redemptions will be exported.
+> Toggle on **Export all dates**, to download all redemptions that satisfy the chosen filter criteria, i.e., this will include every redemption from the first to the most recent based on the filter criteria. Example: All processed redemptions will be exported with **Export all dates** toggled on and **PROCESSED** ticked.
 
 
 
