@@ -1,6 +1,6 @@
 ## Virtual Incentives
 
-Are you an existing client and need to reach your dedicated account manager? Email us at support@virtualincentives.com.
+Are you an existing client and need to reach your dedicated account manager? Please email us at support@virtualincentives.com.
 
 I'm new to SampleNinja and would like to get started right away? Please email support@virtualincentives.com or visit www.virtualincentives.com.
 
