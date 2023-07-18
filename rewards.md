@@ -6,7 +6,7 @@ This screen is for managing rewards, gift cards and redemption options that are 
 
 Are you an existing client and need to reach your dedicated account manager? Email us at support@virtualincentives.com.
 
-New to SampleNinja and want to get started right away? Email us at support@virtualincentives.com or visit www.virtualincentives.com.
+New to SampleNinja and want to get started right away? Email us at support@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
 
 Once you have obtained your account credentials you need click on the configure button and paste them in. Finally select the programs you would like to use with Sample Ninja. Each program must begin with SN_ prefix to unique identify the program. Do not use API keys that are in use in other platforms or you will loose ability to get Sample Ninja specific usage reporting.
 
