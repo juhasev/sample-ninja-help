@@ -2,7 +2,7 @@
 
 Are you an existing client and need to reach your dedicated account manager? Please email us at support@virtualincentives.com.
 
-I'm new to SampleNinja and would like to get started right away? Please email support@virtualincentives.com or visit www.virtualincentives.com.
+I'm new to SampleNinja and would like to get started right away? Please email support@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
 
 To start issuing rewards, click the configure button and paste the username and password. Then, please select the programs you'd like to use with Sample Ninja.
 
