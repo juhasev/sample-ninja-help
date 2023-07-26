@@ -8,7 +8,7 @@ You'll need to enable Research Defender for each sub-panel you like to protect. 
 
 > There is no need to configure the maximum fraud score. It is automatically set to 30, the optimal setting for all panels.
 
-> **Research Defender** will not work if you use the application API to register new panelists. However, you may still use **Research Defender** to project your projects.
+> **Research Defender** will not work if you use the application API to register new panelists. However, you may still use it with your projects.
 
 ### Cost and service credits
 
