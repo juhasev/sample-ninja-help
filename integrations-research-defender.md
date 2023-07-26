@@ -12,6 +12,6 @@ You'll need to enable Research Defender for each sub-panel you like to protect. 
 
 ### Cost and service credits
 
-> Each lookup costs 2 cents or USD 0.02. There is no monthly minimum.
+> Each **Research Defender** lookup costs 2 cents or USD 0.02. A single lookup includes the duplicate checks + all the security checks currently available. There are no monthly minimums.
 
 > To use Research Defender, you must purchase Sample Ninja service credits under **Panel Settings -> Service Credits**.
