@@ -4,7 +4,9 @@ Research Defender is a premium service that helps you to cut down panel fraud. I
 
 ### Configuration
 
-You must enable Research Defender for each sub-panel you like to protect. Visit **Sub Panels -> Manager -> Settings -> Security**
+You'll need to enable Research Defender for each sub-panel you like to protect. Visit **Sub Panels -> Manager -> Settings -> Security**. You may only block duplicates and any registering panelists with security issues. This may be sufficient if you are building a brand-new panel. Enable project security for all existing meetings.
+
+> There is no need to configure the maximum fraud score. It is automatically set to 30, the optimal setting for all panels.
 
 ### Cost and service credits
 
