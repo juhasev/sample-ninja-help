@@ -1,16 +1,20 @@
 ## Research Defender
 
-Research Defender is a premium service that helps you to cut down on panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling Research Defender for all consumer panels, especially for **the Registration Survey**. You can save service credits by changing **Screen survey frequency**. **Research Defender** integrates seamlessly with **Sample Ninja** existing fraud prevention tools, security flags and ultimately, with panelists' health scores enabling you quickly eliminate any fraud in your panel.
+Research Defender is a premium service that helps you to cut down on panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling Research Defender for all consumer panels, especially for **the Registration Survey**. **Research Defender** integrates seamlessly with **Sample Ninja** existing fraud prevention tools, security flags, and ultimately, with panelists' health scores enabling you quickly eliminate any fraud in your panel.
 
 ### Configuration
 
-You'll need to enable Research Defender for each sub-panel you like to protect. Visit **Sub Panels -> Manager -> Settings -> Security**. You may only block duplicates and any registering panelists with security issues. This may be sufficient if you are building a brand-new panel. Enable project security for all existing panels, as some fraudulent panelists may already be in your panel. 
+You'll need to enable Research Defender for each sub-panel you like to protect. Visit **Sub Panels -> Manager -> Settings -> Security**. You may only block duplicates and any registering panelists with security issues. This may be sufficient if you are building a brand-new panel. Enable project security for all existing meetings, as some fraudulent panelists may already be in your panel. 
 
-> If you want to test the service but do not want to terminate violators yet. Select "Off" on the "Terminate violators" setting. This will flag your panelists without affecting their **Quality Score**.
+> If you want to test the service but want to wait to terminate violators, select "Off" on the "Terminate violators" setting. This will flag your panelists without affecting their **Quality Score**.
 
 > There is no need to configure the maximum fraud score. It is automatically set to 30, the optimal setting for all panels.
 
 > **Research Defender** will not work if you use the application API to register new panelists. However, you may still use it with your projects.
+
+### Testing
+
+The Research Defender is automatically turned off for all logged-in Sample Ninja users. If you want to test the features, use the incognito window or log out from Sample Ninja.
 
 ### Cost and service credits
 
