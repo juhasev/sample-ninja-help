@@ -22,6 +22,6 @@ The Research Defender is automatically turned off for all logged-in Sample Ninja
 
 ### Cost and service credits
 
-> Each **Research Defender** lookup costs 2 cents or USD 0.02. A single lookup includes the duplicate checks + all the security checks currently available. There are no monthly minimums.
+Each **Research Defender** lookup costs 2 cents or USD 0.02. A single lookup includes the duplicate checks + all the security checks currently available. There are no monthly minimums.
 
 > To use Research Defender, you must purchase Sample Ninja service credits under **Panel Settings -> Service Credits**.
