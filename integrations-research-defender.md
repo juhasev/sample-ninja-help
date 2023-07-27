@@ -1,6 +1,6 @@
 ## Research Defender
 
-Research Defender is a premium service that helps you to cut down on panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling Research Defender for all consumer panels, especially for **the Registration Survey**. **Research Defender** integrates seamlessly with **Sample Ninja** existing fraud prevention tools, security flags, and ultimately, with panelists' health scores enabling you quickly eliminate any fraud in your panel.
+Research Defender is a premium service that helps you to cut down on panel fraud. It utilizes proprietary scoring techniques and a global database of survey participants to detect fraudsters. We recommend enabling Research Defender for all consumer panels, especially for **the Registration Survey**. **Research Defender** integrates seamlessly with **Sample Ninja** existing fraud prevention tools, security flags, and, ultimately, panelists' health scores, enabling you to eliminate any fraud in your panel quickly.
 
 ### Configuration
 
