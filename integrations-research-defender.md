@@ -4,6 +4,8 @@ Research Defender is a premium service that helps you to cut down on panel fraud
 
 > Individual services cannot be turned off independently, as the scoring algorithm depends on all the security checks, including the duplicate check.
 
+> Read more at https://www.researchdefender.com
+
 ### Configuration
 
 - Purchase service credits in the **Panel Settings -> Service Credits**
