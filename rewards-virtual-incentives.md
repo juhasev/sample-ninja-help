@@ -1,8 +1,8 @@
 ## Virtual Incentives
 
-Are you an existing client and need to reach your dedicated account manager? Please email us at support@virtualincentives.com.
+Are you an existing client and need to reach your dedicated account manager to get the credentials and to receive your customized catalog? Please email Virtual Incentives at support@virtualincentives.com.
 
-I'm new to SampleNinja and would like to get started right away? Please email support@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
+Suppose you are new to SampleNinja and would like to start immediately. Please email support@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
 
 To start issuing rewards, click the configure button and paste the username and password. Then, please select the programs you'd like to use with Sample Ninja.
 
@@ -10,7 +10,7 @@ To start issuing rewards, click the configure button and paste the username and 
 
 #### IP Whitelisting
 
-Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, make sure your account (under the API whitelist in VI UI) includes the following SN IP addresses.
+Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account (under the API whitelist in VI UI) includes the following SN IP addresses.
 
 Hosted in EU region:
 ```
