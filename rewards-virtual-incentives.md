@@ -1,8 +1,6 @@
 ## Virtual Incentives
 
-Are you an existing client and need to reach your dedicated account manager to get the credentials and to receive your customized catalog? Please email Virtual Incentives at support@virtualincentives.com.
-
-Suppose you are new to SampleNinja and would like to start immediately. Please email support@virtualincentives.com or visit www.virtualincentives.com/sampleninja.
+Whether you already have an account with Virtual Incentives or you are entirely new, please email Virtual Incentives at support@virtualincentives.com or visit www.virtualincentives.com/sampleninja for more information. An account presentive will provide you with credentials and custom catalog programs compatible with **Sample Ninja**.
 
 To start issuing rewards, click the configure button and paste the username and password. Then, please select the programs you'd like to use with Sample Ninja.
 
