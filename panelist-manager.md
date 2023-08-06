@@ -26,13 +26,13 @@ The blue button (bottom right of screen) is only visible when AT LEAST ONE panel
 
 This allows the user to select new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**.
 
-> **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for 1 year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
+> **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
 
 #### Delete panelists
 
 This allows the user to DELETE the selected panelists.    
 
-> **WARNING!** Delete panelist function should only be used when you must wipe out the entire panelist record, including any activity. For all other purposes, you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for period of 1 year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
+> **WARNING!** Delete panelist function should only be used when you must wipe out the entire panelist record, including any activity. For all other purposes, you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to keep detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
 
 > Blacklisted panelists cannot rejoin the panel, whereas unsubscribed panelists can.
 
