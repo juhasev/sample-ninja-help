@@ -10,6 +10,12 @@ Paste a list of panelist identifiers to the target "paste" box. Identifiers can 
 
 > You cannot remove identifiers from the project after submitting them. However, you can add more identifiers by pasting more. If you accidentally saved the wrong set of identifiers, could you take the project offline and start over?
 
+### Recontact using match again unique data variables of type (Email, Keyword or Number)
+
+If you are a Health Care panel or Customer Experience (CX), you may store a unique customer ID or NPI (National Provider Identification USA Only) in the data variables. You can use these IDs to find sample by selecting match against data variable values you supply in a CSV file. If the ID number is alphanumeric, you should always use the keyword -type, if numeric, then you can also use the number -type. Never use the text -type as it is analyzed field "Brown Dog" will match both "Brown" and "Dog".
+
+> This feature is only available by uploading a CSV file.
+
 ### Passcode Authentication for Surveys
 
 Sample Ninja supports **Passcode** authentication for 'Recontact' projects. Simply create a new 'Recontact' project and under the 'Panelists' tab, the option to upload CSV files containing 'Panelist IDs' + **Passcodes** is now available. CSV files with other columns can also be added. Sample Ninja will ask which columns contain the 'Panelist ID' and the **Passcode**.
@@ -19,9 +25,3 @@ Following the above, edit the link under the SURVEY LINK -tab and ensure the "Pa
 > This feature is only available by uploading a CSV file.
 
 > The **Passcode** must be passed into the survey via a predetermined variable.
-
-### Matching panelists against unique data variables of type (Email, Keyword or Number)
-
-If you are a Health Care panel or Customer Experience (CX), you may store a unique customer ID or NPI (National Provider Identification USA Only) in the data variables. You can use these IDs to find sample by selecting match against data variable values you supply in a CSV file. If the ID number is alphanumeric, you should always use the keyword -type, if numeric, then you can also use the number -type. Never use the text -type as it is analyzed field "Brown Dog" will match both "Brown" and "Dog".
-
-> This feature is only available by uploading a CSV file.
