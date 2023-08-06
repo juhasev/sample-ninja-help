@@ -8,7 +8,7 @@ Paste a list of panelist identifiers to the target "paste" box. Identifiers can 
 
 > At least one identifier must be valid, or the project will not save.
 
-> You cannot remove identifiers from the project after submitting them. However, you can simply add more identifiers by pasting more. If you accidentally saved the wrong set of identifiers, take the project offline and start over.
+> You cannot remove identifiers from the project after submitting them. However, you can add more identifiers by pasting more. If you accidentally saved the wrong set of identifiers, could you take the project offline and start over?
 
 ### Passcode Authentication for Surveys
 
@@ -16,6 +16,12 @@ Sample Ninja supports **Passcode** authentication for 'Recontact' projects. Simp
 
 Following the above, edit the link under the SURVEY LINK -tab and ensure the "Passcode param name” is set. The survey link templates can also save the configuration for easy access in future projects.
 
-> The **Passcode** feature is only available via CSV files and not by simply pasting in identifiers.
+> This feature is only available by uploading a CSV file.
 
 > The **Passcode** must be passed into the survey via a predetermined variable.
+
+### Matching panelists against some unique data variables
+
+If you are a Health Care panel or Customer Experience (CX), you may store a unique customer ID or NPI (National Provider Identication USA Only) in the data variables. You can use these IDs to find sample by selecting match against data variable values you supply in a CSV file.
+
+> This feature is only available by uploading a CSV file.
