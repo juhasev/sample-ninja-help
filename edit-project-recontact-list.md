@@ -20,7 +20,7 @@ Following the above, edit the link under the SURVEY LINK -tab and ensure the "Pa
 
 > The **Passcode** must be passed into the survey via a predetermined variable.
 
-### Matching panelists against some unique data variables
+### Matching panelists against unique data variables of type (Email, Keyword or Number)
 
 If you are a Health Care panel or Customer Experience (CX), you may store a unique customer ID or NPI (National Provider Identication USA Only) in the data variables. You can use these IDs to find sample by selecting match against data variable values you supply in a CSV file.
 
