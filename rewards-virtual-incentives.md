@@ -2,9 +2,9 @@
 
 Whether you already have an account with Virtual Incentives or you are entirely new, please email Virtual Incentives at support@virtualincentives.com or visit www.virtualincentives.com/sampleninja for more information. An account presentive will provide you with credentials and custom catalog programs compatible with **Sample Ninja**.
 
-To start issuing rewards, click the configure button and paste the username and password. Then, please select the programs you'd like to use with Sample Ninja.
+To start issuing rewards, click the configure button and paste the username and password provided by Virtual Incentives (this is different from your Virtual Incentives Login). Then, please select the programs you'd like to use with Sample Ninja.
 
-> **NOTE** It is a requirement that the program names begin with an SN_ prefix.
+> **NOTE** It is a requirement that the program names begin with an SN_ prefix. This allows you to have separate reporting for SampleNinja Virtual Incentives programs and your existing programs.
 
 #### IP Whitelisting
 
