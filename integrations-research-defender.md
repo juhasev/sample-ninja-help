@@ -20,9 +20,9 @@ Research Defender is a premium service that helps you to cut down on panel fraud
 
 ### Testing
 
-The Research Defender is automatically turned off for all logged-in Sample Ninja users. If you want to test the features, use the incognito window or log out from Sample Ninja.
+The Research Defender is automatically turned off for all logged-in Sample Ninja users. If you want to test the features, use the incognito window, use another browser like Firefox, or log out of Sample Ninja's admin session.
 
 ### Cost and service credits
 
-Each **Research Defender** lookup costs 2 cents or USD 0.02. A single lookup includes the duplicate checks + all the security checks currently available. There are no monthly minimums. The security checks are optimized so that page reloads, or secondary starts won't incur costs.
+Each **Research Defender** lookup costs 2 cents or USD 0.02. A single lookup includes the duplicate checks + all the security checks currently available. There are no monthly minimums. The security checks are optimized so that page reloads or secondary starts won't incur costs.
 
