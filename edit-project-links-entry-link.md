@@ -74,12 +74,17 @@ If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
-- MD5 Default (not recommended)
-- SHA1 Default
+Full URL hashing algorithms: (Recommended)
+
+- MD5 Full URL (weak security)
+- SHA1 Full URL 
+- SHA256 Full URL
+
+Legacy algorithms: (Not recommended, challenging to program)
+
+- MD5 Default (weak security)
+- SHA1 Default 
 - SHA256 Default
-- MD5 Full URL (not recommended)
-- SHA1 Full URL (recommended)
-- SHA256 Full URL (recommended)
 
 The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
   
@@ -110,7 +115,7 @@ ff61ef98ba1eba7c5bc0607b0ef354b79aed2c23e9c1a85507a1886dacf15acb
 
 #### Step 3 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example B
+### Example B (SHA256 Default)
 
 In this example, we use the **SHA-256** algorithm with secret **MySecretPasscode** to verify that the URL has not been tampered with.
 
