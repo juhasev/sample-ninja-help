@@ -63,29 +63,54 @@ Sample Ninja will automatically insert random data for all the defined data vari
 > The inserted data for the Keyword and the Text -variable types are static because there is no way for the test data generator to figure out the real intent of the data variable. For example, if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly, for the text variable, if the example **DESCRIPTION** is used, the data set would show as **test_text_description**.
  
 ### Panelist ID
-Panelist ID is automatically piped in the URL and is mandatory. You do not have to define and insert this manually, but instead, you configure your survey entry link param name, and **SampleNinja** will take care of the rest for you. You should save the panelist ID along with the survey responses. This is important when you reconcile participants after the survey data has been reviewed. By default, the parameter name is **pid**, but you may customize this to match the target survey platform.
+Panelist ID is automatically piped in the URL and is mandatory. You do not have to define and insert this manually, but instead, you configure your survey entry link param name, and **SampleNinja** will take care of the rest for you. Please save the panelist ID along with the survey responses. This is important when you reconcile participants after reviewing the survey data. By default, the parameter name is **pid**, but you may customize this to match the target survey platform.
 
+```
 https://surveyengine.com?pid=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
+```
 
 If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID to the test survey when testing the survey link. Sometimes, this makes testing easier, especially if the survey software blocks duplicate IDs.
 
 ## Signing and security
-Signing should always be used if the target platform supports it as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
+Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
-- MD5 (not recommended)
-- SHA1 
-- SHA256 (recommended)
+- MD5 Default (not recommended)
+- SHA1 Default
+- SHA256 Default
+- MD5 Full URL (not recommended)
+- SHA1 Full URL (recommended)
+- SHA256 Full URL (recommended)
 
-> If you need additional signing algorithms, please contact us and we will consider adding them
+The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
+  
+> If you need additional signing algorithms, please get in touch with us, and we will consider adding them
 
 > You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
 
 > **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
 
 ## Example hash calculations
-These examples use real computed hash values so that you can verify your hash calculations using the examples. Please note that these examples are simplified, and we have intentionally omitted the panelist ID or **pid** parameter.
+These examples use actual computed hash values so that you can verify your hash calculations using the examples below. These examples are simplified, and we have deliberately omitted the panelist ID or **pid** parameter.
 
-### Example A
+### Example A (SHA1 Full URL)
+
+In this example, we use the **SHA-1 Full URL** algorithm with secret **MySecretPasscode** to verify that the URL has not been tampered with.
+
+#### Step 1 - Append the secret at the end of the URL
+```
+https://surveyengine.com/projects?country=US&project_id=10&region=2MySecretPasscode
+```
+#### Step 2
+
+Calculate hash PHP example:
+
+echo hash('SHA256','https://surveyengine.com/projects?country=US&project_id=10&region=2MySecretPasscode');
+
+ff61ef98ba1eba7c5bc0607b0ef354b79aed2c23e9c1a85507a1886dacf15acb
+
+#### Step 3 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
+
+### Example B
 
 In this example, we use the **SHA-256** algorithm with secret **MySecretPasscode** to verify that the URL has not been tampered with.
 
@@ -107,17 +132,16 @@ https://surveyengine.com/projects?project_id=10&region=2&country=US&hash=18f3b4c
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
-#### Step 4 - Calculate hash
-Here we use PHP's built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
+#### Step 4 - Calculate the hash
+Here, we use PHP's built-in hash function (https://www.php.net/manual/en/function.hash.php) with secret **MySecretPasscode**
 ```
-$hash = hash($algorithm, $hashableUrl . $secret);
-$hash = hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
+echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode');
 
-echo $hash; // Outputs 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
+18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
-#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example B
+### Example C (SHA-256 Default)
 
 In this example we are using **SHA-1** algorithm with secret **MySecretPasscode**
 
@@ -140,16 +164,16 @@ No change here
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
-#### Step 4 - Calculate hash
+#### Step 4 - Calculate the hash
 ```
 echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
 d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
-#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example C
+### Example D (SHA-256 Default)
 
 In this example, we will be using **SHA-256** algorithm with secret **MySecretPasscode** to verify the value hash supplied by **Sample Ninja**
 
