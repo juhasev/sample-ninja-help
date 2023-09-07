@@ -86,7 +86,7 @@ Legacy algorithms: (Not recommended, challenging to program)
 - SHA1 Default 
 - SHA256 Default
 
-The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
+> The Default hash algorithm uses URL path + params, while the Full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
   
 > If you need additional signing algorithms, please get in touch with us, and we will consider adding them
 
