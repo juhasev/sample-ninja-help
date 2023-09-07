@@ -39,15 +39,15 @@ Signing should always be used when redirecting panelists to **Sample Ninja** exi
 
 The Full URL hashing algorithms: (Recommended)
 
-- MD5 Full URL (weak security)
-- SHA1 Full URL (recommended)
 - SHA256 Full URL (recommended)
+- SHA1 Full URL (recommended)
+- MD5 Full URL (weak security)
 
 Legacy algorithms: (Not recommended, challenging to program)
 
-- MD5 Legacy (weak security)
-- SHA1 Legacy 
 - SHA256 Legacy
+- SHA1 Legacy 
+- MD5 Legacy (weak security)
 
 > The Legacy hash algorithms use URL path + params, while the Full URL hashing uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
 
