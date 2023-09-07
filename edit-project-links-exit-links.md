@@ -56,11 +56,11 @@ The default hash algorithm uses URL path + params, while a full URL uses the ent
 ### Example survey exit redirects (back to SampleNinja)
 To make the exit redirect and the resulting hash more complex, we recommend adding random parameters to the links. The only reserved parameters are "s" for status and "session" for session ID. Sample Ninja Project ID, Survey ID, or a random value are good choices.
 
-The following examples use secret **MySecretPasscode** to compute the hash parameter.
+The following examples use secret **MySecretPasscode** to compute the hash parameter. We have also added a **random** parameter to make this URL truly unique.
 
 ### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
-Choose one of these methods if adding hashing the first time. These are by far the simplest to implement while been secure.
+Choose one of these methods if adding hashing the first time. These are by far the simplest to implement while being secure.
 
 Returning to **SampleNinja** as completed
 
