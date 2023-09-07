@@ -113,7 +113,8 @@ echo hash('SHA256','https://surveyengine.com/projects?country=US&project_id=10&r
 
 ff61ef98ba1eba7c5bc0607b0ef354b79aed2c23e9c1a85507a1886dacf15acb
 
-#### Step 3 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 3 - Verify
+Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
 ### Example B (SHA256 Default)
 
@@ -144,7 +145,8 @@ echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode'
 
 18f3b4c68014e18a539a80916a937ac61d9a96303cd4f1b66a91c7e7f5afef8f
 ```
-#### Step 5 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify
+Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
 ### Example C (SHA-256 Default)
 
@@ -176,7 +178,8 @@ echo hash('SHA1','/projects?country=US&project_id=10&region=2MySecretPasscode); 
 d86cca325d097945e54e8f394d031e10e17e815f
 ```
 
-#### Step 5 - Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify
+Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
 ### Example D (SHA-256 Default)
 
@@ -205,7 +208,8 @@ echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode)
 
 b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 ```
-#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify
+Verify hash parameter supplied by Sample Ninja matches your calculated hash
  
 ### Example D
 In this example we are using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
@@ -235,7 +239,8 @@ echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); //
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
-#### Step 5 - Verify hash parameter supplied by Sample Ninja matches your calculated hash
+#### Step 5 - Verify
+Verify hash parameter supplied by Sample Ninja matches your calculated hash
 
 
 
