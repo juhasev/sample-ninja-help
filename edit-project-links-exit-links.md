@@ -49,7 +49,7 @@ Legacy algorithms: (Not recommended, challenging to program)
 - SHA1 Default 
 - SHA256 Default
 
-The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
+The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
 
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
