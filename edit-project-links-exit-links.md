@@ -35,14 +35,21 @@ https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 > **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
 
 ## Signing and security
-Signing should always be used when redirecting panelists back to **Sample Ninja** exit links. The following algorithms are supported:
+Signing should always be used when redirecting panelists to **Sample Ninja** exit links. The following algorithms are supported:
 
-- MD5 Default (not recommended)
-- SHA1 Default
+Full URL hashing algorithms: (Recommended)
+
+- MD5 Full URL (weak security)
+- SHA1 Full URL 
+- SHA256 Full URL
+
+Legacy algorithms: (Not recommended, challenging to program)
+
+- MD5 Default (weak security)
+- SHA1 Default 
 - SHA256 Default
-- MD5 Full URL (not recommended)
-- SHA1 Full URL (recommended)
-- SHA256 Full URL (recommended)
+
+> The Default hash algorithm uses URL path + params, while the Full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
 
 The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
 
