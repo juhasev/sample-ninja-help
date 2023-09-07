@@ -1,21 +1,21 @@
 ## Survey exit redirects
 
-When panelist has completed a survey you will send panelists back to these link with the survey outcome or status code. If you survey solution supports **exit link hashing** you should always use it to prevent tampering with the exit links.
+When a panelist has completed a survey, you will send panelists back to these links with the survey outcome or status code. If your survey solution supports **exit link hashing**, you should always use it to prevent tampering with exit links.
 
-**Sample Ninja** support total of 6 different survey outcomes:
+**Sample Ninja** supports a total of 6 different survey outcomes:
 
 - Complete (Panelist has completed the survey)
 - Profile (Panelist was terminated in screening questions)
 - Quota (Panelist was terminated because a quota bucket was full)
-- Quality (Survey software has detected straightlining or other quality issues)
+- Quality (Survey software has detected straight-lining or other quality issues)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 - Security (Hash validation failed or some other security mechanism triggered)
 
 The **security** -status should be used if the hash validation fails (See below **Signing and security** section for more details). 
 
-The **duplicate** status is intended to be used if the survey software detects that the panelist is duplicate i.e. using fingerprints or other techniques. 
+The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate i.e., using fingerprints or other techniques. 
 
-The **quality** status should be used when panelist straight lines and otherwise don't pay attention to the survey questions.
+The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions.
 
 ### Return status parameters
 
@@ -35,20 +35,54 @@ https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 > **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
 
 ## Signing and security
-Signing should always be used when returning panelist back to **Sample Ninja** exit links. The following algoritms are supported:
+Signing should always be used when redirecting panelists back to **Sample Ninja** exit links. The following algorithms are supported:
 
-- MD5 (not recommended)
-- SHA1 
-- SHA256 (recommended)
+- MD5 Default (not recommended)
+- SHA1 Default
+- SHA256 Default
+- MD5 Full URL (not recommended)
+- SHA1 Full URL (recommended)
+- SHA256 Full URL (recommended)
+
+The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required. If you are starting now
 
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
 ### Example survey exit redirects (back to SampleNinja)
-To make the exit redirect and the resulting hash more complex, we recommend you add some additional parameter that is random to the exit redirect links. The only reserved parameters are "s" for status and "session" for session ID.
+To make the exit redirect and the resulting hash more complex, we recommend adding random parameters to the links. The only reserved parameters are "s" for status and "session" for session ID. Sample Ninja Project ID, Survey ID, or a random value are good choices.
 
-In this example we are using **SHA-1** and ***SHA-256** algorithms with secret **MySecretPasscode** to compute hash parameter.
+The following examples use secret **MySecretPasscode** to compute the hash parameter.
 
-Returning back to **SampleNinja** as completed
+### Example A (SHA-1 Full URL)
+
+Choose this hashing method or SHA-256 URL if adding hashing the first time. This is by far the simplest to implement. 
+
+Returning to **SampleNinja** as completed
+
+```
+https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790
+```
+
+#### Step 1
+Calculate the hash (PHP Example)
+
+```
+echo hash('SHA1','https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
+
+11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
+
+```
+
+#### Step 2
+Append the calculated hash to the end of the URL
+
+```
+https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
+```
+
+### Example B (SHA-1 Default and SHA-256 Default)
+
+Returning to **SampleNinja** as completed
 
 ```
 https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
@@ -66,7 +100,7 @@ https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aef
 ```
 /p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode
 ```
-#### Step 4 - Calculate hash
+#### Step 4 - Calculate the hash
 When using SHA-1
 ```
 echo hash('SHA1','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
