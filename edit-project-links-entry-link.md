@@ -1,17 +1,17 @@
 ## Survey entry redirects
 
-The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform, but it can also be any other system. Additionally, you can send in panelist ID, and data variable data and enable URL security via hashing.
+The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform, but can be any other system. Additionally, you can send in panelist ID, and data variable data and enable URL security via hashing.
 
 > The default redirect for new projects points to **Sample Ninja - Test Survey** that can be used instead of an actual survey for testing purposes. When using the test survey, you can manually select the desired outcome, i.e., COMPLETED, QUALITY, QUOTA, etc...
 
 ### Settings
 
 - Base URL: Enter the base URL for the survey platform you intend to use.
-- Panelist ID param name: Enter the parameter name you want to use, passing **Panelist ID** to the survey platform. (This parameter is automatically inserted)
+- Panelist ID param name: Enter the parameter name you want to use, passing **Panelist ID** to the survey platform. (This parameter is automatically inserted.)
 - Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
 - Hash algorithm: Select which hashing algorithm is used to tamper-proof redirects.
 - Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
-- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
+- Passcode param name: This option is only visible for **Re-contact** projects and is used to automatically pass in an uploaded passcode.
 
 ## Templates
 Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. This can be a real-time save when you send to a specific target platform regularly. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
@@ -74,19 +74,19 @@ If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
-Full URL hashing algorithms: (Recommended)
+The full URL hashing algorithms: (Recommended)
 
 - MD5 Full URL (weak security)
-- SHA1 Full URL 
-- SHA256 Full URL
+- SHA1 Full URL (recommended)
+- SHA256 Full URL (recommended)
 
 Legacy algorithms: (Not recommended, challenging to program)
 
-- MD5 Default (weak security)
-- SHA1 Default 
-- SHA256 Default
+- MD5 Legacy (weak security)
+- SHA1 Legacy 
+- SHA256 Legacy
 
-> The Default hash algorithm uses URL path + params, while the Full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
+> The Legacy hash algorithms use URL path + params, while the Full URL hashing uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
   
 > If you need additional signing algorithms, please get in touch with us, and we will consider adding them
 
@@ -116,7 +116,7 @@ ff61ef98ba1eba7c5bc0607b0ef354b79aed2c23e9c1a85507a1886dacf15acb
 #### Step 3 - Verify
 Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example B (SHA256 Default)
+### Example B (SHA256 Legacy)
 
 In this example, we use the **SHA-256** algorithm with secret **MySecretPasscode** to verify that the URL has not been tampered with.
 
@@ -148,7 +148,7 @@ echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode'
 #### Step 5 - Verify
 Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example C (SHA-256 Default)
+### Example C (SHA-256 Legacy)
 
 In this example we are using **SHA-1** algorithm with secret **MySecretPasscode**
 
@@ -181,7 +181,7 @@ d86cca325d097945e54e8f394d031e10e17e815f
 #### Step 5 - Verify
 Verify that the hash parameter supplied by Sample Ninja matches your calculated hash
 
-### Example D (SHA-256 Default)
+### Example D (SHA-256 Legacy)
 
 In this example, we will be using **SHA-256** algorithm with secret **MySecretPasscode** to verify the value hash supplied by **Sample Ninja**
 
@@ -202,7 +202,7 @@ No change here
 ```
 /projects?country=US&project_id=10&region=2MySecretPasscode
 ```
-#### Step 4 - Calculate hash
+#### Step 4 - Calculate the hash
 ```
 echo hash('SHA256','/projects?country=US&project_id=10&region=2MySecretPasscode); // PHP example
 
@@ -211,7 +211,7 @@ b4f323675eb1c43223c990e0dbc55fca2cc30401e97cbe47ab4b7a7a7de90613
 #### Step 5 - Verify
 Verify hash parameter supplied by Sample Ninja matches your calculated hash
  
-### Example D
+### Example D (SHA-256 Legacy with secure secret)
 In this example we are using **SHA-256** algorithm with secret **@$Sup3rS3cur3S3cr3t!!@**
 
 Survey entry link:
@@ -233,14 +233,14 @@ No change here
 ```
 /projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@
 ```
-#### Step 4 - Calculate hash
+#### Step 4 - Calculate the hash
 ```
 echo hash('SHA256','/projects?c=US&g=1&p=1435540&r=2@$Sup3rS3cur3S3cr3t!!@'); // PHP example
 
 93ce7437be0603c5dd244ef31951bac690f367f67b889d26bf5751781385afbc
 ```
 #### Step 5 - Verify
-Verify hash parameter supplied by Sample Ninja matches your calculated hash
+Verify hash parameter supplied by Sample Ninja matches your calculated hash.
 
 
 
