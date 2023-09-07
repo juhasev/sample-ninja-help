@@ -37,26 +37,26 @@ https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 ## Signing and security
 Signing should always be used when redirecting panelists to **Sample Ninja** exit links. The following algorithms are supported:
 
-Full URL hashing algorithms: (Recommended)
+The Full URL hashing algorithms: (Recommended)
 
 - MD5 Full URL (weak security)
-- SHA1 Full URL 
-- SHA256 Full URL
+- SHA1 Full URL (recommended)
+- SHA256 Full URL (recommended)
 
 Legacy algorithms: (Not recommended, challenging to program)
 
-- MD5 Default (weak security)
-- SHA1 Default 
-- SHA256 Default
+- MD5 Legacy (weak security)
+- SHA1 Legacy 
+- SHA256 Legacy
 
-The default hash algorithm uses URL path + params, while a full URL uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
+> The Legacy hash algorithms use URL path + params, while the Full URL hashing uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
 
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
 ### Example survey exit redirects (back to SampleNinja)
-To make the exit redirect and the resulting hash more complex, we recommend adding random parameters to the links. The only reserved parameters are "s" for status and "session" for session ID. Sample Ninja Project ID, Survey ID, or a random value are good choices.
+We recommend adding a random parameter to the exit links to make the exit redirect and the resulting hash more complex. The only reserved parameters are "s" for status and "session" for session ID. Sample Ninja Project ID, Survey ID, or a random value are good choices.
 
-The following examples use secret **MySecretPasscode** to compute the hash parameter. We have also added a **random** parameter to make this URL truly unique.
+The following examples use secret **MySecretPasscode** to compute the hash parameter. We have also added a **random** parameter to make this URL truly unique. The resulting hashes are real calculated hashes, which means you can use them to verify your calculations.
 
 ### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
@@ -100,9 +100,9 @@ https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-08
 https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=d7410978f0238ccbd507abb9b071d84438b66aa531440265f9bdf991b13ab5e9
 ```
 
-> Simply change to HASH algorithm to SHÁ256 if you prefer that instead. Steps are the same:
+> Change the HASH algorithm to SHÁ256 if you prefer that instead. The steps are the same:
 
-### Example B (SHA-1 Default and SHA-256 Default, Not recommended)
+### Example B (SHA-1 Legacy and SHA-256 Legacy, Not recommended)
 
 Returning to **SampleNinja** as completed
 
