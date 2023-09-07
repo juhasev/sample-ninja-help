@@ -60,34 +60,51 @@ To make the exit redirect and the resulting hash more complex, we recommend addi
 
 The following examples use secret **MySecretPasscode** to compute the hash parameter.
 
-### Example A (SHA-1 Full URL)
+### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
-Choose this hashing method or SHA-256 URL if adding hashing the first time. This is by far the simplest to implement. 
+Choose one of these methods if adding hashing the first time. These are by far the simplest to implement while been secure.
 
 Returning to **SampleNinja** as completed
 
 ```
 https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790
 ```
-
 #### Step 1
+Append the secret to the end of the URL
+
+```
+https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode
+```
+
+#### Step 2
 Calculate the hash (PHP Example)
 
 ```
+// SHA1
 echo hash('SHA1','https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
 
 11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
 
+// SHA 2
+echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
+
+d7410978f0238ccbd507abb9b071d84438b66aa531440265f9bdf991b13ab5e9
 ```
 
-#### Step 2
+#### Step 3
 Append the calculated hash to the end of the URL
 
 ```
+// SHA1
 https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
+
+// SHA256
+https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=d7410978f0238ccbd507abb9b071d84438b66aa531440265f9bdf991b13ab5e9
 ```
 
-### Example B (SHA-1 Default and SHA-256 Default)
+> Simply change to HASH algorithm to SHÁ256 if you prefer that instead. Steps are the same:
+
+### Example B (SHA-1 Default and SHA-256 Default, Not recommended)
 
 Returning to **SampleNinja** as completed
 
