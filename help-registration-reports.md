@@ -29,10 +29,6 @@ SampleNinja can reject a registration for a variety of reasons:
 
 Some security features can be turned on/off in the **Sub Panel -> Security** settings. 
 
-### Research Defender
-
-If configured and enabled, you will see this pie chart. You can click on each pie slice on this chart to see more information about each rejection. 
-
 > **IMPORTANT**: If your panel is B2B we recommend that you allow corporate VPNs. For example, almost all the Health Care Panels will have panelists like physicians/doctors accessing the system through a corporate VPN during work hours. The GEO location will be reported as the facility's physical location, like a hospital. If off work, you would be seeing networks like you would expect, i.e., in the US, you would see something like Spectrum, AT&T, Google, Comcast, or maybe even Elon Musk's StarLink. If in doubt, inspect the "network name and operator" under the info icon in the individual registration stats to determine if the panelist is real or suspicious. Seeing something like China Telecom could be a red flag.
 
 > **WARNING** If you allow any VPNs (Virtual Private Networks), or hosted servers running VPN to access your community/projects, your location accuracy is no longer reliable. A user accessing the Internet through a VPN service can originate from **Iran** or any other country, including **North Korea**, and pretend to originate whichever country the VPN user chooses. There is no way to detect this automatically.
@@ -43,6 +39,10 @@ Additionally, we scan for email addresses that you have already blacklisted. Sam
 - Provide an email address that contains a domain name that is blacklisted
 
 Contact support@sampleninja.io if you would like to contribute to our blacklisted domain collection. 
+
+### Research Defender pie chart
+
+If configured and enabled, you will see this pie chart. You can click on each pie slice on this chart to see more information about each rejection. 
 
 ### Filtering
 Click the **filter** -icon on the top right to open the filter menu. You can select a time range to look at the statistics and/or select individual recruitment sources to compare how the different sources perform. 
