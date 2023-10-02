@@ -28,7 +28,6 @@ Each time a panelist is returned to Sample Ninja with the status "completed," th
 - **Out of Country -5** Panelist is out of the country.
 - **Speeding -10** Panelist speeding.
 - **Link Manipulation -45** Panelist has potentially engaged in link manipulation.
-- **Supplier Duplicate -5** Supplier Duplicate.
 - **Refer Friend -5** Refer a friend error or potential abuse
 - **Quality -7** Returned from survey with status quality
 - **Duplicate -5** Returned from survey with status duplicate
