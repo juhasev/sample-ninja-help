@@ -32,7 +32,7 @@ Displays counts of project-related activities
 - **Quality** Number of project quality terminations (returned to SampleNinja via quality exit link)
 - **Duplicate** Number of project duplicate terminations (returned to SampleNinja via duplicate exit link)
 - **Security** Number of project security terminations (returned to via security exit link)
-- **Reconciled** Number of the time a project manager has reconciled this panelist
+- **Reconciled** Number of the times a project manager has reconciled this panelist
 - **Completed** Number of project completions
 
 ### Unsubscribing or blacklisting
