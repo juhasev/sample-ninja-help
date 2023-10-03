@@ -39,10 +39,7 @@ Each time a panelist is returned to Sample Ninja with the status "completed," th
 
 > Always reconcile your projects to keep the **QUALITY_SCORE** accurate! In the same way, try to always set the LOI or Length of the interview as accurately as you can, as going forward, speeding will decrease a panelist's quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
 
-
-> Please note that The Average Quality Score is calculated using panelists with at least one completed interview. This keeps the average quality score more realistic as you only really care about panelists who are actually completing surveys.
-
-> Always reconcile your projects to keep the Qualify Score accurate! In the same way, try to always set the LOI or Length Of the Interview as accurately as you can, as going forward. Speeding will decrease the panelist's quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
+> The Average Quality Score is calculated using panelists with at least one completed interview. This keeps the average quality score more realistic as you only really care about panelists who are actually completing surveys.
 
 > You can easily find all panelists whose quality Score has fallen too low. Similarly, you can automatically exclude panelists with low-quality scores by adjusting your panel's **Business Rules**.
 
