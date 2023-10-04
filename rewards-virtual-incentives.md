@@ -23,7 +23,7 @@ Hosted in the EU region:
 ```
 #### Manage Rewards
 
-Allows the user to select which reward cards (and appropriate denominations) are available to the Panelists when they redeem their points.
+In the Virtual Incentives world, you subscribe to a catalog that is tailored for you. If you want to customize your catalog,  you need to get in touch with your presentative at Virtual Incentives. 
 
 #### Disable
 
