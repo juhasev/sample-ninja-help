@@ -8,7 +8,7 @@ To start issuing rewards, click the configure button and paste the username and 
 
 #### IP Whitelisting
 
-Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account (under the API whitelist in VI UI) includes the following SN IP addresses.
+Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account (under the WHITELIST -tab in VI UI) includes the following SN IP addresses.
 
 Hosted in the EU region:
 ```
