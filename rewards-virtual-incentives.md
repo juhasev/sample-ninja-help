@@ -12,14 +12,12 @@ Virtual Incentives require that all connecting servers are IP whitelisted. If yo
 
 Hosted in the US region:
 ```
-34.221.40.13, 35.87.147.18, 34.213.178.3, 34.209.34.179
-
+35.163.18.175, 34.212.28.62, 34.220.156.201, 54.191.80.169
 ```
 
 Hosted in the EU region:
 ```
-52.210.89.202, 3.253.57.180, 3.252.207.105, 54.78.254.131
-
+52.19.2.233, 3.250.174.168, 54.171.51.251, 3.252.87.86
 ```
 #### Manage Rewards
 
