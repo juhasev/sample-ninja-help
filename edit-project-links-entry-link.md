@@ -11,7 +11,8 @@ The survey entry redirects define where panelists are sent after they respond to
 - Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
 - Hash algorithm: Select which hashing algorithm is used to tamper-proof redirects.
 - Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
-- Passcode param name: This option is only visible for **Re-contact** projects and is used to automatically pass in an uploaded passcode.
+- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
+- Session param name: Defines URL param name for passing the session into the survey.
 
 ## Templates
 Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. This can be a real-time save when you send to a specific target platform regularly. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
@@ -72,11 +73,11 @@ https://surveyengine.com?pid=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID to the test survey when testing the survey link. Sometimes, this makes testing easier, especially if the survey software blocks duplicate IDs.
 
 ### Session ID
-Sample Ninja now supports projects passing session ID into surveys. When redirected back to Sample Ninja from a survey, the session ID provides backup in case a panelist’s session cannot be found for any reason. This method provides another safeguard so that panelists get compensated. The survey exit redirects also become more secure when the session ID is in the URL with hashing enabled.
+Sample Ninja now supports projects passing session ID into surveys. When redirected back to Sample Ninja from a survey, the session ID provides backup in case a panelist’s session cannot be found for any reason. This method provides another safeguard so that panelists get compensated. The survey exit redirects become more secure when the session ID is in the URL with hashing enabled.
 
 > It is highly recommended that hashing is enabled, especially when using session ID!
 
-Having session ID available is useful as some survey platforms / exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now you can simply use the session ID without needing to do this.
+Having session ID available is useful as some survey platforms/exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now, you can simply use the session ID without doing this.
 
 All manually created projects and redirect exit links now include session ID by default!
 
