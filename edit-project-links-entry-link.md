@@ -71,6 +71,19 @@ https://surveyengine.com?pid=343&pid=4b6c7e1e-2ec3-4cc7-975a-5a523d55248f
 
 If **Random test ID** is toggled on, Sample Ninja will send a random panelist ID to the test survey when testing the survey link. Sometimes, this makes testing easier, especially if the survey software blocks duplicate IDs.
 
+### Session ID
+Sample Ninja now supports projects passing session ID into surveys. When redirected back to Sample Ninja from a survey, the session ID provides backup in case a panelist’s session cannot be found for any reason. This method provides another safeguard so that panelists get compensated. The survey exit redirects also become more secure when the session ID is in the URL with hashing enabled.
+
+> It is highly recommended that hashing is enabled, especially when using session ID!
+
+Having session ID available is useful as some survey platforms / exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now you can simply use the session ID without needing to do this.
+
+All manually created projects and redirect exit links now include session ID by default!
+
+> Remember to upgrade your project links as soon as possible! Session ID will become mandatory at a later date.
+
+> API projects must be modified in order to take advantage of this new feature. Please contact support@sampleninja.io for details.
+
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
