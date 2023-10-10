@@ -79,7 +79,7 @@ Sample Ninja now supports projects passing session ID into surveys. When redirec
 
 Having session ID available is useful as some survey platforms/exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now, you can simply use the session ID without doing this.
 
-All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL and you then capture the value in your survey tool. When the panelist completes the survey, you will then append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota etc.). The session parameter is required when “session param name” is defined and it has to be passed back in “session” -parameter (fixed parameter name on exit, configurable when sending to survey).
+All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL and you then capture the value in your survey tool. When the panelist completes the survey, you will then append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota etc.).
 
 > Remember to upgrade your project links as soon as possible! Session ID will become mandatory at a later date.
 
