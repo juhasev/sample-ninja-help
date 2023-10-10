@@ -39,6 +39,8 @@ Deliver survey notifications to panelists' web browsers in real time. The user d
 Blocks respondents automatically if they select their age less than what is configured here.
 
 #### Minimum points to redeem
-This setting enforces that panelists have earned at least the indicated reward points. The total number of lifetime points redeemed is tracked by the data variable POINTS_REWARDED. This setting enables you to block new and fraudulent panelists from redeeming any reward till they accumulate the specified minimum. Leave as 0 for no restrictions.
+This setting enforces that panelists have earned at least the indicated reward points. This setting enables you to block new and fraudulent panelists from redeeming any reward till they accumulate the specified minimum. Leave as 0 
+for no restrictions.
 
+> The total number of lifetime points redeemed is tracked by the data variable **POINTS_REWARDED**, whereas the current balance is written into the data variable **POINTS_BALANCE**.
 
