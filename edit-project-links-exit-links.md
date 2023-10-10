@@ -34,6 +34,10 @@ https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
 
 > **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
 
+## Session ID Redirects
+
+The session parameter is required when “session param name” is defined and it has to be passed back in “session” -parameter (fixed parameter name on exit, configurable when sending to survey).
+
 ## Signing and security
 Signing should always be used when redirecting panelists to **Sample Ninja** exit links. The following algorithms are supported:
 
