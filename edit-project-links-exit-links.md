@@ -36,7 +36,7 @@ https://sampleninja.app/p/exit?s=c&session=d4454aa4-4690-4a8a-bc51-66d30072a87f
 
 ## Session ID Redirects
 
-The session parameter is required when “session param name” is defined and it has to be passed back in “session” -parameter (fixed parameter name on exit, configurable when sending to survey).
+The session parameter is required when “session param name” is defined (default), and it has to be passed back in “session” -parameter (fixed parameter name on exit, configurable when sending into surveys).
 
 ## Signing and security
 Signing should always be used when redirecting panelists to **Sample Ninja** exit links. The following algorithms are supported:
@@ -69,13 +69,13 @@ Choose one of these methods if adding hashing the first time. These are by far t
 Returning to **SampleNinja** as completed
 
 ```
-https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790
 ```
 #### Step 1
 Append the secret to the end of the URL
 
 ```
-https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode
 ```
 
 #### Step 2
@@ -83,14 +83,14 @@ Calculate the hash (PHP Example)
 
 ```
 // SHA1
-echo hash('SHA1','https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
+echo hash('SHA1','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
 
-11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
+821583aed0d889bb37ec2995fb6b18837f254650
 
 // SHA 2
-echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
+echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
 
-d7410978f0238ccbd507abb9b071d84438b66aa531440265f9bdf991b13ab5e9
+7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
 ```
 
 #### Step 3
@@ -98,63 +98,61 @@ Append the calculated hash to the end of the URL
 
 ```
 // SHA1
-https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=11adba1d1d1c3d910e7eef19daf8505bcdf28cd1
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790&hash=821583aed0d889bb37ec2995fb6b18837f254650
 
 // SHA256
-https://yourcompany.panelservice.io/p/exit?s=c&random=9bb379a3-7831-4a55-8036-085aeff18790&hash=d7410978f0238ccbd507abb9b071d84438b66aa531440265f9bdf991b13ab5e9
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790&hash=7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
 ```
-
-> Change the HASH algorithm to SHÁ256 if you prefer that instead. The steps are the same:
 
 ### Example B (SHA-1 Legacy and SHA-256 Legacy, Not recommended)
 
 Returning to **SampleNinja** as completed
 
 ```
-https://yourcompany.panelservice.io/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790
 ```
 
 #### Step 1 - Remove protocol and host
 ```
-/p/exit?s=c&id=9bb379a3-7831-4a55-8036-085aeff18790
+/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790
 ```
 #### Step 2 - Sort URL params alphabetically
 ```
-/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c
+/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=c
 ```
 #### Step 3 - Append secret
 ```
-/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode
+/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode
 ```
 #### Step 4 - Calculate the hash
 When using SHA-1
 ```
-echo hash('SHA1','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
+echo hash('SHA1','/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
-17637eac2a8bbd056bb31b19a31768846474b5fa
+5b0cc76a56f0ee660dcf72ecca4706bec1981c10
 ```
 
 When using SHA-256
 ```
-echo hash('SHA256','/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
+echo hash('SHA256','/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=cMySecretPasscode'); // PHP example
 
-f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
+bbc0ce056845647071b3a5aa82a478ac65885ba81c2671f01482fb5e5df3c011
 ```
 
 #### Step 5 - Append hash to the exit link
 
 Example result using **SHA-1** algorithm with secret **MySecretPasscode**
 ```
-https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=17637eac2a8bbd056bb31b19a31768846474b5fa
+https://yourcompany.panelservice.io/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=5b0cc76a56f0ee660dcf72ecca4706bec1981c10
 ```
 
 Example result using **SHA-256** algorithm with secret **MySecretPasscode**.
 ```
-https://yourcompany.panelservice.io/p/exit?id=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=f9c2db85f0d4644b4f8e187bea2bd2c62d4aa216af5f42c4c4a4b9b153bc1bd0
+https://yourcompany.panelservice.io/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=bbc0ce056845647071b3a5aa82a478ac65885ba81c2671f01482fb5e5df3c011
 ```
 
 ### Python example:
-The following Python example is Decipher compatible. You cannot enter & in Decipher as will be rejected when you submit your code. The following example illustrated how go around this validation issue:
+The following Python example is Decipher compatible. You cannot enter & in Decipher as it will be rejected when you submit your code. The following example illustrates how to go around this validation issue:
 
 ```
 import hashlib 
