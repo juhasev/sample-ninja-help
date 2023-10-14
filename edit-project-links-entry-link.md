@@ -1,6 +1,11 @@
 ## Survey entry redirects
 
-The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform, but can be any other system. Additionally, you can send in panelist ID, and data variable data and enable URL security via hashing.
+The survey entry redirects define where panelists are sent after they respond to invitations. This is typically a survey platform, but can be any other system. In the basic form you should always send:
+
+1) Panelist ID (required to reconcile)
+2) Session ID (provides additional safe guard and make hashing more secure)
+
+Additionally, data variable data and enable URL security via hashing.
 
 > The default redirect for new projects points to **Sample Ninja - Test Survey** that can be used instead of an actual survey for testing purposes. When using the test survey, you can manually select the desired outcome, i.e., COMPLETED, QUALITY, QUOTA, etc...
 
@@ -8,14 +13,15 @@ The survey entry redirects define where panelists are sent after they respond to
 
 - Base URL: Enter the base URL for the survey platform you intend to use.
 - Panelist ID param name: Enter the parameter name you want to use, passing **Panelist ID** to the survey platform. (This parameter is automatically inserted.)
-- Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
 - Hash algorithm: Select which hashing algorithm is used to tamper-proof redirects.
 - Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
-- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
 - Session param name: Defines URL param name for passing the session into the survey.
+- Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
+- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
 
 ## Templates
-Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. This can be a real-time save when you send to a specific target platform regularly. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
+
+Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. When you regularly send to a specific target platform, this can be a real timesaver. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
 
 > We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
 
@@ -51,12 +57,12 @@ Sample Ninja pipes check box values as multiple values. For example, if using th
 
 https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 
-> Some survey platforms may use alternate formats like hobbies=1,2,3. For accomplish this, enable **Pipe checkbox values as string** toggle.
+> Some survey platforms may use alternate formats like hobbies=1,2,3. To accomplish this, enable **Pipe checkbox values as string** toggle.
 
 #### Sending Locale -variable to a survey
 Every panelist has an assigned locale, for example, ENG-US. If a multilingual survey is being run, then the **LOCALE** data variable should be piped into the survey.
 
-> Some survey platforms may use alternative locales or languages. Please contact support@sampleninja.io if you run into this situation.
+> Some survey platforms may use alternative locales or languages. Please get in touch with support@sampleninja.io if you run into this situation.
 
 #### Test and send variable data
 Sample Ninja will automatically insert random data for all the defined data variable pipes.
@@ -79,11 +85,11 @@ Sample Ninja now supports projects passing session ID into surveys. When redirec
 
 Having session ID available is useful as some survey platforms/exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now, you can simply use the session ID without doing this.
 
-All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL and you then capture the value in your survey tool. When the panelist completes the survey, you will then append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota etc.).
+All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL and you then capture the value in your survey tool. When the panelist completes the survey, you will append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota etc.).
 
 > Remember to upgrade your project links as soon as possible! Session ID will become mandatory at a later date.
 
-> API projects must be modified in order to take advantage of this new feature. Please contact support@sampleninja.io for details.
+> API projects must be modified to take advantage of this new feature. Please get in touch with support@sampleninja.io for details.
 
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
