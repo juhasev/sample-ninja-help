@@ -29,7 +29,7 @@ The **quality** status should be used when a panelist is straight-lining and oth
 
 Example of returning complete back along with the panelist ID
 ```
-https://sampleninja.app/p/exit?s=c&pid=d4454aa4-4690-4a8a-bc51-66d30072a87f
+https://sampleninja.app/p/exit?s=c&session=d4454aa4-4690-4a8a-bc51-66d30072a87f
 ```
 
 > **IMPORTANT:** Always use the correct status as these statuses are used to calculate panelist's **Quality Score**
