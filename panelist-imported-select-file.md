@@ -166,12 +166,13 @@ You can assign or specify the following before clicking the **Upload** button:
 2.	Locale
 3.	Recruitment source
 4.	Subscribed date
+5.	Select to "test run" or "make changes" to the database
 
 > You can provide **LOCALE**, **RECRUITMENT_SOURCE** and **SUBSCRIBED_DATE** for each individual panelists if desired. If the importer encounters any blank or missing values then the values you selected here will be used. You may also omit these columns completely from your CSV file.
 
 ### 5.	Results
 
-The result of the outcome of the upload is displayed here. You can see how many panelists were successfully imported and similarly the number of panelists that couldn’t be imported. Any errors are highlighted in red. If you mouse over the error items you will see more details description of the error.
+The result of the outcome of the upload is displayed here. You can see how many panelists were successfully imported and similarly the number of panelists that couldn’t be imported. Any errors are highlighted in red. If you mouse over the error items you will see more details descriptions of the error.
 
 If your import contains any errors, the system will automatically generate a results file containing all the CSV lines with errors and explanations on how to fix. This file is automatically placed in your downloads. Select **Downloads** from the main menu to go to downloads or click on the **Downloads** -button in the importer results screen. 
 
