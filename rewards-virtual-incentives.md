@@ -6,6 +6,11 @@ To start issuing rewards, click the configure button and paste the username and 
 
 > **NOTE** It is a requirement that the program names begin with an SN_ prefix. This allows you to have separate reporting for SampleNinja Virtual Incentives programs and your existing programs.
 
+#### Testing
+You can test the redemptions using the "Sandbox" or "Production" account. This should be done in the staging environment.
+
+> Do not use the sandbox account in production to prevent accidentally offering "fake" rewards to your panelists.
+
 #### IP Whitelisting
 
 Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account (under the WHITELIST -tab in VI UI) includes the following SN IP addresses.
