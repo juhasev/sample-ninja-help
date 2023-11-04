@@ -21,7 +21,7 @@ Please just leave it blank to use the built-in page.
 > To edit the default landing pages for **Terms and Conditions**, **Privacy Policy**, or **Cookie Policy**, exit from this page, click the **MANAGE** button again, and select **Edit Landing Pages**. Select the appropriate page and language from the selector left top. 
 
 #### Apple App Store URL
-If you want to use Sample Ninja with your in-house developed iOS app, you can specify the Apple App Store URL here. This enables web users to download the mobile app.
+If you want to use Sample Ninja with your in-house developed iOS app, you can specify the Apple App Store URL here. This enables web users to download the mobile app. Please note that you have toggle "Enable mobile app download" on.
 
 #### Google Play Store URL
-If you want to use Sample Ninja with your in-house developed Android app, you can specify the Google Play Store URL here. This enables web users to download the mobile app.
+If you want to use Sample Ninja with your in-house developed Android app, you can specify the Google Play Store URL here. This enables web users to download the mobile app. Please note that you have toggle "Enable mobile app download" on.
