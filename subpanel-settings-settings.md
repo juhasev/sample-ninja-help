@@ -16,6 +16,9 @@ Research Team <super.ninja@sampleninja.app>
 
 However, if you ask your panelists to whitelist your sending email address, it has to be done using the actual email address.
 
+#### Email from domain
+Controls which domain the emails are sent from. If you need a custom email from a domain, contact us at support@sampleninja.io for more information. By default, you cannot edit this value.
+
 #### Enable push notifications
 Deliver survey notifications to panelists' web browsers in real-time. The user doesn't have to be on the website if their web browser is open. Subscribe to push notifications dialog is automatically displayed on all termination pages (completed, profile, quota), the member app, and the email confirmation page. The push notifications work in all desktop browsers like Chrome, Edge, and Firefox as long as the user accepts when prompted. Sample Ninja will automatically ask to enable notifications once a month, even if the panelist initially declined.
 
