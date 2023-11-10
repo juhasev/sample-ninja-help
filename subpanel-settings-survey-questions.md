@@ -58,7 +58,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Sunny Delight
 - Alaskan Orange Juice (disqualify)
 - Diesel (disqualify)
-- Break fluid DOT 4.0 (disqualify)
+- Break Fluid DOT 4.0 (disqualify)
 - None of the above (Exclusive) (disqualify)
 
 ### Choice options (radio & checkbox)
