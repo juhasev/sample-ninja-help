@@ -36,6 +36,7 @@ Which flavored drinks have you consumed in the past year? Please read the answer
 - Dr. Pepper
 - Coords Heavy (disqualify)
 - Budweiser
+- Rolex (disqualify)
 - Engine Coolant (disqualify)
 - Red Bull
 - Discoteque Energy Drink (disqualify)
