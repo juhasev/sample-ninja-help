@@ -38,7 +38,7 @@ Which flavored drinks have you consumed in the past year. Please read the answer
 - Budweiser
 - Engine Coolant (disqualify)
 - Red Bull
-- Disco Energy Drink (disqualify)
+- Discoteque Energy Drink (disqualify)
 - Red Wine
 - Water
 - Cool Juice (disqualify)
