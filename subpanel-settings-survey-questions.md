@@ -26,6 +26,28 @@ Anytime questions are added, ensure the necessary question translation has been 
 
 > Questions that are missing translations are marked with the warning icon.
 
+### Trap questions
+You can designate any question as a trap question. The trap question could be something like that:
+
+Which of the products have you consumed in the last year:
+- RC Cola
+- Dr. Pepper
+- Beer
+- Coolant
+- Milk
+- Brake fluid
+- Gatorade
+- Pepsi
+- Fanta
+- Poison
+- Coca Cola
+- Sunny Delight
+- Orange juice
+- Diesel
+
+### Choice options (radio & checkbox)
+You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
+
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
 
