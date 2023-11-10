@@ -36,7 +36,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Dr. Pepper
 - Coords Heavy (disqualify)
 - Budweiser
-- Coolant (disqualify)
+- Engine Coolant (disqualify)
 - Red Bull
 - Disco Energy Drink (disqualify)
 - Wine
@@ -49,7 +49,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Diet Pepsi
 - Urine Light (disqualify)
 - Fanta
-- Glass Cleaner
+- Glass Cleaner (disqualify)
 - Mountain Dew
 - Rocky Mountain Piss (disqualify)
 - Sweat Seltzer (disqualify)
