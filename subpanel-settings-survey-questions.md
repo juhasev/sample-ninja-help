@@ -50,7 +50,7 @@ Which flavored drinks have you consumed in the past year? Please read the answer
 - Clorox (disqualify)
 - Star Dollar Coffee (disqualify)
 - Diet Pepsi
-- Urine Light (disqualify)
+- Urine Light XL (disqualify)
 - Fanta
 - Glass Cleaner (disqualify)
 - Mountain Dew
