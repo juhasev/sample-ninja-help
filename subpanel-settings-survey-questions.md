@@ -45,7 +45,9 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Rockstar
 - Anthrax Liquor (disqualify)
 - Monster
+- Chocolate milk
 - Clorox (disqualify)
+- Coffee
 - Diet Pepsi
 - Urine Light (disqualify)
 - Fanta
