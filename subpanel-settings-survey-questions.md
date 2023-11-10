@@ -30,16 +30,16 @@ Anytime questions are added, ensure the necessary question translation has been 
 You can designate any question as a trap question. The trap question could be something like that:
 
 Which of the products have you consumed in the last year:
+- Gatorade
 - RC Cola
 - Dr. Pepper
 - Beer
 - Coolant
 - Milk
-- Brake fluid
-- Gatorade
-- Pepsi
+- Clorox
+- Diet Pepsi
 - Fanta
-- Poison
+- Poisonous Juice
 - Coca Cola
 - Sunny Delight
 - Orange juice
