@@ -36,7 +36,7 @@ Which of the drinks have you consumed in the past year:
 - Dr. Pepper
 - Beer
 - Coolant
-- Milk
+- Disco Energy
 - Wine
 - Cool Juice
 - Rockstar
