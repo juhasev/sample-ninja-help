@@ -46,7 +46,7 @@ Which flavored drinks have you consumed in the past year? Please read the answer
 - Anthrax Liquor (disqualify)
 - Monster
 - Chocolate milk
-- Rocky Mountain Piss (disqualify)
+- Rocky Mountain Urine (disqualify)
 - Clorox (disqualify)
 - Star Dollar Coffee (disqualify)
 - Diet Pepsi
