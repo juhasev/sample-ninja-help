@@ -29,7 +29,7 @@ Anytime questions are added, ensure the necessary question translation has been 
 ### Trap questions
 You can designate any question as a trap question. The trap question could be something like that:
 
-Which of the of the flavored drinks have you consumed in the past year:
+Which flavored drinks have you consumed in the past year. Please read the answer options carefully and select only the items that apply.
 - Coca Cola
 - Gatorade
 - RC Cola (disqualify)
