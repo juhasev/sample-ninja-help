@@ -61,6 +61,7 @@ Which flavored drinks have you consumed in the past year? Please read the answer
 - Dunkin Donuts Coffee
 - Sunny Delight
 - Alaskan Orange Juice (disqualify)
+- Florida's Best
 - Diesel (disqualify)
 - Break Fluid DOT 4.0 (disqualify)
 - None of the above (Exclusive) (disqualify)
