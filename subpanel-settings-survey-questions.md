@@ -43,6 +43,7 @@ Which of the drinks have you consumed in the past year:
 - Cool Juice
 - Rockstar
 - Anthrax Liquor
+- Monster
 - Clorox
 - Diet Pepsi
 - Urine Light
