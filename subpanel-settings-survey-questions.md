@@ -54,6 +54,7 @@ Which of the drinks have you consumed in the past year:
 - Orange juice
 - Diesel
 - Break fluid DOT 4.0
+- None of the above (Exclusive)
 
 ### Choice options (radio & checkbox)
 You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
