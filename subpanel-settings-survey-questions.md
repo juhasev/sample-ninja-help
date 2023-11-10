@@ -39,8 +39,8 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Engine Coolant (disqualify)
 - Red Bull
 - Disco Energy Drink (disqualify)
-- Wine
-- Water (disqualify)
+- Red Wine
+- Water
 - Cool Juice (disqualify)
 - Rockstar
 - Anthrax Liquor (disqualify)
