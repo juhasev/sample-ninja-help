@@ -40,7 +40,7 @@ Which of the drinks have you consumed in the past year:
 - Wine
 - Cool Juice
 - Rockstar
-- Anthrax death
+- Anthrax liquor
 - Clorox
 - Diet Pepsi
 - Fanta
