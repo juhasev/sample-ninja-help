@@ -55,7 +55,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Poisonous Juice (disqualify)
 - Sunny Delight
 - Alaskan Orange Juice (disqualify)
-- Diesel
+- Diesel (disqualify)
 - Break fluid DOT 4.0 (disqualify)
 - None of the above (Exclusive) (disqualify)
 
