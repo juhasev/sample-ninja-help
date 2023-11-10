@@ -64,7 +64,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - None of the above (Exclusive) (disqualify)
 
 ### Choice options (radio & checkbox)
-You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
+You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type. Click to the down arrow to expand and see the multiple choice options.
 
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
