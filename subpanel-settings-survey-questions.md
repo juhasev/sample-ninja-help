@@ -55,7 +55,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Glass Cleaner (disqualify)
 - Mountain Dew
 - Restroom Delight (disqualify)
-- Sweat Seltzer (disqualify)
+- Gym Sweat Seltzer (disqualify)
 - Poisonous Juice (disqualify)
 - Sunny Delight
 - Alaskan Orange Juice (disqualify)
