@@ -44,6 +44,7 @@ Which of the drinks have you consumed in the past year:
 - Anthrax liquor
 - Clorox
 - Diet Pepsi
+- Urine Light
 - Fanta
 - Sweat Seltzer
 - Poisonous Juice
