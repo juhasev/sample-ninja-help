@@ -58,6 +58,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Sprite
 - Gym Sweat Seltzer (disqualify)
 - Poisonous Juice (disqualify)
+- Dunkin Donuts Coffee
 - Sunny Delight
 - Alaskan Orange Juice (disqualify)
 - Diesel (disqualify)
