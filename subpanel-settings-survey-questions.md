@@ -52,6 +52,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Glass Cleaner (disqualify)
 - Mountain Dew
 - Rocky Mountain Piss (disqualify)
+- Restroom Delight (disqualify)
 - Sweat Seltzer (disqualify)
 - Poisonous Juice (disqualify)
 - Sunny Delight
