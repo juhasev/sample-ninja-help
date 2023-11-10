@@ -34,14 +34,15 @@ Which of the drinks have you consumed in the past year:
 - Gatorade
 - RC Cola
 - Dr. Pepper
-- Beer
+- Coords Heavy
+- Budweiser
 - Coolant
 - Red Bull
-- Disco Energy
+- Disco Energy Drink
 - Wine
 - Cool Juice
 - Rockstar
-- Anthrax liquor
+- Anthrax Liquor
 - Clorox
 - Diet Pepsi
 - Urine Light
