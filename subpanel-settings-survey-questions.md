@@ -32,31 +32,32 @@ You can designate any question as a trap question. The trap question could be so
 Which of the drinks have you consumed in the past year:
 - Coca Cola
 - Gatorade
-- RC Cola
+- RC Cola (disqualify)
 - Dr. Pepper
-- Coords Heavy
+- Coords Heavy (disqualify)
 - Budweiser
-- Coolant
+- Coolant (disqualify)
 - Red Bull
-- Disco Energy Drink
+- Disco Energy Drink (disqualify)
 - Wine
-- Cool Juice
+- Water
+- Cool Juice (disqualify)
 - Rockstar
-- Anthrax Liquor
+- Anthrax Liquor (disqualify)
 - Monster
-- Clorox
+- Clorox (disqualify)
 - Diet Pepsi
-- Urine Light
+- Urine Light (disqualify)
 - Fanta
 - Mountain Dew
-- Rocky Mountain Piss
-- Sweat Seltzer
-- Poisonous Juice
+- Rocky Mountain Piss (disqualify)
+- Sweat Seltzer (disqualify)
+- Poisonous Juice (disqualify)
 - Sunny Delight
-- Alaskan Orange Juice
+- Alaskan Orange Juice (disqualify)
 - Diesel
-- Break fluid DOT 4.0
-- None of the above (Exclusive)
+- Break fluid DOT 4.0 (disqualify)
+- None of the above (Exclusive) (disqualify)
 
 ### Choice options (radio & checkbox)
 You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
