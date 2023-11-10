@@ -10,29 +10,29 @@ Insert question conditions by clicking the **C** -icon on each question and then
 
 > For example, you could conditionally ask for more details about pet ownership if a panelist has indicated they own pets. 
 
-If the condition is satisfied, then the question will be displayed to the registering panelist.
+If the condition is satisfied, the question will be displayed to the registering panelist.
 
-> Taking the above example, if there is a data variable such as **ALLERGIES** which has been conditionally linked to the variable of **PETS**; then when a panelist has stated they own pets, the question regarding allergies will be shown.
+> Taking the above example, if there is a data variable such as **ALLERGIES** which has been conditionally linked to the variable of **PETS**, the question regarding allergies will be shown when a panelist has stated they own pets.
 
-There are no limitations to the number of conditions that can be added, i.e., one question can have multiple conditions, and similarly, each subsequent question can have a condition. Questions can still be dragged and dropped in any order. However, please note that a conditional question cannot come before the question it is linked to.
+There are no limitations to the number of conditions that can be added, i.e., one question can have multiple conditions, and similarly, each subsequent question can have a condition. Questions can still be dragged and dropped in any order. However, please keep in mind that a conditional question cannot come before the question it is linked to.
 
-> Using the following as an example; **INCOME** and **INDUSTRY** can both be conditionally linked to **EDUCATION** or **INCOME** can be conditionally linked to **EDUCATION** and **INDUSTRY** can be conditionally linked to **INCOME**. In both these scenarios, the question order would be education > income > industry. Neither the question for income nor the question for industry would appear before the question for education.
+> Using the following as an example; **INCOME** and **INDUSTRY** can both be conditionally linked to **EDUCATION** or **INCOME** can be conditionally linked to **EDUCATION** and **INDUSTRY** can be conditionally linked to **INCOME**. The question order in both scenarios would be education > income > industry. Both the question for income and the question for industry would appear before the question for education.
 
 At this stage, conditions can only be applied to ‘Radio’ based questions. So while ‘Text,’ ‘Keyword,’ ‘Number,’ etc data variables can be conditionally linked to ‘Radio’ data variables, the aforementioned variables can not be conditionally linked with other variable types. 
 
-> For example, **COUNTRY** (Keyword) can be conditionally linked to **EDUCATION** (Radio) but this would not work in reverse. Similarly, **PHONE** (Number) cannot be conditionally linked to **FIRST_NAME** (Text), nor would this work vice versa.
+> For example, **COUNTRY** (Keyword) can be conditionally linked to **EDUCATION** (Radio), but this would not work in reverse. Similarly, **PHONE** (Number) cannot be conditionally linked to **FIRST_NAME** (Text), nor would this work vice versa.
 
 Anytime questions are added, ensure the necessary question translation has been supplied. Otherwise, the registration survey may become unavailable for some locales. 
 
 > Questions that are missing translations are marked with the warning icon.
 
 ### Localizations
-Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales ENG-US and SPA-US you must provide localizations for both locales using the **EDIT** button.
+Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
 
 > If you are missing localizations, an orange triangle will show up by the question name.
 
 ### Answer Validation
-Sample Ninja includes multiple validators that can be used to validate user-provided input. For example, if you are asking for a zipcode you can set the following validators for the question:
+Sample Ninja includes multiple validators that can be used to validate user-provided input. For example, if you are asking for a zipcode, you can set the following validators for the question:
 
 - Minimum length 5
 - Maximum length 5
