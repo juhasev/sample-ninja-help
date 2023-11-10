@@ -48,7 +48,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Chocolate milk
 - Rocky Mountain Piss (disqualify)
 - Clorox (disqualify)
-- Coffee
+- Star Dollar Coffee (disqualify)
 - Diet Pepsi
 - Urine Light (disqualify)
 - Fanta
