@@ -49,6 +49,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Diet Pepsi
 - Urine Light (disqualify)
 - Fanta
+- Glass Cleaner
 - Mountain Dew
 - Rocky Mountain Piss (disqualify)
 - Sweat Seltzer (disqualify)
