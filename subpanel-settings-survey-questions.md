@@ -55,7 +55,7 @@ Which flavored drinks have you consumed in the past year? Please read the answer
 - Glass Cleaner (disqualify)
 - Mountain Dew
 - Restroom Delight (disqualify)
-- Sprite
+- Sprite or Diet Sprite
 - Gym Sweat Seltzer (disqualify)
 - Poisonous Juice (disqualify)
 - Dunkin Donuts Coffee
