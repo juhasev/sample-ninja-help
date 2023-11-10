@@ -44,6 +44,7 @@ Which of the drinks have you consumed in the past year:
 - Clorox
 - Diet Pepsi
 - Fanta
+- Sweat Seltzer
 - Poisonous Juice
 - Sunny Delight
 - Orange juice
