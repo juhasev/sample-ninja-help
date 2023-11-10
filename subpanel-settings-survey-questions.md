@@ -46,6 +46,7 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Anthrax Liquor (disqualify)
 - Monster
 - Chocolate milk
+- Rocky Mountain Piss (disqualify)
 - Clorox (disqualify)
 - Coffee
 - Diet Pepsi
@@ -53,7 +54,6 @@ Which of the of the flavored drinks have you consumed in the past year:
 - Fanta
 - Glass Cleaner (disqualify)
 - Mountain Dew
-- Rocky Mountain Piss (disqualify)
 - Restroom Delight (disqualify)
 - Sweat Seltzer (disqualify)
 - Poisonous Juice (disqualify)
