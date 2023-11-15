@@ -117,9 +117,9 @@ If you don't find any good canditate in the font stack, you can use Google font 
 4. Copy the font-family from the right panel under "CSS rules to specify families"
 5. Paste it into "Fonts > Font family"
 
-<img width="800" alt="Screenshot 2023-11-13 at 10 48 25" src="[https://github.com/juhasev/sample-ninja-help/assets/2118799/202c0308-8542-4d41-a9dd-ddca6c3b93f9](https://github.com/juhasev/sample-ninja-help/assets/2118799/12636f0c-8fc5-4b65-ac06-4b012dc3b794)">
+<img width="800" alt="Bunny Fonts" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/12636f0c-8fc5-4b65-ac06-4b012dc3b794">
 
-<img width="611" alt="Screenshot 2023-11-13 at 10 48 25" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/202c0308-8542-4d41-a9dd-ddca6c3b93f9">
+<img width="611" alt="Using Bunny fonts" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/202c0308-8542-4d41-a9dd-ddca6c3b93f9">
 
 <br><br>
 
