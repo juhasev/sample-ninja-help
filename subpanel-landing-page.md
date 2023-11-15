@@ -117,13 +117,13 @@ If you don't find any good canditate in the font stack, you can use Google font 
 4. Copy the font-family from the right panel under "CSS rules to specify families"
 5. Paste it into "Fonts > Font family"
 
-![bunny-font](https://github.com/juhasev/sample-ninja-help/assets/2118799/12636f0c-8fc5-4b65-ac06-4b012dc3b794)
+<img width="800" alt="Screenshot 2023-11-13 at 10 48 25" src="[https://github.com/juhasev/sample-ninja-help/assets/2118799/202c0308-8542-4d41-a9dd-ddca6c3b93f9](https://github.com/juhasev/sample-ninja-help/assets/2118799/12636f0c-8fc5-4b65-ac06-4b012dc3b794)">
 
 <img width="611" alt="Screenshot 2023-11-13 at 10 48 25" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/202c0308-8542-4d41-a9dd-ddca6c3b93f9">
 
 <br><br>
 
-Or `custom` to upload your own custom font.
+Or choose **custom** to upload your custom font.
 
 #### Custom font upload
 
@@ -133,7 +133,7 @@ If you prefer to use your own font, select `custom` from "font stack" and "font 
 
 A dialog window opens. Fill in the Font family and upload the Font face files.
 
-Only files of type WOFF and WOFF2 are allowed and the relative styelsheet file (CSS).
+Only files of type WOFF and WOFF2 are allowed and the relative stylesheet file (CSS).
 If your custom font is in another format you can easily convert it with [https://transfonter.org](https://transfonter.org).
 
 _Follow these steps:_
@@ -157,7 +157,7 @@ _Follow these steps:_
 
 #### Emoji support
 
-By default we provide native emoji support, that means modern devices are able to render emojis in every landing page.
+By default, we provide native emoji support, which means modern devices are able to render emojis on every landing page.
 
 You can disable this functionality if you encounter font rendering issues (this is a very rare case).
 
