@@ -10,9 +10,9 @@ Insert question conditions by clicking the **C** -icon on each question and then
 
 > For example, you could conditionally ask for more details about pet ownership if a panelist has indicated they own pets. 
 
-If the condition is satisfied, the question will be displayed to the registering panelist.
+The question will be displayed to the registering panelist if the condition is satisfied.
 
-> Taking the above example, if there is a data variable such as **ALLERGIES** which has been conditionally linked to the variable of **PETS**, the question regarding allergies will be shown when a panelist has stated they own pets.
+> Taking the above example, if a data variable such as **ALLERGIES** has been conditionally linked to the variable of **PETS**, the allergy question will be shown when a panelist has stated they own pets.
 
 There are no limitations to the number of conditions that can be added, i.e., one question can have multiple conditions, and similarly, each subsequent question can have a condition. Questions can still be dragged and dropped in any order. However, please keep in mind that a conditional question cannot come before the question it is linked to.
 
@@ -22,53 +22,12 @@ At this stage, conditions can only be applied to ‘Radio’ based questions. So
 
 > For example, **COUNTRY** (Keyword) can be conditionally linked to **EDUCATION** (Radio), but this would not work in reverse. Similarly, **PHONE** (Number) cannot be conditionally linked to **FIRST_NAME** (Text), nor would this work vice versa.
 
-Anytime questions are added, ensure the necessary question translation has been supplied. Otherwise, the registration survey may become unavailable for some locales. 
+Anytime questions are added, please ensure the necessary translation has been supplied. Otherwise, the registration survey may become unavailable for locales without translations. 
 
 > Questions that are missing translations are marked with the warning icon.
 
-### Trap questions
-You can designate any question as a trap question. The trap question could be something like that:
-
-Which flavored drinks have you consumed in the past year? Please read the answer options carefully and select only the items that apply.
-- Coca Cola
-- Gatorade
-- RC Cola (disqualify)
-- Dr. Pepper
-- Coords Heavy (disqualify)
-- Budweiser
-- Rolex (disqualify)
-- Engine Coolant (disqualify)
-- Red Bull
-- Discoteque Energy Drink (disqualify)
-- Red Wine
-- Water
-- Cool Juice (disqualify)
-- Rockstar
-- Anthrax Liquor (disqualify)
-- Monster
-- Chocolate milk
-- Rocky Mountain Urine (disqualify)
-- Clorox (disqualify)
-- Star Dollar Coffee (disqualify)
-- Diet Pepsi
-- Urine Light XL (disqualify)
-- Fanta
-- Glass Cleaner (disqualify)
-- Mountain Dew
-- Restroom Delight (disqualify)
-- Sprite or Diet Sprite
-- Gym Sweat Seltzer (disqualify)
-- Poisonous Juice (disqualify)
-- Dunkin Donuts Coffee
-- Sunny Delight
-- Alaskan Orange Juice (disqualify)
-- Florida's Best
-- Diesel (disqualify)
-- Break Fluid DOT 4.0 (disqualify)
-- None of the above (Exclusive) (disqualify)
-
 ### Choice options (radio & checkbox)
-You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type. Click to the down arrow to expand and see the multiple choice options.
+You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type. Click on the down arrow to expand and see the multiple-choice options.
 
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
