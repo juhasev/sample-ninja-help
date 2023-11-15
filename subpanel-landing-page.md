@@ -93,7 +93,7 @@ Or `custom` to select the font provider of your choice.
 
 If you don't find any good canditate in the font stack, you can use Google font or Bunny font and choose one of the font these providers have in their catalog.
 
-<img width="560" alt="Screenshot 2023-11-13 at 10 44 12" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/7bf5f669-ba06-4d44-b85e-3fa2d5118ac1">
+<img width="611" alt="Google Fonts" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/7bf5f669-ba06-4d44-b85e-3fa2d5118ac1">
 
 <br><br>
 
@@ -104,7 +104,7 @@ If you don't find any good canditate in the font stack, you can use Google font 
 4. Copy the font-family from the right panel under "CSS rules to specify families"
 5. Paste it into "Fonts > Font family"
 
-<img width="700" alt="google-font" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/9c75f53d-db9c-4f75-a5fd-cb8658384424">
+<img width="611" alt="google-font" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/9c75f53d-db9c-4f75-a5fd-cb8658384424">
 
 <img width="611" alt="Screenshot 2023-11-13 at 10 48 36" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/843b64b9-d309-4d6c-888c-5c1485e35b03">
 
