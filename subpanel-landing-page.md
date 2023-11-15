@@ -129,7 +129,7 @@ Or `custom` to upload your own custom font.
 
 If you prefer to use your own font, select `custom` from "font stack" and "font provider", then click on the "upload font" button.
 
-<img width="1180" alt="Screenshot 2023-11-13 at 11 10 31" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/e67b4dde-4b0b-4d78-883d-ce0b2d47db8b">
+<img width="800" alt="Screenshot 2023-11-13 at 11 10 31" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/e67b4dde-4b0b-4d78-883d-ce0b2d47db8b">
 
 A dialog window opens. Fill in the Font family and upload the Font face files.
 
@@ -147,9 +147,9 @@ _Follow these steps:_
 8. Click on "preview" and select/copy the "font-family"
 9. Paste it into the dialog window (see image above)
 
-<img width="1042" alt="Screenshot 2023-11-13 at 11 29 54" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/b1819dcf-e160-4e61-9794-dd12b3fd5264">
+<img width="800" alt="Screenshot 2023-11-13 at 11 29 54" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/b1819dcf-e160-4e61-9794-dd12b3fd5264">
 
-<img width="940" alt="Screenshot 2023-11-13 at 11 37 58" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/fa562b94-37db-4a40-8f29-efe3b2317905">
+<img width="800" alt="Screenshot 2023-11-13 at 11 37 58" src="https://github.com/juhasev/sample-ninja-help/assets/2118799/fa562b94-37db-4a40-8f29-efe3b2317905">
 
 <br>
 
