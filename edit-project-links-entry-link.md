@@ -21,7 +21,7 @@ Additionally, data variable data and enable URL security via hashing.
 
 ## Templates
 
-Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. When you regularly send to a specific target platform, this can be a real timesaver. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
+Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. When you regularly send to a specific target platform, this can be a real timesaver. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. To create a template from the current project's redirect settings, click on **TEMPLATE CURRENT** button. To select and/or to manage existing template click **SELECT FROM TEMPLATE** button.
 
 > We recommend using the redirect templates, as you can be done configuring redirects literally with a couple of clicks!
 
