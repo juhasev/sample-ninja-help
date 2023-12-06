@@ -65,12 +65,12 @@ https://surveyengine.com?project=[ID]&hobbies=1&hobbies=2&hobbies=3
 #### Sending Locale -variable to a survey
 Every panelist has an assigned locale, for example, ENG-US. If a multilingual survey is being run, then the **LOCALE** data variable should be piped into the survey.
 
-> Some survey platforms may use alternative locales or languages. Please get in touch with support@sampleninja.io if you run into this situation.
+> Some survey platforms may use alternative locales or languages. Please reach out to support @ sampleninja.io if you run into this situation.
 
 #### Test and send variable data
 Sample Ninja will automatically insert random data for all the defined data variable pipes.
 
-> The inserted data for the Keyword and the Text -variable types are static because there is no way for the test data generator to figure out the real intent of the data variable. For example, if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly, for the text variable, if the example **DESCRIPTION** is used, the data set would show as **test_text_description**.
+> The inserted data for the Keyword and the Text -variable types are static because there is no way for the test data generator to figure out the real intent of the data variable. For example, if **CITY** is piped in, the data set will show as **test_keyword_city**. Similarly, if the example **DESCRIPTION** is used for the text variable, the data set would show as **test_text_description**.
  
 ### Panelist ID
 Panelist ID is automatically piped in the URL and is mandatory. You do not have to define and insert this manually, but instead, you configure your survey entry link param name, and **SampleNinja** will take care of the rest for you. Please save the panelist ID along with the survey responses. This is important when you reconcile participants after reviewing the survey data. By default, the parameter name is **pid**, but you may customize this to match the target survey platform.
@@ -88,11 +88,11 @@ Sample Ninja now supports projects passing session ID into surveys. When redirec
 
 Having session ID available is useful as some survey platforms/exchanges require session ID for deduplication purposes. You may have previously combined project ID + panelist ID to make a unique session key. Now, you can simply use the session ID without doing this.
 
-All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL and you then capture the value in your survey tool. When the panelist completes the survey, you will append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota etc.).
+All manually created projects and redirect exit links now include session ID by default! Sample Ninja will append the "session" parameter to the survey URL, and you will then capture the value in your survey software. When the panelist completes the survey, you will append the session ID to the exit URL to Sample Ninja along with the status code (i.e. completes, profile, quota, etc.).
 
 > Remember to upgrade your project links as soon as possible! Session ID will become mandatory at a later date.
 
-> API projects must be modified to take advantage of this new feature. Please get in touch with support@sampleninja.io for details.
+> API projects must be modified to take advantage of this new feature. Please reach out to support @ sampleninja.io for details.
 
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
@@ -109,9 +109,9 @@ Legacy algorithms: (Not recommended, challenging to program)
 - SHA1 Legacy 
 - MD5 Legacy (weak security)
 
-> The Legacy hash algorithms use URL path + params, while the Full URL hashing uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is easier to implement as no parameter sorting is required.
+> The Legacy hash algorithms use URL path + params, while the Full URL hashing uses the entire URL, including protocol and hostname. In addition, the Full URL hashing is more straightforward to implement as no parameter sorting is required.
   
-> If you need additional signing algorithms, please get in touch with us, and we will consider adding them
+> If you need additional signing algorithms, please contact us, and we will consider adding them.
 
 > You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
 
