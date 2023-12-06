@@ -19,6 +19,7 @@ Additionally, data variable data and enable URL security via hashing.
 - Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
 - Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
 
+
 ## Templates
 
 Templates allow you to pre-define survey entry and exit redirects URL, hashing, and parameter names for the most common survey platforms that you send sample to. When you regularly send to a specific target platform, this can be a real timesaver. Templates allow you to define everything needed for the target platform, including the hash URL of the target platform, hashing algorithm, hashing secret, and parameter names. 
