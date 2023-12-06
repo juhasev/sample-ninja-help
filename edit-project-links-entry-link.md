@@ -41,6 +41,7 @@ The following pipes are inserted automatically:
 - **[hash]** variable is for the security hash (inserted only when hashing is enabled)
 - **[PROJECT_ID]** variable is automatically be replaced with Sample Ninja project ID)
 
+
 ### Passing variable data to surveys
 Data variables can be easily passed using the **Select Data Variables** button to choose the required ones from the available selection.
 
@@ -95,6 +96,7 @@ All manually created projects and redirect exit links now include session ID by 
 
 > API projects must be modified to take advantage of this new feature. Please reach out to support @ sampleninja.io for details.
 
+
 ## Signing and security
 Signing should always be used if the target platform supports it, as this prevents URL tampering. **Sample Ninja** supports the following algorithms:
 
@@ -117,6 +119,7 @@ Legacy algorithms: (Not recommended, challenging to program)
 > You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
 
 > **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+
 
 ## Example hash calculations
 These examples use actual computed hash values so that you can verify your hash calculations using the examples below. These examples are simplified, and we have deliberately omitted the panelist ID or **pid** parameter.
