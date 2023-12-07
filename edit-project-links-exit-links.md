@@ -93,7 +93,7 @@ echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb37
 7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
 ```
 
-Calculate the hash (Javascript Browser)
+Calculate the hash (JavaScript running in a browser)
 ```
 async function hash(string) {
   const utf8 = new TextEncoder().encode(string);
