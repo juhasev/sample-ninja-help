@@ -87,7 +87,7 @@ echo hash('SHA1','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a
 
 821583aed0d889bb37ec2995fb6b18837f254650
 
-// SHA 2
+// SHA 256
 echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode');
 
 7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
@@ -95,6 +95,7 @@ echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb37
 
 Calculate the hash (JavaScript running in a browser)
 ```
+// SHA 256
 async function hash(string) {
   const utf8 = new TextEncoder().encode(string);
   const hashBuffer = await crypto.subtle.digest('SHA-256', utf8);
