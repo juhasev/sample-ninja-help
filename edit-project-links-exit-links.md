@@ -93,6 +93,23 @@ echo hash('SHA256','https://yourcompany.panelservice.io/p/exit?s=c&session=9bb37
 7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
 ```
 
+Calculate the hash (Javascript Browser)
+```
+async function hash(string) {
+  const utf8 = new TextEncoder().encode(string);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', utf8);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray
+    .map((bytes) => bytes.toString(16).padStart(2, '0'))
+    .join('');
+}
+
+hash('https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790MySecretPasscode).then((hex) => console.log(hex));
+
+7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
+
+```
+
 #### Step 3
 Append the calculated hash to the end of the URL
 
