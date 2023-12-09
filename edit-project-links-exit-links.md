@@ -58,11 +58,11 @@ Legacy algorithms: (Not recommended, challenging to program)
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
 ### Hash Calculator
-Use the **Hash Calculator** below to while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
+Use the **Hash Calculator** tool below while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
 
 https://customer.panelservice.io/hash-calculator
 
-> You do not have to authenticate to use the **Hash Calculator**; therefore, you can easily share the Hash Calculator address with the developers and survey programmers.
+> You do not have to authenticate to use the **Hash Calculator**; therefore, you can easily share the **Hash Calculator** web address with the developers and survey programmers.
 
 ### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
