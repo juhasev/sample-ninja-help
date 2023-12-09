@@ -57,10 +57,12 @@ Legacy algorithms: (Not recommended, challenging to program)
 
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
-### Example survey exit redirects (back to SampleNinja)
-We recommend adding a random parameter to the exit links to make the exit redirect and the resulting hash more complex. The only reserved parameters are "s" for status and "session" for session ID. Sample Ninja Project ID, Survey ID, or a random value are good choices.
+### Hash Calculator
+Use the **Hash Calculator** below to while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
 
-The following examples use secret **MySecretPasscode** to compute the hash parameter. We have also added a **random** parameter to make this URL truly unique. The resulting hashes are real calculated hashes, which means you can use them to verify your calculations.
+https://customer.panelservice.io/hash-calculator
+
+> You do not have to authenticate to use the **Hash Calculator**; therefore, you can easily share the Hash Calculator address with the developers and survey programmers.
 
 ### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
