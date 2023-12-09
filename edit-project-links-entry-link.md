@@ -120,6 +120,12 @@ Legacy algorithms: (Not recommended, challenging to program)
 
 > **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
 
+### Hash Calculator
+Use the **Hash Calculator** tool below while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
+
+https://customer.panelservice.io/hash-calculator
+
+> You do not have to authenticate to use the **Hash Calculator**; therefore, you can easily share the **Hash Calculator** web address with the developers and survey programmers.
 
 ## Example hash calculations
 These examples use actual computed hash values so that you can verify your hash calculations using the examples below. These examples are simplified, and we have deliberately omitted the panelist ID or **pid** parameter.
