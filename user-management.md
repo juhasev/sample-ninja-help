@@ -1,5 +1,4 @@
 ## User Management
-This where all application users are managed. 
 
 ### Creating new users
 At the top of the screen you have **PLUS** button to invite more users as well as **CLOCK** -icon that allows you to view any pending invitations. Creating user is simple, simply enter user's full name and email address along with the roles the user should have. Sample Ninja will then send invitation for the user to join.
