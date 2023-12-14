@@ -14,19 +14,19 @@ Number: VACATION_COUNT
 
 Capture metadata from the pre-screener survey without displaying that information to the user.
 
-- URL Param: scr_id Data Variable: SCREENER_ID (numeric)
+Let's add the first URL Param: **scr_id** Data Variable: **SCREENER_ID** (numeric)
 
 ```
 https://sampleninja.app/registration/1/ENG-US?scr_id=123456
 ```
 
-- URL Param: gender Data Variable: GENDER (radio)
+Let's add the second URL Param: **gender** Data Variable: **GENDER** (radio)
 
 ```
 https://sampleninja.app/registration/1/ENG-US?scr_id=123456&gender=1
 ```
 
-- URL Param: hobbies Data Variable: HOBBIES (checkbox)
+- URL Param: **hobbies** Data Variable: **HOBBIES** (checkbox)
 
 ```
 https://sampleninja.app/registration/1/ENG-US?scr_id=123456&gender=1&hobbies=3,5,7
