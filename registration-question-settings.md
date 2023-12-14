@@ -6,6 +6,8 @@ Enter the URL parameter name you would like to capture and select if you want to
 
 You must use the unique option values for multiple-choice questions. To view the current values, navigate to data variables, edit either radio or checkbox questions, and select **Developer Mode** from the right panel.
 
+> You cannot hide "EMAIL" question from the user. This is because the email address goes through server-side validations like is the email address blacklisted.
+
 ### Format examples:
 
 Number: VACATION_COUNT
