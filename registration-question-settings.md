@@ -26,7 +26,7 @@ Let's add the second URL Param: **gender** Data Variable: **GENDER** (radio)
 https://sampleninja.app/registration/1/ENG-US?scr_id=123456&gender=1
 ```
 
-- URL Param: **hobbies** Data Variable: **HOBBIES** (checkbox)
+Let's add the third URL Param: **hobbies** Data Variable: **HOBBIES** (checkbox)
 
 ```
 https://sampleninja.app/registration/1/ENG-US?scr_id=123456&gender=1&hobbies=3,5,7
