@@ -8,10 +8,6 @@ You must use the unique option values for multiple-choice questions. To view the
 
 > You cannot hide "EMAIL" question from the user. This is because the email address goes through server-side validations like is the email address blacklisted.
 
-### Format examples:
-
-Number: VACATION_COUNT
-
 #### Example use case.
 
 Capture metadata from the pre-screener survey without displaying that information to the user.
