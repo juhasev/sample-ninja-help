@@ -40,6 +40,7 @@ The following values are inserted automatically:
 - **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID)
 - **[SESSION_ID]** value is automatically inserted.
 
+These are optional. When you edit the configuration, you can specify what URL params names you want to use for the Panelist ID and Session ID. These will be automatically inserted at the end of the base URL.
 ```
 http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]
 ```
