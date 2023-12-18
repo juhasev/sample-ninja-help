@@ -41,7 +41,7 @@ http://mysurvey.com?panelist_id=58d477ce-a23f-420c-a148-816dddf024af&session_id=
 ```
 In some special cases you may add the following values to the base URL:
 
-- **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID)
+- **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID
 - **[SESSION_ID]** value is automatically inserted.
 
 ```
