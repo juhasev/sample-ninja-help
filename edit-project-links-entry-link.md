@@ -35,12 +35,14 @@ https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
 When the template is applied, you only need to change the [SURVEY ID] with the desired target survey ID.
 
-The following pipes are inserted automatically:
+The following values are inserted automatically:
 
-- **[id]** variable is for Panelist ID
-- **[hash]** variable is for the security hash (inserted only when hashing is enabled)
-- **[PROJECT_ID]** variable is automatically be replaced with Sample Ninja project ID)
+- **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID)
+- **[SESSION_ID]** value is automatically inserted.
 
+```
+http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]
+```
 
 ### Passing variable data to surveys
 Data variables can be easily passed using the **Select Data Variables** button to choose the required ones from the available selection.
@@ -50,7 +52,7 @@ Parameter names can be fully customized to match what is used in the survey. For
 https://surveyengine.com?project=343&g=1
 
 #### Sending Date data to a survey
-Dates are passed in ISO dates like 2023-01-26. Optionally you may pass any date variable as age by enabling the "Cast to Age" toggle. A typical use case would be to pass in **BIRTH_DATE** as age.
+Dates are passed in ISO dates like 2023-01-26. Alternatively, you may pass any date variable as age by enabling the "Cast to Age" toggle. A typical use case would be to pass in **BIRTH_DATE** as age.
 
 #### Sending Radio data to a survey
 Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
