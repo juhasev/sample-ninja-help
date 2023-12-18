@@ -35,17 +35,17 @@ https://surveyplatform.com/survey?survey_id=[SURVEY_ID]
 
 When the template is applied, you only need to change the [SURVEY ID] with the desired target survey ID.
 
-The following values are inserted automatically:
+When you edit the configuration, you can specify what URL params names you want to use for the Panelist ID and Session ID. These will be automatically inserted at the end of the base URL.
+```
+http://mysurvey.com?panelist_id=58d477ce-a23f-420c-a148-816dddf024af&session_id=610fbafb-e875-43d4-8534-a8a35a5a7aa2
+```
+In some special cases you may add the following values to the base URL:
 
 - **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID)
 - **[SESSION_ID]** value is automatically inserted.
 
 ```
 http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]
-```
-These are optional. When you edit the configuration, you can specify what URL params names you want to use for the Panelist ID and Session ID. These will be automatically inserted at the end of the base URL.
-```
-http://mysurvey.com?panelist_id=58d477ce-a23f-420c-a148-816dddf024af&session_id=610fbafb-e875-43d4-8534-a8a35a5a7aa2
 ```
 
 ### Passing variable data to surveys
