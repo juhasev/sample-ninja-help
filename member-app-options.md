@@ -2,18 +2,15 @@
 
 Let's you turn on/off features:
 
-- **Enable Member App** Make members app accessibly from the Internet.
-- **Use Google's reCaptcha** Use Google reCaptcha to detect all non humans at the login.
+- **Enable Member App** Make members app accessible from the Internet.
+- **Use Google's reCaptcha** Use Google reCaptcha to detect all non-humans at the login.
 - **Display header in the toolbar** Whether to display the logo in the Member App's toolbar.
 - **Rewards enabled** Choose if you want to display the rewards page
 - **Redemption enabled** Choose if you want to display the redemption page
-- **Hide collected data from the user** Hide collected data like data variables and devices from panelists. Not recommended for GDPR and CCPA regions.
+- **Display reward points in the toolbar** Display the panelist's reward points in the Member App toolbar.
+- **Enable Dynamic Profiling** Toggle dynamic profiling on/off in the Member App.
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned.
-- **Allow panelist to create password at login** This enables seemsless panel migration or adding one if you never had an website with your panelist.
-
-> If you ```enabled``` allow "create password at login" option also remember to visit your Sub Panel settings and make sure that your have a Members App enabled and that the "Community link points to the members app" settings is toggled on. Additionally you must visit your Landing Page Configuration and make sure the "Show Community Button" is enabled. These settings will draw your panelists to the community site to create their passwords.
-
-> More information about push notifications https://www.airship.com/resources/explainer/web-push-notifications-explained/
-
+- **Allow panelist to create password at login** This enables seamless panel migration or adding one if you never had a website with your panelist.
+- **Hide collected data from the user** Hide collected data like data variables and devices from panelists. Not recommended for GDPR and CCPA regions.
 - **API access only** Turning this setting on will disable access to the built-in member app while allowing API access from a custom community.
 
