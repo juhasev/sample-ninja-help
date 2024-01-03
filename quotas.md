@@ -37,5 +37,5 @@ Turning quotas off is only recommended if the availability of the cell is zero. 
 
 #### Turning enforcement off
 
-You can relax any quota cell to allow overage. This means that a panelist can start a survey even if the quota is full. This may be helpful in situations where target quotas are not known or there are multiple sample vendors supplying samples. Needless to say, if you can do this, then do it as it will provide a better overall experience for your panelists.
+You can relax any quota cell to allow overage. This means that a panelist can start a survey even if the quota is full. This may be helpful in situations where target quotas are not known, or there are multiple sample vendors supplying samples.
 
