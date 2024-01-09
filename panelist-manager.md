@@ -8,14 +8,17 @@ You can search for individual panelists by their Panelist ID, First Name, Last N
 
 > The search displays the first 100 matches, while the blue box on the right indicates the total number of panelists that match the search string.
 
-#### Columns
-Click on this button to change the visible columns. You can select any number of data variables.
-
 #### Add Filter
 If you want to use a query filter to find panelists, you can either build a query on the fly or pick an existing query filter you have previously saved in the Query Filters.
 
-### Sort
-Select which column to sort by i.e., QUALITY_SCORE, COMPLETED_COUNT, JOIN_DATE
+#### From list
+If you have a list of panelist IDs or email addresses you may paste them into the dialog to find multiple panelists at once.
+
+#### Columns
+Click on this button to change the visible columns. You can select any number of data variables.
+
+#### Sort
+Select which column to sort by i.e., QUALITY_SCORE, COMPLETED_COUNT, JOIN_DATE.
 
 ### Perform Batch action
 
