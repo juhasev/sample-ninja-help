@@ -6,13 +6,20 @@ This screen allows you to customize the email templates.
 
 Select which email you would like to edit. Select the **locale** you would like to edit. Then click on the elements you would like to customize. The elements other than the email body, action button, and email signature are global. Any edits made to these carry on automatically to the other templates.
 
-### Settings
+### Colors
 
-Choose the Action button color you like.
+Choose colors that best suit your branding style.
 
 ### Elements
 
 Allows you to turn off / on elements used in the invitation. Elements are global and affect all templates. Some aspects like **Project information** and **Members app action button** only apply to the **Project Invitation** and **Project Reminder** templates.
+
+### Font
+
+Choose a font that best represents your branding style.
+we provide native emoji support, which means modern devices are able to render emojis on every email. 
+
+You can disable this functionality if you encounter font rendering issues (this is a very rare case).
 
 ### Preview
 
