@@ -1,40 +1,11 @@
-### Google Analytics
+### Google Tag
 
-Track every single panelist interaction using your own Google Analytics dashboard. Tracking works on all landing pages, registration surveys and even in the members app. Certain features **emit events** to Google Analytics. Example of such events are:
+Track every single panelist interaction using your own Google Tag. Google Tag can be used with various Google services, including Google Adwords and Google Analytics. Google Tag is executed on s on all panelist-facing pages, including the registration survey and the member app.
 
-- Registration welcome (registration welcome page view)
-- Registration start (registration survey start)
-- Registration complete (registration survey completed)
-- Members app login (login page view)
-- Members app authenticated (login successfully completed)
-
-The events allow you to track percentage of panelists who started vs. completed the registration survey for example.
-
-> **IMPORTANT!** Google Analytics is not GDPR compliant. If you use this feature it should be properly disclosed in the **Privacy Policy** landing page in the section **Information we collect**
+> **IMPORTANT!** Google Tag may not be **GDPR** or **CCPA** compliant and may require additional disclosures when used. We recommend disclosing in the **Privacy Policy** landing page in the section **Information we collect**
 
 ### Setup
 
-First you need register with [Google Analytics](https://analytics.google.com) and log in.
+Get a new Google Tag using [Google Tag Manager](https://tagmanager.google.com) and then enter it into **Sub Panels -> Manager -> Settings -> Google Tag**. The tag should now be called on each page (panelist-facing pages).
 
-#### Step 1 - Account
-Create an account in Google Analytics and call it SampleNinja.
-
-#### Step 2 - Property setup
-Give property a name like **Panelist Tracker**, select reporting timezone and currency.
-
-#### Step 3 - Advanced options
-Click on **Show advanced options** and click on **Create a Universal Analytics Property** -toggle. Next enter the website URL **https://yourcompany.sampleninja.io**. This URL must match your Sample Ninja domain name. 
-
-Select **Create an Universal Analytics property only**
-
-#### Step 4 - About your business
-Fill in your business details and click on **Create** -button. Accept terms of conditions if prompted.
-
-#### Step 5 - Record Universal Analytics ID displayed at the top of the page.
-This ID is typically presented in format: UA-XXXXXXXXX-X
-
-#### Step 6 - Enter the UA number into Sample Ninja
-Enter number without the UA- prefix into the Universal Analytics ID field. And you are done. 
-
-#### Step 7 - Test
-Visit any panelist features like registration survey, members app or any landing page. Observe that the real time statisctics are getting reported in Google Analytics.
+> Please refer to [Google Tag Manager Help](https://support.google.com/tagmanager) for more information how to configure other services like Google Analytics or Google Adwords. 
