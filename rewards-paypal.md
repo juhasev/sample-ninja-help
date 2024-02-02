@@ -2,7 +2,12 @@
 
 PayPal integration enables you to distribute cash rewards to your panelists in a very convenient way. To use PayPal rewards, the user must register a commercial developer account with PayPal.
 
-Once the account API keys have been obtained, click the **configure** button to enter the keys. First, select the appropriate **Environment** and then enter the **Client ID** and **Secret required**. You should see the account balance(s) loaded if everything went successfully.
+1) Create a new Application in PayPal and call it something descriptive like **SampleNinja**
+2) You grant permission for the Application to use **Payouts** and **Transaction Search**
+
+Once the account API keys have been obtained, click the **configure** button to enter the keys. First, select the appropriate **Environment** and then enter the **Client ID** and **Secret required**. If everything went successfully, you should see the account balance(s) loaded.
+
+> Sometimes, you must contact **PayPal** to enable the **Payouts* API access for the application, as it may be disabled for security reasons. If true, you will likely get **AUTHORIZATION_ERROR** in the Redemptions History.
 
 > **IMPORTANT!** To distribute PayPal rewards in multiple currencies, you must add the funds in that currency into your account. Sample Ninja does not support currency conversions due to the high fees imposed by PayPal. Once you have multiple currencies on your account, you can select rewards for that currency.
 
