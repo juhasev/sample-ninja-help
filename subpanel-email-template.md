@@ -8,7 +8,7 @@ Select which email you would like to edit. Select the **locale** you would like 
 
 ### Colors
 
-Choose colors that best suit your branding style.
+Please choose colors that work best for your branding style.
 
 ### Elements
 
@@ -17,13 +17,13 @@ Allows you to turn off / on elements used in the invitation. Elements are global
 ### Font
 
 Choose a font that best represents your branding style.
-we provide native emoji support, which means modern devices are able to render emojis on every email. 
+We provide native emoji support, which means modern devices can render emojis on every email. 
 
-You can disable this functionality if you encounter font rendering issues (this is a very rare case).
+You can disable this functionality if you encounter font rendering issues (this is an infrequent case).
 
 ### Preview
 
-This shows a visual representation of the Email Template. Preview is also an editor and allows you to modify texts on each template. If you would like to email yourself, click on the blue "Email to me" button at the top right corner.
+This shows a visual representation of the Email Template. Preview is also an editor that allows you to modify each template's text. If you want to email yourself, click the blue "Email to me" button at the top right corner.
 
 Each template can have its own **Subject** and **Sender name**.
 
