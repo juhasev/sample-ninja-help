@@ -32,16 +32,16 @@ All multiline sections use Markdown, read more here: [Markdown basics](https://w
 
 The following section from top down:
 
-#### Logo
+#### Logo section
 This logo is always inherited from the sub-panel logo. To change, you must change the sub-panel logo.
 
-#### Engagement image
+#### Engagement image section
 Use the engagement image to keep your invitation looking unique by utilizing different images in each email template. If this area is not visible please ensure that the **Elements** selection on the left you have **Engagement Image** toggled on.
 
 #### Content section
 This section contains the greeting and body of the email. You may use markdown elements in this section. Click on the text to edit.
 
-#### Action buttons
+#### Action button section
 This section contains an action button, and in terms of project invitations and reminders, it may also contain the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen. You may use markdown elements in this section. Click on the text to edit.
 
 #### Signature section
@@ -50,7 +50,7 @@ This section should contain a personal signature from the project manager. You m
 #### Project information section
 The project information section is only visible for project invitations or reminders. The reward line will be hidden if the project does not offer any reward.
 
-#### Notice
+#### Notice section
 This box contains specific disclaimers and notices that you'd like to repeat in all emails. 
 
 Examples:
@@ -63,7 +63,7 @@ You may use markdown elements in this section. Click on the text to edit.
 
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
-#### Footer
+#### Footer section
 This section usually contains the copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
 
 You may use markdown elements in this section. Click on the text to edit. 
