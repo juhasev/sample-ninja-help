@@ -32,7 +32,8 @@ This section contains an action button, and in terms of project invitations and 
 
 #### Signature section
 
-#### Project information section (applicable only to invitation and reminders)
+#### Project information section
+The project information section is only visible for project invitations or reminders.
 
 #### Notice
 This box contains specific disclaimers and notices that you want to repeat in all emails. Examples:
@@ -41,7 +42,7 @@ This box contains specific disclaimers and notices that you want to repeat in al
 - Privacy policy
 - Unsubscribe link
 
-> Any modification to this section applies to all the email templates!
+> **IMPORTANT!** Any modification to this section applies to all the email templates!
 
 #### Footer
 This section usually just contains copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
