@@ -19,10 +19,7 @@ The invitation and reminder can be assigned into groups. A random template can b
   - Templates can be authored beforehand by a marketing person
   - All sent-out emails can be original and engaging with varied use of subject lines, imagery, and content.
 
-For example: 
-
-1) You may easily create seasonal invitation themes using the template group.
-2) If you omit supplying email templates via the API a random template from specified group can be used.
+The functionality can be archived using the API as well.
    
 > **IMPORTANT!** The system invitation and reminder templates and all the "Transactional" email templates cannot be deleted!
 
