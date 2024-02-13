@@ -57,9 +57,9 @@ Alternate URL will receive the following query parameters:
 - **source** Recruitment source ID
 - **email** Referred email address
 
-> Use these values in your own registration flow. The following values can be transparently passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
-
+> Use these values in your own registration flow. The following values can be passed back to **SampleNinja** when using **Application API** **Register Panelist** -end point.
+- **ref** Required for Refer a Friend functionality to work correctly.
 - **locale** Pass in using **LOCALE** variable
 - **source** Pass in using **RECRUITMENT_SOURCE** variable
-- **email** Pass in using **EMAIL** variable.
 
+> Please note when testing that there is random delay up to 12 hours of sending the **Refer a friend** email out. If the referring panelist's email address matches one of the admin users there will be no delay!
