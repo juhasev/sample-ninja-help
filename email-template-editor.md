@@ -55,3 +55,6 @@ This box contains specific disclaimers and notices that you'd like to repeat in 
 
 #### Footer
 This section usually contains the copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
+
+> **IMPORTANT!** Any modification to this section applies to all the email templates!
+
