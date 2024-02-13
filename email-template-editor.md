@@ -68,3 +68,21 @@ You may use markdown elements in this section. Click on the text to edit.
 
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
+### Personalization
+
+The following variables can be piped into all emails
+
+- FIRST_NAME
+- LAST_NAME
+- EMAIL
+- POINTS_BALANCE
+- PROJECT_ID
+
+Place variable name in square brackets and it will be replaced on the fly i.e. 
+
+```Hello [FIRST_NAME] we have a survey for you!```
+
+If the data variable is missing, it will be silently removed.
+
+> Please note that test sessions are not tied to an actual panelist; thus, data variable piping is impossible for any test sessions.
+
