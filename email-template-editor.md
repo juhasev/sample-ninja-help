@@ -1,44 +1,47 @@
 ## Email template editor
-The email template editor helps you to manage the content of the selected email template, adjust its configuration and send you a preview into your inbox.  
+Use the email template editor to customize the content and appearance of your email templates with ease. 
 
-The editor is divided into 4 boxes:
-- Template
-- Elements
-- Settings
-- Preview
+### Configuration settings
 
-### Template box
-Here is where you can personalize the name of the selected email template, switch between locales and manage the template groups.  
+#### Template
 
-** Template groups**  
-This is a new feature that gives you the ability to create groups of templates that can be used in projects to send random email invitations (or reminders) based on groups instead of sending one invitation (or reminder) email to all qualified panelists.
+#### Elements
 
-### Elements box
-Here you can configure the elements that should be visible inside the email template. 
+#### Preview
 
-**Logo**  
-Whether or not to show the Sub Panel logo in the email header.
+#### Settings
 
-**Signature**  
-Whether or not to show the email signature.
+#### Font
 
-**Project information**  
-Whether or not to show the project information like the estimated duration, reward points, and so on.
 
-**Member app button**  
-Whether or not to show the Member App button.
+### Sections
 
-**Use engagement image**  
-This is a new feature to help you make your invitation (or reminder) emails more appealing.
+#### Logo
+This logo is always inherited from the sub-panel logo. To change, you must change the sub-panel logo.
 
-**Footer**  
-Whether or not to show the email footer.
+#### Engagement image
+Use the engagement image to keep your invitation looking unique by utilizing different images in each email template. If this area is not visible please ensure that the **Elements** selection on the left you have **Engagement Image** toggled on.
 
-### Settings box
-In this box, you can change the accent color used on call-to-action buttons and on the project information details panel.
-If the "Use engagement image" is turned on, you can also adjust the logo alignment, moving the logo to the right, center, or to left.
+#### Content section
+This section contains the greeting and body of the email. You may use markdown elements in this section. Simpy click on the text you would like to modify.
 
-### Preview box
-Here is where the **subject** and the **sender name** of the email live. Feel free to change them to suit your brand identity.
+> This section uses Markdown, read more here: (Markdown basics)[https://www.markdownguide.org/basic-syntax/#overview]
 
-It also previews the entire email template giving you the ability to adjust the content of the different sections to follow your personal tone of voice.
+#### Action buttons
+This section contains an action button, and in terms of project invitations and reminders, it may also contain the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen.
+
+#### Signature section
+
+#### Project information section (applicable only to invitation and reminders)
+
+#### Notice
+This box contains specific disclaimers and notices that you want to repeat in all emails. Examples:
+
+- Terms of use
+- Privacy policy
+- Unsubscribe link
+
+> Any modification to this section applies to all the email templates!
+
+#### Footer
+This section usually just contains copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
