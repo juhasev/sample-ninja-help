@@ -1,5 +1,6 @@
 ## Email editor
-Use **preview for subpanel** and **preview for locate** controls to switch between different subpanels and locales and provide customizations for each.
+
+Use **preview for email template**, **preview for subpanel** and **preview for locate** controls to switch between different email templates, sub panels and locales and provide customizations for each of them.
 
 ### Email Subject
 Enter the email subject to this field
