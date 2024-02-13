@@ -1,11 +1,13 @@
 ## Email templates
 Manage email templates per sub-panel. You may create unlimited prewritten templates for different types of projects, seasonal occasions, or other purposes. The email templates are divided into the following three categories.
 
-- The invitation email templates are used by projects to send invitation emails to panelists. 
-- The reminder email templates are used by projects to send reminder emails to panelists.
-- The transactional email templates are one-time emails for various system functions like resetting passwords.
+- Invitation templates
+- Reminder templates
+- Transaction emails
 
 Each template can be customized to match existing branding by configuring colors, contents, and font styles.
+
+> **NOTE** The templates marked with the system label cannot be deleted.
 
 ### Email groups
 The invitation and reminder can be assigned into groups. A random template can be pulled from the group and used as a project invitation or reminder. This comes with the following benefits:
@@ -16,6 +18,4 @@ The invitation and reminder can be assigned into groups. A random template can b
 
 The same functionality can be achieved using the Application API.
    
-> **IMPORTANT!** The templates marked with the system label cannot be deleted.
-
 > **NOTE** Unassigned email template groups will be automatically deleted over time.
