@@ -33,7 +33,7 @@ Use the engagement image to keep your invitation looking unique by utilizing dif
 #### Content section
 This section contains the greeting and body of the email. You may use markdown elements in this section. Simpy click on the text you would like to modify.
 
-> This section uses Markdown, read more here: (Markdown basics)[https://www.markdownguide.org/basic-syntax/#overview]
+> This section uses Markdown, read more here: [Markdown basics](https://www.markdownguide.org/basic-syntax/#overview)
 
 #### Action buttons
 This section contains an action button, and in terms of project invitations and reminders, it may also contain the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen.
