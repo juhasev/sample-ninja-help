@@ -1,5 +1,5 @@
 ## Email templates
-Manage email templates per sub-panel. The email templates are divided into the following three categories.
+Manage email templates per sub-panel. You may create unlimited prewritten templates for different types of projects, seasonal occasions, or other purposes. The email templates are divided into the following three categories.
 
 #### Invitations
 The invitation email templates are used by projects to send invitation emails to panelists.  
