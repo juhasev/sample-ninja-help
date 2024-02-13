@@ -4,10 +4,10 @@ Use the email template editor to customize the content and appearance of your em
 ### Configuration settings
 
 #### Template
-Specify the template name and the groups this template should belong to. To view transactions for another locate, please select other available locates from the drop-down.
+Specify the template name and the groups this template should belong to. Please use the drop-down menu to view translations for another language and locale.
 
 #### Elements
-The element configuration contains a host of options that can be enabled or disabled when needed. We recommend using all of them for the most professional-looking emails.
+The element configuration contains various options that can be enabled or disabled when needed. We recommend using all of them for the most professional-looking emails.
 
 #### Preview
 This is the live preview of the email. You may click on the different elements to modify them. If you want to send the template to yourself, please click the **EMAIL TO ME** button.
