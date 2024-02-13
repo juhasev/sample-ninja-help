@@ -1,22 +1,29 @@
 ## Email templates
-Manage email templates per sub-panel.
+Manage email templates per sub-panel. The email templates are divided into the following three categories.
 
-There are three categories available:
-- INVITATIONS
-- REMINDERS
-- TRANSACTIONAL
-
-### Invitations
+#### Invitations
 The invitation email templates are used by projects to send invitation emails to panelists.  
 We provide a system default "Project invitation" email template you can edit or clone to suit your brand design. You can also create new invitation email templates.
 
-### Reminders
+#### Reminders
 The reminder email templates are used by projects to send invitation reminder emails to panelists.  
 We provide a system default "Project reminder" email template you can edit or clone to suit your brand design. You can also create new reminder email templates.
 
-### Transactional
+#### Transactional
 The transactional email templates are all the service emails used by the system to provide communication for common functionalities.  
 Emails that belong to this category are "email verification", "password reset", "refer a friend" and so on...  
 Feel free to edit them to suit your brand design.
 
-> **IMPORTANT!** The system default email templates and all the "Transactional" email templates cannot be deleted!
+### Email groups
+The invitation and reminder can be assigned into groups. A random template can be pulled from the group and used as a project invitation or reminder. This comes with the following benefits:
+  - Templates can be authored beforehand by a marketing person
+  - All sent-out emails can be original and engaging with varied use of subject lines, imagery, and content.
+
+For example: 
+
+1) You may easily create seasonal invitation themes using the template group.
+2) If you omit supplying email templates via the API a random template from specified group can be used.
+   
+> **IMPORTANT!** The system invitation and reminder templates and all the "Transactional" email templates cannot be deleted!
+
+> **NOTE** Unassigned email template groups will be automatically deleted over time.
