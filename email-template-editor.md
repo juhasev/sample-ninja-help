@@ -22,15 +22,13 @@ These let you control the logo alignment and the element colors. The font color 
 #### Font
 Emails have limited font support across different operating systems like PCs, Macs, iPhones, etc... We have picked up generally supported font stacks that can be used with emails. Alternatively you may upload a completely custom font to be used. 
 
-### Sections
+### Sections (top to down)
 
 The email is divided into sections. Each section can be edited by clicking on it. 
 
 All multiline sections use Markdown, read more here: [Markdown basics](https://www.markdownguide.org/basic-syntax/#overview)
 
 > NOTE: Logo can only be changed in the sub-panel settings!
-
-The following section from top down:
 
 #### Logo section
 This logo is always inherited from the sub-panel logo. To change, you must change the sub-panel logo.
