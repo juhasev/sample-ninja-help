@@ -9,7 +9,11 @@ Each template can be customized to match existing branding by configuring colors
 
 > **NOTE** The templates marked with the MASTER label cannot be deleted.
 
-To create a new invitation or reminder template click on the **NEW TEMPLATE** button. The default settings will be inherited from the **MASTER** template.
+### Creating new templates
+To create a new invitation or reminder template, click on the **NEW TEMPLATE** button. The default settings will be inherited from the **MASTER** template.
+
+### Cloning existing templates
+If you wish to have the same settings as some other existing template, you may also clone an existing template and use that as a basis for the new template. Click on the **CLONE** icon on each template row to do so.
 
 ### Email groups
 Email invitations and reminders can be assigned into template groups. A project invitation and reminder can be configured to use a random template from the specified group. This comes with the following benefits:
