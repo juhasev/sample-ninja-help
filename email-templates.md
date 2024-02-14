@@ -19,4 +19,4 @@ Email invitations and reminders can be assigned into template groups. A project 
 
 The same functionality can be achieved using the Application API.
    
-> **NOTE** Unassigned email template groups will be automatically deleted over time.
+> **NOTE** Unassigned email template groups will be automatically deleted weekly.
