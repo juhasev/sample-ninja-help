@@ -31,6 +31,6 @@ Email body and signature use Markdown language, which allows the user to apply f
 > [Learn more about markdown](https://www.markdownguide.org/basic-syntax/#overview)
 
 ### Sending test email
-You may send yourself a test email by click **EMAIL TO ME** button.
 
-> Please note: Test emails are not tied to an actual panelist; thus, data variable piping is not possible.
+You may send a test email by clicking the **EMAIL TO ME** button.
+
