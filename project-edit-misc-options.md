@@ -1,4 +1,4 @@
-### Misc settings
+## Misc settings
 
 ### Publish to anyone who qualifies
 This settings publishes the project in the Member's App and related APIs. As long as the panelist meets the qualifications and quotas the project will be visible.
