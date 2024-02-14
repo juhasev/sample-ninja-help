@@ -1,6 +1,7 @@
 ## Email editor
+Select the email template you would use by using the **selected email template** selector. If you are inviting multiple sub-panel locales, you may select them using **Preview for sub panel** and **Preview for locale** selectors. This enables you to provide customizations for each sub-panel and translations for each locale.
 
-Use **preview for email template**, **preview for subpanel** and **preview for locate** controls to switch between different email templates, sub panels and locales and provide customizations for each of them.
+> You may configure multiple email templates in **Sub Panels -> Manage -> Email Templates**.
 
 ### Email Subject
 Enter the email subject to this field
@@ -21,10 +22,7 @@ Place variable name in square brackets and it will be replaced on the fly i.e. H
 ### Email sender name
 Please type in the email sender name you want the email to appear to be coming from.
 
-> The defaults can be configured under **Sub Panels** and **Email Templates**
-
 ### Email body and signature
-
 These use Markdown language, which allows the user to apply formatting like header (###), bolding (\**), bulleted list (-), highlight box (>), etc.
 
-> (https://www.markdownguide.org/basic-syntax/#overview)
+> [Learn more about markdown](https://www.markdownguide.org/basic-syntax/#overview)
