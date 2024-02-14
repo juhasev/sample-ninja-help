@@ -1,7 +1,7 @@
 ## Email editor
 Select the email template you would use by using the **selected email template** selector. If you are inviting multiple sub-panel locales, you may select them using **Preview for sub panel** and **Preview for locale** selectors. This enables you to provide customizations for each sub-panel and translations for each locale.
 
-> You may configure multiple email templates in **Sub Panels -> Manage -> Email Templates**.
+> You may now create multiple email templates in **Sub Panels -> Manage -> Email Templates**.
 
 ### Email Subject
 Enter the email subject to this field
