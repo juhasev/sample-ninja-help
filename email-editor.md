@@ -27,6 +27,12 @@ If the data variable is missing, it will be silently removed.
 ### Email sender name
 Please type in the email sender name you want the email to appear to be coming from.
 
+### Email logo
+The email logo is automatically inherited from the sub-panel settings. If you don't see the logo, please verify your email templates and make sure the logo is enabled. Also, make sure that the sub-panel contains the uploaded logo.
+
+### Engagement image
+We recommend using engagement images with all emails to keep each looking different and original.
+
 ### Email body and signature
 Email body and signature use Markdown language, which allows the user to apply formatting like header (###), bolding (\**), bulleted list (-), highlight box (>), etc.
 
