@@ -15,6 +15,9 @@ To create a new invitation or reminder template, click on the **NEW TEMPLATE** b
 ### Cloning existing templates
 If you wish to have the same settings as some other existing template, you may also clone an existing template and use that as a basis for the new template. Click on the **CLONE** icon on each template row to do so.
 
+### Deleting templates
+Templates can be deleted by clicking on the **TRASH CAN** icon on each row. You can safely delete templates even if they are used in the projects. When you create a project, a copy of the selected template is used; therefore, even if you delete a template "in use," that does not affect running projects.
+
 ### Email groups
 Email invitations and reminders can be assigned into template groups. A project invitation and reminder can be configured to use a random template from the specified group. This comes with the following benefits:
 
