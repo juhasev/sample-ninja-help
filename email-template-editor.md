@@ -83,6 +83,3 @@ Place variable name in square brackets and it will be replaced on the fly i.e.
 ```Hello [FIRST_NAME] we have a survey for you!```
 
 If the data variable is missing, it will be silently removed.
-
-> Please note that test sessions are not tied to an actual panelist; thus, data variable piping is impossible for any test sessions.
-
