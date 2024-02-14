@@ -22,8 +22,6 @@ Hello [FIRST_NAME] we have a survey for you!
 ```
 If the data variable is missing, it will be silently removed.
 
-> Please note: Test sessions are not tied to an actual panelist; thus, data variable piping is not possible for any test sessions.
-
 ### Email sender name
 Please type in the email sender name you want the email to appear to be coming from.
 
@@ -31,3 +29,8 @@ Please type in the email sender name you want the email to appear to be coming f
 Email body and signature use Markdown language, which allows the user to apply formatting like header (###), bolding (\**), bulleted list (-), highlight box (>), etc.
 
 > [Learn more about markdown](https://www.markdownguide.org/basic-syntax/#overview)
+
+### Sending test email
+You may send yourself a test email by click **EMAIL TO ME** button.
+
+> Please note: Test emails are not tied to an actual panelist; thus, data variable piping is not possible.
