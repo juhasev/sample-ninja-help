@@ -28,6 +28,6 @@ If the data variable is missing, it will be silently removed.
 Please type in the email sender name you want the email to appear to be coming from.
 
 ### Email body and signature
-These use Markdown language, which allows the user to apply formatting like header (###), bolding (\**), bulleted list (-), highlight box (>), etc.
+Email body and signature use Markdown language, which allows the user to apply formatting like header (###), bolding (\**), bulleted list (-), highlight box (>), etc.
 
 > [Learn more about markdown](https://www.markdownguide.org/basic-syntax/#overview)
