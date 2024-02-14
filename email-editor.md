@@ -6,6 +6,8 @@ Select the email template you would use using the **selected email template** se
 ### Email Subject
 Enter the email subject to this field
 
+> The email subject is the first thing the recipient sees. Always use different subject lines to keep your email more engaging.
+
 ### Personalizing content
 The following substitution variables can be inserted into all emails
 
