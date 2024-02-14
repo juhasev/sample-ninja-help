@@ -7,7 +7,9 @@ Manage email templates per sub-panel. You may create unlimited prewritten templa
 
 Each template can be customized to match existing branding by configuring colors, contents, and font styles.
 
-> **NOTE** The templates marked with the system label cannot be deleted.
+> **NOTE** The templates marked with the MASTER label cannot be deleted.
+
+To create a new invitation or reminder template click on the **NEW TEMPLATE** button. The default settings will be inherited from the **MASTER** template.
 
 ### Email groups
 Email invitations and reminders can be assigned into template groups. A project invitation and reminder can be configured to use a random template from the specified group. This comes with the following benefits:
