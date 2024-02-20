@@ -49,8 +49,6 @@ If you like you can export the chart image or it's data click on **three dots** 
 > **TIP** Mouseover the percentage values to see the actual count.
 
 ### Statistics under chart  
-- **Routed in** Total number of panelists routed into this project from other projects.
-- **Routed out** Total number of profile or quota terminated panelists successfully routed to other projects.
 - **Number of initiations sent** Shows the total number of email invites.
 - **Delivered** shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”.
 - **Opened** Shows the number of opened invitations. This value is not 100% accurate and should be used for guidance only
