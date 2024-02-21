@@ -4,6 +4,8 @@ This setting publishes the project in the Member's App and related APIs powering
 ### Disable email invitations
 You may use this option in some special cases, like if you use the **Publish to anyone who qualifies** option above. 
 
+> IMPORTANT: Because the information that is displayed to the user is taken from the email invitation, you should make sure you edit the email invitation template even if you disable the email invitations!
+
 ### Enable project manager email notifications
 If the **Enable project manager email notifications** is toggled on, then Sample Ninja will send project notifications for this project. These include Action thresholds configured in panel settings but may also include other notifications like:
 
