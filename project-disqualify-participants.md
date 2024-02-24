@@ -2,30 +2,31 @@
 
 You can reconcile panelists in 3 different ways:
 
-1) One pass reconcile. Changes all provided IDs to complete and disqualifies all other panelists in the project.
+1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists.
 2) Reconcile to complete. Only changes provided IDs to complete status.
 3) Reconcile to quality or duplicate. Only changes provided IDs to the selected status.
 
-You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. In this mode, anybody else not included in the completes will get automatically reconciled. For these reason you must select **Disqualification reason**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
+You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. All other panelists not included in the pasted lists will be automatically reconciled to status **reconciled**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
 
 You can also reconcile specific panelists to completed by using the “Reconcile to complete” mode or, like before, disqualify them for quality or duplication using the “Reconcile to disqualified” mode.
 
 #### Pasting IDs
-The identifier list should only contain panelist identifiers in the format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Optionally the identifiers can be separated by a comma and/or be enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
+The identifier list should only contain panelist identifiers in the format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
-Once submitted, the server will perform a test run and report back the number of panelits affected
+Once submitted, the server will perform a test run and report back the number of panelists affected
 
 1) Disqualified 
 2) Promoted to complete
 3) No action taken
 4) Invalid panelist IDs
 
-The **no action taken** simply means that 
+The **no action taken** means that 
 
-1) Panelist's current status not match the statuses on allowed list (when reconciled to complete).
-2) Panelist already has a status you are reconciling to.
+1) The panelist's current status does not match the statuses on the allowed list (when reconciling to complete).
+2) The panelist's current status is not final in the project like invited or opened, started (when reconciling to disqualified)
+3) The panelist already has a status you are reconciling to.
 
-If you get many invalid panelist IDs, you are likely reconciling the wrong project! Or it could also be possible that those panelists do not have **started** status in the project.
+You are likely reconciling the wrong project if you get many invalid panelist IDs! Or it could also be possible that those panelists need to have **started** status in the project.
 
 ### What does the disqualification process do?
 
@@ -34,7 +35,7 @@ If you get many invalid panelist IDs, you are likely reconciling the wrong proje
 - Revenue record is created
 - QUALITY_SCORE is adjusted up
 - Quotas are incremented
-- Any quality, security or duplicate flags are removed, and QUALITY_SCORE is adjusted up
+- Any quality, security, or duplicate flags are removed, and QUALITY_SCORE is adjusted up
 
 **RECONCILE TO DISQUALIFIED**
 - Earned rewards for the project points are set to zero
