@@ -8,6 +8,8 @@ Make members app accessible from the Internet.
 #### Use Google's reCaptcha
 Use Google reCaptcha to detect all non-humans at the login.
 
+> You should always configure the Google Recaptcha for additional security.
+> 
 #### Display header in the toolbar
 Whether to display the logo in the Member App's toolbar.
 
