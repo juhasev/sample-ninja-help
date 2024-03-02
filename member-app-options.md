@@ -32,7 +32,7 @@ Toggle dynamic profiling on/off in the Member App.
 
 **Show next-tier rewards** 
 
-Keeps the rewards page populated with next-tier rewards that will become available if more points are earned. For example, if a panelist has accumulated $15 dollars worth of points rewards, the panelist would see all the rewards with values $5, $10 and $20 (next tier above the current balance).
+Keeps the rewards page populated with next-tier rewards that will become available if more points are earned. For example, if a panelist has accumulated $15 dollars worth of reward points, the panelist would see all the rewards with values $5, $10 and $20 (next tier above the current balance). If the panelist is new, they would see all the $5 rewards.
 
 > Enabling this setting is recommended. This also enables panelists to see "future rewards" on their rewards page and encourage further participation.
   
