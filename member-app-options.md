@@ -2,7 +2,7 @@
 
 Let's you turn on/off features:
 
-**Enable Member App** 
+**Enable Member App**
 Make members app accessible from the Internet.
 
 **Use Google's reCaptcha** 
