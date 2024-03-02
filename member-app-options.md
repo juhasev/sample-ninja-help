@@ -32,7 +32,7 @@ Keeps the rewards page populated with next-tier rewards that will become availab
   
 #### Allow panelists to create a password at login
 
-This enables seamless panel migration from an existing panel. Because the passwords are one-way encrypted, it is impossible to read the existing passwords and migrate them over. If a panelist attempt to login to the member app w/o a password and email will be sent to them to ask them to create one.
+This enables seamless panel migration from an existing panel. Because the passwords are one-way encrypted, it is impossible to read the existing passwords and migrate them over. If a panelist attempts to login to the member app w/o a password and email will be sent to ask them to create one.
 
 #### Hide collected data from the user
 
