@@ -42,7 +42,9 @@ This enables seamless panel migration or adding one if you never had a website w
 
 **Hide collected data from the user** 
 
-Hide collected data like data variables and devices from panelists. Not recommended for GDPR and CCPA regions.
+Hide collected data like data variables and devices from panelists. 
+
+> Not recommended for GDPR and CCPA regions.
 
 **API access only** 
 
