@@ -10,6 +10,9 @@ Let's you turn on/off features:
 - **Display reward points in the toolbar** Display the panelist's reward points in the Member App toolbar.
 - **Enable Dynamic Profiling** Toggle dynamic profiling on/off in the Member App.
 - **Show next tier rewards** Keeps rewards page always populated with next tier rewards that will become available if more points are earned. For example, if a panelist has accumulated $15 dollar worth of points rewards with values $5, $10 and $20 (next tier above the current balance) are displayed.
+
+> Enabling this setting is recommended. This also enabled panelist to see "future rewards" on their rewards page.
+  
 - **Allow panelist to create a password at login** This enables seamless panel migration or adding one if you never had a website with your panelist.
 - **Hide collected data from the user** Hide collected data like data variables and devices from panelists. Not recommended for GDPR and CCPA regions.
 - **API access only** Turning this setting on will disable access to the built-in member app while allowing API access from a custom community.
