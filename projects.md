@@ -103,13 +103,13 @@ Indicates when the projects are running.
 
 Click on the triple dot at the end of each row button to see available project actions.
 
-**View participants** - View participants.
+**View participants** - View project participants.
 
-**Reconcile** - Reconcile project participants (bad responses, or to complete)
+**Reconcile** - Reconcile project participants (bad responses or to complete)
 
 **Clone project** - Clone project.
 
-**Delete Security Flags** - Delete all security flags from the project. This should be only used when there is an issue with redirects.
+**Delete Security Flags** - Deletes all security flags from the project. This should be only used when there is an issue with redirects.
 
 **Delete** - Delete project.
 
