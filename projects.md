@@ -8,21 +8,21 @@ The screen is kept uncluttered by default by applying the **Responsible for** fi
 
 ### Search
 
-The search functionality searches thru **ID**, **name**, **external project reference**, and **external billing reference**. Clear any filters before searching; otherwise, you may not see the results.
+The search functionality searches through **ID**, **name**, **external project reference**, and **external billing reference**. Clear any filters before searching; otherwise, you may not see the results.
 
-> **PLEASE NOTE** that the search will only search thru the active projects. If you need to search for archived projects, please switch to the **ARCHIVED PROJECTS** -tab.
+> **PLEASE NOTE** that the search will only search through the active projects. If you need to search for archived projects, please switch to the **ARCHIVED PROJECTS** -tab.
 
 ### Projects table
 
-Some columns are sortable. Simply click on the table headers to change the sort order.
+Some columns are sortable. Click on the table headers to change the sort order.
 
 #### ID
 
-Simply indicates project ID.
+Simply indicates the project ID.
 
 #### PRIORITY
 
-If you have an urgent project where you anticipate running out of sample the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls, you can leave the priority setting to the default of five (5). Maximum priority is 10, so 5 falls in the middle ground as indicated as **dot**. Lower or higher priorities are indicated with **arrow** -icons pointing either up or down. 
+If you have an urgent project where you anticipate running out of sample, the priority setting is your new friend. The sampling process is always carried out in the priority order. Normally when you do not anticipate any sample shortfalls, you can leave the priority setting to the default of five (5). Maximum priority is 10, so 5 falls in the middle ground as indicated as **dot**. Lower or higher priorities are indicated with **arrow** -icons pointing either up or down. 
 
 > The sampling engine always attempts to complete all projects regardless of the priority setting. The sampling engine uses the priority setting to determine in order to sample from the currently available panelist pool.
 
@@ -47,11 +47,14 @@ Status can be changed simply by clicking each row's **STATUS** indicator.
 #### Online
 Select **online** to start fielding the project. The project will begin fielding automatically at the configured **start date and time**. 
 
+#### Paused
+Select **Paused** to halt sampling for the project. Any outstanding invitees can still access the project.
+
 #### Offline
-Use the **offline** status to take the project temporarily offline. When **offline**, no new respondents can start the survey. However, any interviews in progress are allowed to finish normally. 
+Use the **offline** status to temporarily disable the project. When **offline**, new respondents cannot start the survey. However, any interviews in progress can be completed normally. 
 
 #### Closed
-Use the **closed** mode to close the study permanently. In **closed** mode, anybody currently taking in progress can finish usually. 
+Use the **closed** mode to close the study permanently. In **closed** mode, anybody currently taking in progress can finish usually. All new starts will be terminated.
 
 #### Archived
 When the project is **archived**, no more respondents are allowed to start or complete it.
