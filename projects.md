@@ -87,9 +87,9 @@ Displays the project's current incidence rate. The indicator is color-coded base
 
 #### RATING
 
-This is an average survey rating score on a scale of 1 - 10. Survey ratings are collected at the end of each interview and is voluntary to panelists. The rating functionality is on by default but can be turned off in the **PANEL SETTINGS** if desired.
+This is an average survey rating score on a scale of 1 - 10. Survey ratings are collected at the end of each interview and are voluntary for panelists. The rating functionality is on by default but can be turned off in the PANEL SETTINGS if desired.
 
-The rating is color coded and can either be **Green, Amber and Red**. The red color indicator is triggered when **Send notification when survey rating falls under** -setting limit has been met in the **PANEL SETTINGS**.
+The rating is color-coded and can either be **Green, Amber, or Red**. The red color indicator is triggered when **Send notification when survey rating falls under** -setting limit has been met in the **PANEL SETTINGS**.
 
 #### CALENDAR
 
@@ -104,8 +104,9 @@ Indicates when the projects are running.
 Click on the triple dot at the end of each row button to see available project actions.
 
 **View participants** - View participants.
-**Disqualify** - Batch disqualifies participants by providing a list of panelists' IDs.
-**Clone** - Clone project.
+**Reconcile** - Reconcile project participants (bad responses, or to complete)
+**Clone project** - Clone project.
+**Delete Security Flags** - Delete all security flags from the project. This should be only used when there is an issue with redirects.
 **Delete** - Delete project.
 
 > You can only delete projects without participants. Consider archiving the project to make it "disappear" from your view.
