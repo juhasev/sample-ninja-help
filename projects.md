@@ -104,9 +104,13 @@ Indicates when the projects are running.
 Click on the triple dot at the end of each row button to see available project actions.
 
 **View participants** - View participants.
+
 **Reconcile** - Reconcile project participants (bad responses, or to complete)
+
 **Clone project** - Clone project.
+
 **Delete Security Flags** - Delete all security flags from the project. This should be only used when there is an issue with redirects.
+
 **Delete** - Delete project.
 
 > You can only delete projects without participants. Consider archiving the project to make it "disappear" from your view.
