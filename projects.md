@@ -54,7 +54,7 @@ Select **Paused** to halt sampling for the project. Any outstanding invitees can
 Use the **offline** status to temporarily disable the project. When **offline**, new respondents cannot start the survey. However, any interviews in progress can be completed normally. 
 
 #### Closed
-Use the **closed** mode to close the study permanently. In **closed** mode, anybody currently taking in progress can finish usually. All new starts will be terminated.
+Use the **closed** mode to close the study permanently. In **closed** mode, anybody currently taking in progress can finish the project. All new starts will be terminated.
 
 #### Archived
 When the project is **archived**, no more respondents are allowed to start or complete it.
