@@ -106,12 +106,17 @@ All dates must be imported in the international format i.e. **2021-07-22** or **
 All phone numbers must also be in the international format. For example, US number (512) 670-4444 needs to be converted to +15126564444. If you are storing a phone number for reference only and don't plan to use SMS functions then you can also use the **Keyword** type.
 
 #### Checkbox
-Checkbox columns must be noted with target variable name followed by the option label. Checked options are noted with 1 and unchecked options are noted with 0. For example:
+Checkbox columns must be noted with target variable name followed by the option label or option ID. Checked options are noted with 1 and unchecked options are noted with 0. For example:
 
 ```
-BREXIT:yes,BREXIT:no
- 1,0
+COLORS:Yellow, COLORS:Black, COLORS:Red
+ 1,0,1
+```
 
+You may also supply the checkbox column using option ID in the headers
+```
+COLORS_1, COLORS_2, COLORS_3
+1,1,0
 ```
 
 #### Radio
