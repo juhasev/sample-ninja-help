@@ -6,7 +6,7 @@ The top row statistics provide basic statistics about the panelist's vitals.
 - **Status** Current panelist status -> Subsribed, Unsubscribed or Blacklisted
 - **Days in Panel** # of days as panel member. This is calculated from the SUBSCRIBED_DATA data variable.
 - **Quality Score** Panelist quality score between 0 (worst) and 100 (best). You can just switch to the quality tab to learn more.
-- **Bad experience percent** This is a percentage of panelists getting "profile" or "quota" terminated.
+- **Bad experience percent** This is the percentage of panelists "profile" or "quota" terminated.
 - **Total activities** This is the number of total interactions with the panel. Switch to the "Activity" tab for more.
 - **Completed projects** Number of completed projects this panelist has accumulated. Same as COMPLETED_COUNT data variable.
 - **Reward points balance** Current reward points balanace. Same as POINTS_BALANCE data variable.
@@ -16,11 +16,11 @@ The top row statistics provide basic statistics about the panelist's vitals.
 ### Basics
 This box provides basic information about the panelist.
 
-- **Identifier** This is panelist's unique identifier.
-- **Email valid** Whether panelist's email address is healthy and the system is able to deliver mail to the panelist's email address
-- **Sub Panel** Which sub panel this panelist is member of
+- **Identifier** This is the panelist's unique identifier.
+- **Email valid** Whether the panelist's email address is healthy and the system can deliver mail to the panelist's email address
+- **Sub Panel** Which sub panel is this panelist a member of
 - **Locale** Panelist's locale
-- **Recruitment Source** Which recruitment source this panelist is coming from.
+- **Recruitment Source** Which recruitment source is this panelist coming from?
 
 ### Projects
 Displays counts of project-related activities
@@ -42,9 +42,9 @@ This pulldown lets you unsubscribe or blacklist panelists. If you unsubscribe or
 This button lets you manually deduct or add reward points to the panelist's balance. Any text entered into the description will be automatically added as a note. Please take a look at the notes tab for more details. This information is not visible to the panelist.
 
 ### Reset passwords
-Resets the panelist's password by sending a password reset email to the panelist's email address. Panelists can also reset their password from the member app login screen.
+It resets the panelist's password by sending a password reset email to their email address. Panelists can also reset their password from the member app login screen.
 
 ### Delete panelist
 Wipes out the entire panelist, including their activity history. Please use the unsubscribe or blacklist options to retain activity history records that power your panel's statistics.
 
-> This should be only used for test panelists, never for real panelists! 
+> This should be only used for test panelists, never for the production panelists! 
