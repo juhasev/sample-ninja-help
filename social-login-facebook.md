@@ -48,4 +48,6 @@ This process can take up to 10 days to complete.
 ### Obtain credentials
 Click the **App settings** on the left menu and copy **App ID** and **App Secret**. Enter these into the Facebook configuration section in **Sample Ninja**
 
+> NOTE: This integration works out of the box without verified business or app approval. You can use it in testing in staging. Complete the entire process before going to production!
+
 > Don't hesitate to contact support at support@sampleninja.io if you need assistance.
