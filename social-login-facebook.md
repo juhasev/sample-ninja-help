@@ -1,12 +1,12 @@
-## Facebook authentication
+## Facebook Sign-in
 
-Facebook authentication provides a convenient way for you panelists to register and log in to the Member App. Getting Facebook authentication requires several steps, including creating an app, verifying business, and configuring all the settings. If your business has already been verified, you can link it to the app. At the end, you will obtain the App ID and App Secret from the app settings. 
+Facebook sign-in provides a convenient way for your panelists to register and log in to the Member App. Getting Facebook sign-in requires several steps, including creating an app, verifying business, and configuring all the settings. If your business has already been verified, you can link it to the app. Ultimately, you will obtain the App ID and Secret from the app settings. 
 
 Before you begin, you should create **Meta Business Portfolio** if you don't have one yet. More info below:
 
 https://www.facebook.com/business/help/1710077379203657?id=180505742745347
 
-Start the process by clicking **Log in** on the page below.
+You can start the process by clicking **Log in** on the page below.
 
 https://developers.facebook.com/products/facebook-login
 
