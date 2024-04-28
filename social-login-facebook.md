@@ -1,4 +1,4 @@
-### Facebook authentication
+## Facebook authentication
 
 Facebook authentication provides a convenient way for you panelists to register and log in to the Member App. Getting Facebook authentication requires several steps, including creating an app, verifying business, and configuring all the settings. If your business has already been verified, you can link it to the app. At the end, you will obtain the App ID and App Secret from the app settings. 
 
