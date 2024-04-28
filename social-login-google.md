@@ -1,6 +1,6 @@
 ## Google Sign-In
 
-Google sign-in provides a convenient way for your panelists to register and log in to the Member App. Getting Google sign-in to work requires creating a Google Cloud account. Ultimately, you will obtain the App ID and Secret from the app settings. Google authentication is one of the easiest to set up and literally takes only 5 minutes to do.
+Google sign-in provides a convenient and passwordless way for your panelists to register and log in to the Member App. Getting Google sign-in to work requires creating a Google Cloud account. Ultimately, you will obtain the App ID and Secret from the app settings. Google authentication is one of the easiest to set up and literally takes only 5 minutes to do.
 
 https://developers.google.com/identity/sign-in/web/sign-in
 
