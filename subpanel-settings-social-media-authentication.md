@@ -8,6 +8,6 @@ Allow sub-panel members to register and log in using Social Media accounts. The 
 
 Social Media authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider.
 
-> IMPORTANT: Social media authentication is not currently compatible with the Mobile App, we are working to bring the support to the mobile app as well.
+> **IMPORTANT**: Social media authentication is incompatible with the mobile app. We are currently working on bringing the support to the mobile app.
 
-> IMPORTANT: Do not remove social media providers once been used for obvious reasons.
+> **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
