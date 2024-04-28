@@ -46,3 +46,6 @@ Complete the app review and answer all the questions.
 
 ### Submit your app for approval
 This process can take up to 10 days to complete.
+
+### Obtain credentials
+Click on the **App settings** on the left menu and copy **App ID** and **App Secret**. Enter these into the Facebook configuration section in **Sample Ninja**
