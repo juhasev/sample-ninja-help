@@ -6,11 +6,9 @@ Before you begin, you should create **Meta Business Portfolio** if you don't hav
 
 https://www.facebook.com/business/help/1710077379203657?id=180505742745347
 
-Start the process by clicking "Log In" on the page below.
+Start the process by clicking **Log in** on the page below.
 
 https://developers.facebook.com/products/facebook-login
-
-The Facebook authentication is very simple to configure.
 
 1) Once logged in click **Create App** button.
 2) Next, select **Authenticate and request data from users with Facebook Login**
@@ -37,8 +35,6 @@ Accept the defaults to all the other settings and save.
 ### Permissions
 You must enable both **email** and **public_profile** in the **Permissions**
 
-> Don't hesitate to contact support at support@sampleninja.io if you need assistance.
-
 ### Business verifications
 Next, complete the business verification.
 https://www.facebook.com/business/help/2058515294227817?id=180505742745347
@@ -50,4 +46,6 @@ Complete the app review and answer all the questions.
 This process can take up to 10 days to complete.
 
 ### Obtain credentials
-Click on the **App settings** on the left menu and copy **App ID** and **App Secret**. Enter these into the Facebook configuration section in **Sample Ninja**
+Click the **App settings** on the left menu and copy **App ID** and **App Secret**. Enter these into the Facebook configuration section in **Sample Ninja**
+
+> Don't hesitate to contact support at support@sampleninja.io if you need assistance.
