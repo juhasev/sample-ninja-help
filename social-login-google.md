@@ -30,3 +30,4 @@ Then add
 You will end up 
 ```
 https://clientname.panelservice.io/auth/google/callback
+```
