@@ -8,6 +8,6 @@ Adapting Social Media authentication provides a more convenient way for your pan
 
 Social Media authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider.
 
-> **IMPORTANT**: Social media authentication is incompatible with the mobile app. We are currently working on bringing the support to the mobile app.
+> **IMPORTANT**: Social media authentication is incompatible with the mobile app. We are currently working on bringing the support to the mobile app. If you are using the mobile app, please do not enable social media logins as any user using social media authentication would not be able to login to the mobile app.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
