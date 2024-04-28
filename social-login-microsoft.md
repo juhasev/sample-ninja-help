@@ -33,3 +33,5 @@ Click on **Add a certificate or secret** link and then click **New client secret
 Next, copy the **value** field and enter that into the Sample Ninja as **Client Secret**. Remember to enable **Microsoft Social Authentication** in Sample Ninja. Click save, and you're done.
 
 > **NOTE** Put the expiration date in your calendar, as you must rotate the secret every two years.
+
+> Please visit the **Sub Panels** and edit settings for each sub-panel you want to enable Microsoft authentication.
