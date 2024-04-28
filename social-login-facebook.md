@@ -1,6 +1,6 @@
 ## Facebook Sign-in
 
-Facebook sign-in provides a convenient way for your panelists to register and log in to the Member App. Getting Facebook sign-in requires several steps, including creating an app, verifying business, and configuring all the settings. If your business has already been verified, you can link it to the app. Ultimately, you will obtain the App ID and Secret from the app settings. 
+Facebook sign-in provides a convenient and passwordless way for your panelists to register and log in to the Member App. Getting Facebook sign-in requires several steps, including creating an app, verifying business, and configuring all the settings. If your business has already been verified, you can link it to the app. Ultimately, you will obtain the App ID and Secret from the app settings. 
 
 Before you begin, you should create **Meta Business Portfolio** if you don't have one yet. More info below:
 
