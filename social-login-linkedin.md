@@ -19,5 +19,6 @@ Then add
 You will end up 
 ```
 https://clientname.panelservice.io/auth/linkedin-openid/callback
+```
 
 Enter this URL as **Authorized redirect URL**
