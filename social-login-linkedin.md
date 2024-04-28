@@ -1,6 +1,6 @@
 ### LinkedIn Sign-in
 
-LinkedIn sign-in provides a convenient way for your panelists to register and log in to the Member App. Getting LinkedIn authentication requires creating a new app. You must link the app to the business account you may already have. At the end, you will obtain the Client ID and Client Secret from the app settings.
+LinkedIn sign-in provides a convenient and passwordless way for your panelists to register and log in to the Member App. Getting LinkedIn authentication requires creating a new app and linking it to the business account you may already have. In the end, you will obtain the Client ID and Client Secret from the app settings.
 
 https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/sign-in-with-linkedin-v2
 
@@ -12,7 +12,7 @@ Copy the base URL in the browser's address bar when logged into Sample Ninja. Fo
 ```
 https://clientname.panelservice.io
 ```
-Then add the following to the base URL.
+Then, add the following to the base URL.
 ```
 /auth/linkedin-openid/callback
 ```
