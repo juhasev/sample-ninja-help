@@ -22,7 +22,7 @@ Then add
 ```
 You end up 
 ```
-https://clientname.panelservice.io/auth/facebook/callback
+https://clientname.panelservice.io/auth/microsoft/callback
 ```
 Accept the defaults to all the other settings and save. Copy the **Application (client) ID** and paste it into the **Client ID** field in Sample Ninja.
 
