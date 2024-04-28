@@ -1,10 +1,10 @@
 ## Microsoft Sign-in
 
-Microsoft authentication provides a convenient way for your panelists to register and log in to the Member App. Getting Microsoft authentication to work requires creating an Azure account. At the end, you will obtain the App ID and App Secret from the app settings. Microsoft authentication is one of the easiest to set up and literally takes only 5 minutes to do. There is no need to submit any company verification documents. The Azure base account works and is completely free.
+Microsoft sign-in provides a convenient way for your panelists to register and log in to the Member App. Getting Microsoft authentication to work requires creating an Azure cloud account. In the end, you will obtain the App ID and App Secret from the app settings. Microsoft authentication is one of the easiest to set up and literally takes only 5 minutes to do. You don't need to submit any company verification documents. The Azure account is completely free.
 
 https://www.azure.com
 
-When you log in to Azure, find **App registration** (under Identities) or type **App Registrations** to the search bar.
+When you log in to Azure, find **App registration** (under Identities) or type **App Registrations** in the search bar.
 
 1) Click on **New registration**
 2) Select the supported account types (you may select business accounts only or optionally allow personal accounts)
