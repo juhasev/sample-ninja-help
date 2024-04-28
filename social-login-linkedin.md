@@ -12,7 +12,7 @@ Copy the base URL in the browser's address bar when logged into Sample Ninja. Fo
 ```
 https://clientname.panelservice.io
 ```
-Then add
+Then add the following to the base URL.
 ```
 /auth/linkedin-openid/callback
 ```
