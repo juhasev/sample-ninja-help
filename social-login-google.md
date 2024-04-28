@@ -19,7 +19,7 @@ https://console.cloud.google.com/
 
 #### Creating the redirect URI
 
-Select **Web** from the dropdown. The base URL you see in the browser's address bar when logged into Sample Ninja. For example:
+Copy the base URL in the browser's address bar when logged into Sample Ninja. For example:
 ```
 https://clientname.panelservice.io
 ```
@@ -31,3 +31,4 @@ You will end up
 ```
 https://clientname.panelservice.io/auth/google/callback
 ```
+Enter this URL as **Redirect URI**
