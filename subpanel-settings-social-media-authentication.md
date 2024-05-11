@@ -12,6 +12,6 @@ Enabling the authentication providers can be challenging. For example, you may b
 
 We recommended starting with Google and Microsoft as they are the easiest to configure and almost everyone has one. Microsoft can be configured to allow account types like Hotmail, Office 365, Xbox, or Corporate email. Google accounts are uniform; if you have one, you can log in. While **LinkedIn** is owned by Microsoft, the configuration differs from that of Microsoft. Please read the help for each provider.
 
-> **IMPORTANT**: Authentication providers are incompatible with the Opinion Ninja mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using social media authentication will not be able to log in to the mobile app.
+> **IMPORTANT**: Authentication providers are incompatible with the Opinion Ninja mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using a third-party passwordless authentication provider cannot log in to the mobile app.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
