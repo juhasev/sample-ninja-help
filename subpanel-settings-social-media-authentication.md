@@ -21,6 +21,6 @@ As always, you can ask our team for help. Setting the authentication providers c
 
 > **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. This person will need to have organizational access privileges to the provider you wish to use. 
 
-> **IMPORTANT**: Authentication providers are incompatible with the **Opinion Ninja** mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user registering with a third-party passwordless authentication provider cannot log in to the mobile app.
+> **IMPORTANT**: Authentication providers are incompatible with the **Opinion Ninja** mobile app. We are currently working on bringing support to the app. If you are using the mobile app, please do not enable social media logins, as any user registering with a third-party passwordless authentication provider will not be able to log in to the app.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
