@@ -13,9 +13,9 @@ Enabling the authentication providers can be challenging. For example, you may b
 
 We recommended starting with **Google** and **Microsoft** as they are the easiest to configure, and almost everyone has one. **Microsoft** can be configured to allow selected account types like **Hotmail**, **Office 356**, **Xbox**, or **Corporate email**. **Google** accounts are uniform; if you have one, you can log in. If you want to mimic the **Google** type of behavior using **Microsoft**, you want to allow all account types. If you are running a B2B panel, you should limit it to **Corporate accounts** only. While **LinkedIn** is owned by **Microsoft**, the configuration differs from that of **Microsoft**. Please read the help for each provider.
 
-> **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. This person will need to have organizational access privileges to the provider you wish to use. 
+As always, you can ask our team for help. Setting the authentication providers can seem overwhelming at first. We refuse to provide support until you have studied all the help files mentioned here. If you still have additional questions, please feel free to email us at **support@sampleninja.io** as usual.
 
-**SUPPORT**: As always, you can ask for help from our team. Setting the authentication providers can seem overwhelming at first. We refuse to provide support till you have studied all the help files mentioned here. If you still have additional questions, please feel free to email us support@sampleninja.io as usual.
+> **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. This person will need to have organizational access privileges to the provider you wish to use. 
 
 > **IMPORTANT**: Authentication providers are incompatible with the **Opinion Ninja** mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using a third-party passwordless authentication provider cannot log in to the mobile app.
 
