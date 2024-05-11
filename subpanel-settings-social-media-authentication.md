@@ -10,6 +10,6 @@ The authentication providers are configured in **Panel Settings -> Integrations*
 
 > **IMPORTANT**: Authentication providers are incompatible with the Opinion Ninja mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using social media authentication will not be able to log in to the mobile app.
 
-> ** TIP ** Enabling the authentication providers is not always easy. You may be required to validate your business and have a well-established presence with specific providers. Please read the context help under **Panel Settings -> Integrations** for more details.
+> **CONSIDERATIONS** Enabling the authentication providers is not always easy. You may be required to validate your business and have a well-established presence with specific providers. Please read the context help under **Panel Settings -> Integrations** for more details.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
