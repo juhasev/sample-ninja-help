@@ -13,7 +13,7 @@ Enabling the authentication providers can be challenging. For example, you may b
 
 We recommended starting with **Google** and **Microsoft** as they are the easiest to configure, and almost everyone has one. **Microsoft** can be configured to allow selected account types like **Hotmail**, **Office 356**, **Xbox**, or **Corporate email**. **Google** accounts are uniform; if you have one, you can log in. If you want to mimic the **Google** type of behavior using **Microsoft**, you want to allow all account types. 
 
-> **TIP**: If you are running a B2B panel, you could limit it to **Corporate accounts** or **paid corporate subscriptions** only as those are hard to acquire for fraudulent panelists.
+> **TIP**: If you are running a B2B panel, you could limit it to **Corporate accounts** or **paid corporate subscriptions** only, as those are hard to acquire by fraudulent panelists.
 
 > **NOTE**: While **LinkedIn** is owned by **Microsoft**, the configuration differs from that of **Microsoft**. Please read the help for each provider.
 
