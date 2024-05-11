@@ -13,7 +13,8 @@ Enabling the authentication providers can be challenging. For example, you may b
 
 We recommended starting with **Google** and **Microsoft** as they are the easiest to configure, and almost everyone has one. **Microsoft** can be configured to allow selected account types like **Hotmail**, **Office 356**, **Xbox**, or **Corporate email**. **Google** accounts are uniform; if you have one, you can log in. If you want to mimic **Google** type of behaviour using **Microsoft**, you want to allow all account types. If you are running a B2B panel, you may want to limit it to **Corporate accounts** only. While **LinkedIn** is owned by **Microsoft**, the configuration differs from that of **Microsoft**. Please read the help for each provider.
 
-> **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. As always, you can request help from our team. This person will need to have organisational access privileges to the provider you wish to use. Simply email support@sampleninja.io.
+> **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. This person will need to have organisational access privileges to the provider you wish to use. As always, you can request help from our team. Simply email support@sampleninja.io.
+
 > **IMPORTANT**: Authentication providers are incompatible with the **Opinion Ninja** mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using a third-party passwordless authentication provider cannot log in to the mobile app.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
