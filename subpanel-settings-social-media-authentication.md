@@ -1,5 +1,5 @@
 ### Authentication Providers
-Adapting a third-party authentication providers a more convenient way for your panelists to register and log in. You can enable third-party authentication providers on a sub-panel basis. The main benefits are:
+Adapting a third-party authentication providers offers a more convenient way for your panelists to register and log in. You can enable third-party authentication providers on a sub-panel basis. The main benefits are:
 
 1) Panelists do not need to provide details like name and email.
 2) Panelists do not need to confirm their email address as the social media provider has already confirmed it.
