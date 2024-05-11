@@ -15,7 +15,7 @@ We recommended starting with **Google** and **Microsoft** as they are the easies
 
 > **TIP**: If you feel you are not tech-savvy, we recommend passing the configuration task to a technical person. This person will need to have organizational access privileges to the provider you wish to use. 
 
-** SUPPORT**: As always, you can ask for help from our team. Setting the authentication providers can seem overwhelming at first. We refuse to provide support till you have studied all the help files mentioned here. If you still have additional questions, please feel free to email us support@sampleninja.io as usual.
+**SUPPORT**: As always, you can ask for help from our team. Setting the authentication providers can seem overwhelming at first. We refuse to provide support till you have studied all the help files mentioned here. If you still have additional questions, please feel free to email us support@sampleninja.io as usual.
 
 > **IMPORTANT**: Authentication providers are incompatible with the **Opinion Ninja** mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using a third-party passwordless authentication provider cannot log in to the mobile app.
 
