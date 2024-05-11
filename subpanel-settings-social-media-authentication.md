@@ -8,6 +8,6 @@ Adapting a third-party authentication providers offers a more convenient way for
 
 The authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider.
 
-> **IMPORTANT**: Authentication providers are incompatible with the mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using social media authentication will not be able to log in to the mobile app.
+> **IMPORTANT**: Authentication providers are incompatible with the Opinion Ninja mobile app. We are currently working on bringing support to the mobile app. If you are using the mobile app, please do not enable social media logins, as any user using social media authentication will not be able to log in to the mobile app.
 
 > **IMPORTANT**: Do not remove social media providers once they have been used for obvious reasons.
