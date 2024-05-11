@@ -5,6 +5,7 @@ Adapting a third-party authentication providers offers a more convenient way for
 2) Panelists do not need to confirm their email address as the social media provider has already confirmed it.
 3) Panelists do not need to create a password.
 4) Panelists can log in to the Member App with a single click.
+5) With most providers, you will get a link to their profile and profile picture.
 
 The authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider. Please click on the **help icon** for each provider to learn more.
 
