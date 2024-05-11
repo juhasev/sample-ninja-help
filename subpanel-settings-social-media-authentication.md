@@ -6,7 +6,7 @@ Adapting a third-party authentication providers offers a more convenient way for
 3) Panelists do not need to create a password.
 4) Panelists can log in to the Member App with a single click.
 
-The authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider. Please click on the help icon for each provider to learn more.
+The authentication providers are configured in **Panel Settings -> Integrations**. Under the help section in **Panel Settings**, you can read more about how to obtain the required credentials from each provider. Please click on the **help icon** for each provider to learn more.
 
 Enabling the authentication providers can be challenging. For example, you may be required to validate your business (**LinkedIn**) and have a well-established presence with specific providers (Subscription, license, paying customer, or linkage to business website). 
 
