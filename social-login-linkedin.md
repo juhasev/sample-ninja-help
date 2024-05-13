@@ -4,6 +4,10 @@ LinkedIn sign-in provides a convenient and passwordless way for your panelists t
 
 https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/sign-in-with-linkedin-v2
 
+Login to:
+
+https://developer.linkedin.com/
+
 Once the app has been created, you can obtain the **Client ID and Client Secret** under the **Auth** tab. You must enter **Authorized redirect URL**. 
 
 #### Creating the Authorized redirect URL
