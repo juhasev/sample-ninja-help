@@ -24,6 +24,11 @@ If you are using the built-in registration survey you need to append **source** 
 
 The recruitment source IDs are listed on the each row for each source. Similarly if you are registering panelist using the **Community API** you must supply the correct ID in the **RegisterPanelist** API call.
 
+### Appending affiliate ID
+Some recruitment partner utilize multiple affiliates. You may track them by passing in **affliate_id** parameter. Example:
+
+```https://yourcompany.sampleninja.io/registration/1/ENG-US?source=12&affiliate_id=zrecruiter12```
+
 ### Enabling and disabling recruitment sources
 By default all recruitment sources are enabled. If you wish to turn one off, then use the **Source ENABLED** / **Source DISABLED** select to do so.
 
