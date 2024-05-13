@@ -119,37 +119,3 @@ As long as the **registration survey** URL is configured in **TUNE's admin inter
 
 > For more information visit https://www.tune.com
 
-### MVF Co-registration
-In order to use **MVF** co-registration you must first enable it in the **Panel Settings** under the **Integrations** -tab. You must have an account with **MVF** and know your server to server double opt-in reporting URL.
-
-Use the **Integration Partner** pulldown to select **MVF**.
-
-> For more information visit https://www.mvfglobal.com
-
-When **MVF** is turned on for a **Recruitment Source** Sample Ninja expects 6 URL query parameters to be passed in:
-
-1) **sid** MVF internal user identifier (assigned by MVF)
-2) **pix** MVF internal pixel identifier (assigned by MVF)
-3) **first** First name collected by MVF -> auto saved as **FIRST_NAME** -data variable.
-4) **last**  Last name collected by MVF -> auto saved as **LAST_NAME** -data variable.
-5) **gender** Gender collected by MVF -> auto saved as **GENDER** -data variable.
-6) **email** Email address collected by MVF -> auto saved as **EMAIL** -data variable.
-
-Let's say you have **Recruitment Source** with **ID 4** with **MVF reporting** enabled. Your base **Registration Survey** URL would look like this:
-
-```
-https://client.sampleninja.io/co-registration/mvf/1/ENG-US
-```
-
-Next append all the required query parameters to the URL:
-
-```
-?source=4&sid=12345&pix=123456&first=John&last=Doe&email=john.doe@sampleninja.io&gender=1
-```
-
-> **NOTE** The URL does not point to the registration survey, instead it points to a specific URL for co-registration! This URL is used to server to server communication between **MVF** and **Sample Ninja**
-
-When an API request is received and validation is passed **Sample Ninja** will send a confirmation email as configured under **Sub Panels -> Email Templates -> Co-registration invitation**. When a registering panelist confirms their email, the standard security checks, fingerprinting etc.. will run.
-
-Questions **FIRST_NAME**, **LAST_NAME**, **GENDER** and **EMAIL** are automatically answered when co-registration request is received from **MVF**. **Sample Ninja** will automatically report these as completed registration surveys, so you will have normal registration survey statistics even though these users never took the actual registration survey.
-
