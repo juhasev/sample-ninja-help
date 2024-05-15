@@ -1,6 +1,20 @@
 ## Financial Reports
 
-Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending. Each report can be toggled to display either averages or totals.
+Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending. Each report can be toggled to display either averages or totals. Additionally you may specify filters to look at certain segments of panelists.
+
+#### ADD FILTER
+
+**Time in Panel**
+
+This allows you to filter panelists based on their length of membership in the Panel over a given period.
+
+**Activity in period**
+
+This allows you to filter panelists based on their last activity over a given period.
+
+**Query filter**
+
+> This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source, and are they the best of this target group? etc
 
 ### DASHBOARD
 
@@ -42,19 +56,7 @@ Calculated as **Total Rewards Awarded - Total Rewards Redeemed**.
 
 > Rewards liability is calculated using panelists who are currently subscribed. Any panelist not currently subscribed cannot redeem any reward points they may have on their account.
 
-#### ADD FILTER
 
-**Time in Panel**
-
-This allows you to filter panelists based on their length of membership in the Panel over a given period.
-
-**Activity in period**
-
-This allows you to filter panelists based on their last activity over a given period.
-
-**Query filter**
-
-> This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source, and are they the best of this target group? etc
 
 #### BY RECRUITMENT SOURCE
 
