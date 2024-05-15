@@ -62,45 +62,47 @@ This shows the average rewards liability amongst all Panelists what every panel 
 
 Calculated as **Rewards Awarded - Rewards Redeemed**
 
-### RECRUITMENT COST
+#### RECRUITMENT COST
 
 This shows the total cost for Recruiting ALL panelists regarding reward points.
 
 Reward costs are calculated by tracking the total from ALL recruitment sources into the Panel.
 
-### REVENUE
+**REVENUE**
 
 This shows ALL projects' total revenue generated (expressed in reward points).
 
-### REWARDS AWARDED
+**REWARDS**
 
 This shows the total revenue points awarded to all Panelists  (expressed in reward points).
 
-### REWARDS REDEEMED
+**REWARDS REDEEMED**
 
 This shows the total rewards redeemed by all Panelists.
 
-### REWARDS LIABILITY
+**REWARDS LIABILITY**
 
 This shows the total rewards liability amongst all Panelists and one of the key financials when managing a panel.
 
-Calculated as **Total Rewards Awarded - Total Rewards Redeemed**
+Calculated as **Total Rewards Awarded - Total Rewards Redeemed**.
 
-## ADD FILTER
+> Rewards liability is calculated using panelists that are currently SUBSCRIBED.
 
-### Time in Panel
+#### ADD FILTER
+
+**Time in Panel**
 
 This allows you to filter panelists based on their length of membership in the Panel over a given period.
 
-### Activity in period
+**Activity in period**
 
 This allows you to filter panelists based on their last activity over a given period.
 
-### Query filter
+**Query filter**
 
 >**NOTE** This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source, and are they the best of this target group? etc
 
-### BY RECRUITMENT SOURCE
+#### BY RECRUITMENT SOURCE
 
 This vital reporting screen gives a breakdown of costs based on all defined **Recruitment Sources** (In the main menu items on the left side of the screen).  It allows users to track their Ads spending for the various panel recruitment sources.
 
