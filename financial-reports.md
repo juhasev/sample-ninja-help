@@ -8,13 +8,13 @@ Financial Reports help you understand recruitment costs and ROI and where to opt
 
 The average cost of recruiting a panelist.
 
-##### COST MULTIPLIER (# of overall recruits needed to generate one Active Panelist)
+**COST MULTIPLIER**
 
-The cost multiple looks at the total number of recruited panelists vs. how many of those became active.
+The cost multiple looks at the total number of recruited panelists vs. how many became active.
 
-> Multiplier = # Active panelist / # Recruited panelists
+> Multiplier is calculated using formula: Active panelist count / Recruited panelists count
 
-##### ACTUAL RECRUITMENT COST
+**ACTUAL RECRUITMENT COST**
 
 This shows the average cost for Recruiting an **Active panelist** (as defined in the main Settings tab on the left-hand side of the SampleNinja platform), which would be expressed in reward points.
 
@@ -22,19 +22,19 @@ This is a calculation of **Recruitment Cost** and fulfilling the criteria for an
 
 Reward costs are calculated by tracking all the various recruitment sources into the Panel and keeping track of the individual cost per panelist per recruitment source.
 
-##### REVENUE
+**REVENUE**
 
 The average revenue per panelist or the total revenue for all panelists.
 
-##### REWARDS AWARDED
+**REWARDS AWARDED**
 
 The average reward points awarded or the number of reward points given out. 
 
-##### REWARDS REDEEMED
+**REWARDS REDEEMED**
 
 The average rewards redeemed or the total number of reward points redeemed.
 
-##### REWARDS LIABILITY
+**REWARDS LIABILITY**
 
 The average rewards liability or the total rewards.
 
