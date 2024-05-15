@@ -16,7 +16,7 @@ This allows you to filter panelists based on their last activity over a given pe
 
 > This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source, and are they the best of this target group? etc
 
-### REPORTS TERMINOLOGY
+### Terminology used in the reports
 
 **COUNT**
 
