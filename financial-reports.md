@@ -19,6 +19,7 @@ This allows you to filter panelists based on their last activity over a given pe
 ### REPORTS TERMINOLOGY
 
 **COUNT**
+
 Total number of panelists (available in the total mode only)
 
 **RECRUITMENT COST OR COST**
