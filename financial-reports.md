@@ -1,8 +1,8 @@
-## Financial Reports
+### Financial Reports
 
 Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending.
 
-### DASHBOARD
+#### DASHBOARD
 
 The Financial Reports DASHBOARD displays crucial reports to help business owners and panel managers better understand the average or total costs for many elements within the SampleNinja Panel Platform.
 
