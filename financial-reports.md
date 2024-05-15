@@ -1,12 +1,10 @@
 ## Financial Reports
 
-Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending.
+Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending. Each report can be toggled to display either averages or totals.
 
 ### DASHBOARD
 
-The Financial Reports dashboard displays crucial reports to help business owners and panel managers better understand the average or total costs.
-
-##### RECRUITMENT COST
+**RECRUITMENT COST**
 
 The average cost of recruiting a panelist.
 
