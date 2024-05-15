@@ -10,27 +10,13 @@ Reports are as described in terms of **reward points** within the system to refl
 
 ##### RECRUITMENT COST
 
-This shows the average cost for Recruiting a panelist in reward points.
-
-Reward costs are calculated by tracking all the various recruitment sources into the Panel and keeping track of the individual cost per panelist per recruitment source.
-
-For example, the panel might recruit directly from Facebook, LinkedIn, Google Adwords, and the BBC website, each stream having a unique cost per recruit.
-
->Eg. Facebook (35 reward points), LinkedIn (92 reward points), Google Adwords (17 reward points), and the BBC website (48 reward points) - if each recruitment source recruited 100,000 panelists (or an equal amount each), then the **average RECRUITMENT COST** would calculate to be (35+92+17+48) /4 = 48 reward points
-
->If, however, 40% of all panelists were recruited from Google AdWords and subsequently 20% from Facebook, LinkedIn, and BBC, then the calculation would be as follows:
-
->(0.40 X 17) + (0.20 X 35)+ (0.20 X 92) + (0.20 X 48) = 41.8 (this will be rounded to the nearest whole number), thus **average RECRUITMENT COST** = 42 rewards points
+The average cost of recruiting a panelist.
 
 ##### COST MULTIPLIER (# of overall recruits needed to generate one Active Panelist)
 
-This is a Unique calculation, which generates a factor called the **Cost Multiplier**. The following calculation generates this.
+The cost multiple looks at the total number of recruited panelists vs. how many of those became active.
 
-
-> =   Active Panellist Recruitment cost / Recruitment cost
-
-
-> This gives incredible insight into actual recruitment costs within the panel and helps to evolve new recruitment strategies by slicing and dicing using different filters. For example, it can help understand if there is a difference in costs and cost multiplier	based on Age, Gender, Education, or any combination of data variables.  The forensic analysis possibilities are endless.
+> Multiplier = # Active panelist / # Recruited panelists
 
 ##### ACTUAL RECRUITMENT COST
 
@@ -42,7 +28,7 @@ Reward costs are calculated by tracking all the various recruitment sources into
 
 ##### REVENUE
 
-This shows the projects generate Average Revenue (expressed in reward points).
+This shows that the projects generate average revenue (expressed in reward points) or 
 
 ##### REWARDS AWARDED
 
@@ -54,31 +40,7 @@ This shows the average rewards redeemed amongst all Panelists.
 
 ##### REWARDS LIABILITY
 
-This shows the average rewards liability amongst all subscribed panelists.
-
-Calculated as **Rewards Awarded - Rewards Redeemed**
-
-##### RECRUITMENT COST
-
-This shows the total cost of recruiting ALL panelists regarding reward points.
-
-Reward costs are calculated by tracking the total from ALL recruitment sources into the Panel.
-
-**REVENUE**
-
-This shows ALL projects' total revenue generated (expressed in reward points).
-
-**REWARDS**
-
-This shows the total revenue points awarded to all Panelists  (expressed in reward points).
-
-**REWARDS REDEEMED**
-
-This shows the total rewards redeemed by all Panelists.
-
-**REWARDS LIABILITY**
-
-This shows the total rewards liability amongst all panelists and is a critical financial factor when managing a panel.
+This shows the average rewards liability amongst all subscribed panelists or the total rewards liability amongst all panelists and is a critical financial factor when managing a panel.
 
 Calculated as **Total Rewards Awarded - Total Rewards Redeemed**.
 
