@@ -42,6 +42,8 @@ This shows the average cost of Recruiting an **Active panelist**.
 
 The average revenue per panelist or the total revenue for all panelists.
 
+> Revenue is calculated based on the **Client CPI** entered in the projects and the reward points awarded. 
+
 **REWARDS AWARDED**
 
 The average reward points awarded or the number of reward points given out. 
