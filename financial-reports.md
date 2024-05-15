@@ -1,25 +1,14 @@
-# Financial Reports
+## Financial Reports
 
-This is where it is possible to comprehend recruitment costs ROI and understand where to optimize your media spend.
+Financial Reports help you understand recruitment costs and ROI and where to optimize your recruitment spending.
 
-There are three distinct report tabs available within Financial Reports:
+### DASHBOARD
 
-- DASHBOARD
-- BY RECRUITMENT SOURCE
-- BY SUB-PANEL
+The Financial Reports DASHBOARD displays crucial reports to help business owners and panel managers better understand the average or total costs for many elements within the SampleNinja Panel Platform.
 
+Reports are as described in terms of **reward points** within the system to reflect an internal currency that can be defined entirely by the user.  For example, 100 points could equal $1.00, or 1 point could equal $1. This is definable by the Panel owner in SETTINGS.
 
-## DASHBOARD
-
-The Financial Reports DASHBOARD	 displays crucial reports to help business owners and panel managers to understand better both the AVERAGE or TOTAL costs for many elements within the SampleNinja Panel Platform.
-
-Reports are as described in terms of **”reward points”** within the system to reflect an internal currency that can be defined entirely by the user.  For example, 100 points could equal $1.00, or 1 point could equal $1. This is definable by the Panel owner in SETTINGS.
-
-Currently, there are seven automatically generated reports within the DASHBOARD tab based on **Average cost**:
-
-**AVERAGE REPORTS**
-
-### RECRUITMENT COST
+##### RECRUITMENT COST
 
 This shows the average cost for Recruiting a panelist in reward points.
 
@@ -33,7 +22,7 @@ For example, the panel might recruit directly from Facebook, LinkedIn, Google Ad
 
 >(0.40 X 17) + (0.20 X 35)+ (0.20 X 92) + (0.20 X 48) = 41.8 (this will be rounded to the nearest whole number), thus **average RECRUITMENT COST** = 42 rewards points
 
-### COST MULTIPLIER (# of overall recruits needed to generate one Active Panelist)
+##### COST MULTIPLIER (# of overall recruits needed to generate one Active Panelist)
 
 This is a Unique calculation, which generates a factor called the **Cost Multiplier**. The following calculation generates this.
 
@@ -43,7 +32,7 @@ This is a Unique calculation, which generates a factor called the **Cost Multipl
 
 > This gives an incredible insight into **actual recruitment costs** within the panel and helps to evolve new recruitment strategies by slicing and dicing using different filters.  E.g., understanding if there is a difference in costs and cost multiplier	based on Age, Gender, Education, or any combination of data variables, etc.  The forensic analysis possibilities are endless.
 
-### ACTUAL RECRUITMENT COST
+##### ACTUAL RECRUITMENT COST
 
 This shows the average cost for Recruiting an **Active panelist** (as defined in the main Settings tab on the left-hand side of the SampleNinja platform), which would be expressed in reward points.
 
@@ -51,31 +40,27 @@ This is a calculation of **Recruitment Cost** and fulfilling the criteria for an
 
 Reward costs are calculated by tracking all the various recruitment sources into the Panel and keeping track of the individual cost per panelist per recruitment source.
 
-### REVENUE
+##### REVENUE
 
 This shows the projects generate Average Revenue (expressed in reward points). This is based on the **Default** setting as defined in the main Setting tab.
 
 It is possible to change this value on a project-by-project basis.
 
 
-### REWARDS AWARDED
+##### REWARDS AWARDED
 
 This shows the average revenue points awarded to Panelists  (expressed in reward points) your projects generate. This is based on the default setting as defined in the main Setting tab.
 
-### REWARDS REDEEMED
+##### REWARDS REDEEMED
 
 This shows the average rewards redeemed amongst all Panelists.
 
 
-### REWARDS LIABILITY
+##### REWARDS LIABILITY
 
 This shows the average rewards liability amongst all Panelists what every panel owner and CFO wants to know.
 
 Calculated as **Rewards Awarded - Rewards Redeemed**
-
-
-## TOTAL REPORTS
-
 
 ### RECRUITMENT COST
 
@@ -120,7 +105,7 @@ This allows you to filter Panelist based on their last activity over a given per
 
 >**NOTE** This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source, and are they the best of this target group? etc
 
-## BY RECRUITMENT SOURCE
+### BY RECRUITMENT SOURCE
 
 This vital reporting screen gives a breakdown of costs based on all defined **Recruitment Sources** (In the main menu items on the left side of the screen).  It allows users to track their Ads spending for the various panel recruitment sources.
 
@@ -148,31 +133,31 @@ This vital reporting screen gives a breakdown of costs based on all defined **Re
 **REWARDS LIABILITY** - This is the total number of points still to be Redeemed by Panelists recruited from a particular recruitment source
 
 
-## ADD FILTER
+##### ADD FILTER
 
-### Time in Panel
+#### Time in Panel
 
 This allows you to filter panelists based on how long they have been members over a given period.
 
-### Activity in period
+#### Activity in period
 
 This allows you to filter panelists based on their last activity over a given period.
 
-### Query filter
+#### Query filter
 
 Creating any custom Query filter (using ANY Data Variables) to slice and dice the reports is possible.
 
 >**_Ninja Nugget_** This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education, etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular recruitment source? etc
 
 
-### Enabled sources only
+##### Enabled sources only
 
 This filters the report by the Enabled recruitment sources in the Recruitment Source main menu Item.
 
 **It is possible to download this report to Excel**
 
 
-## BY SUB PANEL
+#### BY SUB PANEL
 
 
 This vital reporting screen gives a breakdown of costs based on **Sub Panels** (In the main menu items on the left side of the screen).  It allows users to track the Ads spent for the various sub-panel.
@@ -203,18 +188,17 @@ This vital reporting screen gives a breakdown of costs based on **Sub Panels** (
 **REWARDS LIABILITY** - This is the total number of points still to be Redeemed by Panelists recruited from a particular Sub Panel
 
 
-## ADD FILTER
+##### ADD FILTER
 
-### Time in Panel
+#### Time in Panel
 
 This allows you to filter panelists based on how long they have been members over a given period.
 
-### Activity in period
+#### Activity in period
 
 This allows you to filter panelists based on their last activity over a period.
 
-### Query filter
+#### Query filter
 
 Creating any custom Query filter (using ANY Data Variables) to slice and dice the reports is possible.
 
->**_Ninja Nugget_** This gives unprecedented reporting possibilities to interrogate the recruitment data by age, gender, salary, education, etc. The possibilities are endless. Do you recruit Young females earning $45,000+ from a particular Sub-Panel? etc
