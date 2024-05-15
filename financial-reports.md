@@ -4,9 +4,7 @@ Financial Reports help you understand recruitment costs and ROI and where to opt
 
 ### DASHBOARD
 
-The Financial Reports DASHBOARD displays crucial reports to help business owners and panel managers better understand the average or total costs for many elements within the SampleNinja Panel Platform.
-
-Reports are as described in terms of **reward points** within the system to reflect an internal currency that can be defined entirely by the user.  For example, 100 points could equal $1.00, or 1 point could equal $1. This is definable by the Panel owner in SETTINGS.
+The Financial Reports dashboard displays crucial reports to help business owners and panel managers better understand the average or total costs.
 
 ##### RECRUITMENT COST
 
@@ -28,23 +26,23 @@ Reward costs are calculated by tracking all the various recruitment sources into
 
 ##### REVENUE
 
-This shows that the projects generate average revenue (expressed in reward points) or 
+The average revenue per panelist or the total revenue for all panelists.
 
 ##### REWARDS AWARDED
 
-This shows the average revenue points awarded to Panelists  (expressed in reward points) your projects generate. This is based on the default setting as defined in the main Setting tab.
+The average reward points awarded or the number of reward points given out. 
 
 ##### REWARDS REDEEMED
 
-This shows the average rewards redeemed amongst all Panelists.
+The average rewards redeemed or the total number of reward points redeemed.
 
 ##### REWARDS LIABILITY
 
-This shows the average rewards liability amongst all subscribed panelists or the total rewards liability amongst all panelists and is a critical financial factor when managing a panel.
+The average rewards liability or the total rewards.
 
 Calculated as **Total Rewards Awarded - Total Rewards Redeemed**.
 
-> Rewards liability is calculated using panelists that are currently SUBSCRIBED.
+> Rewards liability is calculated using panelists who are currently subscribed. Any panelist not currently subscribed cannot redeem any reward points they may have on their account.
 
 #### ADD FILTER
 
