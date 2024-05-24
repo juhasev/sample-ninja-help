@@ -56,9 +56,14 @@ The system variables track various metrics and provide you additional informatio
 - REVENUE (Lifetime revenue earned for your panelists)
 - SUBSCRIBED_DATE (When a panelist joined your panel)
 - UNSUBSCRIBED_DATE (When a panelist left your panel)
+- BLACKLISTED_DATE (When a panelist was blacklisted)
 - POINTS_BALANCE (Current points balance)
 - POINTS_REWARDED (Lifetime points awarded)
 - POINTS_REDEEMED (Lifetime points redeemed)
+- LAST_INVITED_DATE (Last project invited date)
+- LAST_STARTED_DATE (Last project started date)
+- LAST_COMPLETED_DATE (Last project completed date)
+- LAST_REWARDED_DATE (Last rewarded date)
 
 This is not a comprehensive list of the system variables and it is recommended that you view the full list under system variables by selecting the group filter “SYSTEM” to have an idea of what is available. 
 
