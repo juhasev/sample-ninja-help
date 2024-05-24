@@ -1,18 +1,30 @@
 ## Projects
 
-Create, manage, and track the progress of all projects within the system. Click the **PLUS** -icon at the top right corner to create a new project. To view all projects in the calendar, click on the **CALENDAR** -icon.
+Create, manage, and track the progress of all projects within the system. 
 
 > Sample Ninja will automatically archive any projects that are **CLOSED** and older than 30 days. After that, they appear under the **ARCHIVED** tab.
 
-The screen is kept uncluttered by default by applying the **Responsible for** filter. You can change the filtering by adding or removing additional filters.
+### Creating new projects
+
+Click the **PLUS** -icon at the top right corner to create a new project.
+
+### Calendar
+
+To view all projects in the calendar, click on the **CALENDAR** -icon.
+
+### Export
+
+Click on the **cloud download** button to export project details (one row per project) or export all project activity (one row per panelist).
 
 ### Search
 
 The search functionality searches through **ID**, **name**, **external project reference**, and **external billing reference**. Clear any filters before searching; otherwise, you may not see the results.
 
-> **PLEASE NOTE** that the search will only search through the active projects. If you need to search for archived projects, please switch to the **ARCHIVED PROJECTS** -tab.
+> **PLEASE NOTE** that the search will only search through active projects. If you need to search for archived projects, please switch to the **ARCHIVED PROJECTS** tab.
 
 ### Projects table
+
+The screen is kept uncluttered by default by applying the **Responsible for** filter. You can change the filtering by adding or removing additional filters.
 
 Some columns are sortable. Click on the table headers to change the sort order.
 
