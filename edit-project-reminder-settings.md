@@ -4,4 +4,4 @@ Select when the reminder should be sent relative to the original invited date. S
 
 > Reminder should only be used if you are likely to run out of sample in a segment you are trying to reach. Otherwise, Sample Ninja will automatically find more qualified panelists without having to send reminders.
 
-> Using reminders when not needed may lead to a higher unsubscription rate!
+> Using reminders excessively may lead to a higher unsubscription rate. Use them only when needed.
