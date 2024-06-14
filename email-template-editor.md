@@ -26,6 +26,11 @@ An email pre-header is the short summary text that follows the subject line when
 
 - Complement your subject line. Your pre-header should add context to your subject line, not just repeat it.
 
+##### Sender name
+As a sender name, it can be your panel's name or the project manager's name.
+
+> Always use a name that the panelist will recognize!
+
 #### Settings
 These let you control the logo alignment and the element colors. The font color is automatically selected based on the background color (white or black).
 
