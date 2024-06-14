@@ -1,23 +1,21 @@
 ## Email template editor
 Use the email template editor to customize the content and appearance of your email templates with ease. 
 
-### Configuration settings
-
-#### Template
+### Template
 Specify the template name and the groups this template should belong to. Please use the drop-down menu to view translations for another language and locale.
 
-#### Elements
+### Elements
 The element configuration contains various options that can be enabled or disabled when needed. We recommend using all of them for the most professional-looking emails.
 
-#### Preview
+### Preview
 This is the live preview of the email. You may click on the different elements to modify them. If you want to send the template to yourself, please click the **EMAIL TO ME** button.
 
-##### Email Subject
+#### Email Subject
 This is the first thing the email recipients see. You may use Unicode characters like smileys in the subject.
 
 > The email subject is the first thing the recipient sees. Always use different subject lines to keep your email more engaging.
 
-##### Email preheader
+#### Email preheader
 An email pre-header is the short summary text that follows the subject line when an email is viewed in the inbox. It's like a sneak peek into your content. It can provide additional context and nudge recipients to open your email. Pre-headers can also enhance engagement with your content by offering valuable information right off the bat. For instance, if you're running a special survey, mentioning it in the pre-header can entice those interested.
 
 - Keep it concise and mobile-friendly. Most email clients display around 50 characters of the preheader, so edit yours to fit. If you need to go over this length, ensure your primary message is clear, even if cut off.
@@ -26,12 +24,12 @@ An email pre-header is the short summary text that follows the subject line when
 
 - Complement your subject line. Your pre-header should add context to your subject line, not just repeat it.
 
-##### Sender name
+#### Sender name
 As a sender name, it can be your panel's name or the project manager's name.
 
 > Always use a name that the panelist will recognize!
 
-#### Settings
+### Settings
 These let you control the logo alignment and the element colors. The font color is automatically selected based on the background color (white or black).
 
 #### Font
