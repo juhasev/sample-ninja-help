@@ -9,7 +9,13 @@ Enter the email subject to this field
 > The email subject is the first thing the recipient sees. Always use different subject lines to keep your email more engaging.
 
 ### Email preview text
-Some email clients can display preview text. Do not enter important information as preview text as the recipient may not see it.
+An email pre-header is the short summary text that follows the subject line when an email is viewed in the inbox. It's like a sneak peek into your content. It can provide additional context and nudge recipients to open your email. Pre-headers can also enhance engagement with your content by offering valuable information right off the bat. For instance, if you're running a special survey, mentioning it in the pre-header can entice those interested.
+
+- Keep it concise and mobile-friendly. Most email clients display between 40 and 55 characters of the preheader, so edit yours to fit. If you do need to go over this length, make sure your primary message is clear, even if cut off.
+
+- Entice your audience. Give readers a reason to click. Tease the content, offer value, or create urgency.
+
+- Complement your subject line. Your pre-header should add context to your subject line, not just repeat it.
 
 ### Personalizing content
 The following substitution variables can be inserted into all emails
