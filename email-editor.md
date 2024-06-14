@@ -8,6 +8,9 @@ Enter the email subject to this field
 
 > The email subject is the first thing the recipient sees. Always use different subject lines to keep your email more engaging.
 
+### Email preview text
+Some email clients can display preview text. Do not enter important information as preview text as the recipient may not see it.
+
 ### Personalizing content
 The following substitution variables can be inserted into all emails
 
@@ -24,9 +27,6 @@ Hello [FIRST_NAME] we have a survey for you!
 ```
 If the data variable is missing, it will be silently removed.
 
-### Email sender name
-Please type in the email sender name you want the email to appear to be coming from.
-
 ### Email logo
 The email logo is automatically inherited from the sub-panel settings. If you don't see the logo, please verify your email templates and make sure the logo is enabled. Also, make sure that the sub-panel contains the uploaded logo.
 
@@ -39,6 +39,5 @@ Email body and signature use Markdown language, which allows the user to apply f
 > [Learn more about markdown](https://www.markdownguide.org/basic-syntax/#overview)
 
 ### Sending test email
-
 You may send a test email by clicking the **EMAIL TO ME** button.
 
