@@ -15,7 +15,7 @@ This is the first thing the email recipients see. You may use Unicode characters
 
 > The email subject is the first thing the recipient sees. Always use different subject lines to keep your email more engaging.
 
-#### Email preheader
+#### Email pre-header
 An email pre-header is the short summary text that follows the subject line when an email is viewed in the inbox. It's like a sneak peek into your content. It can provide additional context and nudge recipients to open your email. Pre-headers can also enhance engagement with your content by offering valuable information right off the bat. For instance, if you're running a special survey, mentioning it in the pre-header can entice those interested.
 
 - Keep it concise and mobile-friendly. Most email clients display around 50 characters of the preheader, so edit yours to fit. If you need to go over this length, ensure your primary message is clear, even if cut off.
