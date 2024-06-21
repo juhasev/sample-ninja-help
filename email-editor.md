@@ -27,13 +27,14 @@ The most commonly used data variables are those related to personalization.
 
 You may pipe any variables into the email templates simply by referring to them by placing the variable namea in square brackets. For example:
 
-```Hello [FIRST_NAME], we have a survey for you! You balance is [POINTS_BALANCE]```
+```Hello [FIRST_NAME], we have a survey for you! Your balance is [POINTS_BALANCE]```
 
-You may also pipe in project ID, which can be handy when a panelist contacts your support for example:
+You may also pipe in project ID, which can be handy when a panelist contacts your support, for example:
 
 - PROJECT_ID
 
-If the panelist does not have value for the data variable it will be silently removed from the final email.
+If the panelist does not have value for the data variable, it will be silently removed from the final email.
+
 ### Email logo
 The email logo is automatically inherited from the sub-panel settings. If you don't see the logo, please verify your email templates and make sure the logo is enabled. Also, make sure that the sub-panel contains the uploaded logo.
 
