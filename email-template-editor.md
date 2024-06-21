@@ -83,16 +83,18 @@ You may use markdown elements in this section. Click on the text to edit.
 
 ### Personalization
 
-The following variables can be piped into all emails
+The most commonly used data variables are those related to personalization.
 
 - FIRST_NAME
 - LAST_NAME
-- EMAIL
 - POINTS_BALANCE
+
+You may pipe any variables into the email templates simply by referring to them by placing the variable namea in square brackets. For example:
+
+```Hello [FIRST_NAME], we have a survey for you! You balance is [POINTS_BALANCE]```
+
+You may also pipe in project ID, which can be handy when a panelist contacts your support for example:
+
 - PROJECT_ID
 
-Place variable name in square brackets and it will be replaced on the fly i.e. 
-
-```Hello [FIRST_NAME] we have a survey for you!```
-
-If the data variable is missing, it will be silently removed.
+If the panelist does not have value for the data variable it will be silently removed from the final email.
