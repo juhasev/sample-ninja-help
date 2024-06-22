@@ -86,9 +86,7 @@ Displays percentage values of the total Panellists held within the platform. If 
 
 ### Churn
 
-Displays the number of panelists added and lost due to churn (unsubscriptions) over time. The periods can be either days, weeks, or months.
-
-> Please note that blacklisted panelists are not included in this, only panelists that **unsubscribe** on their own will.
+Displays the number of panelists added and lost due to churn (subscriptions, blacklisting) over time. The periods can be either days, weeks, or months.
 
 ### Filter by Sub Panel
 
