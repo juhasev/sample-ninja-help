@@ -4,11 +4,13 @@ You can reconcile panelists in 3 different ways:
 
 1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists.
 2) Reconcile to complete. Only changes provided IDs to complete status.
-3) Reconcile to quality or duplicate. Only changes provided IDs to the selected status.
+3) Reconcile for any other reason, like dishonest answers. Only provided IDs will be set to RECONCILED status.
 
 You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. All other panelists not included in the pasted lists will be automatically reconciled to status **reconciled**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
 
 You can also reconcile specific panelists to completed by using the “Reconcile to complete” mode or, like before, disqualify them for quality or duplication using the “Reconcile to disqualified” mode.
+
+> Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
 
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
