@@ -36,13 +36,14 @@ You are likely reconciling the wrong project if you get many invalid panelist ID
 - Reward points are issued
 - Revenue record is created
 - QUALITY_SCORE is adjusted up
+- Panelist's participation status is set to COMPLETED
 - Quotas are incremented
 - Any quality, security, or duplicate flags are removed, and QUALITY_SCORE is adjusted up
 
 **RECONCILE TO DISQUALIFIED**
 - Earned rewards for the project points are set to zero
 - Earned revenue for the project is set to zero
-- Panelists are issued quality or duplicate flag
+- Panelist's participation status is set to DISQUALIFIED.
 - QUALITY_SCORE is adjusted down
 - Quotas are decremented
 
