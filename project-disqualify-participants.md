@@ -40,11 +40,11 @@ You are likely reconciling the wrong project if you get many invalid panelist ID
 - QUALITY_SCORE is adjusted up
 
 **RECONCILE TO DISQUALIFIED**
-- Earned rewards for the project points are set to zero
-- Earned revenue for the project is set to zero
+- Earned rewards points are withdrawn (deleted)
+- Earned revenue is withdrawn (deleted)
 - Panelist's participation status is set to DISQUALIFIED.
-- QUALITY_SCORE is adjusted down
 - Quotas are decremented
+- QUALITY_SCORE is adjusted down
 
 > You can disqualify panelists while your project is running! **Sample Ninja's Sampling Engine** will automatically find replacement panelists and invite them to the project!
 
