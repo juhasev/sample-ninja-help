@@ -17,7 +17,7 @@ The identifier list should only contain panelist identifiers in the format ```49
 
 Once submitted, the server will perform a test run and report back the number of panelists affected
 
-1) Disqualified 
+1) Disqualified (Reconciled)
 2) Promoted to complete
 3) No action taken
 4) Invalid panelist IDs
