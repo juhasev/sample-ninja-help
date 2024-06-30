@@ -6,7 +6,7 @@ The top row statistics provide basic statistics about the panelist's vitals.
 - **Status** Current panelist status -> Subsribed, Unsubscribed or Blacklisted
 - **Days in Panel** # of days as panel member. This is calculated from the SUBSCRIBED_DATA data variable.
 - **Quality Score** Panelist quality score between 0 (worst) and 100 (best). You can just switch to the quality tab to learn more.
-- **Bad experience percent** This is the percentage of panelists "profile" or "quota" terminated.
+- **Bad experience percent** This is the percentage of ending up with status "profile" or "quota" terminated. This could be an indication of poor targeting.
 - **Total activities** This is the number of total interactions with the panel. Switch to the "Activity" tab for more.
 - **Completed projects** Number of completed projects this panelist has accumulated. Same as COMPLETED_COUNT data variable.
 - **Reward points balance** Current reward points balanace. Same as POINTS_BALANCE data variable.
