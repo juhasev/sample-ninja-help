@@ -33,14 +33,14 @@ The **no action taken** means that
 
 You are likely reconciling the wrong project if you get many invalid panelist IDs! Or it could also be possible that those panelists need to have **started** status in the project.
 
-### What does the reconciling to completed means?
+### What does the reconciling to completed mean?
 - Reward points are issued and immediately released from the pending state (on hold) to panelists to use.
 - Revenue record is created
 - Panelist's participation status is set to COMPLETED
 - Quotas are incremented
 - QUALITY_SCORE is adjusted up
 
-### What does the disqualification process do?
+### What does the disqualification entail?
 - Earned rewards points are withdrawn (deleted)
 - Earned revenue is withdrawn (deleted)
 - Panelist's participation status is set to DISQUALIFIED.
