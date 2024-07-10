@@ -16,7 +16,7 @@ You can also reconcile specific panelists to completed by using the “Reconcile
 > Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
 
 #### Pasting IDs
-The identifier list should only contain panelist identifiers in the format ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
+The identifier list should only contain panelist identifiers in the UUID format, example:  ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
 Once submitted, the server will perform a test run and report back the number of panelists affected
 
