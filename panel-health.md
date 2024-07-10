@@ -59,7 +59,9 @@ Displays percentage breakdown of the total number of Panellists defined as **Sub
 
 ### Reward Points on Hold
 
-The chart displays a timeline of reward points issued for Projects vs. what portion is currently held. The idea of the chart is to display a view of reward points pending or on hold over a date interval. The points are held for projects with the reconcile toggle turned on (default). You'll need to manually reconcile the project or mark it as reconciled so the reward points are released from the hold and disappear from the chart. Click on the sum button to see the totals.
+The chart displays a timeline of reward points available vs. what portion is currently held. The idea is to determine whether the reward points are held for too long.
+
+The points are held for projects with the reconcile toggle turned on (default). You'll need to manually reconcile the project or mark it as reconciled so the reward points are released from the hold and disappear from the chart. Click on the sum (Z) button to see the totals.
 
 > The reporting period is always the past six weeks.
 
