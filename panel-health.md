@@ -57,6 +57,10 @@ Displays percentage breakdown of the total number of Panellists defined as **Sub
 
 > Sample Ninja will automatically remove unsubscribed and blacklisted panelists from your panelist within 12 months. When somebody unsubscribes or gets blacklisted, we will delete their variable data within 4 hours but save their activity for 12 months to retain correct reporting for projects and other features.
 
+### Reward Points on Hold
+
+This displays a timeline of reward points issued for Projects vs. what portion is currently held. The points are only held if there are projects that still need to be reconciled. If you see long hold times for the reward points, consider reconciling projects more quickly. Click on the sum button to see the totals for the month.
+
 ### Panel Utilization
 The panel utilization displays a chart of panelist activity and statistics on how you use your panelists. 
 
