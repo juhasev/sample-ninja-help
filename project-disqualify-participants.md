@@ -18,7 +18,7 @@ You can also reconcile specific panelists to completed by using the “Reconcile
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the UUID format, example:  ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
 
-Once submitted, the server will perform a test run and report back the number of panelists affected
+Once submitted, the server will perform a test run and report back the number of panelists affected.
 
 1) Disqualified (Reconciled)
 2) Promoted to complete
@@ -40,10 +40,12 @@ You are likely reconciling the wrong project if you get many invalid panelist ID
 - Quotas are incremented
 - QUALITY_SCORE is adjusted up
 
+> Since the status reporting relies on the Internet connection, sometimes the counts may not match. Using this feature means you can bring your panelists to parity with your survey software's completes.
+
 ### What does the disqualification entail?
 - Earned rewards points are withdrawn (deleted)
 - Earned revenue is withdrawn (deleted)
-- Panelist's participation status is set to DISQUALIFIED.
+- Panelists participation status is set to DISQUALIFIED.
 - Quotas are decremented
 - QUALITY_SCORE is adjusted down
 
