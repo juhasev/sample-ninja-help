@@ -31,7 +31,7 @@ The **no action taken** means that
 2) The panelist's current status is not final in the project like invited or opened, started (when reconciling to disqualified)
 3) The panelist already has a status you are reconciling to.
 
-You are likely reconciling the wrong project if you get many invalid panelist IDs! Or it could also be possible that those panelists need to have **started** status in the project.
+If you get many invalid panelist IDs, you are likely reconciling the wrong project! It is also possible that those panelists need to have a **started** status in the project.
 
 ### What does the reconciling to completed mean?
 - Reward points are issued and immediately released from the pending state (on hold) to panelists to use.
@@ -40,16 +40,16 @@ You are likely reconciling the wrong project if you get many invalid panelist ID
 - Quotas are incremented
 - QUALITY_SCORE is adjusted up
 
-> Since the status reporting relies on the Internet connection, sometimes the counts may not match. Using this feature means you can bring your panelists to parity with your survey software's completes.
+> Since the status reporting relies on the Internet connection, sometimes the counts may not match. Using this feature means bringing your panelists to parity with your survey software's completes.
 
 ### What does the disqualification entail?
 - Earned rewards points are withdrawn (deleted)
 - Earned revenue is withdrawn (deleted)
-- Panelists participation status is set to DISQUALIFIED.
+- Panelists' participation status is set to DISQUALIFIED.
 - Quotas are decremented
 - QUALITY_SCORE is adjusted down
 
-> You can disqualify panelists while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
+> You can disqualify panelists using the auto sampling or profiler project types while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
 
 > If your survey platform can identify duplicates and participants with quality issues like straight lining, you can use the appropriate exit links to terminate them immediately. See **Project configuration** -> **Exit links** for more details.
 
