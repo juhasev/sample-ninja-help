@@ -53,27 +53,28 @@ You will see the actual counts and percentages by mousing over the chart.
 
 ### By status
 
-Displays percentage breakdown of the total number of Panellists defined as **Subscribed, Unsubscribed** or **Blacklisted** within the Platform.  By mousing over the chart, it automatically opens up the chosen segment. It displays the percentage that fulfills that criteria (and the actual number of panelists in that segment in brackets. 
+Displays percentage breakdown of the total number of Panellists defined as **Subscribed, Unsubscribed** or **Blacklisted** within the Platform.  Mousing over the chart automatically opens up the chosen segment. It displays the percentage that fulfills that criteria (and the actual number of panelists in that segment in brackets. 
 
 > Sample Ninja will automatically remove unsubscribed and blacklisted panelists from your panelist within 12 months. When somebody unsubscribes or gets blacklisted, we will delete their variable data within 4 hours but save their activity for 12 months to retain correct reporting for projects and other features.
 
 ### Reward Points on Hold
 
-The chart displays a timeline of reward points issued for Projects vs. what portion is currently held. The idea of the chart is to display the panel manager a view of reward points pending or on hold over a date interval. The points are held for projects with the reconcile toggle turned on (default). You'll need to manually reconcile the project or mark it as reconciled so the held reward points are released from the hold and consequently disappear from the chart.  Consider reconciling projects more quickly if you see long hold times for the held reward points. 
-Click on the sum button to see the totals.
+The chart displays a timeline of reward points issued for Projects vs. what portion is currently held. The idea of the chart is to display a view of reward points pending or on hold over a date interval. The points are held for projects with the reconcile toggle turned on (default). You'll need to manually reconcile the project or mark it as reconciled so the reward points are released from the hold and disappear from the chart. Click on the sum button to see the totals.
 
 > The reporting period is always the past six weeks.
 
 > Generally speaking, panelists do not want to wait too long for their earned reward points to become available.
+ 
+> Consider reconciling projects more quickly if you see long hold times for the held reward points.
 
 ### Panel Utilization
 The panel utilization displays a chart of panelist activity and statistics on how you use your panelists. 
 
 #### Utilization
-Percentage of panelists have been invited to at least one project.
+The percentage of panelists who have been invited to at least one project.
 
 #### Started
-Percentage of panelists have started at least one project.
+The percentage of panelists who have started at least one project.
 
 #### Profile
 A percentage of panelists have profile terminated at least once.
