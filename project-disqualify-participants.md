@@ -1,10 +1,13 @@
 ## Reconcile participants
 
+Reconciling panelists means you want to change their project (survey) outcome for any reason. Mainly, you would do that to keep the panel up to date on how honest your panelists are; they answer truthfully or for other reasons like security issues or being duplicated. Every time you reconcile your panelists, the QUALITY_SCORE variable is adjusted up or down. This enables you to eliminate accounts that do not make you money or are potentially problems for your panel's reputation in terms of quality.
+
 You can reconcile panelists in 3 different ways:
 
-1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists.
+1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists. Releases are pending reward points for all qualifying panelists.
 2) Reconcile to complete. Only changes provided IDs to complete status.
 3) Reconcile for any other reason, like dishonest answers. Only provided IDs will be set to RECONCILED status.
+4) Mark project reconciled will release all the pending reward points for all panelists.
 
 You can now use the “One pass reconcile” mode by providing all the completed panelist IDs. All other panelists not included in the pasted lists will be automatically reconciled to status **reconciled**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
 
