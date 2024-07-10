@@ -59,7 +59,11 @@ Displays percentage breakdown of the total number of Panellists defined as **Sub
 
 ### Reward Points on Hold
 
-This displays a timeline of reward points issued for Projects vs. what portion is currently held. The points are only held if there are projects that still need to be reconciled. If you see long hold times for the reward points, consider reconciling projects more quickly. Click on the sum button to see the totals for the month.
+This displays a timeline of reward points issued for Projects vs. what portion is currently held. The points are held for any projects that have the reconcile toggle turned on (default). You must manually reconcile the project or mark it as reconciled. Consider reconciling projects more quickly if you see long hold times for the reward points. Generally speaking, panelists do not want to wait too long for their earned reward points to become available.
+
+Click on the sum button to see the totals.
+
+> The reporting period is always the past six weeks.
 
 ### Panel Utilization
 The panel utilization displays a chart of panelist activity and statistics on how you use your panelists. 
