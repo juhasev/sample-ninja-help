@@ -49,7 +49,7 @@ You are likely reconciling the wrong project if you get many invalid panelist ID
 - Quotas are decremented
 - QUALITY_SCORE is adjusted down
 
-> You can disqualify panelists while your project is running! **Sample Ninja's Sampling Engine** will automatically find replacement panelists and invite them to the project!
+> You can disqualify panelists while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
 
 > If your survey platform can identify duplicates and participants with quality issues like straight lining, you can use the appropriate exit links to terminate them immediately. See **Project configuration** -> **Exit links** for more details.
 
