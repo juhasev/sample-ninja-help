@@ -54,11 +54,9 @@ The average rewards redeemed or the total number of reward points redeemed.
 
 **REWARDS LIABILITY**
 
-The average rewards liability or the total rewards.
+The average rewards liability, or the total rewards or redeemable amount of Reward Points, is calculated using the subscribed panelists' POINTS_BALANCE data variable. Any imported balances appear in the rewards liability but not in the Rewards Awarded column.
 
-Calculated as **Total Rewards Awarded - Total Rewards Redeemed**.
-
-> Rewards liability is calculated using panelists who are currently subscribed. Any panelist not currently subscribed cannot redeem any reward points they may have on their account.
+> Any panelist not currently subscribed cannot redeem any reward points they may have on their account.
 
 
 
