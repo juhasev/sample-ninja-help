@@ -1,12 +1,12 @@
 ## Panelist Importer
 
-Panelist Importer let’s you to import new panelists to your panel from a CSV file or you can use the importer to update existing panelist profiles. All imports or updates always target a specific **Sub Panel**. The target **Sub Panel** is selected at the end of the import configuration. 
+Panelist Importer lets you import new panelists to your panel from a CSV file, or you can use the importer to update existing panelist profiles. All imports or updates always target a specific **Sub Panel**. The target **Sub Panel** is selected at the end of the import configuration. 
 
-> Panel wide imports across the boundaries of the **Sub Panel** are not allowed!
+> Panel-wide imports across the **Sub Panel** boundaries are not allowed!
 
 ### When importing new panelists
 
-You must have column **EMAIL**, **FIRST_NAME** and **LAST_NAME** columns in your CSV file. Sample Ninja's **system variables** cannot be written to with the exception of:
+You must have columns **EMAIL**, **FIRST_NAME**, and **LAST_NAME** columns in your CSV file. Sample Ninja's **system variables** cannot be written to except:
 
 ```
 - POINTS_BALANCE      <-- Allows you to bring in the existing points balance
@@ -25,14 +25,16 @@ The first column should always be **EMAIL**.
 
 > **LOCALE** must be in format ENG-US for US English or SPA-US for US Spanish. For the complete list of locales visit **Settings** -> **Locales** from the main menu. In addition your target **Sub Panel** must have the same locales enabled as you are planning to import. 
 
-### Importing STATE or PROVINCE
-**Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
-
 ### When updating panelists
 
-Your CSV file should have column **IDENTIFIER** as the first column and that should contain an existing panelist ID. When updating please switch on "Update existing panelists" -toggle.
+Your CSV file should have column **IDENTIFIER** as the first column, which should contain an existing panelist ID. When updating, please switch on "Update existing panelists"—toggle. Please ensure you file does not contain both **IDENTIFIER** and **EMAIL** columns.
+
+> You cannot update **EMAIL** via the importer; emails must be properly validated, and the panelists must be double opted in.
 
 > You cannot update any system variables i.e. **POINTS_BALANCE** or **LOCALE**.
+
+### Importing STATE or PROVINCE
+**Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
 
 ## Getting started with your import
 
