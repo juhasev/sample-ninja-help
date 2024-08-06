@@ -33,9 +33,6 @@ Your CSV file should have column **IDENTIFIER** as the first column, which shoul
 
 > You cannot update any system variables i.e. **POINTS_BALANCE** or **LOCALE**.
 
-### Importing STATE or PROVINCE
-**Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
-
 ## Getting started with your import
 
 ### When importing panelists
@@ -90,6 +87,8 @@ Jack,Doe,jack@sampleninja.io,1966-04-12,,,      <-- OK colors checkbox omitted
 Jack,Doe,jack@sampleninja.io,1966-04-12,,,1     <-- FAIL, all checkbox entries must be present
 Jack,Doe,jack@sampleninja.io,1966-04-12,0,0,1   <-- FIXED, all checkbox entries are present
 ```
+### Importing STATE or PROVINCE
+**Sample Ninja** has magic variable called **REGION** and it should be used for states and provinces instead of using home grown **STATE** or **PROVINCE** variables. The magical **REGION** can be automapped using IP address location or **POSTAL_CODE** to **REGION** mapping.
 
 ### Data formats
 
