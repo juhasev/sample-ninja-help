@@ -11,9 +11,9 @@ Let's say you want to use Google Analytics.
 1) First, log in to Google Analytics.
 2) Then Go to Admin -> Data Collection and Modification -> Data Streams.
 3) Next, create a new web stream.
-4) Enter your Sample Ninja site base URL, for example: https://clientname.panelservice.io
+4) Enter your Sample Ninja site base URL as Stream URL, for example https://clientname.panelservice.io
 5) Name the stream and hit the Create and Continue button.
-6) Go edit the new stream and copy the Measurent ID.
+6) Edit the new stream and copy the Measurent ID.
 
 Next, we set up a new Google Tag using [Google Tag Manager](https://tagmanager.google.com).
 
