@@ -27,3 +27,5 @@ Next, we set up a new Google Tag using [Google Tag Manager](https://tagmanager.g
 Copy the GTM code (GTM-XXXXXXXX) from the top toolbar and paste it into **Sub Panels -> Manager -> Settings -> Google Tag**. The tag should now be called on each page (panelist-facing pages).
 
 > Please refer to [Google Tag Manager Help](https://support.google.com/tagmanager) for more information on configuring other services, such as Google Analytics or Google Adwords. 
+
+> [Google Tag Manager & Google Analytics tutorial](https://support.google.com/tagmanager/answer/9442095) 
