@@ -26,6 +26,13 @@ Next, we set up a new Google Tag using [Google Tag Manager](https://tagmanager.g
 
 Copy the GTM code (GTM-XXXXXXXX) from the top toolbar and paste it into **Sub Panels -> Manager -> Settings -> Google Tag**. The tag should now be called on each page (panelist-facing pages).
 
+### Get descriptive page titles
+Because SampleNinja is Single Page Application, the navigation is virtual, and the page titles will be incorrect. Google Tag Manager does not support custom page titles by default. So, you'll need to create a custom JavaScript variable to get descriptive page title names. Enter into the Global Variable box **document.title** and you should be all set.
+
+> REMEMBER to publish the container!
+
+### Additional reading
+
 > Please refer to [Google Tag Manager Help](https://support.google.com/tagmanager) for more information on configuring other services, such as Google Analytics or Google Adwords. 
 
 > [Google Tag Manager & Google Analytics tutorial](https://support.google.com/tagmanager/answer/9442095) 
