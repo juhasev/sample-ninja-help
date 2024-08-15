@@ -1,4 +1,4 @@
-### Google Tag
+### Google Tag Manager
 
 Track every single panelist interaction using your own Google Tag. Google Tag can be used with various Google services, including Google Adwords and Google Analytics. Google Tag is executed on all panelist-facing pages, including all the landing pages, the registration survey, and the member app.
 
