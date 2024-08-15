@@ -15,15 +15,16 @@ You can test the redemptions using the "Sandbox" or "Production" account. This s
 
 Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account (under the WHITELIST -tab in VI UI) includes the following SN IP addresses.
 
-Hosted in the US region:
+If you are hosted in the US
 ```
-54.184.123.185, 54.185.129.189, 35.86.92.52, 34.212.148.45
+54.185.129.189,54.184.123.185,34.212.148.45,34.217.40.195
 ```
 
-Hosted in the EU region:
+If you are hosted in the EU
 ```
-54.229.122.21, 54.78.215.225, 3.249.234.89, 34.248.240.14
+54.229.122.21,54.78.215.225,3.249.234.89,34.248.240.14
 ```
+
 #### Manage Rewards
 
 In the Virtual Incentives world, you subscribe to a catalog that is tailored for you. If you want to customize your catalog,  you need to get in touch with your presentative at Virtual Incentives. 
