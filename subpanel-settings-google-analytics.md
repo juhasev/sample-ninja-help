@@ -2,7 +2,7 @@
 
 Track every single panelist interaction using your own Google Tag. Google Tag can be used with various Google services, including Google Adwords and Google Analytics. Google Tag is executed on all panelist-facing pages, including all the landing pages, the registration survey, and the member app.
 
-> **IMPORTANT!** Google Tag may not be **GDPR** or **CCPA** compliant and may require additional disclosures when used. We recommend disclosing in the **Privacy Policy** landing page in the section **Information we collect**
+> **IMPORTANT!** Google Tag may not be **GDPR** or **CCPA** compliant and may require additional disclosures. We recommend disclosing in the **Privacy Policy** landing page in the section **Information we collect**
 
 ### Setup
 
@@ -20,7 +20,7 @@ Next, we set up a new Google Tag using [Google Tag Manager](https://tagmanager.g
 1) Login to the Google Tag Manager
 2) Create a new tag
 3) Tag configuration -> Select Google Analytics -> Google Tag
-4) Enter the Measurent ID you obtained from Google Analytics and paste it into the Tag ID field.
+4) Enter the Measurement ID you obtained from Google Analytics and paste it into the Tag ID field.
 5) Choose a trigger Page View Trigger
 6) Save
 
