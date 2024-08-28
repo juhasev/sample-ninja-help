@@ -14,7 +14,7 @@ The question will be displayed to the registering panelist if the condition is s
 
 > Taking the above example, if a data variable such as **ALLERGIES** has been conditionally linked to the variable of **PETS**, the allergy question will be shown when a panelist has stated they own pets.
 
-There are no limitations to the number of conditions that can be added, i.e., one question can have multiple conditions, and similarly, each subsequent question can have a condition. Questions can still be dragged and dropped in any order. However, please keep in mind that a conditional question cannot come before the question it is linked to.
+The number of conditions that can be added is unlimited. One question can have multiple conditions, and similarly, each subsequent question can have a condition. Questions can still be dragged and dropped in any order. However, please remember that a conditional question cannot come before the question it is linked to.
 
 > Using the following as an example; **INCOME** and **INDUSTRY** can both be conditionally linked to **EDUCATION** or **INCOME** can be conditionally linked to **EDUCATION** and **INDUSTRY** can be conditionally linked to **INCOME**. The question order in both scenarios would be education > income > industry. Both the question for income and the question for industry would appear before the question for education.
 
@@ -26,8 +26,19 @@ Anytime questions are added, please ensure the necessary translation has been su
 
 > Questions that are missing translations are marked with the warning icon.
 
-### Choice options (radio & checkbox)
-You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type. Click on the down arrow to expand and see the multiple-choice options.
+### Disqualifying and exclusive options (radio & checkbox)
+To see the choice option, click on the arrow-down indicator. You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
+
+### Populating questions from URL parameters
+To see the choice option, click on the arrow-down indicator. Next, click on the gear icon to modify question settings. Enter the URL parameter name. Let's say you want to populate GENDER data variable from the URL. Enter "g" or "gender" as the URL parameter name. Option toggle on hiding the question from the user.
+
+To send a male respondent to your registration survey, the URL would take the following form:
+
+```
+https://myinstall.panelservice.io/registration/ENG-US/1?g=1
+```
+
+> If you do not hide the question, it will be presented pre-answered to the user.
 
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
@@ -35,15 +46,13 @@ Data variables must be provided with proper localizations when you use data vari
 > If you are missing localizations, an orange triangle will show up by the question name.
 
 ### Answer Validation
-Sample Ninja includes multiple validators that can be used to validate user-provided input. For example, if you are asking for a zipcode, you can set the following validators for the question:
+Sample Ninja includes multiple validators that can be used to validate user-provided input. For example, if you are asking for a zip code, you can set the following validators for the question:
 
 - Minimum length 5
 - Maximum length 5
 - Numeric characters only
 
-Click **EDIT** button and switch to **VALIDATORS** tab to view validators. This tab contains mode detailed help on how to configure validators.
-
-> All questions in the registration survey are automatically required. So, you don't need to set up **REQUIRED** validator. Similarly, any email and date-type data variables are automatically validated.
+Click the **EDIT** button and switch to the **VALIDATORS** tab to view validators. This tab contains detailed help on configuring validators.
 
 ### Password and Locale
 If **Create Password** is enabled in the settings, Sample Ninja will ask a user to create a password at the registration survey. Similarly, **LOCALE** data variable is automatically detected and populated.
