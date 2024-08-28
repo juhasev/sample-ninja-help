@@ -32,13 +32,20 @@ To see the choice options, click on the arrow-down indicator. You can designate 
 ### Populating questions from URL parameters
 Click on the gear icon to modify question settings. Enter the URL parameter name. For example, if you want to populate the GENDER data variable from the URL, enter "g" or "gender" as the URL parameter name. You may also hide the question from the user by toggling **Hide question** on.
 
+> If you do not hide the question, it will be presented pre-answered to the user.
+ 
 To send a male respondent to your registration survey, the URL would take the following form:
 
 ```
-https://myinstall.panelservice.io/registration/ENG-US/1?g=1
+https://myinstall.panelservice.io/registration/1/ENG-US?gender=1
 ```
 
-> If you do not hide the question, it will be presented pre-answered to the user.
+You must separate URL parameters using the "&" character to add more URL parameters. For example:
+
+```
+https://myinstall.panelservice.io/registration/1/ENG-US?gender=1&education=4
+```
+> The URL parameters must be URL encoded. [https://www.w3schools.com/tags/ref_urlencode.ASP](Read more here)
 
 > A missing URL parameter is silently ignored if you do not require an answer to the question. Click on the R -icon to toggle on/off.
 
