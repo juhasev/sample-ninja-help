@@ -27,10 +27,10 @@ Anytime questions are added, please ensure the necessary translation has been su
 > Questions that are missing translations are marked with the warning icon.
 
 ### Disqualifying and exclusive options (radio & checkbox)
-To see the choice option, click on the arrow-down indicator. You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
+To see the choice options, click on the arrow-down indicator. You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
 
 ### Populating questions from URL parameters
-To see the choice option, click on the arrow-down indicator. Next, click on the gear icon to modify question settings. Enter the URL parameter name. Let's say you want to populate GENDER data variable from the URL. Enter "g" or "gender" as the URL parameter name. Optionally, you may hide the question from the user.
+Click on the gear icon to modify question settings. Enter the URL parameter name. For example, if you want to populate the GENDER data variable from the URL, enter "g" or "gender" as the URL parameter name. You may also hide the question from the user by toggling **Hide question** on.
 
 To send a male respondent to your registration survey, the URL would take the following form:
 
