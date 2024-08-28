@@ -45,7 +45,7 @@ You must separate URL parameters using the "&" character to add more URL paramet
 ```
 https://myinstall.panelservice.io/registration/1/ENG-US?gender=1&education=4
 ```
-> The URL parameters must be URL encoded. https://www.w3schools.com/tags/ref_urlencode.ASP
+> The URL parameters must be properly encoded. https://www.w3schools.com/tags/ref_urlencode.ASP
 
 > A missing URL parameter is silently ignored if you do not require an answer to the question. Click on the R -icon to toggle on/off.
 
