@@ -2,7 +2,7 @@
 
 This is where you control which registration questions are asked and in which order. A registration survey must always include FIRST_NAME, LAST_NAME, and EMAIL. To select more questions, click on **SELECT QUESTIONS** button. You can re-order the questions simply by grabbing the drag handle and moving them around. You can also EDIT and DELETE questions directly from here.
 
-### Conditional Questions
+### Conditional questions
 
 Registration surveys now support ‘Radio’ -question-based conditional logic. 
 
@@ -30,7 +30,7 @@ Anytime questions are added, please ensure the necessary translation has been su
 To see the choice option, click on the arrow-down indicator. You can designate options as disqualifying factors for both radio and checkbox. In addition, you can specify exclusive options for the checkbox question type.
 
 ### Populating questions from URL parameters
-To see the choice option, click on the arrow-down indicator. Next, click on the gear icon to modify question settings. Enter the URL parameter name. Let's say you want to populate GENDER data variable from the URL. Enter "g" or "gender" as the URL parameter name. Option toggle on hiding the question from the user.
+To see the choice option, click on the arrow-down indicator. Next, click on the gear icon to modify question settings. Enter the URL parameter name. Let's say you want to populate GENDER data variable from the URL. Enter "g" or "gender" as the URL parameter name. Optionally, you may hide the question from the user.
 
 To send a male respondent to your registration survey, the URL would take the following form:
 
@@ -40,12 +40,14 @@ https://myinstall.panelservice.io/registration/ENG-US/1?g=1
 
 > If you do not hide the question, it will be presented pre-answered to the user.
 
+> A missing URL parameter is silently ignored if you do not require an answer to the question. Click on the R -icon to toggle on/off.
+
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
 
 > If you are missing localizations, an orange triangle will show up by the question name.
 
-### Answer Validation
+### Answer validation
 Sample Ninja includes multiple validators that can be used to validate user-provided input. For example, if you are asking for a zip code, you can set the following validators for the question:
 
 - Minimum length 5
@@ -54,5 +56,5 @@ Sample Ninja includes multiple validators that can be used to validate user-prov
 
 Click the **EDIT** button and switch to the **VALIDATORS** tab to view validators. This tab contains detailed help on configuring validators.
 
-### Password and Locale
+### Password and locale
 If **Create Password** is enabled in the settings, Sample Ninja will ask a user to create a password at the registration survey. Similarly, **LOCALE** data variable is automatically detected and populated.
