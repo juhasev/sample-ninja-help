@@ -33,6 +33,8 @@ To see the choice options, click on the arrow-down indicator. You can designate 
 Click on the gear icon to modify question settings. Enter the URL parameter name. For example, if you want to populate the GENDER data variable from the URL, enter "g" or "gender" as the URL parameter name. You may also hide the question from the user by toggling **Hide question** on.
 
 > If you do not hide the question, it will be presented pre-answered to the user.
+
+> **IMPORTANT** If you hide the question, it becomes mandatory if the R or required flag is set. This leads to a hard stop and a red screen. Please make sure if you pass data in you always have a value for the URL -parameters. Sending empty or NULL values will be rejected.
  
 To send a male respondent to your registration survey, the URL would take the following form:
 
@@ -49,7 +51,7 @@ https://myinstall.panelservice.io/registration/1/ENG-US?gender=1&education=4
 
 > A missing URL parameter is silently ignored if you do not require an answer to the question. Click on the R -icon to toggle on/off.
 
-> **IMPORTANT:** If you are bringing in radio and checkbox data, you must use Unique IDs (punch) instead of Option IDs (option order). Please visit **Data Variables -> Edit radio/checkbox -> Toggle on developer mode**. Alternatively, you can download **Codebook** from the data variable list view.
+> **IMPORTANT:** If you are bringing in radio and checkbox data, you must use Unique IDs (punch) instead of Option IDs (option order). Please visit **Data Variables -> Edit radio/checkbox -> Toggle on developer mode**. Alternatively, you can download **Codebook** from the **Data Variables** list view.
 
 ### Localizations
 Data variables must be provided with proper localizations when you use data variables as a question. For example, if you have two Sub Panel locales, ENG-US and SPA-US, you must provide localizations for both locales using the **EDIT** button.
