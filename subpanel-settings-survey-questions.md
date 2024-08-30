@@ -32,9 +32,9 @@ To see the choice options, click on the arrow-down indicator. You can designate 
 ### Populating questions from URL parameters
 Click on the gear icon to modify question settings. Enter the URL parameter name. For example, if you want to populate the GENDER data variable from the URL, enter "g" or "gender" as the URL parameter name. You may also hide the question from the user by toggling **Hide question** on.
 
-> If you do not hide the question, it will be presented pre-answered to the user.
+> **IMPORTANT** If you do not hide the question, it will be presented to the user pre-answered.
 
-> **IMPORTANT** If you hide the question, it becomes a mandatory URL parameter if the question is required. Any missing parameters lead to a hard stop and a red screen. Please make sure if you pass data in that you always have a value for the URL parameters. Sending empty or NULL values will lead to a hard error.
+> **IMPORTANT** If you hide the question, it becomes a mandatory URL parameter if the question is required. Any missing parameters lead to a hard stop and a red screen. Please make sure that if you pass data in, you always have a value for the URL parameters. Sending empty or NULL values will lead to a hard error. If you want to avoid hard errors, you can set the question as not required.
  
 To send a male respondent to your registration survey, the URL would take the following form:
 
