@@ -27,11 +27,9 @@ Once submitted, the server will perform a test run and report the number of affe
 
 The **no action taken** means that 
 
-1) The panelist's current status does not match the statuses on the allowed list (when reconciling to complete).
-2) The panelist's current status is not final in the project like invited or opened, started (when reconciling to disqualified)
-3) The panelist already has a status you are reconciling to.
-
-If you get many invalid panelist IDs, you are likely reconciling the wrong project! It is also possible that those panelists need to have a **started** status in the project.
+1) The panelist's current status does not match the statuses on the allowed list.
+2) The panelist already has a status you are reconciling to.
+3) The panelist never participated in the project you are reconciling
 
 ### What does the changing participation status to completed mean?
 - You are changing the panelists' project participation status to **COMPLETED**
