@@ -7,11 +7,8 @@ You can reconcile panelists in 3 different ways:
 1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists. Releases are pending reward points for all qualifying panelists.
 2) Change to complete. Only changes provided IDs to complete status.
 3) Change to reconciled. Reconcile for any other reason, like dishonest answers. Only provided IDs will be set to RECONCILED status.
-4) Mark project reconciled will release all the pending reward points for all panelists.
 
-Ideally, you would use the “One pass reconcile” mode by providing all the completed panelist IDs. However, for a longer running projects, it is may not be feasible, and you may have to reconcile in steps like weekly. All other panelists not included in the pasted lists will be automatically reconciled to status **reconciled**. Additionally, you can provide additional instructions on which statuses should be reconciled to promoted to **completes**. For example, you may want to exclude **SampleNinja** issued statuses like "quota" or “security.”
-
-You can also reconcile specific panelists to completed by using the “Reconcile to complete” mode or, like before, disqualify them for quality or duplication using the “Reconcile to disqualified” mode.
+Ideally, you would use the “One pass reconcile” mode by providing all the completed panelist IDs. All other panelists not included in the pasted list will be automatically set to status **reconciled**. 
 
 > Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
 
