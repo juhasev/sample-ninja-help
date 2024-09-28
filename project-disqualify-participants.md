@@ -34,6 +34,7 @@ The **no action taken** means that
 If you get many invalid panelist IDs, you are likely reconciling the wrong project! It is also possible that those panelists need to have a **started** status in the project.
 
 ### What does the reconciling to completed mean?
+- You are changing the panelists' project participation status to **COMPLETED**
 - Reward points are issued and immediately released from the pending state (on hold) to panelists to use.
 - Revenue record is created
 - Panelist's participation status is set to COMPLETED
@@ -42,9 +43,10 @@ If you get many invalid panelist IDs, you are likely reconciling the wrong proje
 
 > Since the status reporting relies on the Internet connection, sometimes the counts may not match. Using this feature means bringing your panelists to parity with your survey software's completes.
 
-### What does the reconciled entail?
-- The reward points are widthdrawn (deleted)
-- Earned revenue is withdrawn (deleted)
+### What does the reconciliation entail?
+- You are changing the panelists' project participation status from **STARTED** or **COMPLETED** to **RECONCILED**
+- Any earned reward points are rolled back
+- Earned revenue is withdrawn
 - Panelists' participation status is set to RECONCILED.
 - Quotas are decremented if the panelist was completed.
 - QUALITY_SCORE is adjusted down -20 points
