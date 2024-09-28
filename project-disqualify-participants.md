@@ -33,7 +33,7 @@ The **no action taken** means that
 
 If you get many invalid panelist IDs, you are likely reconciling the wrong project! It is also possible that those panelists need to have a **started** status in the project.
 
-### What does the reconciling to completed mean?
+### What does the changing participation status to completed mean?
 - You are changing the panelists' project participation status to **COMPLETED**
 - Reward points are issued and immediately released from the pending state (on hold) to panelists to use.
 - Revenue record is created
