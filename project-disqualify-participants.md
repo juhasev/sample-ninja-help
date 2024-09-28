@@ -43,10 +43,10 @@ If you get many invalid panelist IDs, you are likely reconciling the wrong proje
 > Since the status reporting relies on the Internet connection, sometimes the counts may not match. Using this feature means bringing your panelists to parity with your survey software's completes.
 
 ### What does the reconciled entail?
-- Eaiationed rewards points are withdrawn (deleted)
+- The reward points are widthdrawn (deleted)
 - Earned revenue is withdrawn (deleted)
 - Panelists' participation status is set to RECONCILED.
-- Quotas are decremented
+- Quotas are decremented if the panelist was completed.
 - QUALITY_SCORE is adjusted down -20 points
 
 > You can disqualify panelists using the auto sampling or profiler project types while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
