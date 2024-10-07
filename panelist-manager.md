@@ -6,8 +6,6 @@ Find, edit, and perform batch actions on individual or group panelists.
 
 You can search for individual panelists by their Panelist ID, First Name, Last Name, or any wildcard combination of letters contained within these names, as well as searching by unique panelist ID or email address.
 
-> The search displays the first 100 matches, while the blue box on the right indicates the total number of panelists that match the search string.
-
 #### Add Filter
 If you want to use a query filter to find panelists, you can either build a query on the fly or pick an existing query filter you have previously saved in the Query Filters.
 
@@ -30,7 +28,7 @@ Click on this button to perform a batch action on the panelists. In term search 
 
 This allows the user to select a new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**.
 
-> **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
+> **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently. You can contral the data deleting policy in **Settings** (Main menu).
 
 #### Delete panelists
 
