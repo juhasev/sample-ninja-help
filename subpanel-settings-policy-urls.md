@@ -16,4 +16,8 @@ Please just leave it blank to use the built-in page.
 #### Extra policy URL
 In some countries, you may have specific additional policies you want to include, for example, in California CCPA or GDPR in Europe. This URL is always external, and you'll need to host it somewhere, like on your panel marketing site.
 
-> The extra policy URL is not enabled by default you must add it manually to the landing page footer if you want it to display there. Example: Read our [extra_policy_url:GDPR declarations]
+> The extra policy URL is not enabled by default you must add it manually to the landing page footer if you want it to display there. Example:
+
+```
+Read our [extra_policy_name:GDPR declarations]
+```
