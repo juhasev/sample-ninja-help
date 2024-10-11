@@ -7,8 +7,5 @@ If you run your custom community site, insert the URL here.
 
 > When the **Members App** is left empty and enabled, this button automatically points to the **Members App** login.
 
-#### Contact us URL
-An external URL for the panelists to contact you, such as a contact form in Zendesk or other help desk software.
-
 #### FAQ URL
 An external URL for the panelists with panel FAQs. If you enter a URL here, it will appear in the built-in Member App menu.
