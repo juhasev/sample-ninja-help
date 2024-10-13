@@ -27,6 +27,10 @@ Or combined with the test mode.
 
 > Source ID must match the ID of one of the **Recruitment Sources** created. The parameters can be supplied in any order.
 
+Some recruitment partners utilize multiple affiliates. You may track them by passing in the **affliate_id** parameter. Example:
+
+```https://yourcompany.sampleninja.io/registration/1/ENG-US?source=12&affiliate_id=ziprecruiter```
+
 ### Providing additional data
 You can provide the following variables on the URL to prefill and skip.
 
