@@ -1,4 +1,4 @@
-## Member's app features
+## Member App features
 
 The default settings are recommended. You should always configure the Google Recaptcha for additional security. Here are the configuration options and what they do:
 
