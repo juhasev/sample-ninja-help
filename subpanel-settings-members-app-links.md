@@ -1,13 +1,12 @@
-## Member's app links ##
+## Public access URLs ##
 
-If you have enabled **Members App** in the sub panel settings you will see links for each locale in this dialog. Click on the login button to be transferred to the member's app login screen.
+These are the public access URLs for the member app. You should use these URLs on your panel's marketing website. If you have enabled **Members App** in the subpanel settings, you will see links for each locale in this dialog. Click the login button to be transferred to the member app login screen.
 
-> The first link indicated with **globe** -icon is a universal link that detect user's country and locale automatically.
+> The first link indicated with the **globe** -icon is a universal link that automatically detects the user's country and locale. Please be aware that this detection is not 100% reliable as it relies on the user's IP-based geolocation + browser's configured locale. We recommend that you do not use the universal URL, unless you have no other option.
 
 Click the **URL** to copy it to the clipboard.
-Click on the **<>** icon to show instruction how the embed member's app on any website.
 
-> Be aware that all built-in security checks will be by passed as long as you authenticated to the admin application. If you need to test that appropiate security checks are working simply copy the link and paste it into a private window. Different browsers call the private windows differently. Refer to the list below if unsure what to look for. You can also paste the link into an another browser that is not currently authenticated to the admin application.
+> Be aware that all built-in security checks will be bypassed as long as you authenticate to the admin application. If you need to test that appropriate security checks are working, simply copy the link and paste it into a private window. Different browsers call the private windows differently. Refer to the list below if you need help with what to look for. You can also paste the link into another browser not currently authenticated to the admin application.
 
 - Google Chrome **New ingognito window**
 - Safari **New private window**
