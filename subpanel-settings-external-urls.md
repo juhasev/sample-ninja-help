@@ -8,4 +8,4 @@ If you run your custom community site, insert the URL here.
 > When the **Members App** is left empty and enabled, this button automatically points to the **Members App** login.
 
 #### FAQ URL
-An external URL for the panelists with panel FAQs. After you enter a URL here, you must enable in the **Member App -> Settings (gear icon)** and after that it will appear in the built-in Member App menu.
+An external URL for the panelists with panel FAQs. After you enter a URL here, you must enable FAQ menu item in the **Member App -> Settings (gear icon) -> Enable FAQ toggle**.
