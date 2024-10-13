@@ -28,6 +28,9 @@ Toggle dynamic profiling on/off in the Member App.
 #### Enable external FAQ
 Toggle on to take user to external URL, like the panel marketing website containing FAQ for the panelists. In order to toggle this feature on you must insert the FAQ URL in **Sub Panels -> Manage -> Settings -> External URLs**
 
+#### Show footer on all pages
+Displays the configured landing page footer on all Member App pages. When turned off, footer is only displayed at the login screen. To edit visit **Sub Panels -> Manage -> Landing Pages**. Edit any landing page and change to the footer.
+
 #### Show next-tier rewards
 Keeps the rewards page populated with next-tier rewards that will become available if more points are earned. For example, if a panelist has accumulated $15 dollars worth of reward points, the panelist would see all the rewards with values $5, $10 and $20 (next tier above the current balance). If the panelist has zero balance, they would see all the $5 rewards.
 
