@@ -2,6 +2,7 @@
 
 You should use these URLs when you link the registration survey, for example, to your panel's marketing website.
 
+### Registering a panelist
 - Click on the **TEST** -button to take the survey in the **test mode**. 
 - Click the **URL** to copy it to the clipboard.
 - Click on the **REGISTER** -button to register a real panelist.
