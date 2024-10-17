@@ -1,6 +1,6 @@
-## Member App features
+## Optional features
 
-The default settings are recommended. You should always configure the Google Recaptcha for additional security. Here are the configuration options and what they do:
+Here are the optional settings and what they do:
 
 #### Use Google's reCaptcha
 Use Google reCaptcha to detect all non-humans when logging in.
@@ -14,7 +14,7 @@ Whether to display the logo in the Member App's toolbar.
 Display panelists' reward points in the Member App toolbar.
 
 #### Show next-tier rewards
-This keeps the rewards page populated with next-tier rewards that will become available if more points are earned. For example, if a panelist has accumulated $15 worth of reward points, the panelist would see all the rewards with values $5, $10, and $20 (the next tier above the current balance). The panelists would see all the $5 rewards if they had zero balance.
+This keeps the rewards page populated with next-tier rewards available if more points are earned. For example, if a panelist has accumulated $15 worth of reward points, the panelist would see all the rewards with values $5, $10, and $20 (the next tier above the current balance). The panelists would see all the $5 rewards if they had zero balance.
 
 > Enabling this setting is recommended. This also enables panelists to see "future rewards" on their rewards page that are not yet available based on the balance alone. This encourages further participation.
   
