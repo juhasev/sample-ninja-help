@@ -1,9 +1,9 @@
 ## Main features
 
-These settings controls the main features of the member app. These features can be toggle on/off if desired.
+These settings control the main features of the member app. If desired, you can toggle these features on/off.
 
 #### Enable Member App
-Make The Members App accessible from the Internet.
+Make the member app accessible from the Internet.
 
 #### Enable rewards
 Choose if you want to display the rewards page
@@ -12,12 +12,12 @@ Choose if you want to display the rewards page
 Choose if you want to display the redemption page
 
 #### Enable Dynamic Profiling
-Toggle dynamic profiling on/off in the Member App.
+Choose if you want to display in the Member App.
 
 #### Enable external FAQ
-Toggle on to take the user to an external URL, like the panel marketing website containing FAQ for the panelists. To toggle this feature on, you must insert the FAQ URL in **Sub Panels -> Manage -> Settings -> External URLs**
+Toggle on to take the user to an external URL, like the panel marketing website containing FAQ for the panelists. To be able toggle this feature on, you must first insert the FAQ URL in **Sub Panels -> Manage -> Settings -> External URLs**
 
 #### Hide collected data from the user
 Hide collected data like data variables and devices from panelists. 
 
-> Not recommended for GDPR and CCPA regions.
+> This is not recommended for the GDPR and CCPA regions.
