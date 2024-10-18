@@ -15,7 +15,7 @@ Choose if you want to display the redemption page
 Choose if you want to display in the Member App.
 
 #### Enable external FAQ
-Toggle on to take the user to an external URL, like the panel marketing website containing FAQ for the panelists. To be able toggle this feature on, you must first insert the **FAQ** URL in **Sub Panels -> Manage -> Settings -> External URLs**
+Toggle on to take the user to an external URL, like the panel marketing website containing FAQ for the panelists. To be able toggle this feature on, you must first insert the FAQ URL in **Sub Panels -> Manage -> Settings -> External URLs**
 
 #### Hide collected data from the user
 Hide collected data like data variables and devices from panelists. 
