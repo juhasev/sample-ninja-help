@@ -5,6 +5,8 @@ These settings control the main features of the member app. If desired, you can 
 #### Enable Member App
 Make the member app accessible from the Internet.
 
+> If toggled off, anybody trying to access the site will get an error that the page does not exist.
+
 #### Enable rewards
 Choose if you want to display the rewards page
 
