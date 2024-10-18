@@ -8,7 +8,7 @@ Make the member app accessible from the Internet.
 #### Enable rewards
 Choose if you want to display the rewards page
 
-#### Redemption enabled
+#### Enable redemptions
 Choose if you want to display the redemption page
 
 #### Enable Dynamic Profiling
