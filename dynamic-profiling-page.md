@@ -1,11 +1,20 @@
 ## Dynamic Profiling
 
-With **Dynamic Profiling**, **Data Variables** are automatically populated without having to resort to additional update surveys. Dynamic Profiling activates every time panelists get terminated (profile, quota) or come back as completed from a survey project. **Dynamic Profiling** can also be enabled in the **Member App** settings.
+With **Dynamic Profiling**, **Data Variables** are automatically populated without resorting to additional update surveys. Dynamic Profiling activates every time panelists get terminated (profile, quota) or returned as completed from a survey project. **Dynamic Profiling** can also be enabled in the **Member App** settings.
 
-### Top row master settings and answer frequency
+### Settings
 
-#### Settings
-Control whether **Dynamic Profiling** is included in the **Sub Panel**, adjust the compensation for each question and set daily question limits.
+#### Enable dynamic profiling
+Controls whether **Dynamic Profiling** is enabled for the **Sub Panel**
+
+#### Compensation
+Controls compensation per question.
+
+#### Refresh compensation
+Controls whether panelist is compensated when updating previously answered questions.
+
+#### Daily question limit
+Controls the maximum number of questions that can be answered per day.
 
 > Make sure that the daily question limit is set correctly and so that the **Minimum points to redeem** -setting is higher than a panelist's daily maximum earnings from answering Dynamic Profiling questions. The reason is simple: you do not want panelists to create an account and walk out with rewards without completing a single survey. The **Minimum points to redeem** -setting can be adjusted in each **Sub Panel's** settings.
 
