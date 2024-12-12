@@ -1,5 +1,7 @@
 ## Random email template
-If you would like to randomly select an email template, you may toggle this feature on. You can choose one or more email template groups to select the template from. The selection is done automatically before the invites are sent out.
+If you would like to randomly select an email template, you may toggle this feature on. You can choose one or more email template groups to select the template from. The selection is done automatically when the project is saved and used for all the participants.
+
+> If you update the project again, a new email template is selected from the group selected.
 
 **Survey Routers**
 Random email templates may be an option if you send panelists through a survey router. As the target survey is generally unknown, you have an option to automatically use a random template from a large pool of pre-crafted invitations. Using multiple templates ensures that all outgoing emails stay engaging with varied use of subject lines, imagery, and content
