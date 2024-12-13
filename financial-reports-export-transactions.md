@@ -1,6 +1,8 @@
 ### Export transaction to CSV
 
-This feature allows you to export raw transaction data to CSV. Please select **Sub Panel(s)** and the **Period** and then click the **START EXPORT** button.
+This feature allows you to export raw transaction data to CSV. 
+
+Please select **Sub Panel(s)** and the **Period** and then click the **START EXPORT** button.
 
 > If you have a large panel or a lot of transactions, you should export data by month.
 
