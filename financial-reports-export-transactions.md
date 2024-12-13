@@ -1,6 +1,10 @@
 ### Export transaction to CSV
 
-This feature allows you to export raw transaction data to CSV. The report can contain the following types:
+This feature allows you to export raw transaction data to CSV. Please select **Sub Panel(s)** and the **Period** and then click the **START EXPORT** button.
+
+> If you have a large panel or a lot of transactions, you should export data by month.
+
+The report can contain the following types:
 
 - **BalanceAdjustment (+/-)** The Panel Manager has manually adjusted the panelist balance. The amount can be negative.
 - **DataVariable (+)** The panelist has completed a Dynamic Profiling question.
