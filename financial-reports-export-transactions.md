@@ -10,5 +10,4 @@ This feature allows you to export raw transaction data to CSV. The report can co
 - **ReferredFriend** Panelist has been compensated for referring a friend.
 - **Refund** The redemption request was not approved or rejected by the rewards provider.
 
-> This data is from the Internal Transaction Ledger, which is immutable. 
 > All amounts are reported in Reward Points.
