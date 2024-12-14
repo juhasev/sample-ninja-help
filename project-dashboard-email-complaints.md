@@ -6,7 +6,9 @@ This table allows you to see who complained. A complaint means that the recipien
 - You have sent too many emails and gotten the panelist angry.
 - Poor recruitment methods and using the Panelist Importer to bring in badly vetter panelists.
 
-> If you want to download of all complaints, click on the top right corner of the window.
+Contact support@sampleninja.io if you are unsure how to rectify the situation.
+
+> If you want to download all complaints, click on the top right corner of the window.
 
 > To copy individual panelist IDs, click on the round information button on each row.
 
