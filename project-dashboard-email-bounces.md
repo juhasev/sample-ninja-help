@@ -11,7 +11,7 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 
 ### Permanent bounces
 
-All panelists with **Permanent** bounce are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen. Permanent bounces are normal but should be way under < 1%. 
+All panelists with **Permanent** bounces are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen. Permanent bounces are normal but should be way under < 1%. 
 
 > The sampling engine will stop automatically if you exceed a 7% bounce rate. You must contact support@sampleninja.io and talk with us.
 
