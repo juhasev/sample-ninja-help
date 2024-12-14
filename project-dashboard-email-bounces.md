@@ -5,6 +5,8 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 - **Transient** The email box may be full, or there may be another temporary issue.
 - **Undetermined** The target email server responded with a bounce but did not provide enough information to determine whether the bounce is **Permanent** or **Transient**
 
+Contact support@sampleninja.io if you are unsure how to rectify the situation.
+
 > If you want to download CSV of all bounced emails, click on the top right corner of the window.
 
 > To copy individual panelist IDs, click on the round information button on each row.
