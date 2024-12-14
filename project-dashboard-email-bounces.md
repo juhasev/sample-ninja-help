@@ -21,9 +21,9 @@ If you run into this issue, there is something badly wrong with the imported pan
 - The uploaded panelists are not double-opted in
 - You are migrating from another panel system that did not handle bounce processing at all.
 
-> Consider using third-party tools to remedy the situation, like [https://www.zerobounce.net](Zero Bounce), or worth case scenario, run all your panelists through the Registration Survey in Sample Ninja and reach out to them using a third-party marketing tool like Mail Chimp.
+> Consider using third-party tools to remedy the situation, like [Zero Bounce](https://www.zerobounce.net), or worst case scenario, run all your panelists through the **Registration Survey** in **Sample Ninja** and reach out to them using a third-party marketing tool like Mail Chimp.
 
-Contact support@sampleninja.io if you are unsure how to rectify the situation.
+Contact **support@sampleninja.io** if you are unsure how to rectify the situation.
 
 ### Transient or soft bounces
 
