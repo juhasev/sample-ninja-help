@@ -9,6 +9,8 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 
 > To copy individual panelist IDs, click on the round information button on each row.
 
+> All **Permanent** bounces are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen.
+
 #### Transient or soft bounces
 
 The transient bounces have multiple subtypes:
