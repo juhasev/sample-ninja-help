@@ -5,8 +5,6 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 - **Transient** The email box may be full, or there may be another temporary issue.
 - **Undetermined** The target email server responded with a bounce but did not provide enough information to determine whether the bounce is **Permanent** or **Transient**
 
-Contact support@sampleninja.io if you are unsure how to rectify the situation.
-
 > If you want to download CSV of all bounced emails, click on the top right corner of the window.
 
 > To copy individual panelist IDs, click the round information button on each row.
@@ -24,6 +22,8 @@ If you run into this issue, there is something badly wrong with the imported pan
 - You are migrating from another panel system that did not handle bounce processing at all.
 
 > Consider using third-party tools to remedy the situation, like https://www.zerobounce.net, or worth case scenario, run all your panelists through the Registration Survey in Sample Ninja and reach out to them using a third-party marketing tool like Mail Chimp.
+
+Contact support@sampleninja.io if you are unsure how to rectify the situation.
 
 ### Transient or soft bounces
 
