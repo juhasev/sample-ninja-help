@@ -1,4 +1,4 @@
-### Bounced emails
+## Bounced emails
 Emails can bounce for multiple reasons. This section gives you detailed information about the bounces and their types. A bounce type can be one of the following:
 
 - **Permanent** This means that the email address no longer exists.
@@ -11,7 +11,7 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 
 > All **Permanent** bounces are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen.
 
-#### Transient or soft bounces
+### Transient or soft bounces
 
 The transient bounces have multiple subtypes:
 
