@@ -23,7 +23,7 @@ If you run into this issue, there is something badly wrong with the imported pan
 
 > Consider using third-party tools to remedy the situation, like [Zero Bounce](https://www.zerobounce.net), or worst case scenario, run all your panelists through the **Registration Survey** in **Sample Ninja** and reach out to them using a third-party marketing tool like Mail Chimp.
 
-Contact **support@sampleninja.io** if you are unsure how to rectify the situation.
+Please contact support@sampleninja.io if you are unsure how to rectify the situation.
 
 ### Transient or soft bounces
 
