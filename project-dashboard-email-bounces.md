@@ -9,7 +9,7 @@ Contact support@sampleninja.io if you are unsure how to rectify the situation.
 
 > If you want to download CSV of all bounced emails, click on the top right corner of the window.
 
-> To copy individual panelist IDs, click on the round information button on each row.
+> To copy individual panelist IDs, click the round information button on each row.
 
 > All **Permanent** bounces are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen.
 
