@@ -7,7 +7,7 @@ Emails can bounce for multiple reasons. This section gives you detailed informat
 
 > If you want to download CSV of all bounced emails, click on the top right corner of the window.
 
-> To copy individual panelist IDs, click on the info button on each row.
+> To copy individual panelist IDs, click on the round information button on each row.
 
 #### Transient or soft bounces
 
