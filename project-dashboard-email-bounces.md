@@ -11,7 +11,19 @@ Contact support@sampleninja.io if you are unsure how to rectify the situation.
 
 > To copy individual panelist IDs, click the round information button on each row.
 
-> All **Permanent** bounces are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen.
+### Permanent bounces
+
+All panelists with **Permanent** bounce are automatically unsubscribed from the panel. This is because if you keep sending emails to the bounced email addresses, your email reputation will worsen. Permanent bounces are normal but should be way under < 1%. 
+
+> The sampling engine will stop automatically if you exceed a 7% bounce rate. You must contact support@sampleninja.io and talk with us.
+
+If you run into this issue, there is something badly wrong with the imported panelists. Typically, these are:
+
+- Your migrated panelist database is too old
+- The uploaded panelists are not double-opted in
+- You are migrating from another panel system that did not handle bounce processing at all.
+
+> Consider using third-party tools to remedy the situation, like https://www.zerobounce.net, or worth case scenario, run all your panelists through the Registration Survey in Sample Ninja and reach out to them using a third-party marketing tool like Mail Chimp.
 
 ### Transient or soft bounces
 
