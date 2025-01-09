@@ -43,9 +43,11 @@ In some special cases you may add the following values to the base URL:
 
 - **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID
 - **[SESSION_ID]** value is automatically inserted.
+- **[SUB_PANEL_ID]** Contains numeric ID of the sub panel
+- **[LOCALE_CODE]** Contains abbreviated locale code like ENG-US
 
 ```
-http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]
+http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]&locale=[LOCALE_CODE]&subpanel=[SUB_PANEL_ID]
 ```
 
 ### Passing variable data to surveys
