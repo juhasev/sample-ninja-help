@@ -41,13 +41,18 @@ http://mysurvey.com?panelist_id=58d477ce-a23f-420c-a148-816dddf024af&session_id=
 ```
 In some special cases you may add the following values to the base URL:
 
-- **[PROJECT_ID]** variable is automatically replaced with Sample Ninja project ID
-- **[SESSION_ID]** value is automatically inserted.
-- **[SUB_PANEL_ID]** Contains numeric ID of the sub panel
+- **[PROJECT_ID]** value is automatically inserted. (deprecated)
+- **[SESSION_ID]** value is automatically inserted. (deprecated)
+
+> Use the entry link configuration to set parameter names for the above, and they will be automatically inserted.
+
+Additionally, you may pipe in the following:
+  
+- **[SUB_PANEL_ID]** Contains the numeric ID of the sub-panel
 - **[LOCALE_CODE]** Contains abbreviated locale code like ENG-US
 
 ```
-http://mysurvey.com?p=[PROJECT_ID]&s=[SESSION_ID]&locale=[LOCALE_CODE]&subpanel=[SUB_PANEL_ID]
+http://mysurvey.com?locale=[LOCALE_CODE]&subpanel=[SUB_PANEL_ID]
 ```
 
 ### Passing variable data to surveys
@@ -61,7 +66,7 @@ https://surveyengine.com?project=343&g=1
 Dates are passed in ISO dates like 2023-01-26. Alternatively, you may pass any date variable as age by enabling the "Cast to Age" toggle. A typical use case would be to pass in **BIRTH_DATE** as age.
 
 #### Sending Radio data to a survey
-Radio data is piped using the **Option ID** number visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
+Radio data is piped using the **Option ID** number, which is visible when you edit the **Data Variable**. For example, piping the **EDUCATION** data variable would possibly show the URL as:
 
 https://surveyengine.com?project=[ID]&education=5
 
