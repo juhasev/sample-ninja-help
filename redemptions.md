@@ -70,6 +70,8 @@ Click on the download button (cloud icon with downwards arrow in the top right c
 
 > Note that the filter works on logic that supports satisfying the filter criteria, i.e., if **FAILED**, **APPROVED**, and **PROCESSED** are all selected, the system will only export redemptions that were processed and approved but failed. To show all failed or rejected redemptions, solely tick **FAILED**. To show all approved/completed redemptions, solely tick **APPROVED**. To show redemptions irrespective of status, exclusively tick **PROCESSED**.
 
+> While the redemptions on the UI are always displayed by the requested date, the export transactions (summary or by line) are always exported based on the transaction date or when the money changed hands date.
+
 > Toggle on **Export all dates**, to download all redemptions that satisfy the chosen filter criteria, i.e., this will include every redemption from the first to the most recent based on the filter criteria. Example: All processed redemptions will be exported with **Export all dates** toggled on and **PROCESSED** ticked.
 
 
