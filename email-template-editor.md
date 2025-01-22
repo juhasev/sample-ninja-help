@@ -75,7 +75,7 @@ You may use markdown elements in this section. Click on the text to edit.
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
 #### Unsubscribe from project reminders
-You may use the following tag to offer a based approach for unsubscribing from the project reminders
+You may use the following tag to offer a link based approach for unsubscribing from the project reminders. The example below will produce a link that reads "Click here to unsubscribe from reminders".
 ```
 [project_unsubscribe_url:Click here to unsubscribe from reminders]
 ```
