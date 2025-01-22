@@ -62,7 +62,7 @@ This section should contain a personal signature from the project manager. You m
 The project information section is only visible for project invitations or reminders. The reward line will be hidden if the project does not offer any reward.
 
 #### Notice section
-This box contains specific disclaimers and notices that you'd like to repeat in all emails. 
+This box contains specific disclaimers and notices you'd like to repeat in all emails. 
 
 Examples:
 
@@ -75,10 +75,14 @@ You may use markdown elements in this section. Click on the text to edit.
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
 #### Unsubscribe from project reminders
-You may use [project_unsubscribe_url:Click here to unsubscribe from reminders] tag in the signature, notice, or in the footer sections.
+You may use the following tag to offer a based approach for unsubscribing from the project reminders
+```
+[project_unsubscribe_url:Click here to unsubscribe from reminders]
+```
+This tag works in the signature, notice, or footer sections.
 
 #### Footer section
-This section usually contains the copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
+This section usually contains the copyright text and terms of use. You may use **Footer** alone or combine it with the **Notice** section above it.
 
 You may use markdown elements in this section. Click on the text to edit. 
 
@@ -94,10 +98,10 @@ The most commonly used data variables are those related to personalization.
 
 You may pipe any variables into the email templates simply by referring to them by placing the variable namea in square brackets. For example:
 
-```Hello [FIRST_NAME], we have a survey for you! You balance is [POINTS_BALANCE]```
+```Hello [FIRST_NAME], we have a survey for you! Your balance is [POINTS_BALANCE]```
 
-You may also pipe in project ID, which can be handy when a panelist contacts your support for example:
+You may also pipe in project ID, which can be handy when a panelist contacts your support, for example:
 
 - PROJECT_ID
 
-If the panelist does not have value for the data variable it will be silently removed from the final email.
+If the panelist does not have value for the data variable, it will be silently removed from the final email.
