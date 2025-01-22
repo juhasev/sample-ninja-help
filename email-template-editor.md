@@ -74,6 +74,9 @@ You may use markdown elements in this section. Click on the text to edit.
 
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
+#### Unsubscribe from project reminders
+You may use [project_unsubscribe_url:Click here to unsubscribe from reminders] tag in the signature, notice, or in the footer sections.
+
 #### Footer section
 This section usually contains the copyright text and terms of use. You may choose to use **Footer** alone or combine it with the **Notice** section above it.
 
