@@ -77,7 +77,7 @@ You may use markdown elements in this section. Click on the text to edit.
 #### Unsubscribe from project reminders
 You may use the following tag to offer a link based approach for unsubscribing from the project reminders. The example below will produce a link that reads "Click here to unsubscribe from reminders".
 ```
-[project_unsubscribe_url:Click here to unsubscribe from reminders]
+[unsubscribe_project_url:Click here to unsubscribe from reminders]
 ```
 This tag works in the signature, notice, or footer sections.
 
