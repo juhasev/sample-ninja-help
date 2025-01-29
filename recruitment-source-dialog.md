@@ -23,7 +23,7 @@ This is an alphanumeric identifier (UUID) that is hard to guess. Example URL:
 https://domain.sampleninja.io/registration/1/ENG-CA?source=5f031c0e-dc5f-4e79-a318-46fa62fd42f9
 ```
 
-This ID is indicated in the blue circle with a red lock icon in the list view. You can copy the UUID to the clipboard if you click the circle.
+Sources using UUID are indicated with a red lock in the list view. You can copy the UUID to the clipboard by clicked the blue ID circle.
 
 > In this mode only valid **UUID** value are accepted.
 
