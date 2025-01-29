@@ -14,6 +14,8 @@ https://yourcompany.panelservice.io/registration/1/ENG-US?source=12
 ```
 In the list view, this ID is indicated in the blue circle.
 
+> This is the system default, and only **ID** is accepted when this mode is selected.
+
 #### UUID
 This is an alphanumeric identifier (UUID) that is hard to guess. Example URL:
 
@@ -22,6 +24,8 @@ https://domain.sampleninja.io/registration/1/ENG-CA?source=5f031c0e-dc5f-4e79-a3
 ```
 
 This ID is indicated in the blue circle with a red lock icon in the list view. You can copy the UUID to the clipboard if you click the circle.
+
+> In this mode only valid **UUID** value are accepted.
 
 #### Hybrid
 In this mode, both numeric ID and UUID are accepted.
