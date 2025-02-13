@@ -9,6 +9,22 @@ Description for the sub panel. This is not visible to panelists.
 #### Support email address
 The support email needs to be valid. Various landing pages display the **CONTACT SUPPORT** button, which will launch an email client. You can disable this button from the **Landing Page** settings if you are not providing email support.
 
+#### Support URL
+You should use the support URL when you prefer to send the panelist a support request form. You  may use the following variables to pass in extra information.
+
+- **{locale_code}** Example: ENG-US
+- **{language_code}** Example: en
+- **{language_tag}** Example: en-US
+- **{country_code}** Example: US
+
+Examples:
+```
+https://support.zendesk.com/lang={language_code}
+https://customform.com/{locale_code}/support
+```
+
+> **IMPORTANT:** When the support URL is entered, it takes preference over the configured support email address.
+  
 #### Email user name
 Controls sending email user name, the first part before @, for example, invite@sampleninja.io. Typically, the email username is not visible by default, as email clients display the Sender Name instead. 
 
