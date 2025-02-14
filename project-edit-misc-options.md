@@ -6,6 +6,9 @@ You may use this option in some special cases, like if you use the **Publish to 
 
 > IMPORTANT: Because the information that is displayed to the user is taken from the email invitation, you should make sure you edit the email invitation template even if you disable the email invitations!
 
+### Enable webhook
+Webhooks are used to relay invitation information to third-party servers and enable the implementation of custom invitation methods like WhatsApp or SMS. If you have configured a webhook in the Sub Panel settings, you may use this setting to control it on the project level.
+
 ### Keep online if target completes are not met
 If toggled on the project will keep sampling indefintely till the target completes are met. If toggled off, the project closes automatically at the set project end date regardless if the target completes are met.
 
