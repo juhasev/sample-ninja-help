@@ -10,7 +10,7 @@ Description for the sub panel. This is not visible to panelists.
 The support email needs to be valid. Various landing pages display the **CONTACT SUPPORT** button, which will launch an email client. You can disable this button from the **Landing Page** settings if you are not providing email support.
 
 #### Support URL
-You should use the support URL when you prefer to send the panelist a support request form. You  may use the following variables to pass in extra information.
+You should use the support URL when you prefer to send the panelists a support request form instead of having them email your support. You may use the following variables to pass in extra information.
 
 - **{locale_code}** Example: ENG-US
 - **{language_code}** Example: en
