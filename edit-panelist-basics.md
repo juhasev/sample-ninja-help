@@ -27,8 +27,9 @@ Displays counts of project-related activities
 - **Invitations** Number of email invitations sent to this panelist
 - **Invitations opened** Number of email invitations the panelist has read
 - **Started** Number of project starts
-- **Quota** Number of project quota terminations
 - **Profile** Number of project profile terminations
+- **Quota** Number of project quota terminations
+- **NonActionable** Used with routers and in case there was nothing found panelist can be returned this router w/o any penalties or compensation.
 - **Quality** Number of project quality terminations (returned to SampleNinja via quality exit link)
 - **Duplicate** Number of project duplicate terminations (returned to SampleNinja via duplicate exit link)
 - **Security** Number of project security terminations (returned to via security exit link)
