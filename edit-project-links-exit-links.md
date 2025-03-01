@@ -2,21 +2,22 @@
 
 When a panelist has completed a survey, you will send panelists back to these links with the survey outcome or status code. If your survey solution supports **exit link hashing**, you should always use it to prevent tampering with exit links.
 
-**Sample Ninja** supports a total of 6 different survey outcomes:
+**Sample Ninja** supports a total of 8 different survey outcomes:
 
 - Complete (Panelist has completed the survey)
 - Profile (The Panelist was terminated in screening questions)
 - Quota (The Panelist was terminated because a quota bucket was full)
 - Nonactionable (Panelist was returned to SampleNinja because no action was taken)
 - Quality (Survey software has detected straight-lining or other quality issues)
+- Nonactionable (Router could not find any opportunities; there is no penalty coming back with this status)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 - Security (Hash validation failed or some other security mechanism triggered)
 
-The **security** status should be used if the hash validation fails (See below **Signing and security** section for more details). Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
+The **security** status should be used if the hash validation fails (See below **Signing and security** section for more details). Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
-The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate, i.e., using fingerprints or other techniques. Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
+The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate, i.e., using fingerprints or other techniques. Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
-The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions. Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
+The **quality** status should be used when a panelist is straight-lining and doesn't pay attention to the survey questions. Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
 The **Nonactionable** status can be used in some special cases. For example, if you utilize a router and fail to find any opportunities for your panelist. Using this exit redirect has no impact on your panelist's QUALITY_SCORE.
 
