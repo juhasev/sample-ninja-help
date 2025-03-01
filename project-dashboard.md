@@ -29,11 +29,11 @@ On this line you see:
 
 ### Project progress chart
 
-This chart plots the Daily and Hourly project progress for the last 72 hours. If you mouse over over the chart the tooltips will tell you exactly how each bar is composed and what the colors mean.
+This chart plots the Daily and Hourly project progress for the last 72 hours. If you mouse over the chart, the tooltips will tell you exactly how each bar is composed and what the colors mean.
 
-> You can click and highlight a series of days or hour slots which will zoomed in for more granular analysis.
+> You can click and highlight a series of days or hour slots, which will be zoomed in for more granular analysis.
 
-If you like you can export the chart image or it's data click on **three dots** at top right of the chart.
+If you like, you can export the chart image or its data by clicking on **three dots** at the top right of the chart.
 
 ### Outcome statistic to left of the chart
 
@@ -44,35 +44,35 @@ If you like you can export the chart image or it's data click on **three dots** 
 - **Quality terminations** Total number of panelists terminated due to quality. Mouse over to see percent from started.
 - **Duplicate terminations** Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
 - **Security terminations** Total number of panelists terminated due to security check like **out of country**. Mouse over to see percent from started.
-- **Dropouts** Total number of panelist who dropped out from the survey or did not finish the survey. During a live project "on going survey takers" fall in this bucket so you may see higher than expected rate at the beginning of the survey.
+- **Dropouts** Total number of panelist who dropped out from the survey or did not finish the survey. During a live project, "ongoing survey takers" fall in this bucket, so you may see a higher than expected rate at the beginning of the survey.
 
-> **TIP** Mouseover the percentage values to see the actual count.
+> **TIP** Mouse over the percentage values to see the actual count.
 
 ### Statistics under chart  
-- **Number of initiations sent** Shows the total number of email invites.
-- **Delivered** shows the % of successfully delivered emails for the project.  If you mouse over, the system will display “Number of Delivered”.
+- **Number of initiations sent** This shows the total number of email invites.
+- **Delivered** shows the % of successfully delivered emails for the project.  If you mouse over it, the system will display “Number of Delivered”.
 - **Opened** Shows the number of opened invitations. This value is not 100% accurate and should be used for guidance only
-- **Bounced** shows the total number of bounced emails from the emails sent in that project. This is colour coded for instant recognition.
+- **Bounced** shows the total number of bounced emails from those sent in that project. This is color-coded for instant recognition.
   - Over 3.001%= Red
   - Over 1.001-3%= Dark Orange
   - 1% or less = Green  
 
 > If you project exceeds 7% complaint rate then **Sample Ninja** will automatically stop sending sample to your project. This will generate both a project error and notification sent to the project managers.
 
-- **Complaints** shows the number of complain emails sent to the SampleNinja email server with regards to this project. This is color coded for instant recognition:
+- **Complaints** shows the number of complaint emails sent to the SampleNinja email server regarding this project. This is color-coded for instant recognition:
   - **Over 10 complaints**  Red
   - **Under 1-10% complaints** Dark Orange
   - **No complaints** Green
 
-> If your project exceeds 1% complaint rate then **Sample Ninja** will automatically stop sending sample to your project. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does recognize your invitation. This will generate both a project error and notification sent to the project managers.
+> If your project exceeds the 1% complaint rate, then **Sample Ninja** will automatically stop sending samples to your project. Complaints are generated when the recipient flags your email as **SPAM**. This can happen if the recipient doesn't remember signing up or otherwise does not recognize your invitation. This will generate both a project error and notification sent to the project managers.
 
 ### Redemption Points allocations for Panellists
 - **Total Revenue** Total redemption points allocated thus far for this project in the platform.
 - **Rewards Issued** Total redemption points allocated thus far for this project issued to Panellists.
 - **Gross Revenue** Is the calculation of **Total Revenue** minus **Rewards Issued**
 - **Gross Revenue Margin** Display gross revenue margin.
-- **Wasted Reward Point Cost** Displays the total cost associated with wasted reward points.
+- **Wasted Reward Points** Displays the total cost of wasted reward points.
 
-> Wasted Reward Points are accumulated when an overinvite is registered. This could ne indication that you are attempting to field the project too fast.
+> Wasted Reward Points are accumulated when an overinvite is registered. This could indicate that you are attempting to field the project too fast. Each panelist that starts a project when total completes are not met can proceed all the way through, and this can cause target completes to go over.
 
-> Within the **Balancing** segment, keep an eye on the numbers in the quota cells. If these numbers get too high, it means you are trying to complete the project too fast or the quota cells are requiring too many invitations due to a low response rate. This will incur unnecessary cost.
+> Within the **Balancing** segment, keep an eye on the numbers in the quota cells. If these numbers get too high, it means you are trying to complete the project too fast or the quota cells are requiring too many invitations due to a low response rate. This will incur unnecessary costs.
