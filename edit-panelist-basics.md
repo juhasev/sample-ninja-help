@@ -13,14 +13,16 @@ The top row statistics provide basic statistics about the panelist's vitals.
 - **Lifetime reward points earned** This is the total reward points earned since joining the panel. Same as POINTS_REWARDED data variable
 - **Response rate** The response rate to the email invitations. Same as the RESPONSE_RATE data variable.
 
-### Basics
-This box provides basic information about the panelist.
+### Basic information
+This box provides basic information about the panelists.
 
 - **Identifier** This is the panelist's unique identifier.
 - **Email valid** Whether the panelist's email address is healthy and the system can deliver mail to the panelist's email address
 - **Sub Panel** Which sub panel is this panelist a member of
 - **Locale** Panelist's locale
 - **Recruitment Source** Which recruitment source is this panelist coming from?
+
+> If you have GENDER, EDUCATION, ADDRESS, CITY, POSTAL_CODE, or REGION defined, those will also be automatically displayed.
 
 ### Projects
 Displays counts of project-related activities
@@ -29,11 +31,11 @@ Displays counts of project-related activities
 - **Started** Number of project starts
 - **Profile** Number of project profile terminations
 - **Quota** Number of project quota terminations
-- **NonActionable** Used with routers and in case there was nothing found panelist can be returned this router w/o any penalties or compensation.
+- **Nonactionable** Used with routers and in case no surveys are found panelist can be returned this router w/o any penalties or compensation.
 - **Quality** Number of project quality terminations (returned to SampleNinja via quality exit link)
 - **Duplicate** Number of project duplicate terminations (returned to SampleNinja via duplicate exit link)
 - **Security** Number of project security terminations (returned to via security exit link)
-- **Reconciled** Number of the times a project manager has reconciled this panelist
+- **Reconciled** Number of times a project manager has reconciled this panelist
 - **Completed** Number of project completions
 
 ### Unsubscribing or blacklisting
