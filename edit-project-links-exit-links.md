@@ -18,7 +18,7 @@ The **duplicate** status is intended to be used if the survey software detects t
 
 The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions.
 
-The **Non actionable** status can be used in some special cases. For example, if you utilize a router, fail to find any opportunities for your panelist.
+The **Non actionable** status can be used in some special cases. For example, if you utilize a router and fail to find any opportunities for your panelist.
 
 ### Return status parameters
 
