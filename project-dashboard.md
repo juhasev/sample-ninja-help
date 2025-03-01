@@ -42,6 +42,7 @@ If you like, you can export the chart image or its data by clicking on **three d
 - **Quota terminations** Total number of panelists terminated because of Quotas reached for that criteria. Mouse over to see percent from started.
 - **Profile terminations** Total number of panelists terminated because of Profile not being suitable for a particular project. Mouse over to see percent from started.
 - **Quality terminations** Total number of panelists terminated due to quality. Mouse over to see percent from started.
+- **Nonactionable** Total number of panelists returned back as nonactionable. This can happen for example if the panelists are sent to a router that does not find any available surveys.
 - **Duplicate terminations** Total number of panelists terminated due to duplicate. Mouse over to see percent from started.
 - **Security terminations** Total number of panelists terminated due to security check like **out of country**. Mouse over to see percent from started.
 - **Dropouts** Total number of panelist who dropped out from the survey or did not finish the survey. During a live project, "ongoing survey takers" fall in this bucket, so you may see a higher than expected rate at the beginning of the survey.
