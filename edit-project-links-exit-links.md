@@ -5,20 +5,20 @@ When a panelist has completed a survey, you will send panelists back to these li
 **Sample Ninja** supports a total of 6 different survey outcomes:
 
 - Complete (Panelist has completed the survey)
-- Profile (Panelist was terminated in screening questions)
-- Quota (Panelist was terminated because a quota bucket was full)
-- Non actionable (Panelist was returned back to SampleNinja because no action was taken)
+- Profile (The Panelist was terminated in screening questions)
+- Quota (The Panelist was terminated because a quota bucket was full)
+- Nonactionable (Panelist was returned to SampleNinja because no action was taken)
 - Quality (Survey software has detected straight-lining or other quality issues)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 - Security (Hash validation failed or some other security mechanism triggered)
 
-The **security** -status should be used if the hash validation fails (See below **Signing and security** section for more details). 
+The **security** status should be used if the hash validation fails (See below **Signing and security** section for more details). Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
 
-The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate i.e., using fingerprints or other techniques. 
+The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate, i.e., using fingerprints or other techniques. Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
 
-The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions.
+The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions. Using this exit redirect will cause your panelist QUALITY_SCORE to decrease.
 
-The **Non actionable** status can be used in some special cases. For example, if you utilize a router and fail to find any opportunities for your panelist.
+The **Nonactionable** status can be used in some special cases. For example, if you utilize a router and fail to find any opportunities for your panelist. Using this exit redirect has no impact on your panelist's QUALITY_SCORE.
 
 ### Return status parameters
 
@@ -26,7 +26,7 @@ The **Non actionable** status can be used in some special cases. For example, if
 - c (completed)
 - p (profile)
 - q (quota)
-- na (non actionable)
+- na (nonactionable)
 - s (security)
 - dup (duplicate)
 - qua (quality)
@@ -62,7 +62,7 @@ Legacy algorithms: (Not recommended, challenging to program)
 > **IMPORTANT:** You must configure exit links with selected algorithm + secret in the **Sample Ninja UI -> Edit Project -> Survey Links -> Exit links** otherwise the hash value supplied **WILL NOT BE VALIDATED**!!! 
 
 ### Hash Calculator
-Use the **Hash Calculator** tool below while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
+Use the **Hash Calculator** tool below while testing. Replace your installation's domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
 
 https://customer.panelservice.io/hash-calculator
 
@@ -70,7 +70,7 @@ https://customer.panelservice.io/hash-calculator
 
 ### Example A (SHA-1 Full URL or SHA-256 Full URL)
 
-Choose one of these methods if adding hashing the first time. These are by far the simplest to implement while being secure.
+Choose one of these methods if adding hashing for the first time. These are by far the simplest to implement while being secure.
 
 Returning to **SampleNinja** as completed
 
@@ -220,7 +220,7 @@ Minimal example
 Original with params sorted alphabetically:
 /p/exit?s=c
 
-Url with secret hashed:
+URL with secret hashed:
 /p/exit?s=cOmLXcVR
 
 Redirect with hash:
@@ -231,7 +231,7 @@ With panelist ID example
 Original with params sorted alphabetically:
 /p/exit?id=48dc5f0c-e453-4c40-9952-8204bdedfc61&s=c
 
-Url with secret hashed:
+URL with secret hashed:
 /p/exit?id=48dc5f0c-e453-4c40-9952-8204bdedfc61&s=cOmLXcVR
 
 Redirect with hash:
