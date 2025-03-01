@@ -7,6 +7,7 @@ When a panelist has completed a survey, you will send panelists back to these li
 - Complete (Panelist has completed the survey)
 - Profile (Panelist was terminated in screening questions)
 - Quota (Panelist was terminated because a quota bucket was full)
+- Non actionable (Panelist was returned back to SampleNinja because no action was taken)
 - Quality (Survey software has detected straight-lining or other quality issues)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
 - Security (Hash validation failed or some other security mechanism triggered)
@@ -17,12 +18,15 @@ The **duplicate** status is intended to be used if the survey software detects t
 
 The **quality** status should be used when a panelist is straight-lining and otherwise doesn't pay attention to the survey questions.
 
+The **Non actionable** status can be used in some special cases. For example, if you utilize a router, fail to find any opportunities for your panelist.
+
 ### Return status parameters
 
 **Sample Ninja** supports multiple return statuses
 - c (completed)
-- q (quota)
 - p (profile)
+- q (quota)
+- na (non actionable)
 - s (security)
 - dup (duplicate)
 - qua (quality)
