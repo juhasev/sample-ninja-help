@@ -1,4 +1,4 @@
-### Veriff
+## Veriff
 
 We have partnered with **Veriff** to provide a state-of-the-art ID verification solution that works in 230+ countries. At this time, we have integrated Veriff into the **Member's App** and also into the **Opinion Ninja Mobile App**. Veriff validation is triggered when a panelist attempts to redeem rewards.
 
