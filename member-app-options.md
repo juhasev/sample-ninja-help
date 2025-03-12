@@ -24,6 +24,12 @@ Displays the configured landing page footer on all Member App pages. When turned
 #### Allow panelists to create a password at login
 This enables seamless panel migration from an existing panel. Because the passwords are one-way encrypted, it is impossible to read the existing passwords and migrate them over. If a panelist attempts to log in to the member app without a password, an email will be sent to ask them to create one.
 
+#### Veriff ID verification
+Enables Veriff ID verification before a panelist can redeem any rewards. Panelists must perform ID verification once per year. To enable Veriff on the panel level go to **Settings -> Integrations -> Veriff** from the main menu.
+
+#### Enable Adverizing ID
+When toggled on **OpinionNinja**, the mobile app asks for permission from the user to save the Advertising ID to the **ADVERTISING_ID** data variable. If you are not tracking panelists across multiple sites, do not enable this setting, as it causes an additional prompt for all iOS users.
+
 #### API access only
 Turning this setting on will disable access to the built-in member app while allowing API access from a custom community.
 
