@@ -9,9 +9,9 @@ The pending redemption requests must be manually approved before the panelist ge
 > You should review the panelist account before approving redemptions.
 
 ### Filtering options
-You can use the search field to find any panelist using first name, last name, or email. If you would like to view redemption requests for any given Sub Panel(s), you may do so by clicking the filter icon.
+You can use the search field to find any panelist by first name, last name, panelist ID or email. If you would like to view redemption requests for any given Subpanel (s), you may do so by clicking the filter icon.
 
-> Use the **REMEMBER FILTER** -button to set this as your default filter i.e., if you only approve redemptions for, say, Italian Sub Panel.
+> Use the **REMEMBER FILTER** button to set this as your default filter, e.g., if you only approve redemptions for, say, the Italian Sub Panel.
 
 > This works in either in the **APPROVALS** -tab or the **HISTORY** -tab.
 
@@ -63,7 +63,7 @@ The following additional errors may also occur while communicating with PayPal
 
 **AUTHORIZATION_ERROR** This error means that your account is not eligible for using PayOuts API. You must have Business Account with PayPal and have requests specifically to allow your account to be used for the **PayOuts** API.
 
-**UNKNOWN** This error can be returned in some rare cases. The most likely cause is that your account keys are incorrect or there is some other issue authenticating with **PayPal**. These could include account setup problems like not enabling **PayOuts API** or **Transaction Search**. These two features are required. Please reach out to support @ sampleninja.io if you have any questions.
+**UNKNOWN** This error can be returned in rare cases. The most likely cause is that your account keys are incorrect or there is some other issue authenticating with PayPal. Other possible causes include account setup problems like not enabling PayOuts API or Transaction Search, which are required. Please reach out to support @ sampleninja.io if you have any questions.
 
 More details about the errors can be found below:
 https://developer.paypal.com/docs/api/payments.payouts-batch/v1/#errors
