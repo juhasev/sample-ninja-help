@@ -24,19 +24,22 @@ You should pay attention to the panelist’s **Quality Score**, which indicates 
 
 > If you reject redemption requests, the panelists are fully refunded.
 
+### Custom Rewards Tab
+If you use **Custom Rewards**, your approvals are done in this tab. You may download a list of custom rewards and then mark rewards processed manually.
+
 ### History tab
 
 View historical approvals data and monitor partner statuses. 
 
 > If you mouse over the **info** icon, you will see a popup that contains any reward partner-supplied data. This data varies by vendor but can be useful for troubleshooting purposes. Click on the icon to copy all the data.
 
-### Tango Card statuses
+#### Tango Card statuses
 
 **COMPLETE** Transaction was completed
 
 **FAILED** Transaction failed. The redemption cost was refunded to the panelist.
 
-### PayPal Statuses
+#### PayPal Statuses
 
 **SUCCESS** Funds have been credited to the recipient’s account.
 
