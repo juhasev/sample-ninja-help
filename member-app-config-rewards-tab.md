@@ -4,5 +4,6 @@ Optionally, you can display the post-redeemption dialog, where you can provide c
 
 Click on the content to edit. You can also change the button text if you'd like.
 
-Toggle on "Enabled" and your panel members will see this dialog instead of the short flash message at the top of the screen.
+> Remember to toggle on "Enabled" and your panel members will see this dialog instead of the short flash message at the top of the screen.
 
+> If your sub-panel contains multiple locales don't forget to update them all!
