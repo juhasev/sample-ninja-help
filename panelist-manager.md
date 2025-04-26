@@ -40,7 +40,7 @@ Batch add/deduct reward points from the panelist accounts. You may provide an op
 
 #### Delete panelists
 
-This allows the user to DELETE the selected panelists.    
+Use this feature to batch DELETE panelists.    
 
 > **WARNING!** The delete panelist function should only be used when you must wipe out the entire panelist record, including any activity. For all other purposes, you should either unsubscribe or blacklist the panelist. Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to keep detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently.
 
@@ -48,7 +48,7 @@ This allows the user to DELETE the selected panelists.
 
 #### Change Sub-panel(s) membership
 
-This allows the user to switch the selected panelists to chosen Sub-Panels.  This is particularly useful if an organization changes how they want to re-structure multiple Sub-panels.
+Transfer panelists between sub-panels.
 
 > **IMPORTANT!** The target **sub panel** must contain moved panelists locale(s).
 
