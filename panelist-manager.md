@@ -24,11 +24,19 @@ Click on this button to perform a batch action on the panelists. In term search 
 
 > **WARNING!** If you don't select any panelists when using a query filter, the batch action is applied to all the panelists, not just those visible on the screen!
 
+#### Export panelists to CSV
+Use this feature to export panelist data into CSV.
+
 #### Change subscription status
 
 This allows the user to select a new subscription status for the checked panelists.  The choices are **Subscribed, Unsubscribed** or **Blacklisted**.
 
 > **WARNING!** Sample Ninja will automatically delete all data variables for any unsubscribed or blacklisted panelists to comply with GDPR and CPAA while retaining anonymous activity history and system variables for one year. This enables you to retain detailed project statistics, health metrics, and other critical statistics to operate your panel efficiently. You can contral the data deleting policy in **Settings** (Main menu).
+
+#### Adjust reward points
+Batch add/deduct reward points from the panelist accounts.
+
+> When deducting points panelist balance cannot go under zero.
 
 #### Delete panelists
 
