@@ -18,7 +18,7 @@ Click on this button to change the visible columns. You can select any number of
 #### Sort
 Select which column to sort by i.e., QUALITY_SCORE, COMPLETED_COUNT, JOIN_DATE.
 
-### Perform Batch action
+### Batch action
 
 Click on this button to perform a batch action on the panelists. In term search mode, this is only visible when AT LEAST ONE panelist is selected.
 
