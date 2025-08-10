@@ -19,4 +19,4 @@ Each banner consists of the image and a content area that accepts both markdown 
 ### Cloning banners
 You may clone existing banners by clicking on the clone button at the end of each row.
 
-> Please note that you will have to reupload images when you do so.
+> Please note that you will have to reupload the banner image when you do so.
