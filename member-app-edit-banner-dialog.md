@@ -16,3 +16,7 @@ Each banner consists of the image and a content area that accepts both markdown 
 - **Enable action button** Adds action button to the banner. Remember to select the action button target.
 - **Action button takes users to** the page a panelist lands after clicking the action button.
   
+### Cloning banners
+You may clone existing banners by clicking on the clone button at the end of each row.
+
+> Please note that you will have to reupload images when you do so.
