@@ -15,6 +15,8 @@ The Promotions page is a powerful feature that allows administrators to communic
      * Add **bold** or *italic* text
      * Include lists
      * Add links
+   - Optionally, you can also use HTML markup
+   - Remember that you can use UTF-8 characters like smileys for more engaging content.
 
 3. **Content Management**
    - **Enabled/Disabled Toggle**: Control the visibility of the Promotions page
