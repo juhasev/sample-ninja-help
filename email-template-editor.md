@@ -35,6 +35,8 @@ These let you control the logo alignment and the element colors. The font color 
 #### Font
 Emails have limited font support across different operating systems like PCs, Macs, iPhones, etc... We have picked up generally supported font stacks that can be used with emails. Alternatively you may upload a completely custom font to be used. 
 
+> Remember that you can use Emoji characters in the subject, preheader, and message body to spice things up. <a href="https://apps.timwhitlock.info/emoji/tables/unicode" target="_blank">Full list of Emojis</a>
+
 ### Sections (top to down)
 
 The email is divided into sections. Each section can be edited by clicking on it. 
@@ -47,7 +49,7 @@ All multiline sections use Markdown, read more here: [Markdown basics](https://w
 This logo is always inherited from the sub-panel logo. To change, you must change the sub-panel logo.
 
 #### Engagement image section
-Use the engagement image to keep your invitation looking unique by utilizing different images in each email template. If this area is not visible please ensure that the **Elements** selection on the left you have **Engagement Image** toggled on.
+Use the engagement image to keep your invitation looking unique by utilizing different images in each email template. If this area is not visible, please ensure that the **Elements** selection on the left has **Engagement Image** toggled on.
 
 #### Content section
 This section contains the greeting and body of the email. You may use markdown elements in this section. Click on the text to edit.
