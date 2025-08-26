@@ -16,9 +16,11 @@ The Promotions page is a powerful feature that allows administrators to communic
      * Include lists
      * Add links
    - Optionally, you can also use HTML markup
-   - Remember that you can use UTF-8 characters like smileys 😃😃😃 for more engaging content 🎉🎉🎉.
+   - Remember that you can use Emohi characters like smileys 😃😃😃 for more engaging content 🎉🎉🎉.
 
 3. **Content Management**
    - **Enabled/Disabled Toggle**: Control the visibility of the Promotions page
    - When enabled, the page will be visible to panelists inside the MemberApp
    - When disabled, the page will not be shown
+
+> Full list of Emojis https://apps.timwhitlock.info/emoji/tables/unicode
