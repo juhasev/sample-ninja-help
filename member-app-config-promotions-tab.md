@@ -23,4 +23,4 @@ The Promotions page is a powerful feature that allows administrators to communic
    - When enabled, the page will be visible to panelists inside the MemberApp
    - When disabled, the page will not be shown
 
-> Full list of Emojis https://apps.timwhitlock.info/emoji/tables/unicode
+> <a href="https://apps.timwhitlock.info/emoji/tables/unicode" target="_blank">Full list of Emojis</a>
