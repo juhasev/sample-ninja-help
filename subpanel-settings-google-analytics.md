@@ -51,18 +51,28 @@ Meta Pixel helps you measure conversions, optimize delivery, and build audiences
 
 #### Events and naming
 
-Sample Ninja automatically sends events from both the server‑rendered landing pages and the Member App. You will see the following in Meta Events Manager:
+Sample Ninja automatically sends events from both the server‑rendered landing pages and the Member App. You will see the following:
 
-- PageView: fired on page loads (landing pages) and member app route changes
-- Lead: fired when a participant starts the registration process
-- CompleteRegistration: fired when a participant successfully completes registration (also used for sign up)
-- Custom events:
-  - welcome: when the registration welcome screen is shown
-  - disqualified: when a participant is screened out during the registration
+- PageView
+  - Landing pages (SPA): fired on landing page loads
+  - Panelist Project Entry: fired on direct project entry flow
+- Conversions
+  - `sign_up` (social flow, after survey answers): maps to Meta `CompleteRegistration`
+  - `sign_up` (password flow, after email confirmation): maps to Meta `CompleteRegistration`
+- Non‑conversion custom events
+  - `welcome`: survey initial welcome step
+  - `start`: user begins the survey/registration (maps to Meta `Lead`)
+  - `complete`: survey completed; general milestone
+  - `email_confirmation_sent`: after the password‑method survey answers are submitted and the confirmation email is sent
+  - `disqualified`: when a participant is screened out during registration (fires alone; no conversion)
 
-Naming convention
-- Standard Meta events are used whenever applicable (PageView, Lead, CompleteRegistration)
-- Custom events use snake_case names to match our internal analytics (e.g., welcome, disqualified)
+**Event parameters and data policy**
+- `registration_method` is included on all relevant events (e.g., `password`, `social`)
+- No PII (such as email) is sent
+
+**Naming convention**
+- Standard Meta events are used whenever applicable (`PageView`, `Lead`, `CompleteRegistration` via `sign_up`)
+- Custom events use short lowercase names; multi‑word events use snake_case to match our internal analytics (e.g., `welcome`, `start`, `complete`, `email_confirmation_sent`, `disqualified`)
 
 Tip: Use the Meta Pixel Helper browser extension to verify that your Pixel is loaded and events are firing.
 
