@@ -15,7 +15,7 @@ You must have columns **EMAIL**, **FIRST_NAME**, and **LAST_NAME** columns in yo
 - RECRUITMENT_SOURCE  <-- Allows you to specify recruitment source ID
 ```
 
-The first column should always be **EMAIL**.
+When importing new panelist the first column should always be **EMAIL**. When updating panelist records the first column should panelist **IDENTIFIER**.
 
 > You can view a list of importable variables in **Data Variables** by selecting **Registration / Import writable** from the **Filter by class** select at the top right corner.
 
