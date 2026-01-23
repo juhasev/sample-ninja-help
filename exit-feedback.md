@@ -9,3 +9,6 @@ Sample Ninja takes this feedback and applies advanced machine learning algorithm
 Sample Ninja display the last 100 feedbacks along with their sentiment so you can inspect them individually.
 
 > Only major western languages are supported, otherwise the word cloud will simply revert to keyword counts.
+
+## To view or edit panelist
+Click anywhere in the feedback box.
