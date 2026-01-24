@@ -4,4 +4,4 @@ No emails, SMS, webhooks, or instant notifications during this window. Use the s
 
 > When sampling, SampleNinja checks which time zones fall within the quiet period and automatically removes them. The time zones outside the quiet period continue sampling normally.
 
-> **IMPORTANT!** Before enabling, make sure all of your panelists have the data variable TIMEZONE. Go to **Data Variables -> TIMEZONE -> Click on the blue stats button**. If you see missing records, please contact support@sampleninja.io.
+> **IMPORTANT!** Before enabling, make sure all of your panelists have the data variable TIMEZONE. Go to **Data Variables -> search for TIMEZONE**. Click on the round blue stats button to see the details. If you see missing records, please contact support@sampleninja.io.
