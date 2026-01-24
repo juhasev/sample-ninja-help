@@ -1,6 +1,8 @@
 ## Quiet period
 
-No emails, SMS, webhooks, or instant notifications during this window. Use the slider to select the start (evening) and end (morning) hours. Remember to enable the quiet period and save the settings.
+No emails, SMS, webhooks, or instant notifications during this window. Use the slider to select the start (evening) and end (morning) hours. Remember to enable the quiet period and save the settings. 
+
+If you operate in multiple time zones, this could cause a slight bias in selection. For example, if you enable a quiet period, people living on the East Coast would be invited first, potentially filling the project with East Coast respondents. If you use this option, you should plan for a longer project that spans at least 2 days.
 
 > When sampling, SampleNinja checks which time zones fall within the quiet period and automatically removes them. The time zones outside the quiet period continue sampling normally.
 
