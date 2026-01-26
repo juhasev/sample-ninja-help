@@ -88,11 +88,11 @@ Displays percentage values of the total Panellists held within the platform. If 
 Displays a pie chart what sources panelists are starting from. Possible values are 
 
 - **Android** (Mobile App)
-- **Members** App,
+- **Members** App
 - **Invite**
 - **Apple iOS** (Mobile App)
 
-This chart can be generated for any time period or sub-panels. Simply used the filter icon to set desired filters.
+This chart can be generated for any time period or sub-panel combination. Simply use the blue filter icon to set desired filters.
 
 ### Churn
 
