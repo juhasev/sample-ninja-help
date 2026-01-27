@@ -25,8 +25,6 @@ There are multiple benefits in enabling these controls, here are some to think a
   Your emails or notifications arrive in the morning.
 - **Higher open and click-through rates**  
   Messages land during active hours when panelists are more likely to engage.
-- **More predictable response curves**  
-  Response volume aligns with known active windows.
 
 ### Global & Timezone Fairness
 
@@ -34,15 +32,11 @@ There are multiple benefits in enabling these controls, here are some to think a
   Ensures panelists are contacted at appropriate local times.
 - **Consistent global experience**  
   Equal treatment for panelists regardless of geography.
-- **Supports rolling and staggered fieldwork**  
-  Enables continuous sampling without harming user experience.
 
 ### Compliance & Industry Alignment
 
 - **Alignment with ESOMAR and ISO best practices**  
-  Responsible contact timing is widely recommended.
-- **Reduced regulatory risk**  
-  Minimizes exposure to complaints related to electronic communications.
+  Responsible contact timing is widely recommended
 
 > Head to **Panel Settings -> Business rules** to set up panel-wide controls. You must enable the **Quiet Period** before it becomes active.
 
