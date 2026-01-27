@@ -2,7 +2,7 @@
 
 ### Health score
 
-The panel health score measures how many panelists are invited and completing projects. If the started count is then the invited count, then the started count is used instead, i.e., you run a lot of projects that do not send invitations out at all. The selected period and/or **Sub Panel** filter affects the health score.
+The panel health score measures how many panelists are invited and completing projects. If the started count is higher than the invited count, the started count is used instead; i.e., you run many projects that do not send invitations at all. The selected period and/or **Sub Panel** filter affects the health score.
 
 > Formula is: invited count OR started count/completed count x 100%
 
