@@ -6,7 +6,7 @@ If you operate in multiple time zones, this could cause a slight bias in selecti
 
 The quiet period can be helpful by getting your invitation to the panelists when they are fresh in the morning. This can help to get your email placed first in the inbox. This also prevents any notifications or webhooks (SMS) from firing during the selected period. The quiet period can also help with sampling when used with quotas, better ensuring no quota cell is overinvited.
 
-> The quiet period is defined as the start hour and the end hour (next day). While Sample Ninja samples, it only invites people who have recorded a timezone outside the quiet period.
+> The quiet period is defined as the start hour and the end hour (next day). While Sample Ninja pulls the sample, it only invites people who have recorded a timezone outside the quiet period.
 
 ### Panelist Experience & Trust
 
