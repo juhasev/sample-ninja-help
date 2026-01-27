@@ -10,7 +10,7 @@ The quiet period can be helpful by getting your invitation to the panelists when
 
 There are multiple benefits in enabling these controls, here are some to think about:
 
-### Panelist Experience & Trust
+### Panelist experience
 
 - **Respects personal time**  
   Prevents late-night or early-morning contact that can feel intrusive.
@@ -19,21 +19,14 @@ There are multiple benefits in enabling these controls, here are some to think a
 - **Reduces opt-outs and complaints**  
   Fewer negative reactions to perceived spam or harassment.
 
-### Sampling Performance & Inbox placement
+### Sampling performance
 
 - **Land into inbox at the correct time**  
   Your emails or notifications arrive in the morning.
 - **Higher open and click-through rates**  
   Messages land during active hours when panelists are more likely to engage.
 
-### Global & Timezone Fairness
-
-- **Timezone-aware outreach**  
-  Ensures panelists are contacted at appropriate local times.
-- **Consistent global experience**  
-  Equal treatment for panelists regardless of geography.
-
-### Compliance & Industry Alignment
+### Compliance
 
 - **Alignment with ESOMAR and ISO best practices**  
   Responsible contact timing is widely recommended
