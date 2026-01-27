@@ -4,7 +4,7 @@ No emails, instant notifications, or webhook calls are carried out during this p
 
 > If you operate in multiple time zones, this could cause a slight bias in selection. For example, if you enable a quiet period, people living on the East Coast (First US timezone) would be invited first, potentially filling the project with East Coast respondents.
 
-The quiet period can be helpful for getting your invitation to panelists and for placement near the top of the inbox. This also prevents notifications or webhooks (such as Send SMS or Send to WhatsApp) from firing in the nighttime hours.
+The quiet period can be helpful for getting your invitations to panelists and for placement near the top of the inbox. This also prevents notifications or webhooks (such as Send SMS or Send to WhatsApp) from firing in the nighttime hours.
 
 > The quiet period is defined as the start hour and the end hour (next day). While Sample Ninja pulls the sample, it only invites people who have recorded a timezone outside the quiet period.
 
