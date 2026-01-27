@@ -44,4 +44,4 @@ The quiet period can be helpful by getting your invitation to the panelists when
 
 > Head to **Panel Settings -> Business rules** to set up panel-wide controls. You must enable the **Quiet Period** before it becomes active.
 
-> **IMPORTANT!** Before enabling, make sure all of your panelists have the data variable **TIMEZONE**. Go to **Data Variables** and search for **TIMEZONE**. Click on the round blue stats button to see the details. If you see missing records, please contact support@sampleninja.io.
+> **IMPORTANT!** Before enabling, make sure all of your panelists have the data variable TIMEZONE. Go to **Data Variables** and search for TIMEZONE. Click on the round blue stats button to see the details. If you see missing records, please contact support@sampleninja.io.
