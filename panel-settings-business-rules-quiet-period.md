@@ -14,8 +14,6 @@ The quiet period can be helpful by getting your invitation to the panelists when
   Prevents late-night or early-morning contact that can feel intrusive.
 - **More thoughtful responses**  
     Invitations arrive when panelists are alert and attentive.
-- **Builds long-term trust**  
-  Demonstrates that the platform values panelists as people, not just response units.
 - **Reduces opt-outs and complaints**  
   Fewer negative reactions to perceived spam or harassment.
 
