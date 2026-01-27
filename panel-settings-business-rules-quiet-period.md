@@ -13,17 +13,12 @@ There are multiple benefits in enabling the Quiet Period; here are some to think
 ### Panelist experience
 
 - **Respects personal time**  
-  Prevents late-night or early-morning contact that can feel intrusive.
-- **More thoughtful responses**  
+  Prevents late-night or early-morning contacts
+- **Better inbox placement**  
     Invitations arrive when panelists are alert and attentive.
 - **Reduces opt-outs and complaints**  
   Fewer negative reactions to perceived spam or harassment.
-
-### Sampling performance
-
-- **Land into inbox at the correct time**  
-  Your emails or notifications arrive in the morning.
-- **Higher open and click-through rates**  
+ - **Higher activity**  
   Messages land during active hours when panelists are more likely to engage.
 
 ### Compliance
