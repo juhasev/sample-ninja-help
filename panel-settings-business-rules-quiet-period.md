@@ -8,7 +8,7 @@ The quiet period can be helpful by getting your invitation to the panelists when
 
 > The quiet period is defined as the start hour and the end hour (next day). While Sample Ninja pulls the sample, it only invites people who have recorded a timezone outside the quiet period.
 
-There are multiple benefits in enabling these controls, here are some to think about:
+There are multiple benefits in enabling the Quiet Perod, here are some to think about:
 
 ### Panelist experience
 
