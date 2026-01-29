@@ -25,11 +25,11 @@ If you are hosted in the EU
 54.229.122.21,54.78.215.225,3.249.234.89,34.248.240.14
 ```
 
-> Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both Development and Producted IP whitelists.
+> Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both the Development and Production IP whitelists.
 
 #### Manage Rewards
 
-In the Virtual Incentives world, you subscribe to a catalog that is tailored to you. If you want to customize your catalog, you need to contact your presentative at Virtual Incentives. 
+In the Virtual Incentives world, you subscribe to a catalog that is tailored to you. If you want to customize your catalog, you need to contact your representative at Virtual Incentives. 
 
 #### Disable
 
