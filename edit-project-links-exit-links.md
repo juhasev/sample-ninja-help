@@ -7,11 +7,10 @@ When a panelist has completed a survey, you will send panelists back to these li
 - Complete (Panelist has completed the survey)
 - Profile (The Panelist was terminated in screening questions)
 - Quota (The Panelist was terminated because a quota bucket was full)
-- Nonactionable (Panelist was returned to SampleNinja because no action was taken)
-- Quality (Survey software has detected straight-lining or other quality issues)
-- Nonactionable (Router could not find any opportunities; there is no penalty coming back with this status)
 - Duplicate (Survey software has detected this panelist as a duplicate participant)
+- Quality (Survey software has detected straight-lining or other quality issues)
 - Security (Hash validation failed or some other security mechanism triggered)
+- Non-actionable (Router could not find any opportunities; there is no penalty coming back with this status)
 
 The **security** status should be used if the hash validation fails (See below **Signing and security** section for more details). Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
