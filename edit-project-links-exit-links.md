@@ -5,16 +5,16 @@ When a panelist has completed a survey, you will send panelists back to these li
 **Sample Ninja** supports a total of 8 different survey outcomes:
 
 - Complete (Panelist has completed the survey)
-- Profile (The Panelist was terminated in screening questions)
-- Quota (The Panelist was terminated because a quota bucket was full)
-- Duplicate (Survey software has detected this panelist as a duplicate participant)
+- Profile (Panelist was terminated in screening questions)
+- Quota (Panelist was terminated because a quota bucket was full)
+- Duplicate (Either Sample Ninja or the survey software (via exit direct) has detected a duplicate participant)
 - Quality (Survey software has detected straight-lining or other quality issues)
-- Security (Hash validation failed or some other security mechanism triggered)
-- Non-actionable (Router could not find any opportunities; there is no penalty coming back with this status)
+- Security (Hash validation failed or some other security mechanism triggered like out of country)
+- Non-actionable (Router or other third party system could not find any opportunities; there is no penalty coming back with this status)
 
 The **security** status should be used if the hash validation fails (See below **Signing and security** section for more details). Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
-The **duplicate** status is intended to be used if the survey software detects that the panelist is a duplicate, i.e., using fingerprints or other techniques. Using this exit redirect will decrease your panelist QUALITY_SCORE.
+The **duplicate** status is intended to be used when the survey software detects that a panelist is a duplicate, e.g., via fingerprints or other techniques. Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
 The **quality** status should be used when a panelist is straight-lining and doesn't pay attention to the survey questions. Using this exit redirect will decrease your panelist QUALITY_SCORE.
 
