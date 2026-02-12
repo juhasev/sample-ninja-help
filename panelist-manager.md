@@ -5,9 +5,10 @@ Find, edit, and perform batch actions on individual or group panelists.
 ### Locating individual panelists
 
 You can search for individual panelists by their Panelist ID, First Name, Last Name, or any wildcard combination of letters contained within these names, as well as searching by unique panelist ID or email address.
+In order to use the wildcard match, you may use the star notation, for example: *term*. You can also do this *term* or* term*, depending on what you are trying to find.
 
 #### Add Filter
-If you want to use a query filter to find panelists, you can either build a query on the fly or pick an existing query filter you have previously saved in the Query Filters.
+If you want to use a query filter to find panelists, you can either build a query on the fly or pick an existing query filter you have previously saved in the Query Filters. 
 
 #### From list
 If you have a list of panelist IDs or email addresses, you may paste them into the dialog to find multiple panelists at once.
