@@ -7,10 +7,13 @@ You may use this option in some special cases, such as when you use the **Publis
 > IMPORTANT: Because the information displayed to the user is taken from the email invitation, you should make sure you edit the email invitation template, even if you disable email invitations!
 
 ### Keep online if target completes are not met
-If toggled on, the project will keep sampling indefinitely till the target completes are met. If toggled off, the project closes automatically at the set project end date regardless of whether the target completions are met.
+If toggled on, the project will keep sampling indefinitely till the target completes are met. If toggled off, the project closes automatically at the set project end date, regardless of whether the target completions are met.
 
 ### Pause when target completes are met
 If toggled on, this project will automatically enter paused mode. This is handy for many situations and can help your projects to provide a better panelist experience. When a project is paused, any outstanding invitees can still start and complete the project. Paused projects stop sampling, so no further invites are sent.
+
+### Hold reward points
+If toggled on, panelists will earn reward points as usual, except that when reward points are held, they cannot be used to redeem. If you have a high-value project and need ample time to field & reconcile these settings, they can be handy. When projects are holding reward points, you will see a reward points on hold indicator on each project line in **Projects**.
 
 ### Enable project manager email notifications
 If the **Enable project manager email notifications** is toggled on, then Sample Ninja will send project notifications for this project. These include Action thresholds configured in panel settings but may also include other notifications like:
@@ -19,7 +22,7 @@ If the **Enable project manager email notifications** is toggled on, then Sample
 - Project sampling errors
 - Project completed notification
  
-> If the user is logged in an instant notification is used instead of email! Instant notifications can be accessed from the top right corner under the **BELL** icon.
+> If the user is logged in, an instant notification is used instead of email! Instant notifications can be accessed from the top right corner under the **BELL** icon.
 
 ### Enable webhooks
-Webhooks are used to relay invitation information to third-party servers and enable the implementation of custom invitation methods like WhatsApp or SMS. If you have configured a webhook in the subpanel settings, you may use this setting to control it at the project level.
+Webhooks are used to relay invitation information to third-party servers and to enable the implementation of custom invitation methods, such as WhatsApp or SMS. If you have configured a webhook in the subpanel settings, you may use this setting to control it at the project level.
