@@ -1,3 +1,9 @@
 ## Panelist devices
 
-Displays list of panelist devices, digital fingerprints and detected locations.
+Displays a list of panelist devices, platforms, types, and detected IP locations, along with digital fingerprints. 
+
+Each row is expandable, revealing more details such as:
+
+- IP Address
+- User Agent
+- Geographical location
