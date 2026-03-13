@@ -17,12 +17,12 @@ Virtual Incentives require that all connecting servers are IP whitelisted. If yo
 
 If you are hosted in the US
 ```
-54.184.123.185,54.200.65.119,52.10.235.184,34.217.40.195
+54.184.123.185,54.200.65.119,44.249.87.222,18.236.82.7,54.201.93.197,35.95.62.187,34.221.15.151
 ```
 
 If you are hosted in the EU
 ```
-54.229.122.21,54.78.215.225,3.249.234.89,34.248.240.14
+54.229.122.21,3.249.234.89,52.17.15.0,34.241.190.251
 ```
 
 > Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both the Development and Production IP whitelists.
