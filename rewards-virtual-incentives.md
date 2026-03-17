@@ -17,7 +17,7 @@ Virtual Incentives require that all connecting servers are IP whitelisted. If yo
 
 If you are hosted in the US
 ```
-54.184.123.185,54.200.65.119,44.249.87.222,18.236.82.7,54.201.93.197,35.95.62.187,34.221.15.151
+54.184.123.185,54.200.65.119,18.236.82.7,35.95.62.187
 ```
 
 If you are hosted in the EU
