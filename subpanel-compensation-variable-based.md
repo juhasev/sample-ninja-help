@@ -1,6 +1,6 @@
-### Compensation grid by data variable
+### Multiple compensation tables by a data variable
 
-This feature allows you to define multiple compensation tables based on a radio data variable.
+This feature allows you to define multiple compensation tables based on a radio data variable. Using this feature is completely optional.
 
 For example, in medical panels, compensation can now vary by **specialty** without requiring separate sub-panels for each audience segment.
 
