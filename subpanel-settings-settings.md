@@ -59,7 +59,7 @@ The available options are:
 
 
 #### Minimum member age
-Blocks respondents automatically if they select their age as less than what is configured here.
+Blocks respondents automatically if they select their age as less than what is configured here. This only works with the build-in BIRTHDATE variable. If you edit BIRTHDATE variable you may set up age bands that can be used in qualifications and quotas.
 
 #### Minimum points to redeem
 This setting enforces that panelists have earned at least the indicated reward points. This setting enables you to block new and fraudulent panelists from redeeming rewards until they accumulate the specified minimum. Leave as 0 
