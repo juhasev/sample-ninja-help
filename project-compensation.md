@@ -1,7 +1,7 @@
 ## Project compensation
 
 ### Basic compensation by Sub Panel and LOI
-Project compensation is automatically selected from **Sub Panels -> Settings -> Compensation** based on the entered project LOI (Length Of Interview) setting in the project's **Basic Settings** tab.
+Project compensation is automatically selected from **Sub Panels -> Settings -> Compensation** table based on the entered project LOI (Length Of Interview) setting in the project's **Basic Settings** tab. These gives you default compensation that you can override per project basis.
 
 - Client CPI (This is the sample cost to your client or your revenue)
 - Reward completed (Compensation for completed panelists)
@@ -22,10 +22,10 @@ You may override compensation values on a per-project basis. The reward must be 
 ### Multiple compensation tables per data variable
 You may optionally add another dimension to the compensation table by using a data variable. You can use any custom radio-type datavariable you have defined in the panel. The base compensation tables are configured under **Sub Panels -> Settings -> Compensation**. If you are interested in using this feature, follow the directions in the sub-panel compensation configuration.
 
-When this feature is enabled, the project compensation table defaults to multiple compensation tables. However, if you want to use Basic Compensation temporarily, simply toggle on **Use basic compensation**. This gives simple compensation for each sub-panel.
+When this feature is enabled, the project compensation table defaults to multiple compensation tables. However, if you want to use **Basic Compensation** temporarily, simply toggle on **Use basic compensation**. This gives simple compensation for each sub-panel.
 
-When using multiple compensation tables, by default, compensation entries that do not match any panelists based on qualifications are hidden. If you want to view these entries as well, please toggle on **Show unused compensation**.
+When using multiple compensation tables, compensation entries that do not match any panelists based on qualifications are hidden by default. If you want to view these entries as well, please toggle on **Show unused compensation**.
 
-> **IMPORTANT** When using this feature, you must ensure that all invited panelists have the data variable on which the compensation is based. If a panelist is found to lack the required compensation variable, an error is triggered, and the invitation is skipped for that panelist.
+> **IMPORTANT** When using this feature, you must ensure that all invited panelists have the data variable on which the compensation is based. If a panelist is found who doesn't have the required compensation variable, an error is triggered, and the invitation is skipped for that panelist.
  
-> **TIP** If you don't have the compensation variable for all the panelists, add a clause to Qualification that requires that the compensation variable exists. For example, add the condition EXISTS to SPECIALTY (compensation variable).
+> **TIP** If you don't have the compensation variable for all the panelists, add a clause to Qualification that requires that the compensation variable exists. For example, add the condition EXISTS to SPECIALTY (if this is your compensation variable).
