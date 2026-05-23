@@ -1,6 +1,6 @@
 ## Quality Score 
 
-The quality events are used to calculate a quality score between 0 and 100 for each panelist. The quality score is recorded to the system variable **QUALITY_SCORE** and can be used in filtering and queries. Essentially the quality score decrements for bad behaviors and increments for good behavior.
+The quality events are used to calculate a quality score for each panelist, ranging from 0 to 100. The quality score is recorded to the system variable **QUALITY_SCORE** and can be used in filtering and queries. Essentially, the quality score decrements for bad behaviors and increments for good behavior.
 
 > Consider using **Research Defender** to cut down panel fraud, especially if you operate a B2C panel with registration available on the Internet.
 
@@ -33,10 +33,8 @@ Each time a panelist is returned to Sample Ninja with the status "completed," th
 - **Duplicate -5** Returned from survey with status duplicate
 - **Security -7** Returned from survey with status security
 - **Cookie Deleted -10** Panelist deleted the tracking cookie or used an incognito window
-- **Spoofed Location -45** Panelist is attempting to hide their true location
 - **Reconciled -20** Panelist has been reconciled for providing inconsistent answers
-- **Fraud -45** Panelist is engaged in fraudulent activity
 
-> Always reconcile your projects to keep the **QUALITY_SCORE** accurate! Similarly, try to always set the LOI or Length of the interview as accurately as you can, as going forward, speeding will decrease panelist's the quality score. You can control speeding threshold percents in **Settings -> Speeding Threshold**.
+> Always reconcile your projects to keep the **QUALITY_SCORE** accurate! Similarly, try to always set the LOI or Length of the interview as accurately as you can, as going forward, speeding will decrease panelists' quality score. You can control speeding threshold percentages in **Settings -> Speeding Threshold**.
 
-> You can easily find all panelists whose QUALITY_SCORE has fallen too low, similarly you can automatically exclude panelists with low-quality scores by adjusting your panel's **Business Rules**.
+> You can easily find all panelists whose QUALITY_SCORE has fallen too low; similarly, you can automatically exclude panelists with low-quality scores by adjusting your panel's **Business Rules**.
