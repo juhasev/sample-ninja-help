@@ -1,4 +1,4 @@
-***Decay***
+*** Decay
 
 This widget highlights the panelists who are decaying out of your reachable, active audience, split into three groups:
 
