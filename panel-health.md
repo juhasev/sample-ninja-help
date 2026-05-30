@@ -33,9 +33,7 @@ Each time a panelist is returned to Sample Ninja with the status "completed," th
 - **Duplicate -5** Returned from survey with status duplicate
 - **Security -7** Returned from survey with status security
 - **Cookie Deleted -10** Panelist deleted the tracking cookie or used an incognito window
-- **Spoofed Location -45** Panelist is attempting to hide their true location
 - **Reconciled -20** Panelist has been reconciled for providing inconsistent answers
-- **Fraud -45** Panelist is engaged in fraudulent activity
 
 > Always reconcile your projects to keep the **QUALITY_SCORE** accurate! In the same way, try to always set the LOI or Length of the interview as accurately as you can, as going forward, speeding will decrease a panelist's quality score. You can control speeding threshold percentages in **Settings -> Speeding Threshold**.
 
