@@ -82,7 +82,7 @@ Percentage of panelists who have completed at least one project.
 
 ### By Activity
 
-Displays percentage values of the total Panellists held within the platform. If you mouse over any of these statuses, it will give the actual number of Panellists.
+Displays percentage values for the total Panelists on the platform. If you mouse over any of these statuses, it will give the actual number of Panelists.
 
 ### Start sources
 Displays a pie chart what sources panelists are starting from. Possible values are 
@@ -98,6 +98,37 @@ This chart can be generated for any time period or sub-panel combination. Simply
 
 Displays the number of panelists added and lost due to churn (subscriptions, blacklisting) over time. The periods can be either days, weeks, or months.
 
+# Annual Decay
+
+The **Annual Decay** widget shows how many panelists your panel has effectively lost — the "decay" of your active, reachable audience. It gives you a quick, at-a-glance view of panel attrition so you can keep your panel healthy and your reachable sample size accurate.
+
+## What it shows
+
+The chart breaks the lost panelists down into three categories:
+
+| Category | What it means |
+| --- | --- |
+| **Bounced email** | Subscribed panelists whose email address is no longer valid (their mail has bounced). They are still subscribed, but you can no longer reach them by email. |
+| **Unsubscribed** | Panelists who have opted out and asked to stop receiving communications. |
+| **Blacklisted** | Panelists who have been blocked or removed from the panel and are no longer eligible to participate. |
+
+Each slice of the pie represents one of these categories. Hover over a slice to see both the exact count and its share of the total decay.
+
+## Why it matters
+
+Every panelist in these three buckets is someone you can no longer invite or who can no longer respond. Watching these numbers over time helps you:
+
+- **Gauge panel health** — a growing decay total signals that your reachable audience is shrinking.
+- **Spot deliverability problems** — a rising *Bounced email* slice points to data-quality or email-hygiene issues worth investigating.
+- **Understand opt-out trends** — a climbing *Unsubscribed* slice can indicate over-mailing or messaging that isn't resonating.
+- **Plan recruitment** — knowing how fast you lose panelists helps you recruit enough new members to stay ahead of attrition.
+
+## Filtering and refreshing
+
+- When sub-panel filtering is available, the figures can be scoped to the specific sub-panels you select, so you can compare decay across different segments of your panel.
+- The numbers are cached for performance. Use the widget's **refresh** button to force an up-to-the-moment recalculation.
+
+> **Tip:** If the widget shows *Insufficient data*, it simply means no decayed panelists were found for the current selection — a healthy sign.
 ### Filter by Sub Panel
 
 Click the blue filter icon in the top-right corner to filter by **Sub Panels** and/or time range.
