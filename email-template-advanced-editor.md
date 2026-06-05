@@ -67,6 +67,61 @@ The right panel contains different elements you can add to your email:
 2. Replace the placeholder text with your content
 3. Type naturally - the changes appear instantly
 
+### Formatting and Styling Text
+
+There are two complementary ways to style text, and they work at different levels.
+
+**1. Emphasis within a block (the pop-up toolbar)**
+
+When you click into a Text block, a small toolbar appears just above it. Use it to emphasise individual words or phrases:
+
+- **Bold**, *Italic*, Underline, and Strikethrough
+- **Link**: turn the selected text into a clickable link (you can also choose a placeholder URL such as `[unsubscribe_url]`)
+
+Select the words you want to change first, then click the option.
+
+**2. Colour, size and font for a whole block (the Style Manager)**
+
+Text **colour**, **font size**, font family, line height and alignment are set for the **entire Text block**, not for individual words. To change them:
+
+1. Click the Text block to select it
+2. Open the **Style Manager** (the "Open Style Manager" button on the right)
+3. Under **Typography**, adjust the **Font color**, **Font size**, font, weight, line height, or alignment
+
+The change applies to all of the text in that block.
+
+### Creating Titles and Headings
+
+Because colour and size apply to a whole block, the way to create a title (or any heading) is to give it **its own Text block**:
+
+1. Add a **Text** block for the title and type your heading
+2. With the title block selected, open the **Style Manager** and set a larger **Font size** and, if you like, a different **Font color**
+3. Add a **second Text block** underneath for the body paragraph, and leave it at the normal size and colour
+
+Using one block for the title and a separate block for the paragraph keeps each part easy to restyle later and keeps your layout predictable.
+
+> **Tip:** Section, column and body areas only offer alignment options - colours, sizes and fonts live on the **Text** and **Button** blocks themselves. This keeps a single change from accidentally restyling your whole email at once.
+
+### Adjusting Spacing (Padding)
+
+Each block also has **Padding** - the space inside the block on its top, right, bottom and left. You'll find it in the **Style Manager** under **Dimension**.
+
+**Padding values must be explicit.** If you leave a padding field **empty**, that side keeps its **default** spacing (for a Text block this is 10px on the top and bottom, and 25px on the left and right) - an empty box does **not** mean "no spacing." To actually remove the space on a side, type **`0px`** instead of clearing the field.
+
+For example, to tuck a title closer to the paragraph beneath it, select the title block and set its **Bottom** padding to `0px`.
+
+### Linking a Button
+
+A **button is itself the link**, so you set where it goes from the **Component settings** panel on the right - not by adding a link inside the button text.
+
+1. Click the button to select it (double-clicking it opens its settings automatically)
+2. In **Component settings**, choose one of:
+   - **Href**: type a web address, for example `https://example.com`
+   - **URLs**: pick a ready-made destination from the dropdown (such as the community, FAQ, privacy policy, or unsubscribe page)
+3. The whole button becomes clickable - there's nothing else to do
+
+> **Important:** Don't try to link a button using the **link** tool in the small pop-up text toolbar. A button can't contain a separate link inside it, and doing so stops the button working in the sent email. To keep this clear, the link tool is hidden while you're editing a button's label - always use the **Href** or **URLs** fields on the right instead.
+
 ### Personalizing Your Emails
 You can make emails personal by using data-variables defined in your panel in square brackets:
 - `[FIRST_NAME]` - Shows the recipient's first name
@@ -111,7 +166,7 @@ Use the preview buttons to see how your email looks on:
 This ensures your email is readable on all devices.
 
 ### Send a Test Email
-Click the **"EMAIL TO ME"** button to send a test version to yourself. This lets you:
+Click the **"Send test email"** button to send a test version to yourself. This lets you:
 - See exactly what recipients will receive
 - Check that all links work correctly
 - Verify the email looks good in real email clients
@@ -127,7 +182,7 @@ Click the "View Components" button to see your email sections with clear borders
 ### Style Manager
 Use the style manager to:
 - Change background colors
-- Adjust text formatting
+- Adjust text colour, size and font (these apply to the whole selected block)
 - Modify button styles
 - Set consistent spacing throughout
 
