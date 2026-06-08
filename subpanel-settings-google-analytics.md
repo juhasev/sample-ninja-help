@@ -51,28 +51,48 @@ Meta Pixel helps you measure conversions, optimize delivery, and build audiences
 
 #### Events and naming
 
-Sample Ninja automatically sends events from both the server‑rendered landing pages and the Member App. You will see the following:
+Sample Ninja automatically sends events from both the panelist‑facing pages (landing pages, registration survey, email‑confirmed page) and the Member App. Standard Meta events are used wherever one applies — so Meta's built‑in optimization and reporting work out of the box — and everything else is sent as a custom event.
 
-- PageView
-  - Landing pages (SPA): fired on landing page loads
-  - Panelist Project Entry: fired on direct project entry flow
-- Conversions
-  - `sign_up` (social flow, after survey answers): maps to Meta `CompleteRegistration`
-  - `sign_up` (password flow, after email confirmation): maps to Meta `CompleteRegistration`
-- Non‑conversion custom events
-  - `welcome`: survey initial welcome step
-  - `start`: user begins the survey/registration (maps to Meta `Lead`)
-  - `complete`: survey completed; general milestone
-  - `email_confirmation_sent`: after the password‑method survey answers are submitted and the confirmation email is sent
-  - `disqualified`: when a participant is screened out during registration (fires alone; no conversion)
+**Conversion: successful registration → `CompleteRegistration`**
+
+`CompleteRegistration` is the event that marks a *successful* registration. **When it fires depends on the registration method:**
+
+- **Social flow:** fired immediately after the panelist finishes the survey. The social login already proves the identity, so registration is complete at that point.
+- **Password flow:** fired when the panelist opens the **email confirmation link**. Registration is only complete once the email address is confirmed, so `CompleteRegistration` is *not* sent when the survey is submitted — at that stage the account still needs confirming.
+
+In the password flow you will therefore see `CompleteRegistration` only **after** the confirmation link is opened, not when the survey is sent.
+
+**`PageView`**
+
+Fired on every panelist‑facing page (landing pages, registration survey, email‑confirmed page, and the Member App).
+
+**Custom events (milestones, not conversions)**
+
+These mark steps along the funnel. They are **not** registration completions — do not use `complete` as your success metric; use `CompleteRegistration` for that.
+
+- `welcome` — the survey's initial welcome step
+- `start` — the panelist begins the survey/registration. Also sent as the standard Meta `Lead` event.
+- `complete` — the registration **survey was submitted**. A milestone only ("the form was sent"); in the password flow the account is **not yet confirmed** when this fires.
+- `email_confirmation_sent` — password flow only: the confirmation email has just been sent
+- `disqualified` — the participant was screened out during registration (fires on its own; no conversion)
 
 **Event parameters and data policy**
-- `registration_method` is included on all relevant events (e.g., `password`, `social`)
+- `registration_method` is included on the relevant events (`password` or `social`)
 - No PII (such as email) is sent
 
 **Naming convention**
-- Standard Meta events are used whenever applicable (`PageView`, `Lead`, `CompleteRegistration` via `sign_up`)
+- Standard Meta events are used whenever applicable: `PageView`, `Lead` (via `start`), and `CompleteRegistration` (via `sign_up`)
 - Custom events use short lowercase names; multi‑word events use snake_case to match our internal analytics (e.g., `welcome`, `start`, `complete`, `email_confirmation_sent`, `disqualified`)
+
+#### Why don't I see `CompleteRegistration` in the password flow?
+
+In the password flow, `CompleteRegistration` fires on the **email‑confirmation page**, in whatever browser opens the confirmation link. Seeing `PageView`, `Lead`, `complete` and `email_confirmation_sent` but **not** `CompleteRegistration` almost always means the confirmation page never got a chance to send the Pixel. Check the following:
+
+- **Open the confirmation link in a full browser**, not an email app's built‑in viewer. Links are often opened in an in‑app webview or a privacy browser where the Meta Pixel is blocked — the email still confirms in Sample Ninja, but the event never reaches Meta.
+- **Ad/tracking blockers** and Safari/iOS tracking protection can block the Pixel on that page. Re‑test in a clean browser with no blockers.
+- **Verify on the page itself:** after clicking the link, open the email‑confirmed page and use the **Meta Pixel Helper** there to confirm the Pixel loads and `CompleteRegistration` fires.
+
+Because the earlier `complete` and `email_confirmation_sent` events happen during the uninterrupted survey session, they show up reliably; the confirmation click is a separate navigation, which is why it is the most common place for the Pixel to be missed.
 
 Tip: Use the Meta Pixel Helper browser extension to verify that your Pixel is loaded and events are firing.
 
