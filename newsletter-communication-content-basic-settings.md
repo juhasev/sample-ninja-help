@@ -52,6 +52,21 @@ The editor workspace is divided into three main areas:
 - **Toolbar Features**: Use undo/redo, fullscreen mode, and settings for advanced customization
 - **Responsive Design**: The editor automatically ensures your newsletter looks good across all devices
 
+### Matching Your Brand Colors and Fonts
+
+The newsletter editor works differently from the invitation and reminder email template editor. Those templates have a single **Colors** panel that restyles the whole template at once. The newsletter is built in the drag-and-drop editor, so colors and fonts are set **per element** through the **Style Manager** rather than from one global panel. There is no single "apply my colors everywhere" button — you style each block to match your branding.
+
+To make your newsletter match your panel's look:
+
+1. Click the element you want to restyle (a text block, button, or section)
+2. Click **Open Style Manager** on the right
+3. Under **Typography**, set the **Font color**, **Font**, and **Font size**
+   - For a **button**, also set its **background color** and **text color**
+   - For a **section** or the **page background**, select that area and set its **background color**
+4. Repeat for each element until everything matches
+
+> **Tip:** To match your branding exactly, open one of your existing branded email templates, note the color codes you used there (for example `#1A2B3C`), and enter those same codes in the newsletter's Style Manager. This guarantees the newsletter and your other emails look identical.
+
 ### Best Practices for Newsletter Content
 
 - Keep your design consistent with your brand colors and fonts
