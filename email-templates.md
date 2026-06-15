@@ -16,6 +16,17 @@ To create a new invitation, reminder, or newsletter template, click on the **NEW
 ### Cloning existing templates
 If you wish to have the same settings as some other existing template, you may also clone an existing template and use that as a basis for the new template. Click on the **CLONE** icon on each template row to do so.
 
+### How templates apply to projects
+When a template is selected for a project, the platform stores a **copy** of that template inside the project at that moment. From then on the project uses its own copy and is no longer linked to the original template.
+
+Because of this:
+
+- Editing a template later does **not** change projects that already use it. Those projects keep the copy they took when the template was first selected — re-opening and saving the project does not pull the newer template version in.
+- To change what an existing project sends, edit that project's invitation directly on its **Invitation** step and save. Those edits are stored on the project's own copy.
+- Deleting a template does not affect running projects, since each project holds its own copy (see below).
+
+> **NOTE** If a project's invitation is missing content you have since added to the template, it is because the project was created before the template was updated. Update that project's invitation directly to add the content — simply re-saving the project does not bring the newer template version in.
+
 ### Deleting templates
 Templates can be deleted by clicking on the **TRASH CAN** icon on each row. You can safely delete templates even if they are used in the projects. When you create a project, a copy of the selected template is used; therefore, even if you delete a template "in use," that does not affect running projects.
 
