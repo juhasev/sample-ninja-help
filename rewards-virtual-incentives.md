@@ -31,6 +31,12 @@ If you are hosted in the EU
 
 In the Virtual Incentives world, you subscribe to a catalog that is tailored to you. If you want to customize your catalog, you need to contact your representative at Virtual Incentives. 
 
+#### W9 / 1099 Tax Reporting
+
+For US-based panelists, Sample Ninja can submit Virtual Incentives reward orders as W9-eligible, so Virtual Incentives can collect and track the tax information needed for 1099 reporting.
+
+> This is configured per panel and is enabled by Sample Ninja on request. If your panel needs W9 / 1099 handling for US recipients, contact Sample Ninja support to turn it on. Panels without it submit no tax information, and non-US panelists are never affected.
+
 #### Disable
 
 Disables Virtual Incentives completely.
