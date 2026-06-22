@@ -38,7 +38,46 @@ The editor workspace is divided into three main areas:
 
 - **Text Editing**: Click directly on any text element to edit content inline
 - **Personalization**: Use data variables in square brackets like `[FIRST_NAME]` and `[LAST_NAME]` to personalize content
-- **Links**: Use predefined URL variables like `[community_url]`, `[faq_url]`, and `[unsubscribe_url]` for consistent linking
+- **Links**: Add links through the editor's built-in controls and pick from ready-made URL presets (such as the unsubscribe and privacy policy pages) - see **Adding Links** below
+
+### Adding Links (opt-out, privacy policy, and more)
+
+The newsletter uses the same link controls as the invitation and reminder email editor. The key thing to know is that the unsubscribe and policy links are **presets**: you pick them from a dropdown and the system fills in the correct, up-to-date address automatically. You should **not** paste a personal opt-out link by hand (see the note below).
+
+There are two ways to add a link, depending on whether you want a text link or a button.
+
+**To turn text into a link**
+
+1. Click into a **Text** block and select the words you want to link (for example "Unsubscribe" or "Privacy policy")
+2. Click the **Link** tool in the small pop-up toolbar that appears above the block
+3. In the link settings on the right, either:
+   - **Href**: type a full web address (for example `https://example.com`), or
+   - **URLs**: pick a ready-made destination from the dropdown
+
+**To link a button**
+
+A button is itself the link, so you set where it goes from the **Component settings** panel on the right, not by adding a link inside the button text.
+
+1. Click the button to select it (double-clicking it opens its settings automatically)
+2. In **Component settings**, choose one of:
+   - **Href**: type a web address, or
+   - **URLs**: pick a ready-made destination from the dropdown
+
+**The ready-made URL presets**
+
+The **URLs** dropdown offers these presets. Each one is replaced with the correct address when the newsletter is sent:
+
+- `[unsubscribe_url]` - the recipient's personal unsubscribe (opt-out) link
+- `[community_url]` - your community page
+- `[faq_url]` - your FAQ page
+- `[terms_and_conditions_url]` - your terms and conditions page
+- `[privacy_policy_url]` - your privacy policy page
+- `[cookie_policy_url]` - your cookie policy page
+- `[extra_policy_url]` - your extra (for example GDPR or CCPA) policy page
+
+> **Important - don't paste a personal opt-out link.** A single opt-out link contains one panelist's unique ID and signature, so if you paste it into the template every recipient gets *that one person's* link. Always use the `[unsubscribe_url]` preset instead - the system generates the correct personal link for each recipient automatically.
+
+> **Where the privacy policy link points.** The `[privacy_policy_url]` preset uses the Privacy Policy URL configured for your subpanel (in its **Policy URLs** settings), and falls back to the built-in privacy page when no custom one is set. So you don't need to paste the address into the newsletter: set it once in Policy URLs and the preset stays correct everywhere it is used.
 
 ### Preview and Testing
 
