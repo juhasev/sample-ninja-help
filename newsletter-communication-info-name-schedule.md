@@ -1,6 +1,6 @@
 ## Settings and audience
 
-When you start creating a new campaign, you'll see a form titled **Basic settings** with the following fields:
+When you start creating a new campaign supply the following:
 
 - **Name**: An internal reference field for administrators (showing "New campaign")
 - **Status**: Flip this to "online" when you are ready to schedule the campaign.
