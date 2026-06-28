@@ -7,11 +7,11 @@ When you start creating a new campaign, you'll see a form titled **Basic setting
 - **Date**: A calendar field for selecting when to send
 - **Time**: A time picker showing "00:00" (midnight)
 
-### Step 1: Set Internal Name (For Administrators)
-### Step 2: Set status for the campaign (leave as draft till you are 100% done editing)
-### Step 3: Set Send Date & time
-### Step 4: Choose Send Time
-### Step 5: Switch to the content tab to create your newsletter
+#### Step 1: Set Internal Name (For Administrators)
+#### Step 2: Set status for the campaign (leave as draft till you are 100% done editing)
+#### Step 3: Set Send Date & time
+#### Step 4: Choose Send Time
+#### Step 5: Switch to the content tab to create your newsletter
 
 ## Best Practices for Scheduling
 
