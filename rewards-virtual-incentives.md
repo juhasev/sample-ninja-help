@@ -15,14 +15,8 @@ You can test the redemptions using the "Sandbox" or "Production" account. This s
 
 Virtual Incentives require that all connecting servers are IP whitelisted. If you encounter random errors, ensure your account whitelists the following Sample Ninja IP addresses.
 
-If you are hosted in the US
 ```
-54.184.123.185,54.200.65.119,18.236.82.7,35.95.62.187
-```
-
-If you are hosted in the EU
-```
-54.229.122.21,3.249.234.89,52.17.15.0,34.241.190.251
+3.135.136.57,3.149.61.67,3.20.110.34,18.220.252.20,3.140.62.214,3.139.253.68,18.190.230.163,18.227.57.42,3.130.42.149,3.132.6.13,3.133.255.106,3.138.161.51,3.138.252.4,3.18.143.74,3.20.135.79,3.21.14.86
 ```
 
 > Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both the Development and Production IP whitelists.
