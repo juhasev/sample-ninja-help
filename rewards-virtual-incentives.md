@@ -19,7 +19,7 @@ Virtual Incentives require that all connecting servers are IP whitelisted. If yo
 3.135.136.57,3.149.61.67,3.20.110.34,18.220.252.20,3.140.62.214,3.139.253.68,18.190.230.163,18.227.57.42,3.130.42.149,3.132.6.13,3.133.255.106,3.138.161.51,3.138.252.4,3.18.143.74,3.20.135.79,3.21.14.86
 ```
 
-> Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both the Development and Production IP whitelists.
+> Login to Virtual Incentives Admin Panel. Select the API tab from the top menu, then click on Whitelist and paste the IPs to both the Development and Production IP whitelists. Please ensure that there are no line breaks or spaces when pasting.
 
 #### Manage Rewards
 
