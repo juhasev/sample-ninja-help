@@ -13,3 +13,12 @@ Sample Ninja comes pre-loaded with various roles you would expect to find in mos
 > Only users with Admin -role can assign roles to the users!
 
 If you would like to create a custom role you can do so by clicking the roles tab and then click on **PLUS** icon.
+
+### Login audit
+The **LOGIN AUDIT** tab keeps a trail of login attempts made to your panel's admin console. Each entry records when the attempt happened, who attempted it, the IP address and approximate location it came from, whether the password was correct, whether the second factor succeeded (and whether it was verified by SMS code or by a trusted device), and the overall outcome. Failed two-factor attempts are kept permanently, so repeated verification failures on an account are always visible. You can search the trail by email address or IP address.
+
+> The location is derived from the IP address and may be empty when it cannot be determined reliably.
+
+> Attempts blocked by rate limiting are rejected before credentials are checked and do not appear in the list.
+
+> Access to the login audit is controlled by the **View login audit** permission. Administrators have it by default, and you can grant it to any custom role, including a read-only role for someone who should review the trail without being able to manage user accounts.
