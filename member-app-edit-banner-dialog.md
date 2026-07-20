@@ -4,17 +4,12 @@ Create banners and publish them in rotating carousels. Banners can be informativ
 > Each carousel can have multiple banners, and carousels can be placed at the very top on most of the Member App's pages.
 
 ### Banners and locales
-A banner is shown to **every locale** in your sub panel, not to a single one. The **Selected locale** dropdown does not control who sees the banner. It only switches which language you are editing, so you can provide the text for each language. Because the banner reaches all of your locales, add the content for every language before you enable it.
-
-> There is currently no way to publish a banner to only one locale. If different languages need completely different content, set them up in separate sub panels.
-
-When a locale has no text yet, for example a locale that was added to the sub panel after the banner was created, its content is pre-filled from your default locale and shown with a warning. Switch to that locale, review the text and translate it, and the warning disappears as soon as you make a change. The editor reopens on the last locale you worked in.
+A banner is shown to a specific **locale** in your sub-panel. When creating a banner, you first select the locale you want to publish it for. You can have completely distinct banners or carousels between the different sub-panel locales.
 
 ### Banner settings
 Each banner consists of the image and a content area that accepts both markdown and a limited subset of HTML. Other configuration options are:
 
 - **Name** Banner's name is visible only to the administrators
-- **Selected locale** Switches the language you are editing. The banner is shown to all locales, so provide the content for each language here.
 - **Duration in seconds** Number of seconds the banner is visible
 - **Priority** Controls in which order the banners are rotated.
 - **Enabled/Disabled** Controls whether the banner is in rotation.
