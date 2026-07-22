@@ -2,10 +2,10 @@
 Use the email template editor to customize the content and appearance of your email templates with ease. 
 
 ### Template
-Specify the template name and the groups this template should belong to. Please use the drop-down menu to view translations for another language and locale.
+Specify the template name and the groups this template should belong to. Please use the drop-down menu to view translations for other languages and locales.
 
 ### Elements
-The element configuration contains various options that can be enabled or disabled when needed. We recommend using all of them for the most professional-looking emails.
+The element configuration includes options that can be enabled or disabled as needed. We recommend using all of them for the most professional-looking emails.
 
 ### Preview
 This is the live preview of the email. You may click on the different elements to modify them. If you want to send the template to yourself, please click the **EMAIL TO ME** button.
@@ -22,10 +22,10 @@ An email pre-header is the short summary text that follows the subject line when
 
 - Entice your audience. Give readers a reason to click. Tease the content, offer value, or create urgency.
 
-- Complement your subject line. Your pre-header should add context to your subject line, not just repeat it.
+- Complements your subject line. Your pre-header should add context to your subject line, not just repeat it.
 
 #### Sender name
-As a sender name, it can be your panel's name or the project manager's name.
+The sender name can be your panel's name or the project manager's name.
 
 > Always use a name that the panelist will recognize!
 
@@ -33,7 +33,7 @@ As a sender name, it can be your panel's name or the project manager's name.
 These let you control the logo alignment and the element colors. The font color is automatically selected based on the background color (white or black).
 
 #### Font
-Emails have limited font support across different operating systems like PCs, Macs, iPhones, etc... We have picked up generally supported font stacks that can be used with emails. Alternatively you may upload a completely custom font to be used. 
+Emails have limited font support across different operating systems like PCs, Macs, iPhones, etc.. We have selected generally supported font stacks for use in emails. Alternatively, you may upload a custom font to use. 
 
 > Remember that you can use Emoji characters in the subject, preheader, and message body to spice things up. <a href="https://apps.timwhitlock.info/emoji/tables/unicode" target="_blank">Full list of Emojis</a>
 
@@ -55,13 +55,16 @@ Use the engagement image to keep your invitation looking unique by utilizing dif
 This section contains the greeting and body of the email. You may use markdown elements in this section. Click on the text to edit.
 
 #### Action button section
-This section contains an action button, and in terms of project invitations and reminders, it may also contain the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen. You may use markdown elements in this section. Click on the text to edit.
+This section contains an action button, and, for project invitations and reminders, it may also include the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen. You may use markdown elements in this section. Click on the text to edit.
 
 #### Signature section
 This section should contain a personal signature from the project manager. You may use markdown elements in this section. Click on the text to edit.
 
 #### Project information section
-The project information section is only visible for project invitations or reminders. The reward line will be hidden if the project does not offer any reward.
+The project information section is only visible for project invitations or reminders. The reward line will be hidden if the project offers no rewards.
+
+#### Bottom body
+The bottom body is disabled by default, but can be used to add additional information.
 
 #### Notice section
 This box contains specific disclaimers and notices you'd like to repeat in all emails. 
@@ -100,15 +103,11 @@ The most commonly used data variables are those related to personalization.
 - **[LAST_NAME]**
 - **[POINTS_BALANCE]**
 
-You may pipe any variables into the email templates by referring to them with the variable name in square brackets. For example:
+You may pipe variables into email templates by referring to them with their variable names in square brackets. For example:
 
 ```Hello [FIRST_NAME], we have a survey for you! Your balance is [POINTS_BALANCE]```
 
-You may also pipe in project ID, which can be handy when a panelist contacts your support, for example:
-
-- PROJECT_ID
-
-If the panelist does not have value for the data variable, it will be silently removed from the final email.
+If the panelist does not have a value for the data variable, it will be silently removed from the final email.
 
 #### Project email-related variables that you may use
 
