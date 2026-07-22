@@ -45,6 +45,7 @@ The **no action taken** means that
 - Panelists' participation status is set to RECONCILED.
 - Quotas are decremented if the panelist was completed.
 - QUALITY_SCORE is adjusted down -20 points
+- Panelists whose status was **COMPLETED** are notified by email that their participation was not approved and their reward points were reverted. Panelists who only **STARTED** are not emailed, as they had no reward to revert.
 
 > You can disqualify panelists using the auto sampling or profiler project types while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
 
