@@ -43,7 +43,7 @@ The email is divided into sections. Each section can be edited by clicking on it
 
 All multiline sections use Markdown, read more here: [Markdown basics](https://www.markdownguide.org/basic-syntax/#overview)
 
-> NOTE: Logo can only be changed in the sub-panel settings!
+> **NOTE:** Logo can only be changed in the sub-panel settings!
 
 #### Logo section
 This logo is always inherited from the sub-panel logo. To change, you must change the sub-panel logo.
@@ -66,18 +66,20 @@ The project information section is only visible for project invitations or remin
 #### Notice section
 This box contains specific disclaimers and notices you'd like to repeat in all emails. 
 
-Examples:
+Examples and how they are inserted into the markdown:
 
-- Terms of use
-- Privacy policy
-- Unsubscribe link
+- **Privacy policy** [privacy_policy_name:Click here to view privacy policy]
+- **Cookie policy** [cookie_policy_name:Click here to view cookie policy]
+- **Terms of use** [terms_policy_name:Click here to view terms of use]
+- **Extra policy** [extra_policy_name:Click here to view extra policy]
+- **Unsubscribe link** [unsubscribe_link_text:Click here]
 
 You may use markdown elements in this section. Click on the text to edit. 
 
 > **IMPORTANT!** Any modification to this section applies to all the email templates!
 
 #### Unsubscribe from project reminders
-You may use the following tag to offer a link based approach for unsubscribing from the project reminders. The example below will produce a link that reads "Click here to unsubscribe from reminders".
+You may use the following tag to offer a link-based approach for unsubscribing from the project reminders. The example below will produce a link that reads "Click here to unsubscribe from reminders".
 ```
 [unsubscribe_project_url:Click here to unsubscribe from reminders]
 ```
@@ -94,11 +96,11 @@ You may use markdown elements in this section. Click on the text to edit.
 
 The most commonly used data variables are those related to personalization.
 
-- FIRST_NAME
-- LAST_NAME
-- POINTS_BALANCE
+- **[FIRST_NAME]**
+- **[LAST_NAME]**
+- **[POINTS_BALANCE]**
 
-You may pipe any variables into the email templates simply by referring to them by placing the variable namea in square brackets. For example:
+You may pipe any variables into the email templates by referring to them with the variable name in square brackets. For example:
 
 ```Hello [FIRST_NAME], we have a survey for you! Your balance is [POINTS_BALANCE]```
 
@@ -107,3 +109,10 @@ You may also pipe in project ID, which can be handy when a panelist contacts you
 - PROJECT_ID
 
 If the panelist does not have value for the data variable, it will be silently removed from the final email.
+
+#### Project email-related variables that you may use
+
+- **[project-id]** The Sample Ninja project ID
+- **[duration]** The LOI of the project
+- **[reward-points]** The reward for the project
+- **[public-project-name]** The public project name specified in the project settings
