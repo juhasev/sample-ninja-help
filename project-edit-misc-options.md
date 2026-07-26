@@ -24,5 +24,10 @@ If the **Enable project manager email notifications** is toggled on, then Sample
  
 > If the user is logged in, an instant notification is used instead of email! Instant notifications can be accessed from the top right corner under the **BELL** icon.
 
+### Disable compensation
+Useful setting if you always or mostly run projects without compensation. This may prevent project managers from accidentally compensating panelists.
+
+> **NOTE**: When enabled, the revenue calculation is disabled regardless of the client CPI entered. If you would like to keep the revenue calculation intact, do not use this setting. Instead, use the normal compensation with zero values for "Reward Points".
+
 ### Enable webhooks
 Webhooks are used to relay invitation information to third-party servers and to enable the implementation of custom invitation methods, such as WhatsApp or SMS. If you have configured a webhook in the subpanel settings, you may use this setting to control it at the project level.
