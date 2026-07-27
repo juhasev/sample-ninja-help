@@ -1,6 +1,16 @@
 ### Project name
 This can be any name (any Alpha Numeric or Special characters between 5 and 150 characters long). This is an internal name and was never disclosed to the participants.
 
+### Public name
+An optional panelist facing name for the project, up to 150 characters. Internal project names often carry client references, cost codes or version tags you would rather keep in-house. When a **Public name** is set, it is used where panelists see the project:
+
+- The **Member App** activity timeline, alongside a chip showing the Sample Ninja project ID.
+- Any email template using the **[public-project-name]** variable.
+
+Leave the field empty and everything behaves as before: the activity timeline falls back to the internal project **Name**.
+
+> The **[public-project-name]** variable is replaced with blank text when no public name is set, it does not fall back to the internal name. Review the templates where you use it, starting with the **Reward points awarded** template in **Sub Panels -> Manage -> Email Templates -> Transactional**.
+
 ### Project status
 This controls project fielding status. 
 
