@@ -1,3 +1,8 @@
+These settings control optional project behaviour and are found in two places:
+
+- **Projects -> Edit project -> Basic settings -> Misc settings** where each setting applies to the project you are editing.
+- **Panel Settings -> Project defaults** where the same settings define the starting value for every **new** project. Project managers can still override any of them on an individual project.
+
 ### Publish to anyone who qualifies
 This setting publishes the project in the Member's App and related APIs powering custom communities. The project will be visible as long as the panelist meets the qualifications and quotas.
 
@@ -23,6 +28,13 @@ If the **Enable project manager email notifications** is toggled on, then Sample
 - Project completed notification
  
 > If the user is logged in, an instant notification is used instead of email! Instant notifications can be accessed from the top right corner under the **BELL** icon.
+
+### Disable compensation
+Switches compensation off for the project entirely, so nobody can accidentally award reward points to panelists. Panelists earn **zero reward points** for the project no matter what the compensation table contains, and **no revenue is recorded**, regardless of the **Client CPI** or **Project cost** entered in the **Basic Settings** tab.
+
+While this setting is on, the **Compensation** tab hides the compensation table and shows a notice instead.
+
+> If you want to keep the revenue calculation intact and only stop rewarding panelists, leave this setting off and enter zero values for the reward fields in the **Compensation** tab instead.
 
 ### Enable webhooks
 Webhooks are used to relay invitation information to third-party servers and to enable the implementation of custom invitation methods, such as WhatsApp or SMS. If you have configured a webhook in the subpanel settings, you may use this setting to control it at the project level.

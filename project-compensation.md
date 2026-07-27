@@ -29,3 +29,10 @@ When using multiple compensation tables, compensation entries that do not match 
 > **IMPORTANT** When using this feature, you must ensure that all invited panelists have the data variable on which the compensation is based. If a panelist is found who doesn't have the required compensation variable, an error is triggered, and the invitation is skipped for that panelist.
  
 > **TIP** If you don't have the compensation variable for all the panelists, add a clause to Qualification that requires that the compensation variable exists. For example, add the condition EXISTS to SPECIALTY (if this is your compensation variable).
+
+### Running a project without compensation
+If **Disable compensation** is toggled on in the project's **Basic Settings -> Misc settings**, this tab hides the compensation table and shows a notice instead. Panelists earn zero reward points for the project and no revenue is recorded, regardless of the **Client CPI** entered. Toggle the setting off to set compensation and revenue again.
+
+The same setting is available in **Panel Settings -> Project defaults**, where it disables compensation on every new project. Project managers can still override it per project.
+
+> If you only want to stop rewarding panelists while keeping the revenue calculation intact, leave **Disable compensation** off and enter zero values in the reward columns instead.
