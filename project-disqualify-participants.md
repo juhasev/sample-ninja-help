@@ -1,16 +1,18 @@
 ## Reconcile participants
 
-Reconciling panelists means you want to change their project (survey) outcome for any reason. Mainly, you would do that to keep the panel up to date on how honest your panelists are; they answer truthfully or for other reasons like security issues or being duplicated. Every time you reconcile your panelists, the QUALITY_SCORE variable is adjusted up or down. This enables you to eliminate accounts that do not make you money or are potentially problems for your panel's reputation in terms of quality.
+Reconciling panelists means changing their project (survey) outcome for any reason. Mainly, you would do that to keep the panel up to date on whether your panelists answer truthfully or for other reasons, such as security issues or duplication. Every time you reconcile your panelists, the QUALITY_SCORE variable is adjusted accordingly. This enables you to eliminate accounts that do not make you money or that could compromise your panel's quality reputation.
 
 You can reconcile panelists in 3 different ways:
 
-1) One pass reconcile. Changes all provided IDs to complete and disqualify all other project panelists. Releases are pending reward points for all qualifying panelists.
+1) One pass reconciliation. Changes all provided IDs to complete and disqualify all other project panelists. Releases are pending reward points for all qualifying panelists.
 2) Change to complete. Only changes provided IDs to complete status.
 3) Change to reconciled. Reconcile for any other reason, like dishonest answers. Only provided IDs will be set to RECONCILED status.
 
 Ideally, you would use the “One pass reconcile” mode by providing all the completed panelist IDs. All other panelists not included in the pasted list will be automatically set to status **reconciled**. 
 
 > Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
+
+> When you reconcile panelist Sample Ninja will automatically email them that they have reconciled. To edit the contents of this email go to: **Sub Panels -> Manage -> Email templates  -> Transactional -> Reconciled Notification**.
 
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the UUID format, example:  ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
@@ -45,6 +47,7 @@ The **no action taken** means that
 - Panelists' participation status is set to RECONCILED.
 - Quotas are decremented if the panelist was completed.
 - QUALITY_SCORE is adjusted down -20 points
+- Email is automatically sent to the panelist about the participation beign rejected.
 
 > You can disqualify panelists using the auto sampling or profiler project types while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
 
