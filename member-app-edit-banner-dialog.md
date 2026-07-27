@@ -4,7 +4,11 @@ Create banners and publish them in rotating carousels. Banners can be informativ
 > Each carousel can have multiple banners, and carousels can be placed at the very top on most of the Member App's pages.
 
 ### Banners and locales
-A banner is shown to a specific **locale** in your sub-panel. When creating a banner, you first select the locale you want to publish it for. You can have completely distinct banners or carousels between the different sub-panel locales.
+Every banner belongs to **one locale**, chosen when you create the banner. If your sub panel has more than one locale, you are asked to pick the locale first; with a single locale the banner is created for it right away. Panelists see only the banners created for their own locale.
+
+The banner list shows each banner's locale with its flag, so you can tell at a glance which market a banner serves. To publish the same message in several languages, create one banner per locale (the clone button is a quick starting point).
+
+A banner marked **NO LOCALE** is a leftover from before banners became locale-specific. It is disabled and panelists never see it; create a new banner for the locale you want and delete the old one.
 
 ### Banner settings
 Each banner consists of the image and a content area that accepts both markdown and a limited subset of HTML. Other configuration options are:
@@ -19,6 +23,6 @@ Each banner consists of the image and a content area that accepts both markdown 
 - **Action button takes users to** the page a panelist lands after clicking the action button.
 
 ### Cloning banners
-You may clone existing banners by clicking on the clone button at the end of each row.
+You may clone existing banners by clicking on the clone button at the end of each row. The clone keeps the original banner's locale.
 
 > Please note that you will have to reupload the banner image when you do so.
