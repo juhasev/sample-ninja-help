@@ -12,7 +12,7 @@ Ideally, you would use the “One pass reconcile” mode by providing all the co
 
 > Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
 
-> When you reconcile panelist Sample Ninja will automatically email them that they have reconciled. To edit the contents of this email go to: **Sub Panels -> Manage -> Email templates  -> Transactional -> Reconciled Notification**.
+> When you reconcile panelists, Sample Ninja will automatically email them that their project participation has been rejected due to the quality of answers provided. To edit the contents of this email, go to: **Sub Panels -> Manage -> Email templates  -> Transactional -> Reconciled Notification**.
 
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the UUID format, example:  ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
