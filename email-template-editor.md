@@ -57,6 +57,8 @@ This section contains the greeting and body of the email. You may use markdown e
 #### Action button section
 This section contains an action button, and, for project invitations and reminders, it may also include the **Visit member app button** if the built-in Member App is enabled. You must enable **Member App Action Button** in the **Elements** configuration on the left side of the screen. You may use markdown elements in this section. Click on the text to edit.
 
+> The **Participation reconciled** template carries no action button, so this section is hidden while you edit it and no button appears in the email your panelists receive.
+
 #### Signature section
 This section should contain a personal signature from the project manager. You may use markdown elements in this section. Click on the text to edit.
 

@@ -12,7 +12,7 @@ Ideally, you would use the “One pass reconcile” mode by providing all the co
 
 > Reconciling is always recommended as it impacts panelists' QUALITY SCORE variable. This, in turn, lets you eliminate problematic panelists who are frequent offenders.
 
-> When you reconcile panelists, Sample Ninja will automatically email them that their project participation has been rejected due to the quality of answers provided. To edit the contents of this email, go to: **Sub Panels -> Manage -> Email templates  -> Transactional -> Reconciled Notification**.
+> When you reconcile panelists, Sample Ninja will email them that their project participation has been rejected due to the quality of answers provided. The **Send notification email** switch on the confirm step controls this. It is on by default, so switch it off when you want to reconcile without contacting anyone. To edit the contents of this email, go to: **Sub Panels -> Manage -> Email templates  -> Transactional -> Participation reconciled**.
 
 #### Pasting IDs
 The identifier list should only contain panelist identifiers in the UUID format, example:  ```494d4c81-f109-4551-8929-0870d9b79d84``` one per line. Alternatively, the identifiers can be separated by a comma and/or enclosed in quotation marks. Line items that cannot be parsed will be displayed in the errors box. Duplicate identifiers pasted are automatically removed with a warning.
@@ -47,7 +47,7 @@ The **no action taken** means that
 - Panelists' participation status is set to RECONCILED.
 - Quotas are decremented if the panelist was completed.
 - QUALITY_SCORE is adjusted down -20 points
-- Panelists whose status was **COMPLETED** are notified by email that their participation was not approved and their reward points were reverted. Panelists who only **STARTED** are not emailed, as they had no reward to revert.
+- Panelists whose status was **COMPLETED** are notified by email that their participation was not approved and their reward points were reverted, unless you switched off **Send notification email**. Panelists who only **STARTED** are not emailed, as they had no reward to revert.
 
 > You can disqualify panelists using the auto sampling or profiler project types while your project is running! The advanced sampling engine will automatically find replacement panelists and invite them to the project!
 

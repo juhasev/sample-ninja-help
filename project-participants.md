@@ -30,9 +30,10 @@ Indicates if the panelist's email bounced or if the panelist complained (marked 
 Click on the **triple dot** button on each row to reveal the menu for available operations.
 
 **Edit panelist** Will take you to the panelist edit screen.
-**Disqualify (quality)** Will disqualify panelist by changing ```completed``` status to ```qualify```.
-**Disqualify (duplicate)** Will disqualify panelist by changing ```completed``` status to ```duplicate```.
+**Reconcile (disqualify)** Will disqualify the panelist by changing the ```completed``` status to ```reconciled```. It only appears on completed participations, and never on qualitative projects.
 
-Both options will roll back any issued reward points and project revenue.
+Reconciling rolls back any issued reward points and project revenue.
+
+Choosing **Reconcile (disqualify)** opens a confirmation before anything changes. The confirmation carries a **Send notification email** switch, on by default. Leave it on to send the panelist the **Participation reconciled** email, or switch it off to reconcile quietly.
 
 > By default, we display all records.
