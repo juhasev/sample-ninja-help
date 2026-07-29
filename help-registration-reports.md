@@ -19,17 +19,19 @@ Statistics include the number of new panelists, conversion rate, survey rejectio
 
 SampleNinja can reject a registration for a variety of reasons:
 
-- Is out of country (Configurable Sub Panel Settings -> Security)
-- Is using public VPN (Configurable Sub Panel Settings -> Security)
-- Is using corporate VPN (Configurable Sub Panel Settings -> Security)
-- Is bot (Configurable Sub Panel Settings -> Security)
+- Out of country (Configurable Sub Panel Settings -> Security)
+- Public VPN (Configurable Sub Panel Settings -> Security)
+- Hosted server detected (Configurable Sub Panel Settings -> Security)
+- Bot detected (Configurable Sub Panel Settings -> Security)
 - Email address's domain cannot accept email (missing MX or Mail Exchange record)
 - Duplicate (Machine fingerprint matches exatly some body else, these are not blocked but review is recommended)
 - Email address provided produces a permanent bounce (email does not exist)
 
-Some security features can be turned on/off in the **Sub Panel -> Security** settings. 
+Some security features can be turned on/off in the **Sub Panel -> Security** settings.
 
-> **IMPORTANT**: If your panel is B2B we recommend that you allow corporate VPNs. For example, almost all the Health Care Panels will have panelists like physicians/doctors accessing the system through a corporate VPN during work hours. The GEO location will be reported as the facility's physical location, like a hospital. If off work, you would be seeing networks like you would expect, i.e., in the US, you would see something like Spectrum, AT&T, Google, Comcast, or maybe even Elon Musk's StarLink. If in doubt, inspect the "network name and operator" under the info icon in the individual registration stats to determine if the panelist is real or suspicious. Seeing something like China Telecom could be a red flag.
+> **These are two separate checks.** **Public VPN** flags an IP that belongs to a known proxy, VPN or Tor service. **Hosted server detected** flags an IP that belongs to a data centre. Many addresses are both, so turning off only one of them will not stop the flags: a panelist coming through a cloud-hosted corporate VPN is usually reported as a proxy as well as a hosted server. If you want to admit these panelists, turn **both** off. The event on the panelist tells you which check fired, so check it before deciding which switch to change.
+
+> **IMPORTANT**: If your panel is B2B we recommend that you allow corporate VPNs, which means turning off **both** Public VPN and Hosted server detected. For example, almost all the Health Care Panels will have panelists like physicians/doctors accessing the system through a corporate VPN during work hours. The GEO location will be reported as the facility's physical location, like a hospital. If off work, you would be seeing networks like you would expect, i.e., in the US, you would see something like Spectrum, AT&T, Google, Comcast, or maybe even Elon Musk's StarLink. If in doubt, inspect the "network name and operator" under the info icon in the individual registration stats to determine if the panelist is real or suspicious. Seeing something like China Telecom could be a red flag.
 
 > **WARNING** If you allow any VPNs (Virtual Private Networks), or hosted servers running VPN to access your community/projects, your location accuracy is no longer reliable. A user accessing the Internet through a VPN service can originate from **Iran** or any other country, including **North Korea**, and pretend to originate whichever country the VPN user chooses. There is no way to detect this automatically.
 
