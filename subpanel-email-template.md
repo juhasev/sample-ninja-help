@@ -25,6 +25,11 @@ You can disable this functionality if you encounter font rendering issues (this 
 
 This shows a visual representation of the Email Template. Preview is also an editor that allows you to modify each template's text. If you want to email yourself, click the blue "Email to me" button at the top right corner.
 
+> Test sends are limited to ten a minute per user. If you are checking a template across several
+> addresses and the button stops responding, wait a minute and try again. The limit protects your
+> sending reputation, because these messages go out from the same verified sender address as your
+> real panel email.
+
 Each template can have its own **Subject** and **Sender name**.
 
 Within the body of the email, you can edit text for any element simply by clicking on them.
