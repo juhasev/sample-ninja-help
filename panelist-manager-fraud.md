@@ -54,3 +54,29 @@ If panelist WebRTC check does not pass then Sample Ninja measures cross ping lat
 
 #### COMPLETED, PROFILE and QUOTA
 Each time panelist completes project with status "completed","quota" or "profile" the FRAUD score is decreased or healed to reward for good behaviour.
+
+### Which checks are running
+
+Most of the checks above are switched per sub-panel under **Sub panels** -> **Security**, so the
+same panelist can be terminated on one sub-panel and let through on another. If you are expecting
+an event type and never see it, check that switch first.
+
+Two are worth calling out because operators are often surprised by them:
+
+- **IP MISMATCH** only runs when **IP address** is on for that sub-panel. It is strict: a respondent
+  moving between wifi and mobile data changes IP address without any dishonest intent.
+- **DUPLICATE FINGERPRINT** only affects the score when **Fingerprint mismatch** is on. With that
+  switch off the event is still recorded so you can see it, but no points are taken away.
+
+### Points shown against an event
+
+Each event shows the points that were actually taken away when it was recorded, not the current
+configured value for that event type. An event recorded while its check was switched off shows no
+deduction.
+
+> Events recorded before this was introduced have no stored value, so they still show the current
+> configured points for their event type. If you are reconciling a long history, treat the older
+> entries as indicative rather than exact.
+
+A panelist who returns to the same project while still failing the same check is flagged and
+redirected again, but is only charged once for that event on that project.
