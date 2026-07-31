@@ -39,18 +39,6 @@ Every panelist goes through an IP country check. If they are outside the countri
 the sub-panel locales, or outside their own locale, they are terminated and shown the
 **Outside country** landing page.
 
-### IP address
-
-Enforces that a panelist starts and finishes a project from the same IP address. If the address
-changes part-way through, the panelist is terminated and shown the **Security check failed**
-landing page.
-
-> This is the check most likely to affect real panelists, so consider your audience before leaving
-> it on. A mobile respondent moving between wifi and mobile data, a laptop that reconnects, or a
-> home connection that is issued a new address mid-survey will all change IP address without any
-> dishonest intent. It is strict by design: switch it off if you see genuine respondents being
-> rejected for **Security check failed** and their sessions look otherwise normal.
-
 ### Fingerprint mismatch
 
 Enforces that a panelist starts and finishes a project on the same device. Rejected panelists are

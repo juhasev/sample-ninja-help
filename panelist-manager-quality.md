@@ -22,7 +22,6 @@ Each time a panelist is returned to Sample Ninja with the status "completed," th
 - **Is Proxy -10** Panelist is using a public VPN service.
 - **Is Hosted -20** Panelist IP address originates from a hosted server. This could be a targeted bot.
 - **Is Bot -20** Panelist is detected as a bot.
-- **Ip Mismatch -20** Panelist IP address changed in the middle of the project.
 - **Duplicate Fingerprint -5** Somebody else has the same exact fingerprint.
 - **Fingerprint Mismatch -20** Fingerprints do not match from start to end.
 - **Out of Country -5** Panelist is out of the country.

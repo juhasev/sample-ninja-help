@@ -13,9 +13,6 @@ as proxies to hide users true location.
 #### IS BOT
 Panelist is detected as bot.
 
-#### IP MISMATCH
-Panelist IP address changed in the middle of the project.
-
 #### DUPLICATE FINGERPRINT
 Duplicate project fingerprint.
 
@@ -61,10 +58,8 @@ Most of the checks above are switched per sub-panel under **Sub panels** -> **Se
 same panelist can be terminated on one sub-panel and let through on another. If you are expecting
 an event type and never see it, check that switch first.
 
-Two are worth calling out because operators are often surprised by them:
+One is worth calling out because operators are often surprised by it:
 
-- **IP MISMATCH** only runs when **IP address** is on for that sub-panel. It is strict: a respondent
-  moving between wifi and mobile data changes IP address without any dishonest intent.
 - **DUPLICATE FINGERPRINT** only affects the score when **Fingerprint mismatch** is on. With that
   switch off the event is still recorded so you can see it, but no points are taken away.
 
