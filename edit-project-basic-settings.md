@@ -9,7 +9,7 @@ An optional panelist-facing name for the project, up to 150 characters. Internal
 
 Leave the field empty, and everything behaves as before.
 
-> The **[public-project-name]** variable is replaced with blank text when no public name is set, it does not fall back to the internal name. Review the templates where you use it, starting with the **Reward points awarded** template in **Sub Panels -> Manage -> Email Templates -> Transactional**.
+> The **[public-project-name]** variable is replaced with blank text when no public name is set, and the variable is replaced with nothing. Review the templates where you use it, starting with the **Reward points awarded** template in **Sub Panels -> Manage -> Email Templates -> Transactional**.
 
 ### Project status
 This controls project fielding status. 
