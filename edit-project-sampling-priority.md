@@ -2,7 +2,7 @@
 
 #### Priority among live projects
 
-Normally, you would leave this setting to the default of 5. Sample Ninja runs sampling every 10 to 15 minutes following the sampling priority order. If you have 2 or more projects competing for the same sample, you can adjust this setting to prioritize sampling for competing projects. The lowest priority is 1, while the highest priority is 10.
+Normally, you would leave this setting to the default of 5. Sample Ninja runs sampling every 15 minutes following the sampling priority order. If you have 2 or more projects competing for the same sample, you can adjust this setting to prioritize sampling for competing projects. The lowest priority is 1, while the highest priority is 10.
 
 > Please note that the other project managers' priorities are also taken into account. You should establish a standard for sampling prioritazations inside your organization. Setting the sampling priority to max everytime is not the right way to go.
 
