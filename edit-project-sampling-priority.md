@@ -14,4 +14,6 @@ This setting specifies when the system should replace outstanding invitations wi
 
 > Even if the invite slot expires and is replaced with another invitation, the original invitee can still participate as long as the target completes setting is not exceeded, or the target quota cell is not yet completed.
 
+> Artifically boosting can have side effects, such as depriving other projects of sample. This is only recommended if you know for sure you will not meet the target completes settings or specific quota criterias.
+
 > Setting the email lifetime too short can degrade the panelist experience, which in turn can lead to lower future response rates and increased panel unsubscribe rates.
