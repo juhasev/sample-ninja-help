@@ -2,18 +2,20 @@
 
 #### Priority among live projects
 
-Normally, you would leave this setting to the default of 5. Sample Ninja samples all projects every 15 minutes following the sampling priority order. If you have 2 or more projects competing for the same sample, you can adjust this setting to prioritize sampling for competing projects. The lowest priority is 1, while the highest priority is 10.
+Normally, you would leave this setting at the default of 5. Sample Ninja samples all projects every 15 minutes following the sampling priority order. If two or more projects compete for the same sample, you can raise this setting to prioritize one project over the others. The lowest priority is 1, and the highest is 10.
 
-> Please note that the other project managers' priorities are also taken into account. You should establish a standard for sampling prioritazations inside your organization. Setting the sampling priority to max everytime is not the right way to go.
+> Other project managers' priorities are taken into account as well, so establish a standard for sampling prioritization inside your organization. Setting the priority to the maximum every time defeats the purpose.
 
-> Regardless of the priority, Sample Ninja attempts to finish each project by the end date by adjusting the invitation rate.
+> Regardless of the priority, Sample Ninja attempts to finish each project by its end date by adjusting the invitation rate. For profiler projects, the priority instead directly controls the invitation volume per sampling cycle.
 
-#### Email lifetime hours
+#### Invite abandoned after (hours)
 
-This setting specifies when the system should replace outstanding invitations with new ones. The default setting is 24 hours. This basically gives your panelists 24 hours to reply to the email before they can lose their participation slot. If you are running a project in a hurry and do not care about overages (bad panelist experience), you can use these settings to artificially boost the sampling. On the other hand, if your goal is not to exceed the quota allocation and to have ample time to run the project, you may increase this setting to 48+ hours.
+This setting controls how long the sampling engine waits for a panelist to respond to an invitation. While an invitation is inside this window, it is counted as an outstanding potential complete — credited against your remaining target and excluded from the response rate — so no unnecessary new invitations are sent. Once the window closes without a response, the invitation is considered abandoned, and the engine sends replacement invitations. The default is 24 hours; the allowed range is 1 to 96 hours.
 
-> Even if the invite slot expires and is replaced with another invitation, the original invitee can still participate as long as the target completes setting is not exceeded, or the target quota cell is not yet completed.
+A short window replaces silent invitations quickly, which suits urgent projects but risks overages. A long window (48+ hours) samples patiently, keeps invitation volume down, and protects your quota allocations.
 
-> Artifically boosting can have side effects, such as depriving other projects of sample. This is only recommended if you know for sure you will not meet the target completes settings or specific quota criterias.
+The window affects only sampling and statistics. A panelist can still participate after their invitation is considered abandoned, as long as the project's target completes has not been reached and their quota cell is not yet full.
 
-> Setting the email lifetime too short can degrade the panelist experience, which in turn can lead to lower future response rates and increased panel unsubscribe rates.
+> Setting the window shorter than your panelists' natural response time degrades the panelist experience: late responders will land on a "Project full" or "Quota full" page, which lowers future response rates and increases unsubscribe rates. For email-based consumer panels we recommend 24 hours or more; for mobile panels invited through push notifications, a window of a few hours is usually safe.
+
+> The default for new projects can be changed in Settings → Panel Settings → Project Defaults.
