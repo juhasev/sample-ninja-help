@@ -171,6 +171,8 @@ Click the **"Send test email"** button to send a test version to yourself. This 
 - Check that all links work correctly
 - Verify the email looks good in real email clients
 
+Test sends and previews use a sample panelist with representative values for each data variable (for example a points balance of 100). They do not reflect a real panelist's data; live sends use each recipient's actual values.
+
 ## Step 7: Fine-tune Your Design
 
 ### Visual Components Mode

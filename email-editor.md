@@ -33,7 +33,9 @@ You may also pipe in project ID, which can be handy when a panelist contacts you
 
 - PROJECT_ID
 
-If the panelist does not have value for the data variable, it will be silently removed from the final email.
+If the panelist does not have value for the data variable, it will be silently removed from the final email. A value of 0 is kept and renders as 0; only missing or empty values are removed.
+
+Test sends and previews use a sample panelist with representative values for each data variable (for example a points balance of 100). They do not reflect a real panelist's data; live sends use each recipient's actual values.
 
 ### Email logo
 The email logo is automatically inherited from the sub-panel settings. If you don't see the logo, please verify your email templates and make sure the logo is enabled. Also, make sure that the sub-panel contains the uploaded logo.
