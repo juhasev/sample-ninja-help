@@ -24,7 +24,7 @@ You may optionally add another dimension to the compensation table by using a da
 
 When this feature is enabled, the project compensation table defaults to multiple compensation tables. However, if you want to use **Basic Compensation** temporarily, simply toggle on **Use basic compensation**. This gives simple compensation for each sub-panel.
 
-When using multiple compensation tables, compensation entries that do not match any panelists based on qualifications are hidden by default. If you want to view these entries as well, please toggle on **Show unused compensation**.
+When using multiple compensation tables, compensation entries that do not match any panelists based on qualifications and the panel's business rules are hidden by default. Business rules always apply here, just as they do to project sampling, so an entry counts as used only when at least one panelist passing the business rules holds that option. If you want to view the unused entries as well, please toggle on **Show unused compensation**.
 
 > **IMPORTANT** When using this feature, you must ensure that all invited panelists have the data variable on which the compensation is based. If a panelist is found who doesn't have the required compensation variable, an error is triggered, and the invitation is skipped for that panelist.
  
