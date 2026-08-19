@@ -18,3 +18,5 @@ If you enter **CPI** or total **Project cost** in **Project Settings** Sample Ni
 
 > **TIP** If you reward completes only you can toggle on **Rewards completes only** to simplify the compensation table.
 
+> **IMPORTANT** Compensation entered here applies to **new projects only**. A project that already exists keeps the compensation it was saved with, so changing an amount here never alters a project that is already set up or running. To bring the sub panel's current table into an existing project, open the project, go to the **Compensation** tab, click **Reset**, review the amounts and save the project.
+
