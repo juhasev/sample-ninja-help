@@ -109,7 +109,9 @@ You may pipe variables into email templates by referring to them with their vari
 
 ```Hello [FIRST_NAME], we have a survey for you! Your balance is [POINTS_BALANCE]```
 
-If the panelist does not have a value for the data variable, it will be silently removed from the final email.
+If the panelist does not have a value for the data variable, it will be silently removed from the final email. A value of 0 is kept and renders as 0; only missing or empty values are removed.
+
+Test sends and previews use a sample panelist with representative values for each data variable (for example a points balance of 100). They do not reflect a real panelist's data; live sends use each recipient's actual values.
 
 #### Project email-related variables that you may use
 

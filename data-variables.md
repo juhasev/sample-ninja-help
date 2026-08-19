@@ -67,6 +67,9 @@ The system variables track various metrics and provide you additional informatio
 
 This is not a comprehensive list of the system variables and it is recommended that you view the full list under system variables by selecting the group filter “SYSTEM” to have an idea of what is available. 
 
+### Piping Data Variables into emails
+Any data variable can be piped into emails by placing its name in square brackets, for example `Hello [FIRST_NAME], your balance is [POINTS_BALANCE]`. A value of 0 is kept and renders as 0; if the panelist has no value for the variable, it is silently removed from the final email. Test sends and previews use a sample panelist with representative values for each data variable (for example a points balance of 100); live sends use each recipient's actual values.
+
 ### Monitoring your panel with System Variables
 You can use any combination of the system variables + your own data variables + activity filters to create almost limitless ways to query and monitor your panel. 
 
