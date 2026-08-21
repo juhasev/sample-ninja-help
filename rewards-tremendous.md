@@ -1,17 +1,20 @@
 ## Tremendous
 
-Tremendous lets you reward panelists with merchant gift cards, prepaid Visa cards, PayPal payouts, bank transfers and charity donations across 200+ countries and dozens of currencies.
+Tremendous lets you reward panelists with merchant gift cards, prepaid Visa cards, PayPal payouts, bank transfers, and charity donations across 200+ countries and dozens of currencies.
 
-Unlike the other reward partners, **Sample Ninja sends the Tremendous reward email itself**. Tremendous hands back a redemption link and your panel emails it to the panelist, using an email template you control. See **The Reward Email** below.
-
-If you do not have a Tremendous account yet, visit www.tremendous.com to create one.
+Unlike the other reward partners, **Sample Ninja sends the Tremendous reward email itself**. Tremendous hands back a redemption link, and your panel emails it to the panelist, using an email template you control. See **The Reward Email** below.
 
 #### Before You Start
 
 You will need:
 
-1. A Tremendous account with a funded balance (**Tremendous dashboard → Billing**). Rewards are paid from this pre-funded balance.
-2. An API key, created in the Tremendous dashboard under **Team settings → Developers → API keys**.
+A Tremendous account with a funded balance (**Tremendous dashboard → Billing**). Rewards are paid from this pre-funded balance.
+
+OR
+
+Sandbox account to try things out. You can create one out by visiting https://app.testflight.tremendous.com 
+
+**Final step:** Create an API key, created in the Tremendous dashboard under **Team settings → Developers → API keys**.
 
 > Keep your API key secret. Anyone holding the key can send rewards from your balance. The key is stored encrypted and is never displayed again after saving — if you lose it, create a new one in the Tremendous dashboard and update the configuration.
 
@@ -26,9 +29,7 @@ Saving the configuration automatically downloads the Tremendous product catalog 
 
 To change the environment or replace the API key later, open Configure again and flip the **Replace credentials** switch. Leaving the switch off keeps your stored key unchanged.
 
-#### Testing (Sandbox)
-
-Sandbox mode connects to the Tremendous "testflight" environment where orders never draw real funds. The testflight environment is completely separate from your live account — create a separate account and API key at **testflight.tremendous.com**.
+> Sandbox mode connects to the Tremendous "testflight" environment where orders never draw real funds. The TestFlight environment is completely separate from your live account — create a separate account and API key at **testflight.tremendous.com**.
 
 > Do not use the sandbox mode in production. Sandbox rewards are not real and panelists would receive nothing of value.
 
