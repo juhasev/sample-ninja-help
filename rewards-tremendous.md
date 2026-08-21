@@ -1,6 +1,8 @@
 ## Tremendous
 
-Tremendous lets you reward panelists with merchant gift cards, prepaid Visa cards, PayPal payouts, bank transfers and charity donations across 200+ countries and dozens of currencies. Rewards are delivered by Tremendous directly to the panelist's email address, so there is nothing extra for you to send.
+Tremendous lets you reward panelists with merchant gift cards, prepaid Visa cards, PayPal payouts, bank transfers and charity donations across 200+ countries and dozens of currencies.
+
+Unlike the other reward partners, **Sample Ninja sends the Tremendous reward email itself**. Tremendous hands back a redemption link and your panel emails it to the panelist, using an email template you control. See **The Reward Email** below.
 
 If you do not have a Tremendous account yet, visit www.tremendous.com to create one.
 
@@ -46,9 +48,30 @@ The catalog refreshes automatically once a day. If Tremendous retires a product,
 1. A panelist redeems a Tremendous reward in the member app. Points are deducted immediately.
 2. The redemption waits for approval in **Redemption Approvals** (like any other partner).
 3. Once approved, the system places the order with Tremendous within a few minutes.
-4. Tremendous emails the reward to the panelist's registered email address. The panelist picks how to receive the value if the product allows choices.
+4. Sample Ninja emails the redemption link to the panelist's registered email address. Opening the link takes the panelist to Tremendous, where they pick how to receive the value if the product allows choices.
 
-The email sender name, logo, and colors can be customized in your Tremendous dashboard.
+Because the email comes from your panel, it uses your own sender address, logo and colors — the same as every other email your panel sends.
+
+#### The Reward Email
+
+Tremendous does not email your panelists. Your panel delivers every Tremendous reward itself, using a dedicated template called **Reward redemption link**.
+
+You will find it under **Sub Panels → (your sub panel) → Email Templates → Transactional**, and you can edit it exactly like any other email template — copy, colors, logo, sender name and signature.
+
+> Each sub panel keeps its own copy of the template, and each locale its own translation. Edit the locales your panelists actually use.
+
+These substitution variables are available in the subject, body, preheader, signature and bottom block:
+
+- `[reward-name]` — the name of the reward, for example *Amazon.com Gift Card*
+- `[reward-value]` — the value and currency of the reward, for example *10.00 USD*
+
+The action button carries the redemption link.
+
+> **Do not remove the action button.** It is the only way the panelist can claim the reward.
+
+Translations are supplied for every language Sample Ninja supports. If you edit a translation yourself, your wording is kept and will not be replaced when Sample Ninja updates the default texts.
+
+> The redemption link is a secret: anyone who opens it can claim the reward. Never forward it, publish it, or paste it into a support ticket. Your panel generates a fresh link every time the email is sent and never stores it.
 
 #### Balance
 
@@ -58,7 +81,11 @@ If the balance runs out, affected redemptions are **soft-failed**: the panelist 
 
 #### Resending a Reward
 
-If a panelist reports a missing reward email, open **Redemptions**, locate the redemption, and click **Resend**. Tremendous re-delivers the reward to the original recipient's email address.
+If a panelist reports a missing reward email, open **Redemptions**, locate the redemption in the history, and click **Resend**. Your panel generates a brand new redemption link and sends the reward email again.
+
+To send it somewhere else, type an address into the **Enter alternate email** field before resending. This is useful when the panelist mistyped their address or has lost access to their mailbox.
+
+> Only ever resend to an address the panelist controls. Whoever receives the email can claim the reward.
 
 > Tip: ask the panelist to check their spam folder first — reward emails occasionally end up there.
 
@@ -67,6 +94,8 @@ If a panelist reports a missing reward email, open **Redemptions**, locate the r
 - **"Failed to retrieve balance"** on the Tremendous card — the API key is invalid, was revoked, or belongs to the wrong environment (sandbox key with Live mode selected, or vice versa). Re-check the configuration.
 - **Catalog is empty** — the initial download may still be running; use the refresh button in the catalog dialog. If it stays empty, verify the API key.
 - **Redemptions stuck in soft-failed state** — usually an empty balance or a temporary Tremendous outage. The notification you received names the cause and the fix. Retry from the Redemptions screen once resolved.
+- **Panelist did not receive the reward email** — check the address on their profile and ask them to look in their spam folder, then resend. The reward email is sent by your panel, so it follows the same delivery and bounce handling as your other panel emails.
+- **"This reward was delivered by Tremendous itself and has no redemption link"** when resending — that reward was issued before Sample Ninja took over the reward email, so there is no link to regenerate. Issue the panelist a new reward instead.
 - **Order shows PENDING** — the order is awaiting settlement or a manual approval rule configured in your Tremendous dashboard. The system checks pending orders every few minutes and completes them automatically. For fully automatic processing, disable order approvals in the Tremendous dashboard (**Team settings → Approvals**).
 
 #### Disable
