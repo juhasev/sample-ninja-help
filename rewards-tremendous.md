@@ -82,13 +82,11 @@ If the balance runs out, affected redemptions are **soft-failed**: the panelist 
 
 #### Resending a Reward
 
-If a panelist reports a missing reward email, open **Redemptions**, locate the redemption in the history, and click **Resend**. Your panel generates a brand new redemption link and sends the reward email again.
+If a panelist reports a missing reward email, open **Redemptions**, locate the redemption in the history, and click **Resend**. Your panel generates a brand-new redemption link and sends the reward email again.
 
-To send it somewhere else, type an address into the **Enter alternate email** field before resending. This is useful when the panelist mistyped their address or has lost access to their mailbox.
+To send it somewhere else, type an address into the **Enter alternate email** field before resending. This is useful when the panelist mistypes their address or has lost access to their mailbox.
 
-> Only ever resend to an address the panelist controls. Whoever receives the email can claim the reward.
-
-> Tip: ask the panelist to check their spam folder first — reward emails occasionally end up there.
+> Only ever resend to an address the panelist controls. Whoever receives the email can claim the reward. Authenticate your panelist with some other piece of information before sending.
 
 #### Troubleshooting
 
