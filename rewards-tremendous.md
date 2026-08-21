@@ -70,10 +70,6 @@ The action button carries the redemption link.
 
 > **Do not remove the action button.** It is the only way the panelist can claim the reward.
 
-Translations are supplied for every language Sample Ninja supports. If you edit a translation yourself, your wording is kept and will not be replaced when Sample Ninja updates the default texts.
-
-> The redemption link is a secret: anyone who opens it can claim the reward. Never forward it, publish it, or paste it into a support ticket. Your panel generates a fresh link every time the email is sent and never stores it.
-
 #### Balance
 
 The figure shown on the Tremendous card is the available amount of your pre-funded Tremendous balance. Pending top-ups are not included until Tremendous clears them.
