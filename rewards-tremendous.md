@@ -8,11 +8,11 @@ Unlike the other reward partners, **Sample Ninja sends the Tremendous reward ema
 
 You will need:
 
-A Tremendous account with a funded balance (**Tremendous dashboard → Billing**). Rewards are paid from this pre-funded balance.
+Sandbox account to try things out. You can create one out by visiting https://app.testflight.tremendous.com 
 
 OR
 
-Sandbox account to try things out. You can create one out by visiting https://app.testflight.tremendous.com 
+A Tremendous account with a funded balance (**Tremendous dashboard → Billing**). Rewards are paid from this pre-funded balance.
 
 **Final step:** Create an API key, created in the Tremendous dashboard under **Team settings → Developers → API keys**.
 
