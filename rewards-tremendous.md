@@ -82,7 +82,7 @@ If a panelist reports a missing reward email, open **Redemptions**, locate the r
 
 To send it somewhere else, type an address into the **Enter alternate email** field before resending. This is useful when the panelist mistypes their address or has lost access to their mailbox.
 
-> Only ever resend to an address the panelist controls. Whoever receives the email can claim the reward. Authenticate your panelist with some other piece of information before sending.
+> Only ever resend to an address the panelist controls. Whoever receives the email can claim the reward. Authenticate your panelist with some other piece of information before sending. Do not get scammed.
 
 #### Troubleshooting
 
