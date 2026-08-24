@@ -29,7 +29,7 @@ Saving the configuration automatically downloads the Tremendous product catalog 
 
 To change the environment or replace the API key later, open Configure again and flip the **Replace credentials** switch. Leaving the switch off keeps your stored key unchanged.
 
-> Sandbox mode connects to the Tremendous "testflight" environment where orders never draw real funds. The TestFlight environment is completely separate from your live account — create a separate account and API key at **testflight.tremendous.com**.
+> Sandbox mode connects to the Tremendous "testflight" environment where orders never draw real funds. The TestFlight environment is completely separate from your live account.
 
 > Do not use the sandbox mode in production. Sandbox rewards are not real and panelists would receive nothing of value.
 
