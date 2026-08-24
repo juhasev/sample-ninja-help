@@ -2,7 +2,7 @@
 
 Tremendous lets you reward panelists with merchant gift cards, prepaid Visa cards, PayPal payouts, bank transfers, and charity donations across 200+ countries and dozens of currencies.
 
-Unlike the other reward partners, **Sample Ninja sends the Tremendous reward email itself**. Tremendous hands back a redemption link, and your panel emails it to the panelist, using an email template you control. See **The Reward Email** below.
+Unlike the other reward partners, **Sample Ninja sends the Tremendous reward emails from the email address your panelists are already familiar with**. Tremendous hands back a redemption link, and your panel emails it to the panelist, using an email template you control. See **The Reward Email** below.
 
 #### Before You Start
 
