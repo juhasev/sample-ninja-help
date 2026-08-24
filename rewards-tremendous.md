@@ -55,9 +55,9 @@ Because the email comes from your panel, it uses your own sender address, logo a
 
 #### The Reward Email
 
-Tremendous does not email your panelists. Your panel delivers every Tremendous reward itself, using a dedicated template called **Reward redemption link**.
+Tremendous does not email your panelists. Your panel delivers every Tremendous reward using a dedicated template called **Reward redemption link**.
 
-You will find it under **Sub Panels → (your sub panel) → Email Templates → Transactional**, and you can edit it exactly like any other email template — copy, colors, logo, sender name and signature.
+You will find it under **Sub Panels → (your sub panel) → Email Templates → Transactional**, and you can edit it exactly like any other email template — copy, colors, logo, sender name, and signature. Perfectly matching your style.
 
 > Each sub panel keeps its own copy of the template, and each locale its own translation. Edit the locales your panelists actually use.
 
