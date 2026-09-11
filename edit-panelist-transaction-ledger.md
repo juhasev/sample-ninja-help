@@ -1,4 +1,4 @@
-## Transactions
+## Transaction Ledger
 
 Displays the panelist's reward point transaction ledger. Every event that adds or removes reward points writes an entry here, making the ledger the source of truth for the balances shown on the panelist screens. Entries are listed newest first and loaded one page at a time, so the balance shown on each row is correct on every page.
 
