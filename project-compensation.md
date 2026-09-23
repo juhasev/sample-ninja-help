@@ -13,6 +13,8 @@ Use the revenue calculator to apply the correct per-panelist revenue or Client C
 
 You may override compensation values on a per-project basis. The reward must be entered in **Reward Points**, while **CPI** is entered in **accounting currency**, such as US dollars or EUR. To edit any value, mouse over the value and click to edit.
 
+The **CLIENT CPI** and **NET REVENUE** column headers show the currency, for example **CLIENT CPI (USD)**. It is the currency of your panel's default currency pair.
+
 > **IMPORTANT!** If you change the project's LOI (Length of Interview), click the apply button to update the **Cost Per Incidence** column.
 
 > If you never reward **profile** or **quota** terminates you can turn these fields off in **Sub Panels -> Settings -> Compensation**

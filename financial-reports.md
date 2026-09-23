@@ -58,6 +58,20 @@ The average rewards liability, or the total rewards or redeemable amount of Rewa
 
 > Any panelist unsubscribed or blacklisted panelists cannot redeem any reward points they may have on their account.
 
+### Currencies
+
+Reward points are converted to money using your panel's default currency pair. The note under each report states the currency, for example **Reported in USD**.
+
+**Redeemed by currency**
+
+The Dashboard lists redemptions by the currency each reward was paid in, with the number of redemptions and their value split into approved, pending and rejected. These amounts are not converted: a 15 EUR gift card counts as 15 EUR.
+
+> The Time in Panel, Activity in period and Query filter options do not apply to this table. It covers the selected sub panels only, and the Dashboard shows a note when a filter is active.
+
+**What the liability is worth**
+
+The rewards liability is a balance of reward points that have not been redeemed yet, so it has no currency of its own. The Dashboard shows that one balance in each of your active currency pairs. These are the same amount expressed in different currencies, not amounts to add up.
+
 
 
 

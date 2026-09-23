@@ -1,6 +1,6 @@
 ### Sub Panel compensation
 
-Enter the default compensation and revenue based on the LOI (Length Of Interview) for this sub panel. The compensation must be entered in **Reward Points**. CPI (Cost Per Incidence) is entered using **Reporting Currency**. The LOI is entered in minutes.
+Enter the default compensation and revenue based on the LOI (Length Of Interview) for this sub panel. The compensation must be entered in **Reward Points**. CPI (Cost Per Incidence) is entered using **Reporting Currency**. The LOI is entered in minutes. The **CLIENT CPI** and **NET REVENUE** column headers show that currency, for example **CLIENT CPI (USD)**.
 
 The compensation table starts with 0 and you can have as many tiers as you like. The system determines correct compensation automatically when you setup new projects. Let's imagine you have defined your compensation table as:
 

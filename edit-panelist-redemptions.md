@@ -10,6 +10,8 @@ Display all redemptions, redeemed by a panelist.
 
 **Points Rewarded** - Indicates the total number of reward points a panelist has earned since joining.
 
+**Redemptions cost** - The value of the panelist's approved redemptions, in the currency each reward was paid in. Rejected and refunded redemptions are not counted. If the panelist redeemed rewards in more than one currency, there is one card per currency, for example **Redemptions cost (EUR)** and **Redemptions cost (USD)**.
+
 ### Column Names
 
 **ID** - Relates to each unique individual ID for a particular redemption.

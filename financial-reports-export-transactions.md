@@ -16,4 +16,11 @@ The report can contain the following types:
 - **ReferredFriend (+)** The panelist has been compensated for referring a friend.
 - **Refund (+)** The redemption request was not approved or rejected by the rewards provider.
 
-> All amounts are reported in Reward Points.
+> The **REWARD POINTS** and **REVENUE POINTS** columns are reported in Reward Points.
+
+For **Redemption** rows, two more columns show what the reward was worth when it was redeemed:
+
+- **REDEMPTION COST** The value of the reward, for example 15.
+- **REDEMPTION CURRENCY** The currency of the reward, for example EUR.
+
+These columns are empty for every other type.

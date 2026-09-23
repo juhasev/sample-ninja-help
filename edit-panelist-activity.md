@@ -2,6 +2,8 @@
 
 Displays Activity History for each panelist.
 
+The **Redemptions cost** cards show the value of the panelist's approved redemptions, one card per currency the rewards were paid in. Rejected and refunded redemptions are not counted.
+
 **ID** - The unique project ID  
 **TYPE** - Activity type, e.g Project  
 **NAME** - Project Name  
