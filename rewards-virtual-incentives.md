@@ -35,11 +35,11 @@ When an amount you offer is **no longer available**, or Virtual Incentives remov
 
 - The reward is hidden from your panelists, so nobody can redeem it.
 - The reward stays in your list with the **EXPIRED** label. Hover over the label to see what Virtual Incentives offers now.
-- Users with the **Rewards Manager** or **Super Admin** role receive a notification in the app and by email.
+- Users with the **Rewards Manager** role receive a notification in the app and by email.
 
 To keep offering the card, delete the expired amount and add one that Virtual Incentives still offers. If Virtual Incentives makes the amount available again, the reward becomes visible to panelists automatically, unless you had hidden it yourself.
 
-When the amounts of a card **change but the amounts you offer are still valid** (for example a card moves from fixed values to a range), your rewards stay as they are. Users with the **Rewards Manager** or **Super Admin** role receive a notification that lists the new amounts, so you can decide whether to add new values.
+When the amounts of a card **change but the amounts you offer are still valid** (for example a card moves from fixed values to a range), your rewards stay as they are. Users with the **Rewards Manager** role receive a notification that lists the new amounts, so you can decide whether to add new values.
 
 > A redemption that is waiting for approval when its amount stops being available is marked as failed when it is processed, and no order is placed with Virtual Incentives.
 
