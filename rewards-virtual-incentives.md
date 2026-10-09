@@ -25,6 +25,24 @@ Virtual Incentives require that all connecting servers are IP whitelisted. If yo
 
 In the Virtual Incentives world, you subscribe to a catalog that is tailored to you. If you want to customize your catalog, you need to contact your representative at Virtual Incentives. 
 
+Each card in the catalog comes with the amounts Virtual Incentives accepts for it: either a list of fixed values (for example 25, 50 and 100 USD) or a range (for example 5 to 1,000 AUD). When you add a card, you can only save an amount Virtual Incentives offers. Any other amount is rejected, and the message lists the amounts that are valid.
+
+#### Catalog Updates
+
+Virtual Incentives can change the amounts of a card at any time, for example by raising the minimum value. Sample Ninja downloads your catalog again once a day and checks every reward you offer against it. You can also run the same update at any time with the **Reload catalog** button in **Manage Rewards**.
+
+When an amount you offer is **no longer available**, or Virtual Incentives removes the card from your catalog:
+
+- The reward is hidden from your panelists, so nobody can redeem it.
+- The reward stays in your list with the **EXPIRED** label. Hover over the label to see what Virtual Incentives offers now.
+- Users with the **Rewards Manager** or **Super Admin** role receive a notification in the app and by email.
+
+To keep offering the card, delete the expired amount and add one that Virtual Incentives still offers. If Virtual Incentives makes the amount available again, the reward becomes visible to panelists automatically, unless you had hidden it yourself.
+
+When the amounts of a card **change but the amounts you offer are still valid** (for example a card moves from fixed values to a range), your rewards stay as they are. Users with the **Rewards Manager** or **Super Admin** role receive a notification that lists the new amounts, so you can decide whether to add new values.
+
+> A redemption that is waiting for approval when its amount stops being available is marked as failed when it is processed, and no order is placed with Virtual Incentives.
+
 #### W9 / 1099 Tax Reporting
 
 For US-based panelists, Sample Ninja can submit Virtual Incentives reward orders as W9-eligible, so Virtual Incentives can collect and track the tax information needed for 1099 reporting.
