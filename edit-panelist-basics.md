@@ -16,6 +16,7 @@ The top row statistics provide basic statistics about the panelist's vitals.
 ### Basic information
 This box provides basic information about the panelists.
 
+- **Name** The panelist's first and last name. A shield icon after the name means the panelist passed ID verification (Veriff or ID Check). The shield is green while the verification is valid and orange once it has expired. Hover over the shield to see when it expires.
 - **Identifier** This is the panelist's unique identifier.
 - **Email valid** Whether the panelist's email address is healthy and the system can deliver mail to the panelist's email address
 - **Sub Panel** Which sub panel is this panelist a member of
@@ -37,6 +38,9 @@ Displays counts of project-related activities
 - **Security** Number of project security terminations (returned to via security exit link)
 - **Reconciled** Number of times a project manager has reconciled this panelist
 - **Completed** Number of project completions
+
+### ID verification
+When the panelist has gone through ID verification, a banner above the statistics shows the result: **ID verified** with the days left before it expires, **ID expired**, or **ID declined** with the reason. The **ID Verification** button lets you revoke the verification, so the panelist has to verify again. On panels with Veriff enabled for the member app, you can also use it to mark a panelist as verified manually.
 
 ### Unsubscribing or blacklisting
 This pulldown lets you unsubscribe or blacklist panelists. If you unsubscribe or blacklist a panelist, their personally identifiable information is erased to comply with regulatory data privacy laws like GDPR (Europe), CCPA (California). This includes name, email, and any custom data variables collected. System variables like INVITED_COUNT and SUBSCRIBED_DATE remain. Anonymous activity history remains for one year. 
