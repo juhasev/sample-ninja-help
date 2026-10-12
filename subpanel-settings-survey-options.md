@@ -45,3 +45,8 @@ Use this toggle to disable the **Registration Welcome** page altogether for exam
 If you handle getting proper user consent some other way you may disable the consent boxes.
 
 > You must have consent to email, and all your panelists must accept the Terms and Conditions and Cookie Policies. If you don't do this, you may violate CCPA and GDPR regulations.
+
+### ID Check
+Requires every new panelist to verify their identity with a government-issued ID document and a selfie before the registration is completed. Each check is paid from your service credits. Read more in the **ID Check** help page, which you can open from the help icon of **Panel Settings -> Basic settings -> ID verification validity**.
+
+> **ID Check is available in Sample Ninja, but it is not active on your panel by default. To activate it, please contact our sales team.** This toggle appears only after ID Check has been activated on your panel.
