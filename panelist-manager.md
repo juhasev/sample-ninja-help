@@ -39,6 +39,8 @@ Batch add/deduct reward points from the panelist accounts. You may provide an op
 
 > The panelist's balance cannot go below zero when deducting points.
 
+> A single adjustment can add or deduct up to 1,000,000 points per panelist.
+
 #### Delete panelists
 
 Use this feature to batch DELETE panelists.    
