@@ -17,7 +17,7 @@ If you have a list of panelist IDs or email addresses, you may paste them into t
 Click on this button to change the visible columns. You can select any number of data variables.
 
 #### Sort
-Select which column to sort by i.e., QUALITY_SCORE, COMPLETED_COUNT, JOIN_DATE.
+Select which column to sort by i.e., QUALITY_SCORE, COMPLETED_COUNT, SUBSCRIBED_DATE.
 
 ### Batch action
 

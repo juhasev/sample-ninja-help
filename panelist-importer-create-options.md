@@ -1,7 +1,7 @@
 ## Import options
 
 ### Imports
-When importing you may supply **LOCALE**, **RECRUITMENT_SOURCE** and **JOIN_DATE** as columns. If you don't you must select which values to use. In addition you must select which **Sub Panel** you intend to import to.
+When importing you may supply **LOCALE**, **RECRUITMENT_SOURCE** and **SUBSCRIBED_DATE** as columns. If you don't you must select which values to use. In addition you must select which **Sub Panel** you intend to import to.
 
 ### Updates
 
