@@ -83,13 +83,15 @@ This is where you create and customize your audience criteria:
 **Goal**: Target less active members
 **Filters**:
 - STATUS includes "Subscribed" 
-- LAST_LOGIN older than "60 days"
+- LAST_LOGIN_DATE less than "[the date 60 days ago]"
 
-### New Member Welcome Series
-**Goal**: Target recently joined members
+### New Member Welcome
+**Goal**: Target members who joined since the last welcome newsletter
 **Filters**:
 - STATUS includes "Subscribed"
-- REGISTRATION_DATE within "Last 7 days"
+- SUBSCRIBED_DATE range "[the date of the last send]" to "[today]"
+
+> Date filters use fixed dates picked from a calendar. There is no rolling option like "in the last 7 days", so when you clone a campaign to send it again, update the dates in the audience. The **older than** and **younger than** options count whole years, so they suit ages (for example BIRTH_DATE), not days.
 
 ## Troubleshooting
 
