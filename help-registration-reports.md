@@ -24,7 +24,8 @@ SampleNinja can reject a registration for a variety of reasons:
 - Hosted server detected (Configurable Sub Panel Settings -> Security)
 - Bot detected (Configurable Sub Panel Settings -> Security)
 - Email address's domain cannot accept email (missing MX or Mail Exchange record)
-- Duplicate (Machine fingerprint matches exatly some body else, these are not blocked but review is recommended)
+- Duplicate (the same browser has already completed a registration, the panelist is sent to the registration complete page)
+- Duplicate fingerprint (the same device has already registered through this registration survey in the past 60 days, configurable in Registration Survey -> Survey options -> Reject duplicate digital fingerprints)
 - Email address provided produces a permanent bounce (email does not exist)
 
 Some security features can be turned on/off in the **Sub Panel -> Security** settings.

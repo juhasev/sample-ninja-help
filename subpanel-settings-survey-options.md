@@ -46,6 +46,13 @@ If you handle getting proper user consent some other way you may disable the con
 
 > You must have consent to email, and all your panelists must accept the Terms and Conditions and Cookie Policies. If you don't do this, you may violate CCPA and GDPR regulations.
 
+### Reject duplicate digital fingerprints
+Rejects a registration when the same device has already registered through this registration survey. The digital fingerprint is calculated in the panelist's browser from the device and browser characteristics: browser and operating system, screen size, time zone, language, installed fonts, and how the device renders graphics and audio. It does not use the email address or the IP address.
+
+A registration is rejected when the same fingerprint was used for a registration in this registration survey in the past 60 days, and that registration was completed, rejected or disqualified. The panelist is sent to the security landing page, and no panelist is created. Rejected registrations show up as **Duplicate fingerprint** in the registration statistics.
+
+> Two panelists in the same household who use identical devices, with the same browser and settings, can get the same fingerprint, so the second one is rejected. Keep this in mind if your panel recruits more than one person per household.
+
 ### ID Check
 Requires every new panelist to verify their identity with a government-issued ID document and a selfie before the registration is completed. Each check is paid from your service credits. Read more in the **ID Check** help page, which you can open from the help icon of **Panel Settings -> Basic settings -> ID verification validity**.
 
