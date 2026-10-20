@@ -131,7 +131,7 @@ Legacy algorithms: (Not recommended, challenging to program)
 
 > You must enable hashing for each project by selecting **algorithm**, **hash param name** and enter the **secret** in the **Sample Ninja -> Projects -> Edit Project -> Survey Links -> Edit survey link**. You can template the entry link configuration for future use.
 
-> **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=sec** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
+> **IMPORTANT:** If the computed hash does not match, you should always return the panelist to Sample Ninja with **security** or **s=s** status. See   [the help file for exit links](/edit-project-links-exit-links.md) for more information.
 
 ### Hash Calculator
 Use the **Hash Calculator** tool below while testing. Replace your installations domain (customer.panelservice.io) with your own or access the tool by clicking your Avatar and then selecting Hash Calculator. 
