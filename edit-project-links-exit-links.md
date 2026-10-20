@@ -175,7 +175,33 @@ Example result using **SHA-256** algorithm with secret **MySecretPasscode**.
 https://yourcompany.panelservice.io/p/exit?session=9bb379a3-7831-4a55-8036-085aeff18790&s=c&hash=bbc0ce056845647071b3a5aa82a478ac65885ba81c2671f01482fb5e5df3c011
 ```
 
-### Python example:
+### Python example (SHA-256 Full URL, recommended)
+The following Python example is Decipher compatible and uses the **SHA 256 Full URL** algorithm. You cannot enter & in Decipher as it will be rejected when you submit your code, so the example uses chr(38) instead. The session value is the one Sample Ninja passed into the survey on the entry link; it always goes back in the **session** parameter.
+
+```
+import hashlib
+
+AMPERSAND = chr(38)
+SECRET = "MySecretPasscode"
+
+session = "9bb379a3-7831-4a55-8036-085aeff18790"
+
+url = "https://yourcompany.panelservice.io/p/exit?s=c" + AMPERSAND + "session=" + session
+urlWithSecret = url + SECRET
+hash = hashlib.sha256(urlWithSecret.encode()).hexdigest()
+
+print("Redirect with hash:\n" + url + AMPERSAND + "hash=" + hash)
+```
+The following will output the same result as Example A:
+
+```
+Redirect with hash:
+https://yourcompany.panelservice.io/p/exit?s=c&session=9bb379a3-7831-4a55-8036-085aeff18790&hash=7c8c681ec01dfcc4b8c99849417832c242c8bf18ae0891a1e780d3385eba4821
+```
+
+Replace the domain with your own and change **s=c** to the status of each exit. Send the URL exactly as it was hashed: **hash** must be the last parameter and nothing can be added after it.
+
+### Python example (SHA-256 Legacy)
 The following Python example is Decipher compatible. You cannot enter & in Decipher as it will be rejected when you submit your code. The following example illustrates how to go around this validation issue:
 
 ```
