@@ -30,7 +30,7 @@ These rules apply to conditions:
 - Any type of question can have a condition, for example Text, Number, Date, Radio, or Checkbox.
 - Conditions cannot be chained. A question that has a condition cannot be a target question, and a question that is already a target question cannot get a condition.
 - FIRST_NAME, LAST_NAME, and EMAIL cannot have a condition. Apart from these three, the first question in the list cannot have a condition either.
-- Keep a question with a condition below its target question. When you drag questions, a move that would put a Radio or Checkbox question with a condition above its target question is reverted.
+- Keep a question with a condition below its target question. When you drag questions, a move that would put any question with a condition above its target question is reverted.
 
 > For example, **INCOME** and **INDUSTRY** can both have a condition on **EDUCATION**. The question order is then EDUCATION first, followed by INCOME and INDUSTRY. Giving INDUSTRY a condition on INCOME while INCOME has a condition on EDUCATION is not possible.
 
