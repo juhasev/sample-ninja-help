@@ -11,3 +11,5 @@ If you would like to call a webhook instead of sending invitation emails, enter 
 #### Email confirmed webhook
 This is your best friend if you want to trigger a webhook call when panelists confirm their email. The request type is POST, and the payload includes panelist ID, panelist data variables, and sub-panel info.
 
+> When **ID Check** is on for the registration survey, the call is made when the ID check is approved, not when the email is confirmed. Panelists whose ID check is declined or never finished do not trigger it.
+

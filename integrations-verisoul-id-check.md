@@ -17,6 +17,18 @@ The registration is completed only when the ID check is approved. The possible r
 
 Panelists who passed the check have a shield icon after their name in the **Panelist Manager**.
 
+#### While the check is not finished
+
+Until the ID check is approved, the registration shows **ID pending** in **Registration activity**, and a declined check shows **ID declined**. A registration is shown as **Confirmed** only after the check is approved.
+
+These actions also wait for the approval instead of the email confirmation:
+
+- The **Email confirmed webhook** call.
+- The conversion report to your recruitment partner.
+- The referral reward of the panelist who invited them.
+
+A panelist who left the ID check can finish it later by clicking the confirmation link in their email again. When **Send reminders** is on in **Survey options**, they also receive one **ID check reminder** email 24 hours after their last attempt. You can edit it in **Sub Panels -> Manage -> Email Templates -> Transactional -> ID check reminder**.
+
 #### Landing pages
 
 ID Check adds four landing pages to each sub-panel, which you can edit and translate like any other landing page:

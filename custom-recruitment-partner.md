@@ -18,4 +18,6 @@ You can report back the following events:
 - Registration survey completed (user completes the survey but has not yet been double opted in
 - Regisgtration survey double opted in (most comment, a panelist is fully double opted in)
 
+> When **ID Check** is on for the registration survey, the double opted in event is reported when the ID check is approved, not when the email is confirmed.
+
 > Not all the partners require all URL. You can simply leave the URLs empty when not needed!

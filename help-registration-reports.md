@@ -13,6 +13,8 @@ Statistics include the number of new panelists, conversion rate, survey rejectio
 
 > Reminders are sent out automatically after 24 hours if a registering panelist has not confirmed their email address. To enable sending reminders, please visit **Sub Panels** -> **Registration Survey** -settings by clicking on the **gear** icon in the Registration Survey box.
 
+> When **ID Check** is on for the registration survey, a registration counts as confirmed only after the ID check is approved. Panelists who confirmed their email but have not finished the ID check are counted as not confirmed yet, and they receive one **ID check reminder** instead of the email confirmation reminder.
+
 > Conversion rate is calculated from started surveys, using a simple formula **Number of new panelists** / **Number of started surveys** * 100%
 
 ### Rejections pie chart

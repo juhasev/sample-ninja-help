@@ -1,6 +1,6 @@
 ## Prograd Recruitment
 
-Sample Ninja supports recruiting panelists from **Prograd**. This integration handles reporting conversions back to **Prograd** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**.
+Sample Ninja supports recruiting panelists from **Prograd**. This integration handles reporting conversions back to **Prograd** and works in conjunction with the **Registration Surveys**. The conversion reporting takes place when a registering user confirms their email address with **Sample Ninja**. When **ID Check** is on for the registration survey, the conversion is reported when the ID check is approved instead.
 
 Please enter your **Prograd API Key** and toggle **Prograd Recruitment** on.
 
