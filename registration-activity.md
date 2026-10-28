@@ -14,7 +14,7 @@ Each row shows the furthest step the registration reached:
 - **Rejected**: a security check rejected the registration.
 - **Disqualified**: an answer to a registration question disqualified the person.
 
-Use the filter button to show one status at a time. A person shown as **ID pending** can finish the ID check later by clicking the confirmation link in their email again.
+Use the filter button to show one status at a time. A person shown as **ID pending** can finish the ID check later by clicking the confirmation link in their email again. When **Send reminders** is on in the survey options, they also receive one **ID check reminder** email with a button that opens a new ID check.
 
 > Click the edit button on each row to instantly view the panelist profile. This button is only available if the panelist was actually created which means passing all the security tests.
 

@@ -27,6 +27,8 @@ If you are double-opting your panelists in another way, you may disable a double
 ### Send reminders
 You can enable this setting to send email confirmation reminders automatically. The reminders are sent 24 hours after registration if a panelist still needs to confirm their email address.
 
+When **ID Check** is on, this setting also sends one **ID check reminder** to panelists who confirmed their email but have not finished the ID check. It is sent 24 hours after their last ID check attempt, and its button opens a new ID check. You can edit the text in **Sub Panels -> Manage -> Email Templates -> Transactional -> ID check reminder**.
+
 ### Prominent email confirmation info
 Provides registering panelists extra information about the confirmation email, like checking their spam folder and whitelisting the sender address. This information is presented in a green info box at the top of the page. This setting is optional; alternatively, you can incorporate your messaging into the **Registration complete** -landing page instead. 
 
