@@ -60,8 +60,8 @@ an event type and never see it, check that switch first.
 
 One is worth calling out because operators are often surprised by it:
 
-- **DUPLICATE FINGERPRINT** only affects the score when **Fingerprint mismatch** is on. With that
-  switch off the event is still recorded so you can see it, but no points are taken away.
+- **DUPLICATE FINGERPRINT** is only checked when **Fingerprint mismatch** is on. With that switch
+  off, no event is recorded and no points are taken away.
 
 ### Points shown against an event
 

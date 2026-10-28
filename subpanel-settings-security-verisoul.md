@@ -91,6 +91,11 @@ intelligence. This is separate from the standard **Public VPN** check.
 At registration, rejects accounts that Verisoul judges fake or suspicious, and email addresses that
 are disposable or invalid.
 
+Verisoul's judgement combines several of its signals. A check that is off is left out of it: for
+example, with **Duplicate account** off, a panelist is never rejected because Verisoul suspects a
+duplicate account. The same applies to **Bot**, **Linked accounts** and the network and device
+checks above.
+
 ### Duplicate account
 
 Detects when the same person operates several accounts on the panel.
@@ -101,7 +106,9 @@ Detects when a panelist account is linked to other accounts on the panel through
 networks or identifiers.
 
 > Several people in one household or office can share a device or a network. On panels where that
-> is common, consider leaving **Duplicate account** and **Linked accounts** off.
+> is common, consider leaving **Duplicate account** and **Linked accounts** off. For two people who
+> use the same computer, also leave **Fingerprint mismatch** off under the standard security
+> checks, and **Reject duplicate digital fingerprints** off in the registration survey options.
 
 > See **Panelist manager** -> **Fraud** for the full list of security event types, and
 > **Panelist manager** -> **Quality** for how the quality score is built up.

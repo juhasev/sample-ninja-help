@@ -44,10 +44,11 @@ the sub-panel locales, or outside their own locale, they are terminated and show
 Enforces that a panelist starts and finishes a project on the same device. Rejected panelists are
 shown the **Security check failed** landing page.
 
-> This switch also governs whether duplicate device detection affects the quality score. With it
-> off, a panelist who shares a device fingerprint and network with another panelist on the same
-> project is still recorded, but no points are taken away. That matters on panels where several
-> people legitimately share one household or office connection.
+> This switch also governs duplicate device detection. With it off, a panelist who shares a device
+> fingerprint and network with another panelist on the same project is not checked at all: no
+> security event is recorded and no points are taken away. That matters on panels where several
+> people legitimately share one household or office connection, or take surveys on the same
+> computer.
 
 ### Bot detected
 
