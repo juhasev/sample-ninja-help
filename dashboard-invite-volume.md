@@ -34,7 +34,7 @@ The number of invitations and the most invites are the same in both views. Only 
 - Invitations count **regardless of how they were delivered**: email, push notification or webhook.
 - Each panelist counts **once per project**, even if the invitation was resent.
 - **Reminders** are not counted.
-- **Qualitative projects** are not counted, because panelists are only marked as invited and nothing is sent to them.
+- **Qualitative projects** count from the moment a panelist is added to the project, even though Sample Ninja sends them nothing. Your team contacts these panelists directly, so the date is when they were added, not when they were contacted.
 - Panelists who have been **deleted** from your panel are no longer counted.
 
 ### What it means for panel owners
