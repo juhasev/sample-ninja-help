@@ -19,7 +19,7 @@ For example, say four panelists received 1, 2, 6 and 0 invitations. That is 9 in
 - **Most invites** — the highest number of invitations any one panelist received. Click the icon next to it to open that panelist. The icon is only shown to users who are allowed to view panelists.
 - **Next highest** — the second highest panelist's count. If it is far below the most invites, the top panelist is an outlier worth checking.
 - **Chart** — how many panelists received each number of invitations. The same groups are used for every period, so you can compare the shape between periods.
-- **Same-day email warning** — an amber line below the chart when any panelist was sent more than one project email on the same day during the last 7 days. It always covers the last 7 days, whichever period you have selected.
+- **Over-inviting warning** — an amber line below the chart when any panelist averaged more than one invitation a day over the selected period.
 
 Use the settings menu to change the period, to switch between invited only and whole panel, or to show selected sub panels only. The download button exports the figures as a CSV file.
 
@@ -40,12 +40,14 @@ The number of invitations and the most invites are the same in both views. Only 
 - **Qualitative projects** count from the moment a panelist is added to the project, even though Sample Ninja sends them nothing. Your team contacts these panelists directly, so the date is when they were added, not when they were contacted.
 - Panelists who have been **deleted** from your panel are no longer counted.
 
-### What the same-day email warning counts
+### How the over-inviting warning works
 
-- It counts **emails**, so unlike the rest of the widget it includes **reminders**. An invitation and a reminder on the same day will trigger it.
-- **Push notifications and webhooks** are not counted, and neither are newsletters or qualitative projects, because none of these create a project email.
-- Days are **calendar days in UTC**, so two emails either side of midnight UTC count as separate days.
-- It is a warning only. Nothing is held back or blocked, and some panels choose to send this often.
+- A panelist triggers it by receiving **more invitations than there are days in the selected period**: more than 7 in the last 7 days, more than 30 in the last 30 days, and so on.
+- It looks at each panelist individually, so a small group being invited too often still shows up even when the panel's average looks normal.
+- It finds sustained over-inviting, not single busy days. Two invitations on one day followed by a quiet week will not trigger it.
+- It depends on the period you select. A panel can show the warning for 7 days but not for 12 months, so check the shorter periods to spot recent bursts.
+- It counts the same invitations as the rest of the widget, so reminders are not included.
+- It is a warning only. Nothing is held back or blocked, and some panels choose to invite this often.
 
 ### What it means for panel owners
 
