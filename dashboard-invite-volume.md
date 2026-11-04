@@ -2,6 +2,8 @@
 
 This widget shows how many project invitations your panelists receive. It answers a simple question: **are you inviting your panel evenly, or are some panelists being asked far more often than others?**
 
+Over-inviting is one of the quickest ways to wear out a panel. Panelists who are asked too often tend to stop responding, rush through surveys or unsubscribe, which shrinks your panel and weakens your data over time. Use this widget to spot over-inviting early, before it shows up in your response rates and churn.
+
 **Average = invitations sent ÷ panelists** over the selected period (the last 7, 30 or 90 days, or the last 12 months).
 
 For example, say four panelists received 1, 2, 6 and 0 invitations. That is 9 invitations in total:
@@ -17,6 +19,7 @@ For example, say four panelists received 1, 2, 6 and 0 invitations. That is 9 in
 - **Most invites** — the highest number of invitations any one panelist received. Click the icon next to it to open that panelist. The icon is only shown to users who are allowed to view panelists.
 - **Next highest** — the second highest panelist's count. If it is far below the most invites, the top panelist is an outlier worth checking.
 - **Chart** — how many panelists received each number of invitations. The same groups are used for every period, so you can compare the shape between periods.
+- **Same-day email warning** — an amber line below the chart when any panelist was sent more than one project email on the same day during the last 7 days. It always covers the last 7 days, whichever period you have selected.
 
 Use the settings menu to change the period, to switch between invited only and whole panel, or to show selected sub panels only. The download button exports the figures as a CSV file.
 
@@ -36,6 +39,13 @@ The number of invitations and the most invites are the same in both views. Only 
 - **Reminders** are not counted.
 - **Qualitative projects** count from the moment a panelist is added to the project, even though Sample Ninja sends them nothing. Your team contacts these panelists directly, so the date is when they were added, not when they were contacted.
 - Panelists who have been **deleted** from your panel are no longer counted.
+
+### What the same-day email warning counts
+
+- It counts **emails**, so unlike the rest of the widget it includes **reminders**. An invitation and a reminder on the same day will trigger it.
+- **Push notifications and webhooks** are not counted, and neither are newsletters or qualitative projects, because none of these create a project email.
+- Days are **calendar days in UTC**, so two emails either side of midnight UTC count as separate days.
+- It is a warning only. Nothing is held back or blocked, and some panels choose to send this often.
 
 ### What it means for panel owners
 
