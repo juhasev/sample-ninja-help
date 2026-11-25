@@ -30,7 +30,6 @@ When the lowest of the five scores is below 70 it is shown as the **Main issue**
 - The score always looks at the last 90 days. The report period you select on this page does not change it, so the number always means the same thing. The sub-panel filter does apply.
 - A measurement is left out when there is too little data to trust it: Responsiveness when fewer than 100 panelists were invited, Quality when fewer than 100 panelists started a project. It is shown as **n/a** and the other measurements make up the whole score.
 - When nobody was invited and nobody started a project in the last 90 days, the page shows **No fieldwork in the last 90 days** and no score. An idle panel cannot be measured.
-- The score is also stored once a day, so the **Quality & Health** tab of the time series chart shows how it develops. The history starts on the day the score was introduced.
 
 > **Tip:** Large panels usually score lower on Activity and Responsiveness than small ones, because a smaller share of a large panel is needed for each project. Compare a panel with its own history first.
 
@@ -80,27 +79,32 @@ Displays percentage breakdown of the total number of Panellists defined as **Sub
 > Sample Ninja will automatically remove unsubscribed and blacklisted panelists from your panel within 12 months. When someone unsubscribes or is blacklisted, we will delete their variable data within 4 hours, but retain their activity for 12 months to ensure accurate reporting for projects and other features.
 
 ### Panel Utilization
-The panel utilization displays a chart of panelist activity and statistics on how you use your panelists. 
 
-#### Utilization
-The percentage of panelists who have been invited to at least one project.
+**Panel utilization** shows how much of your panel you put to work in the selected period, and what happened to the panelists who started a project. It counts subscribed panelists only.
 
-#### Started
-The percentage of panelists who have started at least one project.
+#### The funnel
 
-#### Profile
-A percentage of panelists have profile terminated at least once.
+The left side follows your panelists from invite to complete. The count and percentage on each row are a share of your subscribed panelists.
 
-#### Quota
-The percentage of panelists who have had their quota terminated at least once.
+- **Invited** — panelists invited to at least one project.
+- **Started** — panelists who started at least one project. This includes panelists who started from the member app without an invite.
+- **Dropped out** — panelists who started a project and never reached any outcome. They left the survey, or have not finished it yet. High numbers point to the surveys: length, device compatibility or broken links.
+- **Completed** — panelists who completed at least one project.
 
-#### Security
-The percentage of panelists has had security terminated at least once.
+The line above a row tells you how many got there from the stage before: the share of invited panelists who started, and the share of starters who dropped out or completed.
 
-#### Completed
-Percentage of panelists who have completed at least one project.
+#### Panelists who were turned away
 
-> To look at a different time range, click the filter button in the top right corner.
+The right side starts with a chart of the number of invites sent per week. Below it are the outcomes where a project turned the panelist away. Here the percentage is a share of the panelists who **started** a project.
+
+- **Screen out reasons** — the project did not need this panelist. **Profile** means they did not match the target group and **Quota** means their quota was already full. High numbers point to targeting: update your profiling data or narrow the sample. **Non-actionable** is listed here too when it has been used.
+- **Termination reasons** — the panelist was stopped for a **Quality**, **Duplicate** or **Security** reason, or had a complete **Reconciled** afterwards. High numbers point to a problem with the panelists themselves.
+
+A row counts a panelist who had that outcome at least once. Somebody who was screened out of one project and completed another is counted in both places, so the rows do not add up to the number of starters. Rows with no panelists are hidden, except Profile and Quota.
+
+Hover over any row to see the numbers behind it.
+
+> To look at a different time range or sub panel, click the filter button in the top right corner.
 
 ### By Activity
 
@@ -149,6 +153,19 @@ Every panelist in these three buckets is someone you can no longer invite or who
 - The numbers are cached for performance. Use the widget's **refresh** button to force an up-to-the-moment recalculation.
 
 > **Tip:** If the widget shows *Insufficient data*, it simply means no decayed panelists were found for the current selection — a healthy sign.
+
+### Invitation volume
+
+**Invitation volume** shows how many project invitations your panelists received in the last 30 days, and whether the invitations are spread evenly or land on the same panelists again and again. It is the same view as the Invitation Volume widget on the dashboard.
+
+- **Average** — invitations per invited panelist.
+- **Median** — the middle panelist's invitation count. A median well below the average means a few panelists receive most of the invitations.
+- **Panel reached** — the share of the panel that received at least one invitation.
+- **Most invites** — the highest number of invitations any one panelist received, with the next highest below it. Click the icon to open that panelist.
+- **Chart** — how many panelists received each number of invitations.
+- **Over-inviting warning** — an amber line below the chart when any panelist averaged more than one invitation a day.
+
+Here the period is always the last 30 days and the figures cover invited panelists only. The sub-panel filter applies, the report period does not. To look at other periods or at the whole panel, use the widget on the dashboard.
 
 ### Filter by Sub Panel
 

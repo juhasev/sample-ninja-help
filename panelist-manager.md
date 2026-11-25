@@ -4,8 +4,17 @@ Find, edit, and perform batch actions on individual or group panelists.
 
 ### Locating individual panelists
 
-You can search for individual panelists by their Panelist ID, First Name, Last Name, or any wildcard combination of letters contained within these names, as well as searching by unique panelist ID or email address.
+You can search for individual panelists by their Panelist ID, First Name, Last Name, or any wildcard combination of letters contained within these names, as well as searching by unique panelist ID, email address or phone number.
 In order to use the wildcard match, you may use the star notation, for example: *term*. You can also do this *term* or* term*, depending on what you are trying to find.
+
+#### Searching by phone number
+Enter the phone number in any common format. Spaces, dashes, dots and parentheses are ignored, so `+1 415 555 0137`, `(415) 555-0137` and `4155550137` all find the same panelist.
+
+- A number that starts with `+` is matched from the beginning. You can enter the full number or only the start of it, for example `+1415`.
+- A number without `+` is matched from the end, so the country code is not needed and the last digits of a number are enough. Enter at least four digits.
+- A number that starts with `00` is treated the same as one that starts with `+`.
+
+> The search looks at every data variable of the type Phone.
 
 #### Add Filter
 If you want to use a query filter to find panelists, you can either build a query on the fly or pick an existing query filter you have previously saved in the Query Filters. 
