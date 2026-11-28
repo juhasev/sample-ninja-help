@@ -17,7 +17,6 @@ Additionally, data variable data and enable URL security via hashing.
 - Hash secret: Secret used to compute the hash verification code. This must match the target platform's shared secret.
 - Session param name: Defines URL param name for passing the session into the survey.
 - Use random panelist ID to test: Select yes if your survey platform requires using unique panelist IDs when testing.
-- Passcode param name: This option is only visible for **Re-contact** projects and is used to pass in an uploaded passcode automatically.
 
 
 ## Templates

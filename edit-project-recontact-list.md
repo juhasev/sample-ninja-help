@@ -1,4 +1,4 @@
-### Recontact Identifiers
+### Uploaded Sample Identifiers
 
 Paste a list of panelist identifiers to the target "paste" box. Identifiers can be optionally enclosed in quotation marks and be separated with commas. We will automatically clean your list and validate that all the identifiers are in the correct format. Any detected errors will be immediately shown. 
 
@@ -10,7 +10,7 @@ Paste a list of panelist identifiers to the target "paste" box. Identifiers can 
 
 > You cannot remove identifiers from the project after submitting them. However, you can add more identifiers by pasting more. If you accidentally saved the wrong set of identifiers, could you take the project offline and start over?
 
-### Recontact using match against unique data variables of type (Email, Keyword, or Number)
+### Matching panelists against unique data variables of type (Email, Keyword, or Number)
 
 If you are a Health Care panel or Customer Experience (CX), you may store a unique customer ID or NPI (National Provider Identification USA Only) in the data variables. You can use these IDs to find sample by selecting match against data variable values you supply in a CSV file. If the ID number is alphanumeric, you should always use the keyword -type. If numeric, then you can also use the number -type. Never use the text -type as it is analyzed field "Brown Dog" will match both "Brown" and "Dog."
 
@@ -18,7 +18,7 @@ If you are a Health Care panel or Customer Experience (CX), you may store a uniq
 
 ### Passing CSV columns to the survey
 
-A 'Recontact' CSV file can carry more columns than the one that identifies the panelist. After you have selected the 'Panelist ID' column (or the column to match against a data variable), Sample Ninja lists the remaining columns. Every column you leave ticked is added to each panelist's survey link as a URL parameter. The column header is used as the parameter name and the cell is used as the value.
+An 'Uploaded Sample' CSV file can carry more columns than the one that identifies the panelist. After you have selected the 'Panelist ID' column (or the column to match against a data variable), Sample Ninja lists the remaining columns. Every column you leave ticked is added to each panelist's survey link as a URL parameter. The column header is used as the parameter name and the cell is used as the value.
 
 For example, a file with the columns **panelist**, **region** and **wave** sends each panelist to the survey with their own values:
 
@@ -36,7 +36,7 @@ https://mysurvey.com?id=58d477ce-a23f-420c-a148-816dddf024af&session=610fbafb-e8
 
 The **URL PARAMS** column of the panelist list shows how many values each panelist has; hover over the number to see them. The values are also shown in the project participants list and in the participant export, one column per parameter.
 
-> This feature is only available for 'Recontact' projects and by uploading a CSV file.
+> This feature is only available for 'Uploaded Sample' projects and by uploading a CSV file.
 
 ### Passcode Authentication for Surveys
 
@@ -46,6 +46,21 @@ A **Passcode** is uploaded like any other column. Name the column after the URL 
 
 ### Testing a survey that needs a passcode or other uploaded values
 
-Test panelists are not on the recontact list, so they have no values for the uploaded columns. When you click **TEST SURVEY** on the SURVEY REDIRECTS -tab, Sample Ninja asks for a value for each uploaded column, the **Passcode** column included. The values you enter are sent to the survey exactly as they would be for a real panelist. Any value you leave empty is not sent.
+Test panelists are not in the uploaded sample, so they have no values for the uploaded columns. When you click **TEST SURVEY** on the SURVEY REDIRECTS -tab, Sample Ninja asks for a value for each uploaded column, the **Passcode** column included. The values you enter are sent to the survey exactly as they would be for a real panelist. Any value you leave empty is not sent.
 
 > Save the project after uploading a CSV file before you test, otherwise the new columns are not known to the test link.
+
+### Using quotas with an uploaded sample
+
+An 'Uploaded Sample' project can use quotas in the same way as an auto sampling project. After you have uploaded your list of panelists, open the QUOTAS -tab, turn on **Enable quotas** and select the variables you want to balance on.
+
+- Without quotas, everybody on the uploaded list is invited and the **Target completes** is the size of the list.
+- With quotas, panelists are invited from the uploaded list in waves, towards the quota targets. Only panelists on your list are ever invited.
+- With quotas you set the **Target completes** yourself on the BASIC SETTINGS -tab. It is usually lower than the size of the list, for example 500 completes out of 5,000 uploaded panelists.
+- With quotas the **Sampling settings** on the BASIC SETTINGS -tab apply: the sampling priority against other projects, and the hours until an unanswered invite is considered abandoned and replaced. Without quotas they are not used, because everybody on the list is invited right away.
+- **RUN FEASIBILITY** counts the panelists inside your uploaded list, so you can see whether the list has enough people for each quota. As with auto sampling projects, you can choose to apply the panel business rules to the count.
+- Panelists on the list who have no answer for a quota variable cannot be placed in a quota and are not invited.
+- With quotas, the panel business rules and the quiet period apply to the uploaded list, the same as in an auto sampling project. A panelist on the list who does not pass the business rules is not invited.
+
+> If the list runs out of panelists for a quota before its target is met, review the quotas or upload more panelists. Sample Ninja raises a sampling alert on the project when this stalls it.
+
